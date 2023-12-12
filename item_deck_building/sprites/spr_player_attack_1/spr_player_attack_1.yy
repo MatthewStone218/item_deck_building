@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_player_attack_1",
-  "bbox_bottom": 62,
+  "bbox_bottom": 251,
   "bbox_left": 0,
-  "bbox_right": 78,
+  "bbox_right": 315,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -30,7 +30,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 63,
+  "height": 252,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4222fd9a-b373-4395-bbcc-2ec969e0ccd5","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -39,7 +39,7 @@
   "origin": 9,
   "parent": {
     "name": "player",
-    "path": "folders/Sprites/player.yy",
+    "path": "folders/Sprites/game/player.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -85,8 +85,8 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 25,
-    "yorigin": 43,
+    "xorigin": 100,
+    "yorigin": 172,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
@@ -96,5 +96,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 79,
+  "width": 316,
 }

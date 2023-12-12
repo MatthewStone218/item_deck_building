@@ -1,0 +1,1055 @@
+{
+	"skeleton_warrior_style_A/attack/frame1": {
+		"frame": {
+			"x": 0,
+			"y": 0,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/attack/frame10": {
+		"frame": {
+			"x": 0,
+			"y": 65,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/attack/frame11": {
+		"frame": {
+			"x": 74,
+			"y": 0,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/attack/frame12": {
+		"frame": {
+			"x": 74,
+			"y": 65,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/attack/frame13": {
+		"frame": {
+			"x": 0,
+			"y": 130,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/attack/frame14": {
+		"frame": {
+			"x": 148,
+			"y": 0,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/attack/frame15": {
+		"frame": {
+			"x": 74,
+			"y": 130,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/attack/frame16": {
+		"frame": {
+			"x": 148,
+			"y": 65,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/attack/frame17": {
+		"frame": {
+			"x": 0,
+			"y": 195,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/attack/frame18": {
+		"frame": {
+			"x": 148,
+			"y": 130,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/attack/frame19": {
+		"frame": {
+			"x": 74,
+			"y": 195,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/attack/frame2": {
+		"frame": {
+			"x": 222,
+			"y": 0,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/attack/frame3": {
+		"frame": {
+			"x": 222,
+			"y": 65,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/attack/frame4": {
+		"frame": {
+			"x": 148,
+			"y": 195,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/attack/frame5": {
+		"frame": {
+			"x": 222,
+			"y": 130,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/attack/frame6": {
+		"frame": {
+			"x": 0,
+			"y": 260,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/attack/frame7": {
+		"frame": {
+			"x": 74,
+			"y": 260,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/attack/frame8": {
+		"frame": {
+			"x": 74,
+			"y": 260,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/attack/frame9": {
+		"frame": {
+			"x": 222,
+			"y": 195,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/block/frame1": {
+		"frame": {
+			"x": 0,
+			"y": 0,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/block/frame10": {
+		"frame": {
+			"x": 296,
+			"y": 0,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/block/frame11": {
+		"frame": {
+			"x": 148,
+			"y": 260,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/block/frame12": {
+		"frame": {
+			"x": 148,
+			"y": 260,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/block/frame2": {
+		"frame": {
+			"x": 296,
+			"y": 65,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/block/frame3": {
+		"frame": {
+			"x": 296,
+			"y": 130,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/block/frame4": {
+		"frame": {
+			"x": 0,
+			"y": 325,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/block/frame5": {
+		"frame": {
+			"x": 74,
+			"y": 325,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/block/frame6": {
+		"frame": {
+			"x": 222,
+			"y": 260,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/block/frame7": {
+		"frame": {
+			"x": 296,
+			"y": 195,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/block/frame8": {
+		"frame": {
+			"x": 148,
+			"y": 325,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/block/frame9": {
+		"frame": {
+			"x": 370,
+			"y": 0,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/die/frame1": {
+		"frame": {
+			"x": 0,
+			"y": 0,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/die/frame10": {
+		"frame": {
+			"x": 370,
+			"y": 65,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/die/frame11": {
+		"frame": {
+			"x": 0,
+			"y": 390,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/die/frame12": {
+		"frame": {
+			"x": 370,
+			"y": 130,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/die/frame13": {
+		"frame": {
+			"x": 222,
+			"y": 325,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/die/frame14": {
+		"frame": {
+			"x": 296,
+			"y": 260,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/die/frame15": {
+		"frame": {
+			"x": 74,
+			"y": 390,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/die/frame16": {
+		"frame": {
+			"x": 148,
+			"y": 390,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/die/frame17": {
+		"frame": {
+			"x": 370,
+			"y": 195,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/die/frame18": {
+		"frame": {
+			"x": 296,
+			"y": 325,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/die/frame19": {
+		"frame": {
+			"x": 444,
+			"y": 0,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/die/frame2": {
+		"frame": {
+			"x": 444,
+			"y": 65,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/die/frame20": {
+		"frame": {
+			"x": 222,
+			"y": 390,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/die/frame21": {
+		"frame": {
+			"x": 370,
+			"y": 260,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/die/frame3": {
+		"frame": {
+			"x": 0,
+			"y": 455,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/die/frame4": {
+		"frame": {
+			"x": 74,
+			"y": 455,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/die/frame5": {
+		"frame": {
+			"x": 444,
+			"y": 130,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/die/frame6": {
+		"frame": {
+			"x": 148,
+			"y": 455,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/die/frame7": {
+		"frame": {
+			"x": 444,
+			"y": 195,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/die/frame8": {
+		"frame": {
+			"x": 296,
+			"y": 390,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/die/frame9": {
+		"frame": {
+			"x": 370,
+			"y": 325,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/get_hit/frame1": {
+		"frame": {
+			"x": 0,
+			"y": 0,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/get_hit/frame10": {
+		"frame": {
+			"x": 444,
+			"y": 65,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/get_hit/frame11": {
+		"frame": {
+			"x": 0,
+			"y": 0,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/get_hit/frame12": {
+		"frame": {
+			"x": 444,
+			"y": 65,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/get_hit/frame13": {
+		"frame": {
+			"x": 0,
+			"y": 0,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/get_hit/frame2": {
+		"frame": {
+			"x": 444,
+			"y": 65,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/get_hit/frame3": {
+		"frame": {
+			"x": 0,
+			"y": 455,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/get_hit/frame4": {
+		"frame": {
+			"x": 74,
+			"y": 455,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/get_hit/frame5": {
+		"frame": {
+			"x": 444,
+			"y": 130,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/get_hit/frame6": {
+		"frame": {
+			"x": 222,
+			"y": 455,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/get_hit/frame7": {
+		"frame": {
+			"x": 444,
+			"y": 130,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/get_hit/frame8": {
+		"frame": {
+			"x": 74,
+			"y": 455,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/get_hit/frame9": {
+		"frame": {
+			"x": 0,
+			"y": 455,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/idle/frame1": {
+		"frame": {
+			"x": 444,
+			"y": 260,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/idle/frame2": {
+		"frame": {
+			"x": 444,
+			"y": 260,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/idle/frame3": {
+		"frame": {
+			"x": 518,
+			"y": 0,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/idle/frame4": {
+		"frame": {
+			"x": 518,
+			"y": 65,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/idle/frame5": {
+		"frame": {
+			"x": 518,
+			"y": 130,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/idle/frame6": {
+		"frame": {
+			"x": 518,
+			"y": 130,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/idle/frame7": {
+		"frame": {
+			"x": 370,
+			"y": 390,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/idle/frame8": {
+		"frame": {
+			"x": 296,
+			"y": 455,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/run/frame1": {
+		"frame": {
+			"x": 444,
+			"y": 325,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/run/frame2": {
+		"frame": {
+			"x": 518,
+			"y": 195,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/run/frame3": {
+		"frame": {
+			"x": 518,
+			"y": 260,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/run/frame4": {
+		"frame": {
+			"x": 370,
+			"y": 455,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/run/frame5": {
+		"frame": {
+			"x": 444,
+			"y": 390,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/run/frame6": {
+		"frame": {
+			"x": 518,
+			"y": 325,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/run/frame7": {
+		"frame": {
+			"x": 444,
+			"y": 455,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	},
+	"skeleton_warrior_style_A/run/frame8": {
+		"frame": {
+			"x": 518,
+			"y": 390,
+			"width": 72,
+			"height": 63
+		},
+		"sourceSize": {
+			"width": 72,
+			"height": 63
+		},
+		"rotated": false
+	}
+}

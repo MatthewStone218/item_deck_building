@@ -1,0 +1,886 @@
+{
+	"skeleton_archer_style_B/attack/frame1": {
+		"frame": {
+			"x": 0,
+			"y": 0,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/attack/frame10": {
+		"frame": {
+			"x": 0,
+			"y": 64,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/attack/frame11": {
+		"frame": {
+			"x": 75,
+			"y": 0,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/attack/frame12": {
+		"frame": {
+			"x": 75,
+			"y": 64,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/attack/frame13": {
+		"frame": {
+			"x": 0,
+			"y": 128,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/attack/frame14": {
+		"frame": {
+			"x": 75,
+			"y": 128,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/attack/frame15": {
+		"frame": {
+			"x": 150,
+			"y": 0,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/attack/frame16": {
+		"frame": {
+			"x": 150,
+			"y": 64,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/attack/frame17": {
+		"frame": {
+			"x": 0,
+			"y": 192,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/attack/frame18": {
+		"frame": {
+			"x": 150,
+			"y": 128,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/attack/frame19": {
+		"frame": {
+			"x": 75,
+			"y": 192,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/attack/frame2": {
+		"frame": {
+			"x": 225,
+			"y": 0,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/attack/frame20": {
+		"frame": {
+			"x": 225,
+			"y": 64,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/attack/frame3": {
+		"frame": {
+			"x": 150,
+			"y": 192,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/attack/frame4": {
+		"frame": {
+			"x": 0,
+			"y": 256,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/attack/frame5": {
+		"frame": {
+			"x": 225,
+			"y": 128,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/attack/frame6": {
+		"frame": {
+			"x": 75,
+			"y": 256,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/attack/frame7": {
+		"frame": {
+			"x": 225,
+			"y": 192,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/attack/frame8": {
+		"frame": {
+			"x": 150,
+			"y": 256,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/attack/frame9": {
+		"frame": {
+			"x": 300,
+			"y": 0,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/die/frame1": {
+		"frame": {
+			"x": 0,
+			"y": 0,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/die/frame10": {
+		"frame": {
+			"x": 300,
+			"y": 64,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/die/frame11": {
+		"frame": {
+			"x": 0,
+			"y": 320,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/die/frame12": {
+		"frame": {
+			"x": 300,
+			"y": 128,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/die/frame13": {
+		"frame": {
+			"x": 75,
+			"y": 320,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/die/frame14": {
+		"frame": {
+			"x": 225,
+			"y": 256,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/die/frame15": {
+		"frame": {
+			"x": 150,
+			"y": 320,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/die/frame16": {
+		"frame": {
+			"x": 300,
+			"y": 192,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/die/frame17": {
+		"frame": {
+			"x": 375,
+			"y": 0,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/die/frame18": {
+		"frame": {
+			"x": 375,
+			"y": 64,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/die/frame19": {
+		"frame": {
+			"x": 0,
+			"y": 384,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/die/frame2": {
+		"frame": {
+			"x": 225,
+			"y": 320,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/die/frame20": {
+		"frame": {
+			"x": 75,
+			"y": 384,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/die/frame21": {
+		"frame": {
+			"x": 300,
+			"y": 256,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/die/frame3": {
+		"frame": {
+			"x": 375,
+			"y": 128,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/die/frame4": {
+		"frame": {
+			"x": 150,
+			"y": 384,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/die/frame5": {
+		"frame": {
+			"x": 375,
+			"y": 192,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/die/frame6": {
+		"frame": {
+			"x": 300,
+			"y": 320,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/die/frame7": {
+		"frame": {
+			"x": 225,
+			"y": 384,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/die/frame8": {
+		"frame": {
+			"x": 0,
+			"y": 448,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/die/frame9": {
+		"frame": {
+			"x": 450,
+			"y": 0,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/get_hit/frame1": {
+		"frame": {
+			"x": 0,
+			"y": 0,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/get_hit/frame10": {
+		"frame": {
+			"x": 225,
+			"y": 320,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/get_hit/frame11": {
+		"frame": {
+			"x": 0,
+			"y": 0,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/get_hit/frame2": {
+		"frame": {
+			"x": 225,
+			"y": 320,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/get_hit/frame3": {
+		"frame": {
+			"x": 375,
+			"y": 128,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/get_hit/frame4": {
+		"frame": {
+			"x": 150,
+			"y": 384,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/get_hit/frame5": {
+		"frame": {
+			"x": 375,
+			"y": 256,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/get_hit/frame6": {
+		"frame": {
+			"x": 75,
+			"y": 448,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/get_hit/frame7": {
+		"frame": {
+			"x": 375,
+			"y": 192,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/get_hit/frame8": {
+		"frame": {
+			"x": 150,
+			"y": 384,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/get_hit/frame9": {
+		"frame": {
+			"x": 375,
+			"y": 128,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/idle/frame1": {
+		"frame": {
+			"x": 0,
+			"y": 0,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/idle/frame2": {
+		"frame": {
+			"x": 0,
+			"y": 0,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/idle/frame3": {
+		"frame": {
+			"x": 450,
+			"y": 64,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/idle/frame4": {
+		"frame": {
+			"x": 450,
+			"y": 128,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/idle/frame5": {
+		"frame": {
+			"x": 150,
+			"y": 448,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/idle/frame6": {
+		"frame": {
+			"x": 300,
+			"y": 384,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/idle/frame7": {
+		"frame": {
+			"x": 450,
+			"y": 192,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/idle/frame8": {
+		"frame": {
+			"x": 375,
+			"y": 320,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/run/frame1": {
+		"frame": {
+			"x": 225,
+			"y": 448,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/run/frame2": {
+		"frame": {
+			"x": 450,
+			"y": 256,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/run/frame3": {
+		"frame": {
+			"x": 375,
+			"y": 384,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/run/frame4": {
+		"frame": {
+			"x": 300,
+			"y": 448,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/run/frame5": {
+		"frame": {
+			"x": 450,
+			"y": 320,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/run/frame6": {
+		"frame": {
+			"x": 375,
+			"y": 448,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/run/frame7": {
+		"frame": {
+			"x": 450,
+			"y": 384,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	},
+	"skeleton_archer_style_B/run/frame8": {
+		"frame": {
+			"x": 450,
+			"y": 448,
+			"width": 73,
+			"height": 62
+		},
+		"sourceSize": {
+			"width": 73,
+			"height": 62
+		},
+		"rotated": false
+	}
+}
