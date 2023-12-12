@@ -401,6 +401,7 @@
     {"name":"_32__Iconset_Starter_Pack_320","order":323,"path":"sprites/_32__Iconset_Starter_Pack_320/_32__Iconset_Starter_Pack_320.yy",},
     {"name":"_32__Iconset_Starter_Pack_212","order":215,"path":"sprites/_32__Iconset_Starter_Pack_212/_32__Iconset_Starter_Pack_212.yy",},
     {"name":"_32__Iconset_Starter_Pack_295","order":298,"path":"sprites/_32__Iconset_Starter_Pack_295/_32__Iconset_Starter_Pack_295.yy",},
+    {"name":"player_act","order":12,"path":"scripts/player_act/player_act.yy",},
     {"name":"_32__Iconset_Starter_Pack_21","order":24,"path":"sprites/_32__Iconset_Starter_Pack_21/_32__Iconset_Starter_Pack_21.yy",},
     {"name":"_32__Iconset_Starter_Pack_156","order":159,"path":"sprites/_32__Iconset_Starter_Pack_156/_32__Iconset_Starter_Pack_156.yy",},
     {"name":"_32__Iconset_Starter_Pack_59","order":62,"path":"sprites/_32__Iconset_Starter_Pack_59/_32__Iconset_Starter_Pack_59.yy",},

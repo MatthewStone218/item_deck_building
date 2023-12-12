@@ -458,6 +458,7 @@
     {"id":{"name":"_32__Iconset_Starter_Pack_212","path":"sprites/_32__Iconset_Starter_Pack_212/_32__Iconset_Starter_Pack_212.yy",},},
     {"id":{"name":"_32__Iconset_Starter_Pack_295","path":"sprites/_32__Iconset_Starter_Pack_295/_32__Iconset_Starter_Pack_295.yy",},},
     {"id":{"name":"GMLive_action","path":"scripts/GMLive_action/GMLive_action.yy",},},
+    {"id":{"name":"player_act","path":"scripts/player_act/player_act.yy",},},
     {"id":{"name":"_32__Iconset_Starter_Pack_21","path":"sprites/_32__Iconset_Starter_Pack_21/_32__Iconset_Starter_Pack_21.yy",},},
     {"id":{"name":"_32__Iconset_Starter_Pack_156","path":"sprites/_32__Iconset_Starter_Pack_156/_32__Iconset_Starter_Pack_156.yy",},},
     {"id":{"name":"_32__Iconset_Starter_Pack_59","path":"sprites/_32__Iconset_Starter_Pack_59/_32__Iconset_Starter_Pack_59.yy",},},
