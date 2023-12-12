@@ -15,6 +15,17 @@
     {"name":"Notes","order":13,"path":"folders/Notes.yy",},
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
+    {"name":"windows","order":1,"path":"folders/Sprites/windows.yy",},
+    {"name":"player","order":2,"path":"folders/Sprites/player.yy",},
   ],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"spr_player_attack_2","order":2,"path":"sprites/spr_player_attack_2/spr_player_attack_2.yy",},
+    {"name":"spr_player_die","order":3,"path":"sprites/spr_player_die/spr_player_die.yy",},
+    {"name":"spr_player_attack_1","order":1,"path":"sprites/spr_player_attack_1/spr_player_attack_1.yy",},
+    {"name":"spr_player_get_hit","order":4,"path":"sprites/spr_player_get_hit/spr_player_get_hit.yy",},
+    {"name":"spr_player_guard_end","order":7,"path":"sprites/spr_player_guard_end/spr_player_guard_end.yy",},
+    {"name":"spr_player_guard_start","order":6,"path":"sprites/spr_player_guard_start/spr_player_guard_start.yy",},
+    {"name":"spr_player_guarding","order":5,"path":"sprites/spr_player_guarding/spr_player_guarding.yy",},
+    {"name":"spr_player_guarded","order":8,"path":"sprites/spr_player_guarded/spr_player_guarded.yy",},
+  ],
 }
