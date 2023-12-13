@@ -3,7 +3,13 @@
 
 
 
-
+enum ACT_TYPE
+{
+	ACT_NEAR,
+	ACT_FAR,
+	ACTING_NEAR,
+	ACTING_FAR
+}
 
 
 

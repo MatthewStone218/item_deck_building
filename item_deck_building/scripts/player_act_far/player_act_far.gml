@@ -1,0 +1,15 @@
+// v2.3.0에 대한 스크립트 어셋 변경됨 자세한 정보는
+// https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
+function player_act_far(_enemy){
+	if(player_check_can_act_near(_enemy))
+	{
+		player_start_act_near(_enemy);
+	}
+	else
+	{
+		var _dir = sign(_enemy.x-x);
+		xspd += xspd+_dir*acc*player_get_acc();
+		if(abs(xspd) > xspd_max){xspd = sign(xspd)*xspd_max;}
+		moving_x = 1;
+	}
+}
