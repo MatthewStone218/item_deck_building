@@ -9,10 +9,11 @@ if(moving_x == 0)
 	if(abs(xspd) < xspd_dump){xspd = 0;}else{xspd -= sign(xspd)*xspd_dump;}
 }
 
-yspd += grv
+yspd += grv;
 
 move(xspd,yspd);
 
+if(place_meeting(x,y+1,obj_sol)){yspd = 0;}
 
 
 if(mouse_check_button(mb_left))

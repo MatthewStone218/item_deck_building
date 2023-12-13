@@ -53,6 +53,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"items","folderPath":"folders/Sprites/game/items.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"player action","folderPath":"folders/Scripts/player action.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"AUTO_LIVE.bat","CopyToMask":-1,"filePath":"datafiles",},
