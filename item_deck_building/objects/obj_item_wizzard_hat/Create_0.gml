@@ -8,10 +8,12 @@ for(var i = 0; true; i++)
 	if(i >= array_length(obj_inv.inv))
 	{
 		array_push(obj_inv.inv,id)
+		break;
 	}
 	else if(obj_inv.inv[i] == -1)
 	{
 		obj_inv.inv[i] = id;
+		break;
 	}
 }
 

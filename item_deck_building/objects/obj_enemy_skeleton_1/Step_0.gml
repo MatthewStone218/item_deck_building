@@ -13,7 +13,7 @@ xspd_knock *= 0.8;
 
 if(hit == 0 and sprite_index == spr_enemy_skeleton_warrior_idle)
 {
-	if(point_distance(x,y,obj_player.x,obj_player.y) > 200)
+	if(point_distance(x,y,obj_player.x,obj_player.y) > 100)
 	{
 		sprite_index = spr_enemy_skeleton_warrior_run;
 		image_index = 0;
@@ -44,7 +44,7 @@ if(sprite_index == spr_enemy_skeleton_warrior_run)
 	if(image_xscale == 0){image_xscale = 1;}
 	xspd += 5*sign(obj_player.x-x);
 	if(abs(xspd) > 4){xspd = sign(xspd)*4;}
-	if(point_distance(x,y,obj_player.x,obj_player.y) <= 200)
+	if(point_distance(x,y,obj_player.x,obj_player.y) <= 100)
 	{
 		image_xscale = sign(obj_player.x-x);
 		if(image_xscale == 0){image_xscale = 1;}
