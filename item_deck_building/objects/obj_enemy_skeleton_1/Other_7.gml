@@ -3,6 +3,8 @@
 
 if(sprite_index == spr_enemy_skeleton_warrior_attack or spr_enemy_skeleton_warrior_get_hit)
 {
+	image_xscale = sign(obj_player.x-x);
+	if(image_xscale == 0){image_xscale = 1;}
 	if(delay == 0)
 	{
 		attacked = 0;

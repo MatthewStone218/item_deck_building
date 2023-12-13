@@ -37,6 +37,9 @@
     "name": "spr_enemy_skeleton_warrior_idle",
     "path": "sprites/spr_enemy_skeleton_warrior_idle/spr_enemy_skeleton_warrior_idle.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_enemy_skeleton_warrior_idle",
+    "path": "sprites/spr_enemy_skeleton_warrior_idle/spr_enemy_skeleton_warrior_idle.yy",
+  },
   "visible": true,
 }

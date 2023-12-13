@@ -2,8 +2,8 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
 function move(xx,yy){
 	
-	xx = floor(xx);
-	yy = floor(yy);
+	xx = round(xx);
+	yy = round(yy);
 	
 	var _check_1 = true;
 	var _check_2 = true;
