@@ -6,6 +6,8 @@ function player_start_act_near(_enemy){
 	image_index = 0;
 	image_speed = 1;
 	
+	coll_objs = {};
+	
 	var _dir = sign(_enemy.x-x);
 	if(_dir == 1){image_xscale = 1;}else{image_xscale = -1;}
 }

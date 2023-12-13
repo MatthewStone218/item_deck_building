@@ -4,6 +4,8 @@
 hp_max = 40;
 hp = hp_max;
 
+coll_objs = {};
+
 act = [0,-1]
 
 xspd_max = 4;
