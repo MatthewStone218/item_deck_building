@@ -16,3 +16,7 @@ yspd = 0;
 grv = 0.8;
 
 moving_x = 0;
+
+attack_delay = 60;
+attack_delay_left = attack_delay;
+attacking = 0;

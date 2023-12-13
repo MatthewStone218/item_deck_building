@@ -24,4 +24,9 @@ function player_act(){
 			player_act_far(_enemy);
 		}
 	}
+	
+	if(attacking == 0)
+	{
+		attack_delay_left = max(0,attack_delay_left-1);
+	}
 }

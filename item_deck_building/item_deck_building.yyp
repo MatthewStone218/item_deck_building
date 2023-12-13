@@ -584,6 +584,7 @@
     {"id":{"name":"js_hide_bar","path":"extensions/js_hide_bar/js_hide_bar.yy",},},
     {"id":{"name":"_32__Iconset_Starter_Pack_22","path":"sprites/_32__Iconset_Starter_Pack_22/_32__Iconset_Starter_Pack_22.yy",},},
     {"id":{"name":"_32__Iconset_Starter_Pack_40","path":"sprites/_32__Iconset_Starter_Pack_40/_32__Iconset_Starter_Pack_40.yy",},},
+    {"id":{"name":"player_get_asp","path":"scripts/player_get_asp/player_get_asp.yy",},},
     {"id":{"name":"obj_system","path":"objects/obj_system/obj_system.yy",},},
     {"id":{"name":"_32__Iconset_Starter_Pack_35","path":"sprites/_32__Iconset_Starter_Pack_35/_32__Iconset_Starter_Pack_35.yy",},},
     {"id":{"name":"_32__Iconset_Starter_Pack_350","path":"sprites/_32__Iconset_Starter_Pack_350/_32__Iconset_Starter_Pack_350.yy",},},
