@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_window_1",
-    "path": "sprites/spr_window_1/spr_window_1.yy",
+    "name": "spr_window_2",
+    "path": "sprites/spr_window_2/spr_window_2.yy",
   },
   "spriteMaskId": null,
   "visible": true,

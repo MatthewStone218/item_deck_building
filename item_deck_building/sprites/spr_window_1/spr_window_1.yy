@@ -13,19 +13,19 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4d59a8d4-93e3-4484-9e94-3b478c16376c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0f0dbdc9-9fb0-4618-9309-15f9a955c0e1",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 64,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"655af877-85d6-4d27-b404-b8c76b7dd4ce","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1a130ae5-f24e-45cf-9cae-e0f9f738a4c7","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
     "resourceVersion": "1.0",
-    "bottom": 29,
+    "bottom": 31,
     "enabled": true,
     "guideColour": [
       4294902015,
@@ -44,7 +44,7 @@
       0,
       0,
     ],
-    "top": 28,
+    "top": 30,
   },
   "origin": 4,
   "parent": {
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4d59a8d4-93e3-4484-9e94-3b478c16376c","path":"sprites/spr_window_1/spr_window_1.yy",},},},"Disabled":false,"id":"05937bae-c106-4b2b-9ce4-e7dbd94f556e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0f0dbdc9-9fb0-4618-9309-15f9a955c0e1","path":"sprites/spr_window_1/spr_window_1.yy",},},},"Disabled":false,"id":"9747c0be-7e4f-4777-be13-7232db7d6b7d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
