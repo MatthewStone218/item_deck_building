@@ -9,7 +9,7 @@ function player_act_far(_enemy){
 	{
 		var _dir = sign(_enemy.x-x);
 		if(_dir == 1){image_xscale = 1;}else{image_xscale = -1;}
-		xspd += xspd+_dir*acc*player_get_acc();
+		xspd += _dir*acc*player_get_acc();
 		if(abs(xspd) > xspd_max){xspd = sign(xspd)*xspd_max;}
 		moving_x = 1;
 	}
