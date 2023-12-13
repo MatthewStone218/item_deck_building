@@ -54,6 +54,9 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"windows","folderPath":"folders/Sprites/windows.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"enemys","folderPath":"folders/Objects/game/enemys.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"ui","folderPath":"folders/Objects/game/ui.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"reward","folderPath":"folders/Objects/game/ui/reward.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"AUTO_LIVE.bat","CopyToMask":-1,"filePath":"datafiles",},
@@ -327,6 +330,7 @@
     {"id":{"name":"_32__Iconset_Starter_Pack_229","path":"sprites/_32__Iconset_Starter_Pack_229/_32__Iconset_Starter_Pack_229.yy",},},
     {"id":{"name":"_32__Iconset_Starter_Pack_285","path":"sprites/_32__Iconset_Starter_Pack_285/_32__Iconset_Starter_Pack_285.yy",},},
     {"id":{"name":"_32__Iconset_Starter_Pack_383","path":"sprites/_32__Iconset_Starter_Pack_383/_32__Iconset_Starter_Pack_383.yy",},},
+    {"id":{"name":"obj_ui_reward","path":"objects/obj_ui_reward/obj_ui_reward.yy",},},
     {"id":{"name":"spr_keyboard_key","path":"sprites/spr_keyboard_key/spr_keyboard_key.yy",},},
     {"id":{"name":"js_kr_en_ad_event","path":"extensions/js_kr_en_ad_event/js_kr_en_ad_event.yy",},},
     {"id":{"name":"_32__Iconset_Starter_Pack_11","path":"sprites/_32__Iconset_Starter_Pack_11/_32__Iconset_Starter_Pack_11.yy",},},

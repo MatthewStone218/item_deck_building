@@ -1,15 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_inv_cell",
+  "name": "obj_ui_reward",
   "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "ui",
-    "path": "folders/Objects/game/ui.yy",
+    "name": "reward",
+    "path": "folders/Objects/game/ui/reward.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -28,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_window_2",
-    "path": "sprites/spr_window_2/spr_window_2.yy",
+    "name": "spr_window_4",
+    "path": "sprites/spr_window_4/spr_window_4.yy",
   },
   "spriteMaskId": null,
   "visible": true,
