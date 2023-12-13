@@ -1,1 +1,1 @@
-inv_level = 9;
+num = 9;

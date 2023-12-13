@@ -1,9 +1,10 @@
 /// @description 여기에 설명 삽입
 // 이 에디터에 코드를 작성할 수 있습니다
 
-if(global.inv_count >= inv_level)
+if(global.inv_count >= num)
 {
 	draw_self();
+	if(obj_inv.inv[num])
 }
 
 

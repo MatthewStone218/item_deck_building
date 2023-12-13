@@ -56,6 +56,7 @@
     {"name":"Miscellaneous","order":7,"path":"folders/Scribble/Miscellaneous.yy",},
     {"name":"Quick Functions","order":8,"path":"folders/Scribble/Quick Functions.yy",},
     {"name":"Superfonts","order":9,"path":"folders/Scribble/Superfonts.yy",},
+    {"name":"items","order":5,"path":"folders/Objects/game/items.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"_32__Iconset_Starter_Pack_358","order":377,"path":"sprites/_32__Iconset_Starter_Pack_358/_32__Iconset_Starter_Pack_358.yy",},
@@ -135,6 +136,7 @@
     {"name":"_32__Iconset_Starter_Pack_95","order":114,"path":"sprites/_32__Iconset_Starter_Pack_95/_32__Iconset_Starter_Pack_95.yy",},
     {"name":"player_heal","order":5,"path":"scripts/player_heal/player_heal.yy",},
     {"name":"_32__Iconset_Starter_Pack_187","order":206,"path":"sprites/_32__Iconset_Starter_Pack_187/_32__Iconset_Starter_Pack_187.yy",},
+    {"name":"obj_item_wizzard_hat","order":1,"path":"objects/obj_item_wizzard_hat/obj_item_wizzard_hat.yy",},
     {"name":"_32__Iconset_Starter_Pack_08","order":27,"path":"sprites/_32__Iconset_Starter_Pack_08/_32__Iconset_Starter_Pack_08.yy",},
     {"name":"_32__Iconset_Starter_Pack_236","order":255,"path":"sprites/_32__Iconset_Starter_Pack_236/_32__Iconset_Starter_Pack_236.yy",},
     {"name":"_32__Iconset_Starter_Pack_299","order":318,"path":"sprites/_32__Iconset_Starter_Pack_299/_32__Iconset_Starter_Pack_299.yy",},
@@ -557,6 +559,7 @@
     {"name":"_32__Iconset_Starter_Pack_316","order":335,"path":"sprites/_32__Iconset_Starter_Pack_316/_32__Iconset_Starter_Pack_316.yy",},
     {"name":"spr_bg_1","order":2,"path":"sprites/spr_bg_1/spr_bg_1.yy",},
     {"name":"_32__Iconset_Starter_Pack_344","order":363,"path":"sprites/_32__Iconset_Starter_Pack_344/_32__Iconset_Starter_Pack_344.yy",},
+    {"name":"obj_data_items","order":6,"path":"objects/obj_data_items/obj_data_items.yy",},
     {"name":"_32__Iconset_Starter_Pack_254","order":273,"path":"sprites/_32__Iconset_Starter_Pack_254/_32__Iconset_Starter_Pack_254.yy",},
     {"name":"__shd_scribble_msdf","order":5,"path":"shaders/__shd_scribble_msdf/__shd_scribble_msdf.yy",},
     {"name":"_32__Iconset_Starter_Pack_228","order":247,"path":"sprites/_32__Iconset_Starter_Pack_228/_32__Iconset_Starter_Pack_228.yy",},

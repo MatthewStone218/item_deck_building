@@ -1,1 +1,1 @@
-inv_level = 18;
+num = 18;
