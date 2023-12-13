@@ -65,13 +65,13 @@ if(sprite_index == spr_enemy_skeleton_warrior_run)
 }
 else if(sprite_index == spr_enemy_skeleton_warrior_attack and attacked == 0)
 {
-	if(image_index >= 8 and image_index <= 12)
+	if(image_index >= 6 and image_index <= 9)
 	{
 		mask_index = spr_enemy_skeleton_warrior_attack;
 		if(place_meeting(x,y,obj_player))
 		{
 			attacked = 1;
-			player_get_hit();
+			player_get_hit(5);
 		}
 		mask_index = spr_enemy_skeleton_warrior_idle;
 	}
