@@ -3,6 +3,6 @@
 function player_aniamtion_end_near(){
 	attacking = 0;
 	act = [0,-1];
-	attack_delay_left = attack_delay;
+	attack_delay_left = attack_delay/player_get_asp();
 	player_act();
 }
