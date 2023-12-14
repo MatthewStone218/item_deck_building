@@ -4,6 +4,48 @@ function player_get_hit(dmg){
 	obj_player.xspd_knockback += 12*sign(obj_player.x-x);
 	obj_player.xspd -= 5;
 	
+	var def = 5;
+	for(var i = 0; i < array_length(global.item_effects.def_sum);i++)
+	{
+		var func = method(obj_player,global.item_effects.def_sum[i]);
+		dmg = func(dmg);
+	}
+	for(var i = 0; i < array_length(global.item_effects.def_mult);i++)
+	{
+		var func = method(obj_player,global.item_effects.def_mult[i]);
+		dmg = func(dmg);
+	}
+	for(var i = 0; i < array_length(global.item_effects.def_sum_post);i++)
+	{
+		var func = method(obj_player,global.item_effects.def_sum_post[i]);
+		dmg = func(dmg);
+	}
+	for(var i = 0; i < array_length(global.item_effects.def_mult_post);i++)
+	{
+		var func = method(obj_player,global.item_effects.def_mult_post[i]);
+		dmg = func(dmg);
+	}
+	
+	
+	
+	for(var i = 0; i < array_length(global.item_effects.get_hit_pre);i++)
+	{
+		var func = method(obj_player,global.item_effects.get_hit_pre[i]);
+		dmg = func(dmg);
+	}
+	for(var i = 0; i < array_length(global.item_effects.get_hit);i++)
+	{
+		var func = method(obj_player,global.item_effects.get_hit[i]);
+		dmg = func(dmg);
+	}
+	for(var i = 0; i < array_length(global.item_effects.get_hit_post);i++)
+	{
+		var func = method(obj_player,global.item_effects.get_hit_post[i]);
+		dmg = func(dmg);
+	}
+		
 	obj_player.hp -= dmg;
 	obj_player.hit = 8;
+	obj_ui_hp_1.ef_hit = max(dmg*4,obj_ui_hp_1.ef_hit);
+	obj_ui_hp_1.ef_hit_white = max(6,obj_ui_hp_1.ef_hit_white);
 }

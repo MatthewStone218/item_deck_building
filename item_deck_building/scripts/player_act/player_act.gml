@@ -26,6 +26,11 @@ function player_act(){
 				player_act_far(_enemy);
 			}
 		}
+		else if(attacking == 0)
+		{
+			sprite_index = spr_player_idle;
+			image_speed = 1;
+		}
 	
 		if(attacking == 0)
 		{

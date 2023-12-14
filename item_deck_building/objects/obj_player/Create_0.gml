@@ -14,6 +14,7 @@ xspd_knockback = 0;
 acc = 3;
 xspd = 0;
 yspd = 0;
+jumpspd = 15;
 grv = 0.8;
 
 moving_x = 0;

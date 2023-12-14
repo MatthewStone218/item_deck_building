@@ -11,8 +11,8 @@ function player_act_far(_enemy){
 		{
 			var _dir = sign(_enemy.x-x);
 			if(_dir == 1){image_xscale = 1;}else{image_xscale = -1;}
-			xspd += _dir*acc*player_get_spd();
-			if(abs(xspd) > xspd_max*player_get_spd()){xspd = sign(xspd)*xspd_max*player_get_spd();}
+			xspd += _dir*player_get_spd();
+			if(abs(xspd) > xspd_max*player_get_spd()){xspd = sign(xspd)*(player_get_spd()/obj_player.acc);}
 			moving_x = 1;
 		}
 	}

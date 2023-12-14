@@ -11,74 +11,83 @@ if(abs(xspd) < 1){xspd = 0;}else{xspd -= sign(xspd);}
 
 xspd_knock *= 0.8;
 
-if(hit == 0 and sprite_index == spr_enemy_skeleton_warrior_idle)
-{
-	if(point_distance(x,y,obj_player.x,obj_player.y) > 100)
+if(hp > 0)
 	{
-		sprite_index = spr_enemy_skeleton_warrior_run;
-		image_index = 0;
-	}
-	else
+	if(hit == 0 and sprite_index == spr_enemy_skeleton_warrior_idle)
 	{
-		image_xscale = sign(obj_player.x-x);
-		if(image_xscale == 0){image_xscale = 1;}
-		if(delay == 0)
+		if(point_distance(x,y,obj_player.x,obj_player.y) > 200)
 		{
-			attacked = 0;
-			sprite_index = spr_enemy_skeleton_warrior_attack;
+			sprite_index = spr_enemy_skeleton_warrior_run;
 			image_index = 0;
-			delay = delay_max;
 		}
 		else
 		{
-			attacked = 0;
-			sprite_index = spr_enemy_skeleton_warrior_idle;
-			image_index = 0;
+			image_xscale = sign(obj_player.x-x);
+			if(image_xscale == 0){image_xscale = 1;}
+			if(delay == 0)
+			{
+				attacked = 0;
+				sprite_index = spr_enemy_skeleton_warrior_attack;
+				image_index = 0;
+				delay = delay_max;
+			}
+			else
+			{
+				attacked = 0;
+				sprite_index = spr_enemy_skeleton_warrior_idle;
+				image_index = 0;
+			}
 		}
 	}
-}
 
-if(sprite_index == spr_enemy_skeleton_warrior_run)
-{
-	image_xscale = sign(obj_player.x-x);
-	if(image_xscale == 0){image_xscale = 1;}
-	xspd += 5*sign(obj_player.x-x);
-	if(abs(xspd) > 4){xspd = sign(xspd)*4;}
-	if(point_distance(x,y,obj_player.x,obj_player.y) <= 100)
+	if(sprite_index == spr_enemy_skeleton_warrior_run)
 	{
 		image_xscale = sign(obj_player.x-x);
 		if(image_xscale == 0){image_xscale = 1;}
-		if(delay == 0)
+		xspd += 5*sign(obj_player.x-x);
+		if(abs(xspd) > 4){xspd = sign(xspd)*4;}
+		if(point_distance(x,y,obj_player.x,obj_player.y) <= 200)
 		{
-			attacked = 0;
-			sprite_index = spr_enemy_skeleton_warrior_attack;
-			image_index = 0;
-			delay = delay_max;
+			image_xscale = sign(obj_player.x-x);
+			if(image_xscale == 0){image_xscale = 1;}
+			if(delay == 0)
+			{
+				attacked = 0;
+				sprite_index = spr_enemy_skeleton_warrior_attack;
+				image_index = 0;
+				delay = delay_max;
+			}
+			else
+			{
+				attacked = 0;
+				sprite_index = spr_enemy_skeleton_warrior_idle;
+				image_index = 0;
+			}
 		}
-		else
+	}
+	else if(sprite_index == spr_enemy_skeleton_warrior_attack and attacked == 0)
+	{
+		if(image_index >= 6 and image_index <= 9)
 		{
-			attacked = 0;
-			sprite_index = spr_enemy_skeleton_warrior_idle;
-			image_index = 0;
+			mask_index = spr_enemy_skeleton_warrior_attack;
+			if(place_meeting(x,y,obj_player))
+			{
+				attacked = 1;
+				player_get_hit(5);
+			}
+			mask_index = spr_enemy_skeleton_warrior_idle;
 		}
 	}
 }
-else if(sprite_index == spr_enemy_skeleton_warrior_attack and attacked == 0)
+else
 {
-	if(image_index >= 6 and image_index <= 9)
-	{
-		mask_index = spr_enemy_skeleton_warrior_attack;
-		if(place_meeting(x,y,obj_player))
-		{
-			attacked = 1;
-			player_get_hit(5);
-		}
-		mask_index = spr_enemy_skeleton_warrior_idle;
-	}
+	var incy = instance_create_depth(x,y,depth,obj_ef_die);
+	incy.sprite_index = spr_enemy_skeleton_warrior_die;
+	incy.image_xscale = image_xscale;
+	incy.hit = 6;
+	instance_destroy();exit;
 }
 
 move(xspd_knock+xspd,yspd);
 if(place_meeting(x,y,obj_sol)){yspd = 0;}
-
-
 

@@ -17,3 +17,9 @@ for(var i = 0; true; i++)
 	}
 }
 
+item_func_1 = function(dmg)
+{
+	return dmg;
+}
+
+array_push(global.item_effects.attack,item_func_1)

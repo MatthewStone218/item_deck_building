@@ -17,5 +17,7 @@ function player_attack(dmg,enemy){
 		dmg = func(dmg);
 	}
 	
+	obj_ui_hp_2.ef_hit = max(dmg*4,obj_ui_hp_2.ef_hit);
+	obj_ui_hp_2.ef_hit_white = max(6,obj_ui_hp_2.ef_hit_white);
 	with(enemy){get_hit(dmg);}
 }

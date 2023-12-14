@@ -28,6 +28,11 @@ global.item_effects =
 	sp_sum_post:[],
 	sp_mult_post:[],
 	
+	spd_sum:[],
+	spd_mult:[],
+	spd_sum_post:[],
+	spd_mult_post:[],
+	
 	heal_sum:[],
 	heal_mult:[],
 	heal_sum_post:[],
@@ -63,6 +68,10 @@ global.item_effects =
 	attack_pre:[],
 	attack:[],
 	attack_post:[],
+	
+	get_hit_pre:[],
+	get_hit:[],
+	get_hit_post:[],
 	
 	act: -1,
 	act_check_type:-1,
