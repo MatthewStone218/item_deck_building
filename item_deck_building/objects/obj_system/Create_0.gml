@@ -6,6 +6,8 @@ global.state = ST.NORMAL;
 global.inv_count = 3;
 global.level = 1;
 
+count_combet_end = 60;
+
 global.item_effects =
 {
 	ap_sum:[],
@@ -87,6 +89,7 @@ global.item_effects =
 enum ST
 {
 	NORMAL,
+	COMBET,
 	OPTION,
 	REWARD
 }
