@@ -4,10 +4,26 @@
 
 item_wizzard_hat = 
 {
-	spr: _32__Iconset_Starter_Pack_329,
-	name:"[rainbow]Wizzard HaT[/rainbow]",
-	state:"[#ff4c97]AP[/color] +50\n fjewio jfiejf iejfioa jfoiwej oewajf oiweajfoi awjefoiw",
-	item: obj_item_wizzard_hat
+	spr: spr_item_wizzard_hat,
+	name:"[rainbow]Wizzard Hat[/rainbow]",
+	state:"[#ff4c97]AP[/color] +50\n\nToo many stars.",
+	obj: obj_item_wizzard_hat
+}
+
+item_old_boots = 
+{
+	spr: spr_item_old_boots,
+	name:"[#2177ee]Old Boots[/color]",
+	state:"[#2177ee]Speed[/color] +10%\n\nIt's old and smells bad.",
+	obj: obj_item_old_boots
+}
+
+item_pendant_asp = 
+{
+	spr: spr_item_pendant_asp,
+	name:"[#fff98f]Yellow Pendant[/color]",
+	state:"[#fff98f]Attack Speed[/color] +20%\n\nIt's yellow.",
+	obj: obj_item_pendant_asp
 }
 
 

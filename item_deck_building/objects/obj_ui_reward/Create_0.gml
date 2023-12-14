@@ -6,7 +6,3 @@ typist.in(0.8, 60);
 typist.ease(SCRIBBLE_EASE.ELASTIC, 0, -5, 1, 1, 0, 0.1);
 
 item = -1;
-
-
-
-

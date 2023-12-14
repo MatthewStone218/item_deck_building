@@ -22,4 +22,3 @@ if(global.state == ST.REWARD)
 		.draw(x, bbox_top+80, typist);
 	}
 }
-

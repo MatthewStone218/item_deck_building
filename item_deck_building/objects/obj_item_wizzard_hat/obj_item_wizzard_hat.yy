@@ -10,7 +10,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "items",
-    "path": "folders/Objects/game/items.yy",
+    "path": "folders/Objects/game/items/items.yy",
   },
   "parentObjectId": {
     "name": "obj_item",
@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "_32__Iconset_Starter_Pack_329",
-    "path": "sprites/_32__Iconset_Starter_Pack_329/_32__Iconset_Starter_Pack_329.yy",
+    "name": "spr_item_wizzard_hat",
+    "path": "sprites/spr_item_wizzard_hat/spr_item_wizzard_hat.yy",
   },
   "spriteMaskId": null,
   "visible": true,

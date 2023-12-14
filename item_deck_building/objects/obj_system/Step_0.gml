@@ -14,7 +14,14 @@ if(global.state == ST.COMBET)
 	{
 		global.state = ST.REWARD;
 		
-		with(obj_ui_reward){item = -1;}
+		with(obj_ui_reward)
+		{
+			typist = scribble_typist();
+			typist.in(0.8, 60);
+			typist.ease(SCRIBBLE_EASE.ELASTIC, 0, -5, 1, 1, 0, 0.1);
+
+			item = -1;
+		}
 		
 		item_array_create();
 		
