@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "hit_player",
+  "name": "player_get_sp",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

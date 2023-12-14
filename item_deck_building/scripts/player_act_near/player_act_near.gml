@@ -12,7 +12,7 @@ function player_act_near(_enemy){
 				if(place_meeting(x,y,incy))
 				{
 					other.coll_objs[$"_"+string(id)] = 1;
-					player_attack(player_get_atk(),id);
+					player_attack(player_get_ap(),id);
 				}
 			}
 		}
