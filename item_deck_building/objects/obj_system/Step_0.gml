@@ -7,15 +7,24 @@ if(global.state == ST.COMBET)
 	
 	if(instance_exists(obj_enemy))
 	{
-		count_combet_end = 60;
+		count_combet_end = 120;
 	}
 	
 	if(count_combet_end <= 0)
 	{
 		global.state = ST.REWARD;
+		
+		with(obj_ui_reward){item = -1;}
+		
+		item_array_create();
+		
+		var _items = [item_array_pick(),item_array_pick(),item_array_pick()];
+		
+		var _num = 0;
 		with(obj_ui_reward)
 		{
-			set_reward();
+			item = _items[_num];
+			_num++;
 		}
 	}
 }

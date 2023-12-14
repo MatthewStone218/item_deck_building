@@ -7,13 +7,6 @@ typist.ease(SCRIBBLE_EASE.ELASTIC, 0, -5, 1, 1, 0, 0.1);
 
 item = -1;
 
-function set_reward()
-{
-	item = 
-}
-
-
-
 
 
 
