@@ -10,7 +10,7 @@ with(obj)
 			gpu_set_depth(-10000);
 			if(clicked)
 			{
-				draw_sprite_ext(obj_inv.inv[num-1].data.spr,-1,mouse_x-(2*sprite_get_width(obj_inv.inv[num-1].data.spr)),mouse_y-(2*sprite_get_height(obj_inv.inv[num-1].data.spr)),4,4,0,c_white,1);
+				draw_sprite_ext(obj_inv.inv[num-1].data.spr,-1,((1-other.scale)*2*sprite_get_width(obj_inv.inv[num-1].data.spr))+other.x_last-(2*sprite_get_width(obj_inv.inv[num-1].data.spr)),((1-other.scale)*2*sprite_get_height(obj_inv.inv[num-1].data.spr))+other.y_last-(2*sprite_get_height(obj_inv.inv[num-1].data.spr)),4*other.scale,4*other.scale,0,c_white,1);
 			}
 			else
 			{

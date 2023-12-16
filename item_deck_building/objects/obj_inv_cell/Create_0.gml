@@ -6,7 +6,7 @@ clicked = 0;
 drawer = instance_create_depth(x,y,depth-10,obj_inv_cell_item_drawer);
 drawer.obj = id;
 
-
+my_info = noone;
 
 
 

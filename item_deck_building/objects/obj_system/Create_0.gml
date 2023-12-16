@@ -2,6 +2,7 @@
 // 이 에디터에 코드를 작성할 수 있습니다
 
 global.state = ST.COMBET;
+global.st_prev = global.state;
 
 global.inv_count = 3;
 global.level = 1;
@@ -91,7 +92,8 @@ enum ST
 	NORMAL,
 	COMBET,
 	OPTION,
-	REWARD
+	REWARD,
+	DELETE
 }
 
 enum ACT_TYPE

@@ -26,9 +26,10 @@ if(global.state == ST.REWARD and item != -1)
 		else
 		{
 			global.state = ST.NORMAL;
+			global.st_prev = ST.NORMAL;
 			var incy = instance_create_layer(-500,-500,"Items",item.obj);
 		
-			obj_camera_sys.screen_shake = 3;
+			//obj_camera_sys.screen_shake = 3;
 		
 			with(obj_ui_reward)
 			{

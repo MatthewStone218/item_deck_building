@@ -11,10 +11,13 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "game",
-    "path": "folders/Objects/game.yy",
+    "name": "combet",
+    "path": "folders/Objects/game/combet.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_in_combet",
+    "path": "objects/obj_in_combet/obj_in_combet.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
