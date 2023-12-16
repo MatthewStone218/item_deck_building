@@ -6,7 +6,7 @@ item_wizzard_hat =
 {
 	spr: spr_item_wizzard_hat,
 	name:"[rainbow]Wizzard Hat[/rainbow]",
-	state:"[#ff4c97]AP[/color] +50\n\nToo many stars.",
+	state:"[#ff4c97]SP[/color] +50\n\nToo many stars.",
 	obj: obj_item_wizzard_hat
 }
 

@@ -10,4 +10,4 @@ item_func = function(ap)
 	return ap+50;
 }
 
-array_push(global.item_effects.ap_sum,item_func)
+array_push(global.item_effects.sp_sum,item_func)

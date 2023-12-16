@@ -5,39 +5,50 @@ if(global.state == ST.REWARD and item != -1)
 {
 	if(mouse_check_pressed_me(mb_left))
 	{
-		global.state = ST.NORMAL;
-		var incy = instance_create_layer(-500,-500,"Items",item.obj);
-		repeat(40)
+		if(global.inv_count <= instance_number(obj_item))
 		{
-			instance_create_layer(random_range(bbox_left,bbox_right),bbox_top,"Reward_ef",obj_particle_reward);
-		}
-		repeat(40)
-		{
-			instance_create_layer(random_range(bbox_left,bbox_right),bbox_bottom,"Reward_ef",obj_particle_reward);
-		}
-		repeat(40)
-		{
-			instance_create_layer(bbox_left,random_range(bbox_top,bbox_bottom),"Reward_ef",obj_particle_reward);
-		}
-		repeat(40)
-		{
-			instance_create_layer(bbox_right,random_range(bbox_top,bbox_bottom),"Reward_ef",obj_particle_reward);
-		}
-		repeat(80)
-		{
-			instance_create_layer(random_range(bbox_left,bbox_right),random_range(bbox_top,bbox_bottom),"Reward_ef",obj_particle_reward);
-		}
-		
-		with(obj_ui_reward)
-		{
-			if(item != -1)
+			with(obj_popup)
 			{
-				var incy = instance_create_depth(x,y,depth-1,obj_ef_reward_selected);
-				if(other.id == id){incy.selected = 1;incy.white = 1;}
-				incy.spr = item.spr;
-				incy.name = item.name;
-				incy.state = item.state;
-				incy.typist = scribble_typist();;
+				if(text == "There is not enough space for an item!\nPlease throw away an item or skip the reward...")
+				{
+					instance_destroy();
+				}
+			}
+			var inst = instance_create_depth(1920/2,1080/2 - 100,depth-10,obj_popup);
+			with(inst)
+			{
+				text = "There is not enough space for an item!\nPlease throw away an item or skip the reward...";
+				text_scale = 4;
+				col1 = c_black;
+				col2 = c_red;
+			}
+		}
+		else
+		{
+			global.state = ST.NORMAL;
+			var incy = instance_create_layer(-500,-500,"Items",item.obj);
+		
+			obj_camera_sys.screen_shake = 3;
+		
+			with(obj_ui_reward)
+			{
+				if(item != -1)
+				{
+					var incy = instance_create_depth(x,y,depth-1,obj_ef_reward_selected);
+					if(other.id == id)
+					{
+						var incy2 = instance_create_depth(x,y,depth-2,obj_ef_reward_selected_2);
+						incy2.spr = item.spr;
+				
+						incy.selected = 1;
+						incy.white = 1;
+					}
+					else{incy.image_alpha = 1;}
+					incy.spr = item.spr;
+					incy.name = item.name;
+					incy.state = item.state;
+					incy.typist = scribble_typist();;
+				}
 			}
 		}
 	}

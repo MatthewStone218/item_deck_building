@@ -4,10 +4,6 @@
 if(global.inv_count >= num)
 {
 	draw_self();
-	if(obj_inv.inv[num-1] != -1)
-	{
-		draw_sprite_ext(obj_inv.inv[num-1].data.spr,-1,x-(2*sprite_get_width(obj_inv.inv[num-1].data.spr)),y-(2*sprite_get_height(obj_inv.inv[num-1].data.spr)),4,4,0,c_white,1);
-	}
 }
 
 

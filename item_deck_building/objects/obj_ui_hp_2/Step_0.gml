@@ -9,7 +9,7 @@ for(var i = 0; i < instance_number(obj_enemy); i++)
 	hp += incy.hp;
 }
 
-ef_hit = max(0,ef_hit-1.5);
+ef_hit /= 1.2;
 ef_hit_white = max(0,ef_hit_white-1.5);
 
 if(sign(hp_spd) != hp-hp_yellow){hp_spd = 0;}
