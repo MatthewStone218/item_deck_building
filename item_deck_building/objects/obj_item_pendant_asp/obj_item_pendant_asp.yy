@@ -16,7 +16,7 @@
     "name": "obj_item",
     "path": "objects/obj_item/obj_item.yy",
   },
-  "persistent": false,
+  "persistent": true,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
   "physicsFriction": 0.2,

@@ -16,4 +16,5 @@ yspd += grv;
 
 move(xspd+xspd_knockback,yspd);
 
+
 if(place_meeting(x,y+1,obj_sol)){yspd = 0;}

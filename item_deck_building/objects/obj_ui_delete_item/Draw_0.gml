@@ -14,7 +14,15 @@ if(global.state == ST.DELETE)
 	draw_sprite_ext(obj_inv.inv[item_num].data.spr,0,x-sprite_get_width(obj_inv.inv[item_num].data.spr)*2,y-10-sprite_get_height(obj_inv.inv[item_num].data.spr)*2,4,4,0,c_white,1);
 	draw_set_alpha(1);
 }
-
+else
+{
+	if(global.map_show == 1)
+	{
+		with(obj_inv_cell){clicked = 0;};
+		obj_map.state_prev = global.st_prev;
+		obj_ui_delete_item.item_num = -1;
+	}
+}
 
 
 

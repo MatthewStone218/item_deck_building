@@ -1,8 +1,19 @@
 // v2.3.0에 대한 스크립트 어셋 변경됨 자세한 정보는
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
 function player_act(){
-	
-	if(global.item_effects.act == -1)
+	if(global.state == ST.MOVING_EVENT)
+	{
+		sprite_index = spr_player_run;
+		image_speed = 1;
+		image_xscale = 1;
+		
+		xspd += player_get_spd()*2;
+		if(abs(xspd) > xspd_max*player_get_spd()*2){xspd = sign(xspd)*2*(player_get_spd()/obj_player.acc);}
+		moving_x = 1;
+		
+		if(bbox_left > room_width and !instance_exists(obj_ef_move_event)){instance_create_layer(0,0,"move_ef",obj_ef_move_event);}
+	}
+	else if(global.item_effects.act == -1)
 	{
 		var _enemy = player_get_enemy();
 

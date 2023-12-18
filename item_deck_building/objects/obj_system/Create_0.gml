@@ -9,6 +9,9 @@ global.level = 1;
 
 count_combet_end = 120;
 
+global.map_show = 0;
+global.can_goto_next_event = 0;
+
 global.item_effects =
 {
 	ap_sum:[],
@@ -93,7 +96,8 @@ enum ST
 	COMBET,
 	OPTION,
 	REWARD,
-	DELETE
+	DELETE,
+	MOVING_EVENT
 }
 
 enum ACT_TYPE
@@ -104,6 +108,12 @@ enum ACT_TYPE
 	ACTING_FAR
 }
 
+enum EV_TYPE
+{
+	ENEMY,
+	RANDOM,
+	ITEM
+}
 
 
 

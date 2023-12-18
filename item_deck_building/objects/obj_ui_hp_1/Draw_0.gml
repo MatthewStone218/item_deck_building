@@ -1,7 +1,7 @@
 /// @description 여기에 설명 삽입
 // 이 에디터에 코드를 작성할 수 있습니다
 
-if(global.state == ST.COMBET or global.state == ST.NORMAL or global.st_prev == ST.COMBET or global.st_prev == ST.NORMAL)
+if(global.state == ST.COMBET or global.state == ST.NORMAL or global.st_prev == ST.COMBET or global.st_prev == ST.NORMAL or global.state == ST.MOVING_EVENT)
 {
 	draw_sprite_ext(sprite_index,2,x,y,image_xscale,1,0,c_white,1);
 

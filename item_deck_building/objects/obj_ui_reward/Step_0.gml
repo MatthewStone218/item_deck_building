@@ -1,7 +1,7 @@
 /// @description 여기에 설명 삽입
 // 이 에디터에 코드를 작성할 수 있습니다
 LIVE
-if(global.state == ST.REWARD and item != -1)
+if(global.state == ST.REWARD and item != -1 and !global.map_show)
 {
 	if(mouse_check_pressed_me(mb_left))
 	{
@@ -27,6 +27,11 @@ if(global.state == ST.REWARD and item != -1)
 		{
 			global.state = ST.NORMAL;
 			global.st_prev = ST.NORMAL;
+			
+			call_later(0.5,time_source_units_seconds,function(){
+				instance_create_layer(0,0,"move_ef",obj_ef_map_reveal);
+			});
+			
 			var incy = instance_create_layer(-500,-500,"Items",item.obj);
 		
 			//obj_camera_sys.screen_shake = 3;
