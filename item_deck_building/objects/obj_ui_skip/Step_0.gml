@@ -8,9 +8,11 @@ if(global.state == ST.REWARD or global.st_prev == ST.REWARD)
 
 	if(mouse_check_button_released(mb_left) and collision_point(mouse_x,mouse_y,id,0,0))
 	{
-		call_later(1,time_source_units_seconds,function(){global.map_show = 1;});
 		global.state = ST.NORMAL;
 		global.st_prev = ST.NORMAL;
+		call_later(0.5,time_source_units_seconds,function(){
+			instance_create_layer(0,0,"move_ef",obj_ef_map_reveal);
+		});
 		
 		obj_camera_sys.screen_shake = 3;
 		
