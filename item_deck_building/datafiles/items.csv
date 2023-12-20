@@ -1,0 +1,7 @@
+,KR,EN,JP,CH
+wizzard_hat_name,"""[rainbow]마법사의 모자[/rainbow]""","""[rainbow]Wizzard Hat[/rainbow]""",,
+wizzard_hat_state,"""[#ff4c97]주문력[/color] +50\n\n별이 너무 많소""","""[#ff4c97]SP[/color] +50\n\nToo many stars.""",,
+old_boots_name,"""[#2177ee]낡은 신발[/color]""","""[#2177ee]Old Boots[/color]""",,
+old_boots_state,"""[#2177ee]이동 속도[/color] +10%\n\n낡고 냄새납니다.""","""[#2177ee]Speed[/color] +10%\n\nIt's old and smells bad.""",,
+pendant_asp_name,"""[#fff98f]노란색 팬던트[/color]""","""[#fff98f]Yellow Pendant[/color]""",,
+pendant_asp_state,"""[#fff98f]공격 속도[/color] +20%\n\n노란색!""","""[#fff98f]Attack Speed[/color] +20%\n\nyellow!""",,

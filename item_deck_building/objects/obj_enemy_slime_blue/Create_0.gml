@@ -1,7 +1,7 @@
 /// @description 여기에 설명 삽입
 // 이 에디터에 코드를 작성할 수 있습니다
 
-hp_max = 20;
+hp_max = 10;
 hp = hp_max;
 
 idle_spr = spr_enemy_slime_idle;
@@ -17,7 +17,7 @@ xspd_knock = 0;
 hit = 0;
 attacked = 0;
 
-delay_max = 180;
+delay_max = 60;
 delay = 0;
 
 function get_hit(dmg)

@@ -8,7 +8,7 @@ global.language = LG.EN;
 switch(os_get_region())
 {
 	case "KR":
-		global.language = LG.KR;
+		//global.language = LG.KR;
 	break;
 	
 	case "JP":
