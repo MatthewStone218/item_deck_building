@@ -15,3 +15,15 @@ event_enemy_skeleton_warrior =
 	}
 }
 
+event_enemy_slime_blue_1 = 
+{
+	func: function(){
+		call_later(1,time_source_units_seconds,function(){
+		global.state = ST.COMBET;
+		global.st_prev = ST.COMBET;
+		});
+		
+		instance_create_layer(1686,584,"enemy",obj_enemy_slime_blue);
+		with(obj_ui_hp_2){set_hp()}
+	}
+}

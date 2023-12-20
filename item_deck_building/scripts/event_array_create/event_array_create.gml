@@ -9,5 +9,10 @@ function event_array_create(ev_type){
 		_event_array[count,2] = 0;
 		count++;
 	
+		_event_array[count,0] = obj_data_events.event_enemy_slime_blue_1.func;
+		_event_array[count,1] = 10;
+		_event_array[count,2] = 0;
+		count++;
+	
 	return count;//길이 반환.
 }

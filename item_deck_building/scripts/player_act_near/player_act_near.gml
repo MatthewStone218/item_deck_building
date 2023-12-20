@@ -7,7 +7,7 @@ function player_act_near(_enemy){
 		{
 			var incy = instance_create_depth(obj_player.x,obj_player.y,0,obj_coll_checker,{image_xscale: obj_player.image_xscale,mask_index: obj_player.sprite_index});
 		
-			with(obj_enemy_skeleton_warrior)
+			with(obj_enemy)
 			{
 				if(!variable_struct_exists(other.coll_objs,"_"+string(id)))
 				{

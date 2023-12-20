@@ -9,13 +9,20 @@ delay = max(0,delay-1);
 
 if(abs(xspd) < 1){xspd = 0;}else{xspd -= sign(xspd);}
 
-xspd_knock *= 0.8;
+if(sprite_index == spr_enemy_skeleton_warrior_attack)
+{
+	xspd_knock *= 0.3;
+}
+else
+{
+	xspd_knock *= 0.8;
+}
 
 if(hp > 0)
 	{
 	if(hit == 0 and sprite_index == spr_enemy_skeleton_warrior_idle)
 	{
-		if(point_distance(x,y,obj_player.x,obj_player.y) > 200)
+		if(!place_meeting_mask(x-sign(obj_player.x-x)*20,y,obj_player,spr_enemy_skeleton_warrior_attack))
 		{
 			sprite_index = spr_enemy_skeleton_warrior_run;
 			image_index = 0;
@@ -46,7 +53,7 @@ if(hp > 0)
 		if(image_xscale == 0){image_xscale = 1;}
 		xspd += 5*sign(obj_player.x-x);
 		if(abs(xspd) > 4){xspd = sign(xspd)*4;}
-		if(point_distance(x,y,obj_player.x,obj_player.y) <= 200)
+		if(place_meeting_mask(x-sign(obj_player.x-x)*20,y,obj_player,spr_enemy_skeleton_warrior_attack))
 		{
 			image_xscale = sign(obj_player.x-x);
 			if(image_xscale == 0){image_xscale = 1;}

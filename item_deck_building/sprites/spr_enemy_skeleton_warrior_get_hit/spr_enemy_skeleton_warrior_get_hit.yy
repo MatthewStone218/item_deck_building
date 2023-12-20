@@ -30,8 +30,8 @@
   "nineSlice": null,
   "origin": 9,
   "parent": {
-    "name": "enemy",
-    "path": "folders/Sprites/game/enemy.yy",
+    "name": "skeleton_warrior",
+    "path": "folders/Sprites/game/enemy/skeleton_warrior.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
