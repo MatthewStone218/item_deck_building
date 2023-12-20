@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_tile_volcano_map",
-  "bbox_bottom": 1919,
+  "bbox_bottom": 959,
   "bbox_left": 0,
-  "bbox_right": 6143,
+  "bbox_right": 3071,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -17,7 +17,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 1920,
+  "height": 960,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"54964870-d688-4dfd-81dc-4711e99d0872","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 6144,
+  "width": 3072,
 }

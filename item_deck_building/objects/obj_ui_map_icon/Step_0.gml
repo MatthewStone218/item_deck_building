@@ -8,13 +8,13 @@ if(can_go)
 {
 	image_xscale = sin(time)*0.1 + 0.95;
 	image_yscale = image_xscale;
-	image_alpha = 1;
+	image_alpha = collision_point(mouse_x,mouse_y,id,0,0) ? 1 : 0.8;
 }
 else
 {
 	image_xscale = 1;
 	image_yscale = 1;
-	image_alpha = 0.7;
+	image_alpha = 0.6;
 }
 
 x = obj_map.x+xstart;
