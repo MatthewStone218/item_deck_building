@@ -371,6 +371,7 @@
     {"id":{"name":"_32__Iconset_Starter_Pack_281","path":"sprites/_32__Iconset_Starter_Pack_281/_32__Iconset_Starter_Pack_281.yy",},},
     {"id":{"name":"_32__Iconset_Starter_Pack_209","path":"sprites/_32__Iconset_Starter_Pack_209/_32__Iconset_Starter_Pack_209.yy",},},
     {"id":{"name":"_32__Iconset_Starter_Pack_253","path":"sprites/_32__Iconset_Starter_Pack_253/_32__Iconset_Starter_Pack_253.yy",},},
+    {"id":{"name":"text_load","path":"scripts/text_load/text_load.yy",},},
     {"id":{"name":"scribble_font_rename","path":"scripts/scribble_font_rename/scribble_font_rename.yy",},},
     {"id":{"name":"_32__Iconset_Starter_Pack_347","path":"sprites/_32__Iconset_Starter_Pack_347/_32__Iconset_Starter_Pack_347.yy",},},
     {"id":{"name":"_32__Iconset_Starter_Pack_63","path":"sprites/_32__Iconset_Starter_Pack_63/_32__Iconset_Starter_Pack_63.yy",},},

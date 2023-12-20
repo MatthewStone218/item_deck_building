@@ -318,6 +318,7 @@
     {"name":"_32__Iconset_Starter_Pack_281","order":303,"path":"sprites/_32__Iconset_Starter_Pack_281/_32__Iconset_Starter_Pack_281.yy",},
     {"name":"_32__Iconset_Starter_Pack_209","order":231,"path":"sprites/_32__Iconset_Starter_Pack_209/_32__Iconset_Starter_Pack_209.yy",},
     {"name":"_32__Iconset_Starter_Pack_253","order":275,"path":"sprites/_32__Iconset_Starter_Pack_253/_32__Iconset_Starter_Pack_253.yy",},
+    {"name":"text_load","order":8,"path":"scripts/text_load/text_load.yy",},
     {"name":"scribble_font_rename","order":12,"path":"scripts/scribble_font_rename/scribble_font_rename.yy",},
     {"name":"_32__Iconset_Starter_Pack_347","order":366,"path":"sprites/_32__Iconset_Starter_Pack_347/_32__Iconset_Starter_Pack_347.yy",},
     {"name":"_32__Iconset_Starter_Pack_63","order":85,"path":"sprites/_32__Iconset_Starter_Pack_63/_32__Iconset_Starter_Pack_63.yy",},

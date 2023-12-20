@@ -4,6 +4,26 @@
 global.state = ST.NORMAL;
 global.st_prev = global.state;
 
+global.language = LG.EN;
+switch(os_get_region())
+{
+	case "KR":
+		global.language = LG.KR;
+	break;
+	
+	case "JP":
+		global.language = LG.JP;
+	break;
+	
+	case "CH":
+	case "TW":
+	case "HK":
+		global.language = LG.CH;
+	break;
+}
+
+global.csv_items = load_csv("items.csv");
+
 global.inv_count = 3;
 global.level = 1;
 
@@ -115,7 +135,13 @@ enum EV_TYPE
 	ITEM
 }
 
-
+enum LG
+{
+	KR,
+	EN,
+	JP,
+	CH
+}
 
 
 
