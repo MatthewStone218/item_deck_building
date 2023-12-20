@@ -13,5 +13,8 @@ function text_load(file,key,language = global.language){
 	}
 	var text = ds_grid_get(file,ds_grid_value_x(file,0,0,w-1,h-1,lang),ds_grid_value_y(file,0,0,w-1,h-1,key));
 	
+	text = string_replace_all(text,"\\n","\n");
+	text = string_copy(text,2,string_length(text)-2)
+	
 	return text;
 }
