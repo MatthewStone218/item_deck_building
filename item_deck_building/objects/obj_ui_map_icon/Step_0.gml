@@ -14,7 +14,7 @@ else
 {
 	image_xscale = 1;
 	image_yscale = 1;
-	image_alpha = 0.6;
+	image_alpha = 0.7;
 }
 
 x = obj_map.x+xstart;

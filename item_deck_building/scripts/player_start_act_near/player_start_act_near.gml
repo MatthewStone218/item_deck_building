@@ -9,7 +9,7 @@ function player_start_act_near(_enemy){
 			act = [1,ACT_TYPE.ACTING_NEAR];
 			sprite_index = spr_player_attack_1;
 			image_index = 0;
-			image_speed = 1;
+			image_speed = player_get_asp();
 	
 			coll_objs = {};
 	

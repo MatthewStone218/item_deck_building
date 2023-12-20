@@ -11,4 +11,4 @@ item_func = function(spd)
 	return spd*1.1;
 }
 
-array_push(global.item_effects.spd_mult,item_func)
+item_push_function(global.item_effects.spd_mult,item_func)

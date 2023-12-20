@@ -8,7 +8,7 @@ data = obj_data_items.item_pendant_asp;
 
 item_func = function(asp)
 {
-	return asp*20;
+	return asp*1.2;
 }
 
-array_push(global.item_effects.asp_mult,item_func)
+item_push_function(global.item_effects.asp_mult,item_func)
