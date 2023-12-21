@@ -43,7 +43,7 @@ while(global.exp >= global.exp_max)
 	global.level++;
 	global.exp_max = global.exp_max_arr[global.level];
 	instance_create_depth(0,0,0,obj_ef_levelup);
-	obj_ui_levelup.image_alpha = 8;
+	obj_ui_levelup.image_alpha = 7.5;
 }
 
 
