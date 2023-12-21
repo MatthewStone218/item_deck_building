@@ -8,7 +8,7 @@ if(global.state == ST.DELETE)
 	draw_set_valign(fa_middle);
 	draw_set_font(ft_normal);
 	draw_set_color(c_white);
-	draw_text_transformed(x,y,"NO",4,4,0)
+	draw_text_transformed(x,y,text_load(global.csv_system,"no"),4,4,0)
 	draw_set_alpha(1);
 }
 

@@ -9,7 +9,7 @@ if(global.state == ST.DELETE)
 	draw_set_valign(fa_middle);
 	draw_set_font(ft_normal);
 	draw_set_color(c_white);
-	draw_text_transformed(x,y-140,"Wanna throw away this item?",4,4,0);
+	draw_text_transformed(x,y-140,text_load(global.csv_system,"throw_away_item"),4,4,0);
 	draw_sprite_ext(spr_window_2,0,x,y-10,2,2,0,c_white,1);
 	if(obj_inv.inv[item_num] != -1)
 	{
