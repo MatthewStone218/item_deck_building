@@ -28,4 +28,4 @@ item_func_2 = function(dmg)
 }
 
 item_push_function(global.item_effects.get_hit,item_func_1);
-item_push_function(global.item_effects.attack_pre,item_func_2);
+item_push_function(global.item_effects.ap_sum,item_func_2);
