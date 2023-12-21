@@ -3,7 +3,7 @@
 
 selected = 0;
 image_xscale = 6.265625;
-image_yscale = 9.0625;
+image_yscale = 6.0771;
 white = 0;
 
 image_alpha = 1.4;

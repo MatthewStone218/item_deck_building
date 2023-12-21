@@ -9,7 +9,7 @@ if(global.state == ST.REWARD and item != -1 and !global.map_show)
 		{
 			with(obj_popup)
 			{
-				if(text == "There is not enough space for an item!\nPlease throw away an item or skip the reward...")
+				if(text == text_load(global.csv_system,"not_enough_space"))
 				{
 					instance_destroy();
 				}
@@ -17,7 +17,7 @@ if(global.state == ST.REWARD and item != -1 and !global.map_show)
 			var inst = instance_create_depth(1920/2,1080/2 - 100,depth-10,obj_popup);
 			with(inst)
 			{
-				text = "There is not enough space for an item!\nPlease throw away an item or skip the reward...";
+				text = text_load(global.csv_system,"not_enough_space");
 				text_scale = 4;
 				col1 = c_black;
 				col2 = c_red;

@@ -13,26 +13,26 @@ if(global.state == ST.COMBET or global.st_prev == ST.COMBET or global.state == S
 		shader_set(shd_white);
 		if(hp_yellow < hp)
 		{
-			draw_sprite_part_ext(sprite_index,1,15,0,(hp_yellow/hp_max)*850,sprite_height,x,y,image_xscale,1,c_green,1);
+			draw_sprite_part_ext(sprite_index,1,15,0,(hp_yellow/hp_max)*852,sprite_height,x-16,y,image_xscale,1,c_green,1);
 		}
 		else
 		{
-			draw_sprite_part_ext(sprite_index,1,15,0,(hp_yellow/hp_max)*864,sprite_height,x,y,image_xscale,1,c_red,1);
+			draw_sprite_part_ext(sprite_index,1,15,0,(hp_yellow/hp_max)*852,sprite_height,x-16,y,image_xscale,1,c_red,1);
 		}
-		draw_sprite_part_ext(sprite_index,1,15,0,(hp/hp_max)*864,sprite_height,x,y,image_xscale,1,#fff200,1);
+		draw_sprite_part_ext(sprite_index,1,15,0,(hp/hp_max)*852,sprite_height,x-16,y,image_xscale,1,c_white,1);
 		shader_reset();
 	}
 	else
 	{
 		if(hp_yellow < hp)
 		{
-			draw_sprite_part_ext(sprite_index,1,15,0,(hp/hp_max)*850,sprite_height,x,y,image_xscale,1,#00ff00,1);
-			draw_sprite_part_ext(sprite_index,1,15,0,(hp_yellow/hp_max)*864,sprite_height,x,y,image_xscale,1,#fff200,1);
+			draw_sprite_part_ext(sprite_index,1,15,0,(hp/hp_max)*852,sprite_height,x-16,y,image_xscale,1,#00ff00,1);
+			draw_sprite_part_ext(sprite_index,1,15,0,(hp_yellow/hp_max)*852,sprite_height,x-16,y,image_xscale,1,c_white,1);
 		}
 		else
 		{
-			draw_sprite_part_ext(sprite_index,1,15,0,(hp_yellow/hp_max)*864,sprite_height,x,y,image_xscale,1,c_red,1);
-			draw_sprite_part_ext(sprite_index,1,15,0,(hp/hp_max)*864,sprite_height,x,y,image_xscale,1,#fff200,1);
+			draw_sprite_part_ext(sprite_index,1,15,0,(hp_yellow/hp_max)*852,sprite_height,x-16,y,image_xscale,1,c_red,1);
+			draw_sprite_part_ext(sprite_index,1,15,0,(hp/hp_max)*852,sprite_height,x-16,y,image_xscale,1,c_white,1);
 		}
 	}
 

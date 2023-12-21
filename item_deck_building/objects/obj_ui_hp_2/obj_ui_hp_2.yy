@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_ui_hpbar_1",
-    "path": "sprites/spr_ui_hpbar_1/spr_ui_hpbar_1.yy",
+    "name": "spr_window_hpbar",
+    "path": "sprites/spr_window_hpbar/spr_window_hpbar.yy",
   },
   "spriteMaskId": null,
   "visible": true,

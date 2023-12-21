@@ -24,12 +24,11 @@ switch(os_get_region())
 
 global.csv_items = load_csv("items.csv");
 global.csv_events = load_csv("events.csv");
+global.csv_system = load_csv("system.csv");
 
 global.inv_count = 3;
 global.level = 1;
 global.level_max = 21;
-global.exp_max = 10;
-global.exp = 0;
 
 count_combet_end = 120;
 
@@ -61,6 +60,9 @@ global.exp_max_arr =
 	2000,
 	3000
 ]
+
+global.exp_max = global.exp_max_arr[global.level];
+global.exp = 0;
 
 global.item_effects =
 {
