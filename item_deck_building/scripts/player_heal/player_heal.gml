@@ -16,4 +16,6 @@ function player_heal(heal){
 		var func = method(obj_player,global.item_effects.heal_post[i]);
 		heal = func(heal);
 	}
+	
+	obj_player.hp = min(obj_player.hp_max,obj_player.hp+heal);
 }

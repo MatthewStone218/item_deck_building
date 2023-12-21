@@ -22,7 +22,7 @@ if(hp > 0)
 	{
 	if(hit == 0 and sprite_index == idle_spr)
 	{
-		if(!place_meeting_mask(x-sign(obj_player.x-x)*20,y,obj_player,atk_spr))
+		if(!place_meeting_mask(x-sign(obj_player.x-x)*50,y,obj_player,atk_spr))
 		{
 			sprite_index = run_spr;
 			image_index = 0;
@@ -53,7 +53,7 @@ if(hp > 0)
 		if(image_xscale == 0){image_xscale = 1;}
 		xspd += 5*sign(obj_player.x-x);
 		if(abs(xspd) > 4){xspd = sign(xspd)*4;}
-		if(place_meeting_mask(x-sign(obj_player.x-x)*20,y,obj_player,atk_spr))
+		if(place_meeting_mask(x-sign(obj_player.x-x)*50,y,obj_player,atk_spr))
 		{
 			image_xscale = sign(obj_player.x-x);
 			if(image_xscale == 0){image_xscale = 1;}

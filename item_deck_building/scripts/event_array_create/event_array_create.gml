@@ -10,7 +10,37 @@ function event_array_create(ev_type){
 		count++;
 	
 		_event_array[count,0] = obj_data_events.event_enemy_slime_blue_1.func;
-		_event_array[count,1] = 10;
+		_event_array[count,1] = 2;
+		_event_array[count,2] = 0;
+		count++;
+	
+		_event_array[count,0] = obj_data_events.event_enemy_slime_blue_2.func;
+		_event_array[count,1] = 2;
+		_event_array[count,2] = 0;
+		count++;
+	
+		_event_array[count,0] = obj_data_events.event_enemy_slime_green_1.func;
+		_event_array[count,1] = 2;
+		_event_array[count,2] = 0;
+		count++;
+	
+		_event_array[count,0] = obj_data_events.event_enemy_slime_green_2.func;
+		_event_array[count,1] = 2;
+		_event_array[count,2] = 0;
+		count++;
+	
+		_event_array[count,0] = obj_data_events.event_enemy_slime_red_1.func;
+		_event_array[count,1] = 2;
+		_event_array[count,2] = 0;
+		count++;
+	
+		_event_array[count,0] = obj_data_events.event_enemy_slimes.func;
+		_event_array[count,1] = 2;
+		_event_array[count,2] = 0;
+		count++;
+	
+		_event_array[count,0] = obj_data_events.event_event_bonfire.func;
+		_event_array[count,1] = 20;
 		_event_array[count,2] = 0;
 		count++;
 	

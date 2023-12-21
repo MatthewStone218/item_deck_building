@@ -5,7 +5,7 @@ if(sprite_index == atk_spr or sprite_index == get_hit_spr)
 {
 	image_xscale = sign(obj_player.x-x);
 	if(image_xscale == 0){image_xscale = 1;}
-	if(delay == 0 and place_meeting_mask(x-sign(obj_player.x-x)*20,y,obj_player,atk_spr))
+	if(delay == 0 and place_meeting_mask(x-sign(obj_player.x-x)*50,y,obj_player,atk_spr))
 	{
 		attacked = 0;
 		sprite_index = atk_spr;

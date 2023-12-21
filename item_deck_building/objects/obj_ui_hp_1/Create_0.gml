@@ -6,7 +6,7 @@ obj = obj_player;
 hp_yellow = obj_player.hp;
 
 hp_spd = 0;
-hp_spd_max = 10;
+hp_spd_max = 20;
 
 ef_hit = 0;
 ef_hit_white = 0;

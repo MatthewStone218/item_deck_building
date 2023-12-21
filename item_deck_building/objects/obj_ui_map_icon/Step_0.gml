@@ -8,7 +8,7 @@ if(can_go)
 {
 	image_xscale = sin(time)*0.1 + 0.95;
 	image_yscale = image_xscale;
-	image_alpha = collision_point(mouse_x,mouse_y,id,0,0) ? 1 : 0.8;
+	image_alpha = collision_point(mouse_x,mouse_y,id,0,0) ? 1 : 0.9;
 }
 else
 {
@@ -19,7 +19,7 @@ else
 
 x = obj_map.x+xstart;
 
-if(mouse_check_pressed_me(mb_left) and can_go and global.can_goto_next_event)
+if(mouse_check_button_released(mb_left) and clicked and point_distance(device_mouse_x_to_gui(0),device_mouse_y_to_gui(0),clicked_pos[0],clicked_pos[1]) < 20)
 {
 	obj_map.icon_now = id;
 	
@@ -33,6 +33,14 @@ if(mouse_check_pressed_me(mb_left) and can_go and global.can_goto_next_event)
 	global.st_prev = ST.MOVING_EVENT;
 
 	instance_create_layer(0,0,"move_ef",obj_ef_move_event,{type: ev_type});
+}
+
+if(!mouse_check_button(mb_left)){clicked = 0;}
+
+if(mouse_check_pressed_me(mb_left) and can_go and global.can_goto_next_event)
+{
+	clicked = 1;
+	clicked_pos = [device_mouse_x_to_gui(0),device_mouse_y_to_gui(0)];
 }
 
 

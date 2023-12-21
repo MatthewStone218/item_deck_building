@@ -23,6 +23,7 @@ switch(os_get_region())
 }
 
 global.csv_items = load_csv("items.csv");
+global.csv_events = load_csv("events.csv");
 
 global.inv_count = 3;
 global.level = 1;
@@ -117,7 +118,8 @@ enum ST
 	OPTION,
 	REWARD,
 	DELETE,
-	MOVING_EVENT
+	MOVING_EVENT,
+	EVENT_BONFIRE
 }
 
 enum ACT_TYPE

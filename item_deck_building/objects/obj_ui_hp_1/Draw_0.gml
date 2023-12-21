@@ -1,5 +1,6 @@
 /// @description 여기에 설명 삽입
 // 이 에디터에 코드를 작성할 수 있습니다
+LIVE
 
 if(global.st_prev != ST.REWARD)
 {
@@ -25,13 +26,14 @@ if(global.st_prev != ST.REWARD)
 	{
 		if(hp_yellow < obj.hp)
 		{
-			draw_sprite_part_ext(sprite_index,1,15,0,(hp_yellow/obj.hp_max)*850,sprite_height,x,y,image_xscale,1,c_green,1);
+			draw_sprite_part_ext(sprite_index,1,15,0,(obj.hp/obj.hp_max)*850,sprite_height,x,y,image_xscale,1,#00ff00,1);
+			draw_sprite_part_ext(sprite_index,1,15,0,(hp_yellow/obj.hp_max)*864,sprite_height,x,y,image_xscale,1,#fff200,1);
 		}
 		else
 		{
 			draw_sprite_part_ext(sprite_index,1,15,0,(hp_yellow/obj.hp_max)*864,sprite_height,x,y,image_xscale,1,c_red,1);
+			draw_sprite_part_ext(sprite_index,1,15,0,(obj.hp/obj.hp_max)*864,sprite_height,x,y,image_xscale,1,#fff200,1);
 		}
-		draw_sprite_part_ext(sprite_index,1,15,0,(obj.hp/obj.hp_max)*864,sprite_height,x,y,image_xscale,1,#fff200,1);
 	}
 
 	draw_sprite_ext(sprite_index,0,x+random_range(-ef_hit,ef_hit),y,image_xscale,1,0,c_white,1);

@@ -1,7 +1,7 @@
 /// @description 여기에 설명 삽입
 // 이 에디터에 코드를 작성할 수 있습니다
 hp = 1;
-hp_max = 1;
+hp_max = 20;
 hp_yellow = 1;
 
 function set_hp()

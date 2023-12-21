@@ -7,6 +7,7 @@ if(step == 0)
 	if(image_alpha > 1.2)
 	{
 		map_unlock_next();
+		obj_map.view_x = obj_map_ui_player.x - 700;
 		step = 1;
 	}
 }
