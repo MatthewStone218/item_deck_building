@@ -28,5 +28,13 @@ function item_array_create(){
 		count++;
 	}
 	
+	if!(reward_duplicated(obj_data_items.item_blood))
+	{
+		_item_array[count,0] = obj_data_items.item_blood;
+		_item_array[count,1] = 10;
+		_item_array[count,2] = 0;
+		count++;
+	}
+	
 	return count;//길이 반환.
 }

@@ -5,3 +5,5 @@ old_boots_name,"""[#2177ee]낡은 신발[/color]""","""[#2177ee]Old Boots[/color
 old_boots_state,"""[#2177ee]이동 속도[/color] +10%\n\n낡고 냄새납니다.""","""[#2177ee]Speed[/color] +10%\n\nIt's old and smells bad.""",,
 pendant_asp_name,"""[#fff98f]노란색 팬던트[/color]""","""[#fff98f]Yellow Pendant[/color]""",,
 pendant_asp_state,"""[#fff98f]공격 속도[/color] +20%\n\n노란색!""","""[#fff98f]Attack Speed[/color] +20%\n\nyellow!""",,
+blood_name,"""[#ff0000]피[/color]""","""[#ff0000]blood[/color]""",,
+blood_state,"""[#ff0000]피해를 입을 때마다[/color] 5의 공격력을 얻습니다.""","""[#ff0000]Each time you take damage[/color] gain 5 AP.""",,

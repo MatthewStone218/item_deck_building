@@ -96,7 +96,7 @@ function scr_live_set_auto(){
 	sprite_set_live(_32__Iconset_Starter_Pack_117,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_118,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_119,1); 
-	sprite_set_live(_32__Iconset_Starter_Pack_12,1); 
+	sprite_set_live(spr_item_blood,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_120,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_121,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_122,1); 

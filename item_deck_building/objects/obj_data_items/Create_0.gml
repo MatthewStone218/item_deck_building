@@ -26,6 +26,16 @@ item_pendant_asp =
 	obj: obj_item_pendant_asp
 }
 
+item_blood = 
+{
+	spr: spr_item_blood
+	name: text_load(global.csv_items,"blood_name"),
+	state: text_load(global.csv_items,"blood_state"),
+	obj: obj_item_blood
+}
+
+
+
 
 
 
