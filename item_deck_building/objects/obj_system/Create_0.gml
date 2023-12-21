@@ -27,11 +27,40 @@ global.csv_events = load_csv("events.csv");
 
 global.inv_count = 3;
 global.level = 1;
+global.level_max = 21;
+global.exp_max = 10;
+global.exp = 0;
 
 count_combet_end = 120;
 
 global.map_show = 0;
 global.can_goto_next_event = 0;
+
+global.exp_max_arr =
+[
+	0,
+	10,
+	15,
+	20,
+	30,
+	50,
+	70,
+	100,
+	150,
+	200,
+	250,
+	300,
+	400,
+	500,
+	600,
+	700,
+	800,
+	900,
+	1000,
+	1500,
+	2000,
+	3000
+]
 
 global.item_effects =
 {

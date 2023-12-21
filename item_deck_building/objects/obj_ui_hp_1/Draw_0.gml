@@ -2,7 +2,7 @@
 // 이 에디터에 코드를 작성할 수 있습니다
 LIVE
 
-if(global.st_prev != ST.REWARD)
+//if(global.st_prev != ST.REWARD)
 {
 	draw_sprite_ext(sprite_index,2,x,y,image_xscale,1,0,c_white,1);
 
