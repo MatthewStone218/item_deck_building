@@ -456,6 +456,7 @@
     {"name":"_32__Iconset_Starter_Pack_131","order":153,"path":"sprites/_32__Iconset_Starter_Pack_131/_32__Iconset_Starter_Pack_131.yy",},
     {"name":"_32__Iconset_Starter_Pack_86","order":108,"path":"sprites/_32__Iconset_Starter_Pack_86/_32__Iconset_Starter_Pack_86.yy",},
     {"name":"_32__Iconset_Starter_Pack_192","order":214,"path":"sprites/_32__Iconset_Starter_Pack_192/_32__Iconset_Starter_Pack_192.yy",},
+    {"name":"obj_chest","order":1,"path":"objects/obj_chest/obj_chest.yy",},
     {"name":"spr_enemy_skeleton_warrior_get_hit","order":4,"path":"sprites/spr_enemy_skeleton_warrior_get_hit/spr_enemy_skeleton_warrior_get_hit.yy",},
     {"name":"_32__Iconset_Starter_Pack_301","order":323,"path":"sprites/_32__Iconset_Starter_Pack_301/_32__Iconset_Starter_Pack_301.yy",},
     {"name":"_32__Iconset_Starter_Pack_26","order":48,"path":"sprites/_32__Iconset_Starter_Pack_26/_32__Iconset_Starter_Pack_26.yy",},

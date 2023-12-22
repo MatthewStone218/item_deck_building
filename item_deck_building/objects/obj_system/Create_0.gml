@@ -4,7 +4,7 @@
 #macro ITEM_RATE_LEGEND 2*power(5,item_level-2.4)
 #macro ITEM_RATE_UNIQUE 3*power(1.5,item_level)
 #macro ITEM_RATE_RARE 5*power(1.2,item_level)
-#macro ITEM_RATE_COMMON 15
+#macro ITEM_RATE_NORMAL 15
 
 
 
