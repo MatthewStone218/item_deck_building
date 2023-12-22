@@ -48,4 +48,5 @@ function player_get_hit(dmg){
 	obj_player.hit = 8;
 	obj_ui_hp_1.ef_hit = max(dmg*4,obj_ui_hp_1.ef_hit);
 	obj_ui_hp_1.ef_hit_white = max(6,obj_ui_hp_1.ef_hit_white);
+	audio_play_sound(snd_hit_1,1,0);
 }

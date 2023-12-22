@@ -20,4 +20,5 @@ function player_attack(dmg,enemy){
 	obj_ui_hp_2.ef_hit = max(dmg*4,obj_ui_hp_2.ef_hit);
 	obj_ui_hp_2.ef_hit_white = max(6,obj_ui_hp_2.ef_hit_white);
 	with(enemy){get_hit(dmg);}
+	audio_play_sound(snd_hit_2,1,0);
 }

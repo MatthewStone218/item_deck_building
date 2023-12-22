@@ -6,6 +6,7 @@ if(mouse_y < y and mouse_check_button_pressed(mb_left))
 	if(clicked == 0)
 	{
 		image_speed = 1;
+		audio_play_sound(snd_chest_open,1,0);
 		
 		call_later(1,time_source_units_seconds,
 		function(){

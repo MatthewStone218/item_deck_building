@@ -28,6 +28,8 @@ if(global.state == ST.REWARD and item != -1 and !global.map_show)
 			global.state = ST.NORMAL;
 			global.st_prev = ST.NORMAL;
 			
+			audio_play_sound(snd_confirm_1,1,0);
+			
 			call_later(0.5,time_source_units_seconds,function(){
 				instance_create_layer(0,0,"move_ef",obj_ef_map_reveal);
 			});
