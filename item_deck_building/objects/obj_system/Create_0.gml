@@ -6,7 +6,7 @@
 #macro ITEM_RATE_RARE 5*power(1.2,chest_level)
 #macro ITEM_RATE_NORMAL 15
 
-
+scribble_font_set_default("ft_normal");
 
 global.state = ST.NORMAL;
 global.st_prev = global.state;

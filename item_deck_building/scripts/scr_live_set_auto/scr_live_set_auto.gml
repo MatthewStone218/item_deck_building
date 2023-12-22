@@ -70,7 +70,7 @@ function scr_live_set_auto(){
 	sprite_set_live(spr_item_hp_portion_big,1); 
 	sprite_set_live(spr_item_purple_portion_small,1); 
 	sprite_set_live(spr_item_purple_portion_mid,1); 
-	sprite_set_live(spr_purple_portion_big,1); 
+	sprite_set_live(spr_item_purple_portion_big,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_07,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_08,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_09,1); 
@@ -272,7 +272,7 @@ function scr_live_set_auto(){
 	sprite_set_live(_32__Iconset_Starter_Pack_277,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_278,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_279,1); 
-	sprite_set_live(_32__Iconset_Starter_Pack_28,1); 
+	sprite_set_live(spr_item_magic_eye,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_280,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_281,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_282,1); 

@@ -8,6 +8,6 @@ function player_get_enemy(){
 	else
 	{
 		var func = method(obj_player,global.item_effects.check_enemy);
-		func();
+		return func();
 	}
 }

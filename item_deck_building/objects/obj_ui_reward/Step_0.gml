@@ -5,7 +5,32 @@ if(global.state == ST.REWARD and item != -1 and !global.map_show)
 {
 	if(mouse_check_pressed_me(mb_left))
 	{
-		if(global.inv_count <= instance_number(obj_item))
+		var check_type = 0;
+		var dup_obj = noone;
+		with(obj_item)
+		{
+			if(data.item_type != "normal" and data.item_type == other.item.item_type){check_type = 1;dup_obj = id;break;}
+		}
+		
+		if(check_type == 1)
+		{
+			with(obj_popup)
+			{
+				if(text == string_replace(text_load(global.csv_system,"item_type_duplicated"),"item_name",dup_obj.data.name))
+				{
+					instance_destroy();
+				}
+			}
+			var inst = instance_create_depth(1920/2,1080/2 - 100,depth-10,obj_popup);
+			with(inst)
+			{
+				text = string_replace(text_load(global.csv_system,"item_type_duplicated"),"item_name",dup_obj.data.name)
+				text_scale = 4;
+				col1 = c_black;
+				col2 = c_red;
+			}
+		}
+		else if(global.inv_count <= instance_number(obj_item))
 		{
 			with(obj_popup)
 			{
