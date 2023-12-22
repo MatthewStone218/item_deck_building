@@ -21,3 +21,5 @@ purple_portion_big_name,"""[#fff98f]고급 이상한 물약[/color]""","""[#fff9
 purple_portion_big_state,"""매 스테이지가 끝날 때마다 체력을 [#00ff00]+0~18 회복합니다[/color]""","""Recovers [#00ff00]+0~18 HP[/color] at the end of each stage""",,
 magic_eye_name,"""[#ff0000]매직 아이[/color]""","""[#ff0000]Magic eye[/color]""",,
 magic_eye_state,"""[#ff0000]항상 가장 먼 적을 타겟으로 삼게 됩니다.[/color]\n\n신중하게 선택하세요!""","""[#ff0000]You will always target the furthest enemy.[/color]\n\nChoose carefully!""",,
+cloak_jump_attack_start_name,"""멍청이의 망토""","""Fool's Cloak""",,
+cloak_jump_attack_start_state,"""[#2177ee]근접행동 시작시 마다 점프합니다.[/color]""","""[#2177ee]Jumps when melee action begins.[/color]""",,

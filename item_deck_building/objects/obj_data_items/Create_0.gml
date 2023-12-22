@@ -101,6 +101,15 @@ item_magic_eye =
 	item_type: "setting_target"
 }
 
+item_cloak_jump_attack_start =
+{
+	spr: spr_item_cloak_jump_start_attack,
+	name: text_load(global.csv_items,"cloak_jump_attack_start_name"),
+	state: text_load(global.csv_items,"cloak_jump_attack_start_state"),
+	obj: obj_item_cloak_jump_attack_start,
+	item_type: "normal"
+}
+
 
 
 

@@ -111,7 +111,7 @@ global.item_effects =
 	jump_sum_post:[],
 	jump_mult_post:[],
 	jump_pre:[],
-	act_jump:[],
+	jump:[],
 	jump_post:[],
 	
 	guard_sum:[],
@@ -119,7 +119,7 @@ global.item_effects =
 	guard_sum_post:[],
 	guard_mult_post:[],
 	guard_pre:[],
-	act_guard:[],
+	guard:[],
 	guard_post:[],
 	
 	dodge_sum:[],
@@ -127,7 +127,7 @@ global.item_effects =
 	dodge_sum_post:[],
 	dodge_mult_post:[],
 	dodge_pre:[],
-	act_dodge:[],
+	dodge:[],
 	dodge_post:[],
 	
 	attack_pre:[],
@@ -141,12 +141,19 @@ global.item_effects =
 	stage_end:[],
 	stage_start:[],
 	
+	near_act_start:[],
+	far_act_start:[],
+	near_act_end:[],
+	far_act_end:[],
+	
 	act: -1,
 	act_check_type:-1,
 	act_start_near:-1,
 	act_start_far:-1,
 	act_near:-1,
 	act_far:-1,
+	act_dodge:-1,
+	act_guard:-1,
 	act_animation_end_near:-1,
 	act_animation_end_far:-1,
 	check_enemy:-1

@@ -372,7 +372,7 @@ function scr_live_set_auto(){
 	sprite_set_live(_32__Iconset_Starter_Pack_370,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_371,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_372,1); 
-	sprite_set_live(_32__Iconset_Starter_Pack_373,1); 
+	sprite_set_live(spr_item_cloak_jump_start_attack,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_374,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_375,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_376,1); 
