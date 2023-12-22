@@ -17,7 +17,7 @@ if(collision_point(mouse_x,mouse_y,id,0,0) and visible == 1 and image_alpha == 1
 {
 	obj_info.str = text_load(global.csv_system,"hp")+$" {obj.hp} / {obj.hp_max}";
 	obj_info.x = mouse_x;
-	obj_info.y = 250;
+	obj_info.y = 255;
 }
 
 

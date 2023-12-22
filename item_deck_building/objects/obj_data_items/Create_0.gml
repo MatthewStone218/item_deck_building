@@ -58,6 +58,30 @@ item_hp_portion_big =
 	obj: obj_item_hp_portion_big
 }
 
+item_purple_portion_small =
+{
+	spr: spr_item_purple_portion_small,
+	name: text_load(global.csv_items,"purple_portion_small_name"),
+	state: text_load(global.csv_items,"purple_portion_small_state"),
+	obj: obj_item_purple_portion_small
+}
+
+item_purple_portion_mid =
+{
+	spr: spr_item_purple_portion_mid,
+	name: text_load(global.csv_items,"purple_portion_mid_name"),
+	state: text_load(global.csv_items,"purple_portion_mid_state"),
+	obj: obj_item_purple_portion_mid
+}
+
+item_purple_portion_big =
+{
+	spr: spr_item_purple_portion_big,
+	name: text_load(global.csv_items,"purple_portion_big_name"),
+	state: text_load(global.csv_items,"purple_portion_big_state"),
+	obj: obj_item_purple_portion_big
+}
+
 
 
 
