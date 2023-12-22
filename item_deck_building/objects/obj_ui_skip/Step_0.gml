@@ -10,6 +10,7 @@ if(global.state == ST.REWARD or global.st_prev == ST.REWARD)
 	{
 		global.state = ST.NORMAL;
 		global.st_prev = ST.NORMAL;
+		audio_play_sound(snd_confirm_2,1,0);
 		call_later(0.5,time_source_units_seconds,function(){
 			instance_create_layer(0,0,"move_ef",obj_ef_map_reveal);
 		});

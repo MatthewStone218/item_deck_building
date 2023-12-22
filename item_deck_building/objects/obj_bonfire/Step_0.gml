@@ -5,6 +5,7 @@ if(mouse_y < y and mouse_check_button_pressed(mb_left))
 {
 	if(clicked == 0)
 	{
+		audio_play_sound(snd_heal,1,0);
 		player_heal(round(obj_player.hp_max/3));
 		obj_ui_hp_1.ef_hit_white = 4;
 	}
