@@ -11,7 +11,7 @@ function player_act_jump(_enemy){
 	
 	if(global.item_effects.act_jump == -1)
 	{
-		yspd -= player_get_jump_p(_enemy);
+		obj_player.yspd -= player_get_jump_p(_enemy);
 	}
 	else
 	{

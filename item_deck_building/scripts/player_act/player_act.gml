@@ -22,7 +22,14 @@ function player_act(){
 			var _act_type = player_get_act_type(_enemy);
 			if(_act_type == ACT_TYPE.ACT_NEAR)
 			{
-				player_start_act_near(_enemy);
+				if(attack_delay_left == 0)
+				{
+					player_start_act_near(_enemy);
+				}
+				else
+				{
+					sprite_index = spr_player_idle;
+				}
 			}
 			else if(_act_type == ACT_TYPE.ACTING_NEAR)
 			{

@@ -107,7 +107,7 @@ item_cloak_jump_attack_start =
 	name: text_load(global.csv_items,"cloak_jump_attack_start_name"),
 	state: text_load(global.csv_items,"cloak_jump_attack_start_state"),
 	obj: obj_item_cloak_jump_attack_start,
-	item_type: "normal"
+	item_type: "cloak_jump_attack_start"
 }
 
 
