@@ -156,7 +156,8 @@ global.item_effects =
 	act_guard:-1,
 	act_animation_end_near:-1,
 	act_animation_end_far:-1,
-	check_enemy:-1
+	check_enemy:-1,
+	act_jump:-1
 }
 
 enum ST
