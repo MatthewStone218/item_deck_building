@@ -31,8 +31,7 @@ if(mouse_check_button_released(mb_left) and clicked and point_distance(device_mo
 	
 	global.state = ST.MOVING_EVENT;
 	global.st_prev = ST.MOVING_EVENT;
-
-	instance_create_layer(0,0,"move_ef",obj_ef_move_event,{type: ev_type});
+	var incy = instance_create_layer(0,0,"move_ef",obj_ef_move_event,{type: ev_type});
 }
 
 if(!mouse_check_button(mb_left)){clicked = 0;}

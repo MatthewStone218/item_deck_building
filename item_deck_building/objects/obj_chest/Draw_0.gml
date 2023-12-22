@@ -21,14 +21,6 @@ if(clicked == 0)
 		case spr_chest_4: color = "rainbow"; closer = "rainbow" break;
 	}
 	str = string_replace_all(string_replace_all(text_load(global.csv_events,"treasure_chest_text_1"),"rate_color1",color),"color_closer",closer);
-}
-else if(clicked == 1) 
-{
-	str = $"{text_load(global.csv_events,"bonfire_text_2")}";
-}
-
-if(clicked < 2)
-{
 	var str2 = "[ft_normal][scale,3]"+str;
 	var margin = 10;
 	draw_sprite_ext(spr_window_2,0,x,y-300,3*(margin*2+string_width(str))/sprite_get_width(spr_window_2),3*(margin*2+string_height(str))/sprite_get_height(spr_window_2),0,c_white,1);
@@ -37,7 +29,6 @@ if(clicked < 2)
 	.align(fa_center,fa_middle)
 	.draw(x,y-300, typist);
 }
-
 
 
 

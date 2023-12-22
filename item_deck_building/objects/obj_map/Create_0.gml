@@ -6,7 +6,7 @@ mouse_x_prev = mouse_x;
 
 view_x  = 0;
 
-
+clicked = 0;
 
 
 

@@ -10,6 +10,13 @@ function event_array_create(ev_type){
 			_event_array[count,2] = 0;
 			count++;
 		}
+		else if(ev_type == EV_TYPE.ITEM)
+		{
+			_event_array[count,0] = obj_data_events.event_event_treasure_chest.func;
+			_event_array[count,1] = 2;
+			_event_array[count,2] = 0;
+			count++;
+		}
 		else
 		{
 			_event_array[count,0] = obj_data_events.event_enemy_skeleton_warrior.func;
@@ -48,6 +55,11 @@ function event_array_create(ev_type){
 			count++;
 	
 			_event_array[count,0] = obj_data_events.event_event_bonfire.func;
+			_event_array[count,1] = 2*(ev_type == EV_TYPE.RANDOM);
+			_event_array[count,2] = 0;
+			count++;
+			
+			_event_array[count,0] = obj_data_events.event_event_treasure_chest.func;
 			_event_array[count,1] = 2*(ev_type == EV_TYPE.RANDOM);
 			_event_array[count,2] = 0;
 			count++;

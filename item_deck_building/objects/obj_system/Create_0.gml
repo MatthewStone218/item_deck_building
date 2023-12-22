@@ -1,9 +1,9 @@
 /// @description 여기에 설명 삽입
 // 이 에디터에 코드를 작성할 수 있습니다
 
-#macro ITEM_RATE_LEGEND 2*power(5,item_level-2.4)
-#macro ITEM_RATE_UNIQUE 3*power(1.5,item_level)
-#macro ITEM_RATE_RARE 5*power(1.2,item_level)
+#macro ITEM_RATE_LEGEND 2*power(5,chest_level-2.4)
+#macro ITEM_RATE_UNIQUE 3*power(1.5,chest_level)
+#macro ITEM_RATE_RARE 5*power(1.2,chest_level)
 #macro ITEM_RATE_NORMAL 15
 
 
@@ -157,7 +157,8 @@ enum ST
 	REWARD,
 	DELETE,
 	MOVING_EVENT,
-	EVENT_BONFIRE
+	EVENT_BONFIRE,
+	EVENT_TREASURE_CHEST
 }
 
 enum ACT_TYPE

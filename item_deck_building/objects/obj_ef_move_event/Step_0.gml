@@ -8,6 +8,7 @@ if(step == 0)
 	{
 		step = 1;
 		room_goto(rm_game);
+		//show_message(type)
 		event_array_create(type);
 		var func = event_array_pick();
 		call_later(1,time_source_units_frames,func);

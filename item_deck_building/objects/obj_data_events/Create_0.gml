@@ -112,3 +112,15 @@ event_event_bonfire =
 		instance_create_layer(1120,640,"enemy",obj_bonfire);
 	}
 }
+
+event_event_treasure_chest = 
+{
+	func: function(){
+		call_later(1,time_source_units_seconds,function(){
+		global.state = ST.EVENT_TREASURE_CHEST;
+		global.st_prev = ST.EVENT_TREASURE_CHEST;
+		});
+		
+		instance_create_layer(1120,640,"enemy",obj_chest);
+	}
+}

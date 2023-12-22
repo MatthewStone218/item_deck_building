@@ -5,15 +5,31 @@ if(mouse_y < y and mouse_check_button_pressed(mb_left))
 {
 	if(clicked == 0)
 	{
-		player_heal(round(obj_player.hp_max/3));
-		obj_ui_hp_1.ef_hit_white = 4;
-	}
-	else if(clicked == 1)
-	{
-		global.state = ST.NORMAL;
-		global.st_prev = ST.NORMAL;
-		call_later(0.5,time_source_units_seconds,function(){
-			instance_create_layer(0,0,"move_ef",obj_ef_map_reveal);
+		image_speed = 1;
+		
+		call_later(1,time_source_units_seconds,
+		function(){
+			global.state = ST.REWARD;
+			global.st_prev = ST.REWARD;
+			with(obj_ui_reward)
+			{
+				typist = scribble_typist();
+				typist.in(0.8, 60);
+				typist.ease(SCRIBBLE_EASE.ELASTIC, 0, -5, 1, 1, 0, 0.1);
+
+				item = -1;
+			}
+		
+			item_array_create(level);
+		
+			var _items = [item_array_pick(),item_array_pick(),item_array_pick()];
+		
+			var _num = 0;
+			with(obj_ui_reward)
+			{
+				item = _items[_num];
+				_num++;
+			}
 		});
 	}
 	clicked++;
