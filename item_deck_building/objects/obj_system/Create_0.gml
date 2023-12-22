@@ -138,6 +138,9 @@ global.item_effects =
 	get_hit:[],
 	get_hit_post:[],
 	
+	stage_end:[],
+	stage_start:[],
+	
 	act: -1,
 	act_check_type:-1,
 	act_start_near:-1,

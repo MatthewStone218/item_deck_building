@@ -4,3 +4,5 @@ not_enough_space,"""아이템을 넣을 공간이 부족합니다!\n보유중인
 throw_away_item,"""정말로 이 아이템을 버리시겠습니까?""","""Wanna throw away this item?""",,
 yes,"""네""","""Yes""",,
 no,"""아니요""","""No""",,
+exp_state,"""[#00ff00]경험치[/color] __exp__ / __exp_max__""","""[#00ff00]EXP[/color] __exp__ / __exp_max__""",,
+hp,"""[#00ff00]체력[/color]""","""[#00ff00]HP[/color]""",,

@@ -9,6 +9,19 @@ if(step == 0)
 		step = 1;
 		room_goto(rm_game);
 		//show_message(type)
+		
+		for(var i = 0; i < array_length(global.item_effects.stage_end);i++)
+		{
+			var func = method(obj_player,global.item_effects.stage_end[i]);
+			func();
+		}
+				
+		for(var i = 0; i < array_length(global.item_effects.stage_start);i++)
+		{
+			var func = method(obj_player,global.item_effects.stage_start[i]);
+			func();
+		}
+		
 		event_array_create(type);
 		var func = event_array_pick();
 		call_later(1,time_source_units_frames,func);

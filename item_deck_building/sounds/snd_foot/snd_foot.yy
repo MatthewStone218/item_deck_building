@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "snd_foot.wav",
   "type": 0,
-  "volume": 0.36,
+  "volume": 0.12,
 }
