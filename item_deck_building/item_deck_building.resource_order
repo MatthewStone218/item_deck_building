@@ -201,7 +201,7 @@
     {"name":"_32__Iconset_Starter_Pack_294","order":316,"path":"sprites/_32__Iconset_Starter_Pack_294/_32__Iconset_Starter_Pack_294.yy",},
     {"name":"scribble_kerning_pair_get","order":18,"path":"scripts/scribble_kerning_pair_get/scribble_kerning_pair_get.yy",},
     {"name":"_32__Iconset_Starter_Pack_373","order":392,"path":"sprites/_32__Iconset_Starter_Pack_373/_32__Iconset_Starter_Pack_373.yy",},
-    {"name":"spr_purple_portion_big","order":10,"path":"sprites/spr_purple_portion_big/spr_purple_portion_big.yy",},
+    {"name":"spr_item_purple_portion_big","order":10,"path":"sprites/spr_item_purple_portion_big/spr_item_purple_portion_big.yy",},
     {"name":"GMLive_roomLoader","order":2,"path":"scripts/GMLive_roomLoader/GMLive_roomLoader.yy",},
     {"name":"scribble_font_add_msdf","order":3,"path":"scripts/scribble_font_add_msdf/scribble_font_add_msdf.yy",},
     {"name":"__scribble_get_buffer_a","order":2,"path":"scripts/__scribble_get_buffer_a/__scribble_get_buffer_a.yy",},
