@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_purple_portion_small",
-    "path": "sprites/spr_purple_portion_small/spr_purple_portion_small.yy",
+    "name": "spr_item_purple_portion_small",
+    "path": "sprites/spr_item_purple_portion_small/spr_item_purple_portion_small.yy",
   },
   "spriteMaskId": null,
   "visible": true,
