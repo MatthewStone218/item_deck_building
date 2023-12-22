@@ -9,6 +9,7 @@ function player_act_far(_enemy){
 		}
 		else
 		{
+			if (global.map_show == 0) and ((image_index >= 1 and image_index-image_speed*sprite_get_speed(spr_player_run)/60 < 1) or (image_index >= 5 and image_index-image_speed*sprite_get_speed(spr_player_run)/60 < 5)){audio_play_sound(snd_foot,0,0);}
 			var _dir = sign(_enemy.x-x);
 			if(_dir == 1){image_xscale = 1;}else{image_xscale = -1;}
 			xspd += _dir*player_get_spd();

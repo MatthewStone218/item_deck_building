@@ -14,6 +14,7 @@ if(global.state == ST.COMBET and room == rm_game)
 	{
 		global.state = ST.REWARD;
 		global.st_prev = ST.REWARD;
+		audio_play_sound(snd_confirm_2,1,0)
 		
 		with(obj_ui_reward)
 		{
@@ -39,6 +40,7 @@ if(global.state == ST.COMBET and room == rm_game)
 
 while(global.exp >= global.exp_max)
 {
+	audio_play_sound(snd_levelup,0,0);
 	global.exp -= global.exp_max;
 	global.level++;
 	global.inv_count++;

@@ -10,7 +10,7 @@ function player_act(){
 		xspd += player_get_spd()*2;
 		if(abs(xspd) > xspd_max*player_get_spd()*2){xspd = sign(xspd)*2*(player_get_spd()/obj_player.acc);}
 		moving_x = 1;
-		
+		if (global.map_show == 0) and ((image_index >= 1 and image_index-image_speed*sprite_get_speed(spr_player_run)/60 < 1) or (image_index >= 5 and image_index-image_speed*sprite_get_speed(spr_player_run)/60 < 5)){audio_play_sound(snd_foot,0,0);}
 		if(bbox_left > room_width and !instance_exists(obj_ef_move_event)){instance_create_layer(0,0,"move_ef",obj_ef_move_event);}
 	}
 	else if(global.item_effects.act == -1)
