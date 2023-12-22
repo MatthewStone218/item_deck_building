@@ -87,7 +87,7 @@ function item_array_create(chest_level = 1){
 	if!(reward_duplicated(obj_data_items.item_magic_eye))
 	{
 		_item_array[count,0] = obj_data_items.item_magic_eye;
-		_item_array[count,1] = 1000000;
+		_item_array[count,1] = ITEM_RATE_UNIQUE;
 		_item_array[count,2] = 0;
 		count++;
 	}
