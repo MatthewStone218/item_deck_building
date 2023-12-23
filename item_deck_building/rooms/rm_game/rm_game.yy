@@ -70,13 +70,11 @@
     {"name":"inst_202C8028","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_11CEFE83","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_14E692C2","path":"rooms/rm_game/rm_game.yy",},
-    {"name":"inst_B8F934A","path":"rooms/rm_game/rm_game.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"ui_2","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_14E692C2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_ui_map","path":"objects/obj_ui_map/obj_ui_map.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":264.0,"y":988.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_B8F934A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_ui_speed","path":"objects/obj_ui_speed/obj_ui_speed.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":122.0,"y":988.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_14E692C2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_ui_map","path":"objects/obj_ui_map/obj_ui_map.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":194.0,"y":972.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"levelup","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5E93D9AD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_ui_levelup","path":"objects/obj_ui_levelup/obj_ui_levelup.yy",},"properties":[],"rotation":0.0,"scaleX":7.71875,"scaleY":2.640625,"x":941.0,"y":540.5,},

@@ -3,7 +3,14 @@
 
 screen_shake = max(0,screen_shake-1);
 
-
+if(global.map_show == 1)
+{
+	camera_set_view_pos(view_camera[0],obj_map.view_x,0)
+}
+else
+{
+	camera_set_view_pos(view_camera[0],random_range(-screen_shake,screen_shake),random_range(-screen_shake,screen_shake))
+}
 
 
 

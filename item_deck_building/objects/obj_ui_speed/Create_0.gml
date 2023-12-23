@@ -5,7 +5,7 @@ function switch_room_speed()
 {
 	if(room_speed == 60)
 	{
-		room_speed = 120;
+		room_speed = 90;
 	}
 	else
 	{
