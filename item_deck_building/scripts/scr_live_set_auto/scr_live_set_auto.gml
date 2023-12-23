@@ -394,7 +394,7 @@ function scr_live_set_auto(){
 	sprite_set_live(spr_item_jewel_hp,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_391,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_392,1); 
-	sprite_set_live(_32__Iconset_Starter_Pack_393,1); 
+	sprite_set_live(spr_item_heart_attack_heal,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_394,1); 
 	sprite_set_live(spr_item_heart_heal,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_396,1); 

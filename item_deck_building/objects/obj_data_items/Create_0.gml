@@ -300,6 +300,16 @@ item_hair_heal =
 }
 
 
+item_heart_attack_heal =
+{
+	spr: spr_item_heart_attack_heal,
+	name: text_load(global.csv_items,"heart_attack_heal_name"),
+	state: text_load(global.csv_items,"heart_attack_heal_state"),
+	obj: obj_item_heart_attack_heal,
+	item_type: "normal"
+}
+
+
 
 
 
