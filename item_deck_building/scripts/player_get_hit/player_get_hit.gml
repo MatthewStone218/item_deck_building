@@ -49,4 +49,7 @@ function player_get_hit(dmg){
 	obj_ui_hp_1.ef_hit = max(dmg*4,obj_ui_hp_1.ef_hit);
 	obj_ui_hp_1.ef_hit_white = max(6,obj_ui_hp_1.ef_hit_white);
 	audio_play_sound(snd_hit_1,1,0);
+	
+	var incy = instance_create_layer(obj_player.x,obj_player.y-100,"effects",obj_ef_dmg);
+	incy.text = string_format(dmg,1,0);
 }

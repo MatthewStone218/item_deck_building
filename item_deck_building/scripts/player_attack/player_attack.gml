@@ -21,4 +21,7 @@ function player_attack(dmg,enemy){
 	obj_ui_hp_2.ef_hit_white = max(6,obj_ui_hp_2.ef_hit_white);
 	with(enemy){get_hit(dmg);}
 	audio_play_sound(snd_hit_2,1,0);
+	
+	var incy = instance_create_layer(enemy.x,enemy.y-100,"effects",obj_ef_dmg);
+	incy.text = string_format(dmg,1,0);
 }

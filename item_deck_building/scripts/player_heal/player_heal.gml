@@ -41,4 +41,7 @@ function player_heal(heal){
 	}
 	
 	obj_player.hp = min(player_get_hp_max(),obj_player.hp+heal);
+	
+	var incy = instance_create_layer(obj_player.x,obj_player.y-100,"effects",obj_ef_heal);
+	incy.text = string_format(heal,1,0);
 }
