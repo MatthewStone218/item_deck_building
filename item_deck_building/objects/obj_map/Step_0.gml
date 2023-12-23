@@ -1,16 +1,6 @@
 /// @description 여기에 설명 삽입
 // 이 에디터에 코드를 작성할 수 있습니다
 
-if(keyboard_check_pressed(ord("M")))
-{
-	if(global.state == ST.NORMAL or global.state == ST.COMBET or global.state == ST.REWARD)
-	{
-		global.map_show = 1-global.map_show;
-	}
-	
-
-}
-
 if(global.map_show == 1)
 {
 	if(mouse_check_button_pressed(mb_left))

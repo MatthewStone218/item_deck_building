@@ -8,7 +8,7 @@ if(mouse_y < y and mouse_check_button_pressed(mb_left))
 		image_speed = 1;
 		audio_play_sound(snd_chest_open,1,0);
 		
-		call_later(1,time_source_units_seconds,
+		call_later(60,time_source_units_frames,
 		function(){
 			global.state = ST.REWARD;
 			global.st_prev = ST.REWARD;

@@ -13,7 +13,7 @@ if(mouse_y < y and mouse_check_button_pressed(mb_left))
 	{
 		global.state = ST.NORMAL;
 		global.st_prev = ST.NORMAL;
-		call_later(0.5,time_source_units_seconds,function(){
+		call_later(30,time_source_units_frames,function(){
 			instance_create_layer(0,0,"move_ef",obj_ef_map_reveal);
 		});
 	}

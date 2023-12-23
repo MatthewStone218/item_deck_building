@@ -12,7 +12,7 @@ if(step == 0)
 		global.state = ST.MOVING_EVENT;
 		global.st_prev = ST.MOVING_EVENT;
 		step = 1;
-		call_later(2,time_source_units_seconds,function()
+		call_later(120,time_source_units_frames,function()
 		{
 			with(obj_map.icon_now)
 			{
