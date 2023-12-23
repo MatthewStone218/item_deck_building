@@ -8,6 +8,6 @@ function player_check_can_act_near(_enemy){
 	else
 	{
 		var func = method(obj_player,global.item_effects.act_check_type);
-		func();
+		return func();
 	}
 }

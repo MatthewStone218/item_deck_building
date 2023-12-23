@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "_32__Iconset_Starter_Pack_91",
+  "name": "spr_item_hair_heal",
   "bbox_bottom": 28,
   "bbox_left": 3,
   "bbox_right": 29,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "_32__Iconset_Starter_Pack_91",
+    "name": "spr_item_hair_heal",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ba77e664-13be-4cfc-b9f8-d44ab86f8b5b","path":"sprites/_32__Iconset_Starter_Pack_91/_32__Iconset_Starter_Pack_91.yy",},},},"Disabled":false,"id":"f9776fc5-6473-40ab-9074-ca5a6157dc54","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ba77e664-13be-4cfc-b9f8-d44ab86f8b5b","path":"sprites/spr_item_hair_heal/spr_item_hair_heal.yy",},},},"Disabled":false,"id":"f9776fc5-6473-40ab-9074-ca5a6157dc54","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

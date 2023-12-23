@@ -166,7 +166,7 @@ function scr_live_set_auto(){
 	sprite_set_live(_32__Iconset_Starter_Pack_180,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_181,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_182,1); 
-	sprite_set_live(_32__Iconset_Starter_Pack_183,1); 
+	sprite_set_live(spr_item_feather_heal,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_184,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_185,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_186,1); 
@@ -261,7 +261,7 @@ function scr_live_set_auto(){
 	sprite_set_live(_32__Iconset_Starter_Pack_267,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_268,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_269,1); 
-	sprite_set_live(_32__Iconset_Starter_Pack_27,1); 
+	sprite_set_live(spr_item_closed_eye,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_270,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_271,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_272,1); 
@@ -453,7 +453,7 @@ function scr_live_set_auto(){
 	sprite_set_live(_32__Iconset_Starter_Pack_88,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_89,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_90,1); 
-	sprite_set_live(_32__Iconset_Starter_Pack_91,1); 
+	sprite_set_live(spr_item_hair_heal,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_92,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_93,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_94,1); 

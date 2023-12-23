@@ -3,7 +3,7 @@
 
 event_inherited();
 
-global.item_effects.check_enemy = -1;
+global.item_effects.act_check_type = -1;
 
 
 

@@ -101,6 +101,15 @@ item_magic_eye =
 	item_type: "setting_target"
 }
 
+item_closed_eye =
+{
+	spr: spr_item_closed_eye,
+	name: text_load(global.csv_items,"closed_eye_name"),
+	state: text_load(global.csv_items,"closed_eye_state"),
+	obj: obj_item_closed_eye,
+	item_type: "setting_act_type"
+}
+
 item_cloak_jump_attack_start =
 {
 	spr: spr_item_cloak_jump_start_attack,
@@ -267,6 +276,26 @@ item_heart_used_4 =
 	name: text_load(global.csv_items,"heart_used_4_name"),
 	state: text_load(global.csv_items,"heart_used_4_state"),
 	obj: obj_item_heart_used_4,
+	item_type: "normal"
+}
+
+
+item_feather_heal =
+{
+	spr: spr_item_feather_heal,
+	name: text_load(global.csv_items,"feather_heal_name"),
+	state: text_load(global.csv_items,"feather_heal_state"),
+	obj: obj_item_feather_heal,
+	item_type: "normal"
+}
+
+
+item_hair_heal =
+{
+	spr: spr_item_feather_heal,
+	name: text_load(global.csv_items,"item_hair_heal_name"),
+	state: text_load(global.csv_items,"item_hair_heal_state"),
+	obj: obj_item_hair_heal,
 	item_type: "normal"
 }
 

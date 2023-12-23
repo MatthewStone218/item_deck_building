@@ -92,6 +92,14 @@ function item_array_create(chest_level = 1){
 		count++;
 	}
 	
+	if!(reward_duplicated(obj_data_items.item_closed_eye))
+	{
+		_item_array[count,0] = obj_data_items.item_closed_eye;
+		_item_array[count,1] = ITEM_RATE_UNIQUE;
+		_item_array[count,2] = 0;
+		count++;
+	}
+	
 	if!(reward_duplicated(obj_data_items.item_cloak_jump_attack_start))
 	{
 		_item_array[count,0] = obj_data_items.item_cloak_jump_attack_start;
@@ -115,7 +123,6 @@ function item_array_create(chest_level = 1){
 		_item_array[count,2] = 0;
 		count++;
 	}
-	//////////////////
 	
 	
 	if!(reward_duplicated(obj_data_items.item_gem_hp))
@@ -186,6 +193,22 @@ function item_array_create(chest_level = 1){
 	{
 		_item_array[count,0] = obj_data_items.item_broken_heart_2;
 		_item_array[count,1] = ITEM_RATE_UNIQUE;
+		_item_array[count,2] = 0;
+		count++;
+	}
+	
+	if!(reward_duplicated(obj_data_items.item_feather_heal))
+	{
+		_item_array[count,0] = obj_data_items.item_feather_heal;
+		_item_array[count,1] = ITEM_RATE_RARE;
+		_item_array[count,2] = 0;
+		count++;
+	}
+	
+	if!(reward_duplicated(obj_data_items.item_hair_heal))
+	{
+		_item_array[count,0] = obj_data_items.item_hair_heal;
+		_item_array[count,1] = ITEM_RATE_RARE;
 		_item_array[count,2] = 0;
 		count++;
 	}
