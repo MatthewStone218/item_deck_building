@@ -18,3 +18,14 @@ move(xspd+xspd_knockback,yspd);
 
 
 if(place_meeting(x,y+1,obj_sol)){yspd = 0;}
+
+if(hp <= 0)
+{
+	for(var i = 0; i < array_length(global.item_effects.die);i++)
+	{
+		var func = method(obj_player,global.item_effects.die[i]);
+		func();
+	}
+	
+	if(hp <= 0){show_message("game_over")}
+}
