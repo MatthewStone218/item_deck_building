@@ -151,6 +151,8 @@ global.item_effects =
 	near_act_end:[],
 	far_act_end:[],
 	
+	die:[],
+	
 	act: -1,
 	act_check_type:-1,
 	act_start_near:-1,
