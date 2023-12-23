@@ -6,7 +6,7 @@ draw_set_font(ft_normal);
 draw_set_color(c_black);
 draw_set_alpha(image_alpha);
 
-draw_text_outline(CM_X+x,CM_Y+y,text,scale*4,scale*4,c_black,#00ff00,4,4)
+draw_text_outline(CM_X+x,CM_Y+y,text,4,4,c_black,(hit > 0) ? c_white : #00ff00,4,4)
 
 
 
