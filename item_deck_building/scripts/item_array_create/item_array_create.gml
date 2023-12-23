@@ -115,6 +115,80 @@ function item_array_create(chest_level = 1){
 		_item_array[count,2] = 0;
 		count++;
 	}
+	//////////////////
+	
+	
+	if!(reward_duplicated(obj_data_items.item_jem_hp))
+	{
+		_item_array[count,0] = obj_data_items.item_jem_hp;
+		_item_array[count,1] = ITEM_RATE_RARE;
+		_item_array[count,2] = 0;
+		count++;
+	}
+	
+	if!(reward_duplicated(obj_data_items.item_ring_hp))
+	{
+		_item_array[count,0] = obj_data_items.item_ring_hp;
+		_item_array[count,1] = ITEM_RATE_RARE;
+		_item_array[count,2] = 0;
+		count++;
+	}
+	
+	if!(reward_duplicated(obj_data_items.item_pendant_hp))
+	{
+		_item_array[count,0] = obj_data_items.item_pendant_hp;
+		_item_array[count,1] = ITEM_RATE_RARE;
+		_item_array[count,2] = 0;
+		count++;
+	}
+	
+	if!(reward_duplicated(obj_data_items.item_jewel_hp))
+	{
+		_item_array[count,0] = obj_data_items.item_jewel_hp;
+		_item_array[count,1] = ITEM_RATE_RARE;
+		_item_array[count,2] = 0;
+		count++;
+	}
+	
+	if!(reward_duplicated(obj_data_items.item_earring_heal))
+	{
+		_item_array[count,0] = obj_data_items.item_earring_heal;
+		_item_array[count,1] = ITEM_RATE_RARE;
+		_item_array[count,2] = 0;
+		count++;
+	}
+	
+	if!(reward_duplicated(obj_data_items.item_ring_heal))
+	{
+		_item_array[count,0] = obj_data_items.item_ring_heal;
+		_item_array[count,1] = ITEM_RATE_RARE;
+		_item_array[count,2] = 0;
+		count++;
+	}
+	
+	if!(reward_duplicated(obj_data_items.item_heart_heal))
+	{
+		_item_array[count,0] = obj_data_items.item_heart_heal;
+		_item_array[count,1] = ITEM_RATE_RARE;
+		_item_array[count,2] = 0;
+		count++;
+	}
+	
+	if!(reward_duplicated(obj_data_items.item_broken_heart_1))
+	{
+		_item_array[count,0] = obj_data_items.item_broken_heart_1;
+		_item_array[count,1] = ITEM_RATE_RARE;
+		_item_array[count,2] = 0;
+		count++;
+	}
+	
+	if!(reward_duplicated(obj_data_items.item_broken_heart_2))
+	{
+		_item_array[count,0] = obj_data_items.item_broken_heart_2;
+		_item_array[count,1] = ITEM_RATE_RARE;
+		_item_array[count,2] = 0;
+		count++;
+	}
 	
 	
 	return count;//길이 반환.

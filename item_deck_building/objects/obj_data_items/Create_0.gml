@@ -131,6 +131,147 @@ item_mango_asp =
 }
 
 
+item_jem_hp =
+{
+	spr: spr_item_jem_hp,
+	name: text_load(global.csv_items,"jam_hp_name"),
+	state: text_load(global.csv_items,"jam_hp_state"),
+	obj: obj_item_jam_hp,
+	item_type: "normal"
+}
+
+
+item_ring_hp =
+{
+	spr: spr_item_ring_hp,
+	name: text_load(global.csv_items,"ring_hp_name"),
+	state: text_load(global.csv_items,"ring_hp_state"),
+	obj: obj_item_ring_hp,
+	item_type: "normal"
+}
+
+
+item_pendant_hp =
+{
+	spr: spr_item_pendant_hp,
+	name: text_load(global.csv_items,"pendant_hp_name"),
+	state: text_load(global.csv_items,"pendant_hp_state"),
+	obj: obj_item_pendant_hp,
+	item_type: "normal"
+}
+
+
+item_jewel_hp =
+{
+	spr: spr_item_jewel_hp,
+	name: text_load(global.csv_items,"jewel_hp_name"),
+	state: text_load(global.csv_items,"jewel_hp_state"),
+	obj: obj_item_jewel_hp,
+	item_type: "normal"
+}
+
+
+item_earring_heal =
+{
+	spr: spr_item_earring_heal,
+	name: text_load(global.csv_items,"earring_heal_name"),
+	state: text_load(global.csv_items,"earring_heal_state"),
+	obj: obj_item_earring_heal,
+	item_type: "normal"
+}
+
+
+item_ring_heal =
+{
+	spr: spr_item_ring_heal,
+	name: text_load(global.csv_items,"ring_heal_name"),
+	state: text_load(global.csv_items,"ring_heal_state"),
+	obj: obj_item_ring_heal,
+	item_type: "normal"
+}
+
+
+item_heart_heal =
+{
+	spr: spr_item_heart_heal,
+	name: text_load(global.csv_items,"heart_heal_name"),
+	state: text_load(global.csv_items,"heart_heal_state"),
+	obj: obj_item_heart_heal,
+	item_type: "normal"
+}
+
+
+item_broken_heart_1 =
+{
+	spr: spr_item_broken_heart_1,
+	name: text_load(global.csv_items,"broken_heart_1_name"),
+	state: text_load(global.csv_items,"broken_heart_1_state"),
+	obj: obj_item_broken_heart_1,
+	item_type: "normal"
+}
+
+
+item_broken_heart_2 =
+{
+	spr: spr_item_broken_heart_2,
+	name: text_load(global.csv_items,"broken_heart_2_name"),
+	state: text_load(global.csv_items,"broken_heart_2_state"),
+	obj: obj_item_broken_heart_2,
+	item_type: "normal"
+}
+
+
+item_heart =
+{
+	spr: spr_item_heart,
+	name: text_load(global.csv_items,"heart_name"),
+	state: text_load(global.csv_items,"heart_state"),
+	obj: obj_item_heart,
+	item_type: "normal"
+}
+
+
+item_heart_used_1 =
+{
+	spr: spr_item_heart_used_1,
+	name: text_load(global.csv_items,"heart_used_1_name"),
+	state: text_load(global.csv_items,"heart_used_1_state"),
+	obj: obj_item_heart_used_1,
+	item_type: "normal"
+}
+
+
+item_heart_used_2 =
+{
+	spr: spr_item_heart_used_2,
+	name: text_load(global.csv_items,"heart_used_2_name"),
+	state: text_load(global.csv_items,"heart_used_2_state"),
+	obj: obj_item_heart_used_2,
+	item_type: "normal"
+}
+
+
+item_heart_used_3 =
+{
+	spr: spr_item_heart_used_3,
+	name: text_load(global.csv_items,"heart_used_3_name"),
+	state: text_load(global.csv_items,"heart_used_3_state"),
+	obj: obj_item_heart_used_3,
+	item_type: "normal"
+}
+
+
+item_heart_used_4 =
+{
+	spr: spr_item_heart_used_4,
+	name: text_load(global.csv_items,"heart_used_4_name"),
+	state: text_load(global.csv_items,"heart_used_4_state"),
+	obj: obj_item_heart_used_4,
+	item_type: "normal"
+}
+
+
+
 
 
 

@@ -11,4 +11,4 @@ item_func = function(asp)
 	return asp*1.3;
 }
 
-item_push_function(global.item_effects.asp_mult,item_func)
+item_push_function(global.item_effects.asp_mult,item_func);
