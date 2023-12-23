@@ -111,6 +111,25 @@ item_cloak_jump_attack_start =
 }
 
 
+item_ring_asp =
+{
+	spr: spr_item_ring_asp,
+	name: text_load(global.csv_items,"ring_asp_name"),
+	state: text_load(global.csv_items,"ring_asp_state"),
+	obj: obj_item_ring_asp,
+	item_type: "normal"
+}
+
+
+item_mango_asp =
+{
+	spr: spr_item_mango_asp,
+	name: text_load(global.csv_items,"mango_asp_name"),
+	state: text_load(global.csv_items,"mango_asp_state"),
+	obj: obj_item_mango_asp,
+	item_type: "normal"
+}
+
 
 
 
