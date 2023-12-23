@@ -146,7 +146,7 @@ item_ring_hp =
 	spr: spr_item_ring_hp,
 	name: text_load(global.csv_items,"ring_hp_name"),
 	state: text_load(global.csv_items,"ring_hp_state"),
-	obj: obj_item_ring_hp,
+	obj: obj_item_gem_hp,
 	item_type: "normal"
 }
 
