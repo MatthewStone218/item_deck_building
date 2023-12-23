@@ -409,7 +409,7 @@ function scr_live_set_auto(){
 	sprite_set_live(_32__Iconset_Starter_Pack_44,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_45,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_46,1); 
-	sprite_set_live(_32__Iconset_Starter_Pack_47,1); 
+	sprite_set_live(spr_item_windsoul,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_48,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_49,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_50,1); 

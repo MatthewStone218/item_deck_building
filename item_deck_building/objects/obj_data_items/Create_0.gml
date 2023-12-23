@@ -320,6 +320,16 @@ item_hamma =
 }
 
 
+item_windsoul =
+{
+	spr: spr_item_windsoul,
+	name: text_load(global.csv_items,"windsoul_name"),
+	state: text_load(global.csv_items,"windsoul_state"),
+	obj: obj_item_windsoul,
+	item_type: "normal"
+}
+
+
 
 
 

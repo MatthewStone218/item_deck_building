@@ -62,4 +62,6 @@ hair_heal_state,"""[#ff0000]피해를 입을 때마다[/color] [#00ff00]3의 체
 heart_attack_heal_name,"""[#e5b9b9]자주색 심장[/color]""","""[#e5b9b9]Purple Heart[/color]""",,
 heart_attack_heal_state,"""[#00ff00]근접 행동 시작마다 체력을 +2 회복합니다.[/color]""","""[#00ff00]Recovers +2 HP at the start of melee action.[/color]""",,
 hamma_name,"""[#fff98f]워해머[/color]""","""""[#fff98f]Warhammer[/color]""""",,
-hamma_state,"""[#00ff00]최대체력의 20%만큼 공격력을 얻습니다.[/color]""","""[#00ff00]최대체력의 20%만큼 공격력을 얻습니다.[/color]""",,
+hamma_state,"""[#00ff00]최대체력의 20%만큼 공격력을 얻습니다.[/color]""",[#00ff00]Gain AP equal to 20% of maximum health.[/color],,
+windsoul_name,"""[#93ff86]바람의 영혼[/color]""","""[#93ff86]Windsoul[/color]""",,
+windsoul_state,"""적과의 거리가 멀 수록 더 큰 피해를 입힙니다.\n(최대 100%)""","""Gain additional damage in proportion to the distance to the enemy.\n(Up to 100%)""",,
