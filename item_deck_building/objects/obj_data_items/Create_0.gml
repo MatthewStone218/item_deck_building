@@ -292,9 +292,9 @@ item_feather_heal =
 
 item_hair_heal =
 {
-	spr: spr_item_feather_heal,
-	name: text_load(global.csv_items,"item_hair_heal_name"),
-	state: text_load(global.csv_items,"item_hair_heal_state"),
+	spr: spr_item_hair_heal,
+	name: text_load(global.csv_items,"hair_heal_name"),
+	state: text_load(global.csv_items,"hair_heal_state"),
 	obj: obj_item_hair_heal,
 	item_type: "normal"
 }

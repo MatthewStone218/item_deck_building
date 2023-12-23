@@ -31,17 +31,17 @@ function player_get_hit(dmg){
 	for(var i = 0; i < array_length(global.item_effects.get_hit_pre);i++)
 	{
 		var func = method(obj_player,global.item_effects.get_hit_pre[i]);
-		dmg = func(dmg);
+		func(dmg);
 	}
 	for(var i = 0; i < array_length(global.item_effects.get_hit);i++)
 	{
 		var func = method(obj_player,global.item_effects.get_hit[i]);
-		dmg = func(dmg);
+		func(dmg);
 	}
 	for(var i = 0; i < array_length(global.item_effects.get_hit_post);i++)
 	{
 		var func = method(obj_player,global.item_effects.get_hit_post[i]);
-		dmg = func(dmg);
+		func(dmg);
 	}
 		
 	obj_player.hp -= dmg;

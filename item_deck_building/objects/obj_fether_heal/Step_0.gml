@@ -3,11 +3,13 @@
 
 var _enemy = player_get_enemy();
 
-hspeed += lengthdir_x(2,point_direction(x,y,_enemy.x,_enemy.y));
-vspeed += lengthdir_y(2,point_direction(x,y,_enemy.x,_enemy.y));
+if(!instance_exists(_enemy)){instance_destroy();exit;}
 
-x += lengthdir_x(3,point_direction(x,y,_enemy.x,_enemy.y));
-y += lengthdir_y(3,point_direction(x,y,_enemy.x,_enemy.y));
+hspeed += lengthdir_x(0.5,point_direction(x,y,_enemy.x,_enemy.y));
+vspeed += lengthdir_y(0.5,point_direction(x,y,_enemy.x,_enemy.y));
+
+x += lengthdir_x(1,point_direction(x,y,_enemy.x,_enemy.y));
+y += lengthdir_y(1,point_direction(x,y,_enemy.x,_enemy.y));
 
 image_angle += angle_speed;
 
