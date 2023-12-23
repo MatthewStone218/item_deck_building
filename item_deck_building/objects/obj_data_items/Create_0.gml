@@ -310,6 +310,16 @@ item_heart_attack_heal =
 }
 
 
+item_hamma =
+{
+	spr: spr_item_hamma,
+	name: text_load(global.csv_items,"hamma_name"),
+	state: text_load(global.csv_items,"hamma_state"),
+	obj: obj_item_hamma,
+	item_type: "normal"
+}
+
+
 
 
 
