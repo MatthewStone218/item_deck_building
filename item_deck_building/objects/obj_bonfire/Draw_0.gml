@@ -11,7 +11,7 @@ draw_set_alpha(1);
 var str;
 if(clicked == 0)
 {
-	str = string_replace_all(text_load(global.csv_events,"bonfire_text_1"),"player_max_hp_div_3",string(round(obj_player.hp_max/3)));
+	str = string_replace_all(text_load(global.csv_events,"bonfire_text_1"),"player_max_hp_div_3",string(round(player_get_hp_max()/3)));
 }
 else if(clicked == 1) 
 {

@@ -13,26 +13,26 @@ LIVE
 		shader_set(shd_white);
 		if(hp_yellow < obj.hp)
 		{
-			draw_sprite_part_ext(sprite_index,1,16,0,(hp_yellow/obj.hp_max)*852,sprite_height,x+16,y,image_xscale,1,c_green,1);
+			draw_sprite_part_ext(sprite_index,1,16,0,(hp_yellow/player_get_hp_max())*852,sprite_height,x+16,y,image_xscale,1,c_green,1);
 		}
 		else
 		{
-			draw_sprite_part_ext(sprite_index,1,16,0,(hp_yellow/obj.hp_max)*852,sprite_height,x+16,y,image_xscale,1,c_red,1);
+			draw_sprite_part_ext(sprite_index,1,16,0,(hp_yellow/player_get_hp_max())*852,sprite_height,x+16,y,image_xscale,1,c_red,1);
 		}
-		draw_sprite_part(sprite_index,1,16,0,(obj.hp/obj.hp_max)*852,sprite_height,x+16,y);
+		draw_sprite_part(sprite_index,1,16,0,(obj.hp/player_get_hp_max())*852,sprite_height,x+16,y);
 		shader_reset();
 	}
 	else
 	{
 		if(hp_yellow < obj.hp)
 		{
-			draw_sprite_part_ext(sprite_index,1,16,0,(obj.hp/obj.hp_max)*852,sprite_height,x+16,y,image_xscale,1,#00ff00,1);
-			draw_sprite_part(sprite_index,1,16,0,(hp_yellow/obj.hp_max)*852,sprite_height,x+16,y);
+			draw_sprite_part_ext(sprite_index,1,16,0,(obj.hp/player_get_hp_max())*852,sprite_height,x+16,y,image_xscale,1,#00ff00,1);
+			draw_sprite_part(sprite_index,1,16,0,(hp_yellow/player_get_hp_max())*852,sprite_height,x+16,y);
 		}
 		else
 		{
-			draw_sprite_part_ext(sprite_index,1,16,0,(hp_yellow/obj.hp_max)*852,sprite_height,x+16,y,image_xscale,1,c_red,1);
-			draw_sprite_part(sprite_index,1,16,0,(obj.hp/obj.hp_max)*852,sprite_height,x+16,y);
+			draw_sprite_part_ext(sprite_index,1,16,0,(hp_yellow/player_get_hp_max())*852,sprite_height,x+16,y,image_xscale,1,c_red,1);
+			draw_sprite_part(sprite_index,1,16,0,(obj.hp/player_get_hp_max())*852,sprite_height,x+16,y);
 		}
 	}
 

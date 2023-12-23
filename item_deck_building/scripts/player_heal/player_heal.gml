@@ -17,5 +17,5 @@ function player_heal(heal){
 		heal = func(heal);
 	}
 	
-	obj_player.hp = min(obj_player.hp_max,obj_player.hp+heal);
+	obj_player.hp = min(player_get_hp_max(),obj_player.hp+heal);
 }

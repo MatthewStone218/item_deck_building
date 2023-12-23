@@ -98,6 +98,11 @@ global.item_effects =
 	spd_sum_post:[],
 	spd_mult_post:[],
 	
+	hp_max_sum:[],
+	hp_max_mult:[],
+	hp_max_sum_post:[],
+	hp_max_mult_post:[],
+	
 	heal_sum:[],
 	heal_mult:[],
 	heal_sum_post:[],
