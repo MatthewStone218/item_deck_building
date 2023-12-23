@@ -4,7 +4,7 @@
 
 event_inherited();
 
-data = obj_data_items.item_jem_hp;
+data = obj_data_items.item_gem_hp;
 
 item_func = function(hp_max)
 {

@@ -2,12 +2,15 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
 function item_clean_function(){
 	
-	for(var i = 0; i < array_length(my_functions); i++)
+	if(variable_instance_exists(id,"my_functions"))
 	{
-		var idx = array_get_index(my_functions[i][0],my_functions[i][1]);
-		if(idx != -1)
+		for(var i = 0; i < array_length(my_functions); i++)
 		{
-			array_delete(my_functions[i][0],idx,1);
+			var idx = array_get_index(my_functions[i][0],my_functions[i][1]);
+			if(idx != -1)
+			{
+				array_delete(my_functions[i][0],idx,1);
+			}
 		}
 	}
 }

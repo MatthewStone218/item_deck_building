@@ -131,12 +131,12 @@ item_mango_asp =
 }
 
 
-item_jem_hp =
+item_gem_hp =
 {
-	spr: spr_item_jem_hp,
-	name: text_load(global.csv_items,"jam_hp_name"),
-	state: text_load(global.csv_items,"jam_hp_state"),
-	obj: obj_item_jam_hp,
+	spr: spr_item_gem_hp,
+	name: text_load(global.csv_items,"gem_hp_name"),
+	state: text_load(global.csv_items,"gem_hp_state"),
+	obj: obj_item_gem_hp,
 	item_type: "normal"
 }
 
@@ -204,8 +204,8 @@ item_heart_heal =
 item_broken_heart_1 =
 {
 	spr: spr_item_broken_heart_1,
-	name: text_load(global.csv_items,"broken_heart_1_name"),
-	state: text_load(global.csv_items,"broken_heart_1_state"),
+	name: text_load(global.csv_items,"broken_heart_name"),
+	state: text_load(global.csv_items,"broken_heart_state"),
 	obj: obj_item_broken_heart_1,
 	item_type: "normal"
 }
@@ -214,8 +214,8 @@ item_broken_heart_1 =
 item_broken_heart_2 =
 {
 	spr: spr_item_broken_heart_2,
-	name: text_load(global.csv_items,"broken_heart_2_name"),
-	state: text_load(global.csv_items,"broken_heart_2_state"),
+	name: text_load(global.csv_items,"broken_heart_name"),
+	state: text_load(global.csv_items,"broken_heart_state"),
 	obj: obj_item_broken_heart_2,
 	item_type: "normal"
 }

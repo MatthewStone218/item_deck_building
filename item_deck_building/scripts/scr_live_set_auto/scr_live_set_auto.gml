@@ -449,7 +449,7 @@ function scr_live_set_auto(){
 	sprite_set_live(_32__Iconset_Starter_Pack_84,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_85,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_86,1); 
-	sprite_set_live(spr_item_jem_hp,1); 
+	sprite_set_live(spr_item_gem_hp,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_88,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_89,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_90,1); 

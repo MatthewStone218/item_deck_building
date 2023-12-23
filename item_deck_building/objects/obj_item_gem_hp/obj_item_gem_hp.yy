@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_item_jem_hp",
-    "path": "sprites/spr_item_jem_hp/spr_item_jem_hp.yy",
+    "name": "spr_item_gem_hp",
+    "path": "sprites/spr_item_gem_hp/spr_item_gem_hp.yy",
   },
   "spriteMaskId": null,
   "visible": true,
