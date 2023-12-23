@@ -35,7 +35,7 @@ global.csv_system = load_csv("system.csv");
 
 global.inv_count = 3;
 global.level = 1;
-global.level_max = 21;
+global.level_max = 17;
 
 count_combet_end = 120;
 

@@ -4,6 +4,7 @@
 if(str != "")
 {
 	var scrib = scribble("[ft_normal][scale,3]"+str)
+	.wrap(370)
 	.align(fa_center,fa_middle);
 
 	var width = scrib.get_width();
