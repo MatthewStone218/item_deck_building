@@ -8,7 +8,7 @@ draw_set_valign(fa_middle);
 draw_set_font(ft_normal);
 draw_set_alpha(1);
 
-str = text_load(global.csv_system,"levelup");
+str = text_load(global.csv_system,"levelup")+((global.level == 3 or global.level == 6 or global.level == 9) ? text_load(global.csv_system,"levelup_refresh") : "");
 
 var str2 = $"[ft_normal][scale,3]"+str;
 var margin = 20;

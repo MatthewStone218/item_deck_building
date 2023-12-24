@@ -4,7 +4,7 @@
 
 event_inherited();
 
-data = obj_data_items.item_hamma;
+data = obj_data_items.item_windsoul;
 
 item_func = function(dmg,enemy)
 {

@@ -422,7 +422,7 @@ function scr_live_set_auto(){
 	sprite_set_live(_32__Iconset_Starter_Pack_57,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_58,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_59,1); 
-	sprite_set_live(_32__Iconset_Starter_Pack_60,1); 
+	sprite_set_live(spr_item_meteor,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_61,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_62,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_63,1); 

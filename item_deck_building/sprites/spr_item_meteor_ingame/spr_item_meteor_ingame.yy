@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "_32__Iconset_Starter_Pack_60",
+  "name": "spr_item_meteor_ingame",
   "bbox_bottom": 28,
-  "bbox_left": 4,
-  "bbox_right": 28,
+  "bbox_left": 3,
+  "bbox_right": 27,
   "bbox_top": 4,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -23,7 +23,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6568a21d-5d0b-47e0-a47c-8443093f4840","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 0,
+  "origin": 4,
   "parent": {
     "name": "items",
     "path": "folders/Sprites/game/items.yy",
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "_32__Iconset_Starter_Pack_60",
+    "name": "spr_item_meteor_ingame",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,13 +54,13 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2e92e875-c307-48b9-b6ce-3e54e8192536","path":"sprites/_32__Iconset_Starter_Pack_60/_32__Iconset_Starter_Pack_60.yy",},},},"Disabled":false,"id":"bd210f0f-c5a9-4b83-acad-d275e5b4071d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2e92e875-c307-48b9-b6ce-3e54e8192536","path":"sprites/spr_item_meteor_ingame/spr_item_meteor_ingame.yy",},},},"Disabled":false,"id":"e8ecd5c1-c698-4074-ac6e-f220ea876df8","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 0,
-    "yorigin": 0,
+    "xorigin": 16,
+    "yorigin": 16,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,

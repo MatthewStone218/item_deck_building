@@ -33,6 +33,10 @@ global.csv_items = load_csv("items.csv");
 global.csv_events = load_csv("events.csv");
 global.csv_system = load_csv("system.csv");
 
+global.current_reward_level = 0;
+global.refresh = 1;
+global.refresh_left = global.refresh;
+
 global.inv_count = 3;
 global.level = 1;
 global.level_max = 17;

@@ -370,6 +370,16 @@ item_feather_dash =
 }
 
 
+item_meteor =
+{
+	spr: spr_item_meteor,
+	name: text_load(global.csv_items,"meteor_name"),
+	state: text_load(global.csv_items,"meteor_state"),
+	obj: obj_item_meteor,
+	item_type: "far_action"
+}
+
+
 
 
 
