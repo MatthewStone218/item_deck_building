@@ -460,6 +460,37 @@ item_thorn_armor =
 }
 
 
+item_iron_shield =
+{
+	spr: spr_item_iron_shield,
+	name: text_load(global.csv_items,"iron_shield_name"),
+	state: text_load(global.csv_items,"iron_shield_state"),
+	obj: obj_item_iron_shield,
+	item_type: "normal"
+}
+
+
+item_wood_shield =
+{
+	spr: spr_item_wood_shield,
+	name: text_load(global.csv_items,"wood_shield_name"),
+	state: text_load(global.csv_items,"wood_shield_state"),
+	obj: obj_item_wood_shield,
+	item_type: "normal"
+}
+
+
+item_rock =
+{
+	spr: spr_item_rock,
+	name: text_load(global.csv_items,"rock_name"),
+	state: text_load(global.csv_items,"rock_state"),
+	obj: obj_item_rock,
+	item_type: "normal"
+}
+
+
+
 
 
 

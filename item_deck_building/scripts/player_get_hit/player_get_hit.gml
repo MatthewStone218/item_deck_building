@@ -5,24 +5,24 @@ function player_get_hit(dmg,enemy = id){
 	obj_player.xspd -= 5;
 	
 	var def = 5;
-	for(var i = 0; i < array_length(global.item_effects.def_sum);i++)
-	{
-		var func = method(obj_player,global.item_effects.def_sum[i]);
-		dmg = func(dmg,enemy);
-	}
 	for(var i = 0; i < array_length(global.item_effects.def_mult);i++)
 	{
 		var func = method(obj_player,global.item_effects.def_mult[i]);
 		dmg = func(dmg,enemy);
 	}
-	for(var i = 0; i < array_length(global.item_effects.def_sum_post);i++)
+	for(var i = 0; i < array_length(global.item_effects.def_sum);i++)
 	{
-		var func = method(obj_player,global.item_effects.def_sum_post[i]);
+		var func = method(obj_player,global.item_effects.def_sum[i]);
 		dmg = func(dmg,enemy);
 	}
 	for(var i = 0; i < array_length(global.item_effects.def_mult_post);i++)
 	{
 		var func = method(obj_player,global.item_effects.def_mult_post[i]);
+		dmg = func(dmg,enemy);
+	}
+	for(var i = 0; i < array_length(global.item_effects.def_sum_post);i++)
+	{
+		var func = method(obj_player,global.item_effects.def_sum_post[i]);
 		dmg = func(dmg,enemy);
 	}
 	

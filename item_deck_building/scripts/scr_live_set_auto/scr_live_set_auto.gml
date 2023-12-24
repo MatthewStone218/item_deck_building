@@ -265,7 +265,7 @@ function scr_live_set_auto(){
 	sprite_set_live(_32__Iconset_Starter_Pack_235,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_236,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_237,1); 
-	sprite_set_live(_32__Iconset_Starter_Pack_238,1); 
+	sprite_set_live(spr_item_rock,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_239,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_24,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_240,1); 
@@ -336,8 +336,8 @@ function scr_live_set_auto(){
 	sprite_set_live(_32__Iconset_Starter_Pack_302,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_303,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_304,1); 
-	sprite_set_live(_32__Iconset_Starter_Pack_305,1); 
-	sprite_set_live(_32__Iconset_Starter_Pack_306,1); 
+	sprite_set_live(spr_item_wood_shield,1); 
+	sprite_set_live(spr_item_iron_shield,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_307,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_308,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_309,1); 
