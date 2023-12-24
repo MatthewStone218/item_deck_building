@@ -208,7 +208,7 @@ function scr_live_set_auto(){
 	sprite_set_live(_32__Iconset_Starter_Pack_174,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_175,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_176,1); 
-	sprite_set_live(_32__Iconset_Starter_Pack_177,1); 
+	sprite_set_live(spr_item_gold_eye,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_178,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_179,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_18,1); 
@@ -276,7 +276,7 @@ function scr_live_set_auto(){
 	sprite_set_live(_32__Iconset_Starter_Pack_245,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_246,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_247,1); 
-	sprite_set_live(_32__Iconset_Starter_Pack_248,1); 
+	sprite_set_live(spr_item_throwing_ax,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_249,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_25,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_250,1); 
@@ -455,7 +455,7 @@ function scr_live_set_auto(){
 	sprite_set_live(_32__Iconset_Starter_Pack_72,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_73,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_74,1); 
-	sprite_set_live(_32__Iconset_Starter_Pack_75,1); 
+	sprite_set_live(spr_item_fur,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_76,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_77,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_78,1); 

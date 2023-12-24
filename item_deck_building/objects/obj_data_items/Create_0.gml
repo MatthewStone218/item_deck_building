@@ -490,6 +490,37 @@ item_rock =
 }
 
 
+item_fur =
+{
+	spr: spr_item_fur,
+	name: text_load(global.csv_items,"fur_name"),
+	state: text_load(global.csv_items,"fur_state"),
+	obj: obj_item_fur,
+	item_type: "normal"
+}
+
+
+item_gold_eye =
+{
+	spr: spr_item_gold_eye,
+	name: text_load(global.csv_items,"gold_eye_name"),
+	state: text_load(global.csv_items,"gold_eye_state"),
+	obj: obj_item_gold_eye,
+	item_type: "setting_act_type"
+}
+
+
+item_throwing_ax =
+{
+	spr: spr_item_throwing_ax,
+	name: text_load(global.csv_items,"throwing_ax_name"),
+	state: text_load(global.csv_items,"throwing_ax_state"),
+	obj: obj_throwing_ax_maker,
+	item_type: "far_action"
+}
+
+
+
 
 
 

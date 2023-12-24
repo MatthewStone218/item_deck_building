@@ -248,7 +248,7 @@ function item_array_create(chest_level = 1){
 	if!(reward_duplicated(obj_data_items.item_feather_dash))
 	{
 		_item_array[count,0] = obj_data_items.item_feather_dash;
-		_item_array[count,1] = ITEM_RATE_UNIQUE;
+		_item_array[count,1] = 0;
 		_item_array[count,2] = 0;
 		count++;
 	}
@@ -344,6 +344,30 @@ function item_array_create(chest_level = 1){
 	if!(reward_duplicated(obj_data_items.item_rock))
 	{
 		_item_array[count,0] = obj_data_items.item_rock;
+		_item_array[count,1] = ITEM_RATE_UNIQUE;
+		_item_array[count,2] = 0;
+		count++;
+	}
+	
+	if!(reward_duplicated(obj_data_items.item_fur))
+	{
+		_item_array[count,0] = obj_data_items.item_fur;
+		_item_array[count,1] = ITEM_RATE_UNIQUE;
+		_item_array[count,2] = 0;
+		count++;
+	}
+	
+	if!(reward_duplicated(obj_data_items.spr_item_gold_eye))
+	{
+		_item_array[count,0] = obj_data_items.spr_item_gold_eye;
+		_item_array[count,1] = ITEM_RATE_UNIQUE;
+		_item_array[count,2] = 0;
+		count++;
+	}
+	
+	if!(reward_duplicated(obj_data_items.item_throwing_ax))
+	{
+		_item_array[count,0] = obj_data_items.item_throwing_ax;
 		_item_array[count,1] = ITEM_RATE_UNIQUE;
 		_item_array[count,2] = 0;
 		count++;
