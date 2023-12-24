@@ -3,7 +3,7 @@
 
 event_inherited();
 
-data = obj_data_items.obj_item_jump_def;
+data = obj_data_items.item_jump_def;
 
 item_func = function(dmg)
 {
