@@ -5,7 +5,7 @@
 event_enemy_skeleton_warrior = 
 {
 	func: function(){
-		call_later(1,time_source_units_frames,function(){
+		call_later(60,time_source_units_frames,function(){
 		global.state = ST.COMBET;
 		global.st_prev = ST.COMBET;
 		});
@@ -18,7 +18,7 @@ event_enemy_skeleton_warrior =
 event_enemy_slime_blue_1 = 
 {
 	func: function(){
-		call_later(1,time_source_units_frames,function(){
+		call_later(60,time_source_units_frames,function(){
 		global.state = ST.COMBET;
 		global.st_prev = ST.COMBET;
 		});
@@ -31,7 +31,7 @@ event_enemy_slime_blue_1 =
 event_enemy_slime_blue_2 = 
 {
 	func: function(){
-		call_later(1,time_source_units_frames,function(){
+		call_later(60,time_source_units_frames,function(){
 		global.state = ST.COMBET;
 		global.st_prev = ST.COMBET;
 		});
@@ -45,7 +45,7 @@ event_enemy_slime_blue_2 =
 event_enemy_slime_green_1 = 
 {
 	func: function(){
-		call_later(1,time_source_units_frames,function(){
+		call_later(60,time_source_units_frames,function(){
 		global.state = ST.COMBET;
 		global.st_prev = ST.COMBET;
 		});
@@ -58,7 +58,7 @@ event_enemy_slime_green_1 =
 event_enemy_slime_green_2 = 
 {
 	func: function(){
-		call_later(1,time_source_units_frames,function(){
+		call_later(60,time_source_units_frames,function(){
 		global.state = ST.COMBET;
 		global.st_prev = ST.COMBET;
 		});
@@ -72,7 +72,7 @@ event_enemy_slime_green_2 =
 event_enemy_slime_red_1 = 
 {
 	func: function(){
-		call_later(1,time_source_units_frames,function(){
+		call_later(60,time_source_units_frames,function(){
 		global.state = ST.COMBET;
 		global.st_prev = ST.COMBET;
 		});

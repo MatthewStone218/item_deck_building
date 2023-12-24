@@ -4,7 +4,7 @@
 
 event_inherited();
 
-data = obj_data_items.obj_item_meteor;
+data = obj_data_items.item_meteor;
 
 item_func1 = function(_enemy)
 {
