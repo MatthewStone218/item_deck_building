@@ -346,7 +346,7 @@ function scr_live_set_auto(){
 	sprite_set_live(_32__Iconset_Starter_Pack_347,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_348,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_349,1); 
-	sprite_set_live(_32__Iconset_Starter_Pack_35,1); 
+	sprite_set_live(spr_item_wizzard_portion,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_350,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_351,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_352,1); 

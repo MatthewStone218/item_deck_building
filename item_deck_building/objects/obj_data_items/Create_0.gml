@@ -400,6 +400,16 @@ item_ignore_damage_5sec =
 }
 
 
+item_wizzard_portion =
+{
+	spr: spr_item_wizzard_portion,
+	name: text_load(global.csv_items,"wizzard_portion_name"),
+	state: text_load(global.csv_items,"wizzard_portion_state"),
+	obj: obj_item_wizzard_portion,
+	item_type: "normal"
+}
+
+
 
 
 
