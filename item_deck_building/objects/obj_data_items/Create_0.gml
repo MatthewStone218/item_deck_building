@@ -380,6 +380,16 @@ item_meteor =
 }
 
 
+item_sp_damaged =
+{
+	spr: spr_item_sp_damaged,
+	name: text_load(global.csv_items,"sp_damaged_name"),
+	state: text_load(global.csv_items,"sp_damaged_state"),
+	obj: obj_item_sp_damaged,
+	item_type: "normal"
+}
+
+
 
 
 
