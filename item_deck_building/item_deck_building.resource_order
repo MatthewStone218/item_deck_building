@@ -582,6 +582,7 @@
     {"name":"obj_ui_refresh","order":5,"path":"objects/obj_ui_refresh/obj_ui_refresh.yy",},
     {"name":"player_get_spd","order":22,"path":"scripts/player_get_spd/player_get_spd.yy",},
     {"name":"_32__Iconset_Starter_Pack_215","order":255,"path":"sprites/_32__Iconset_Starter_Pack_215/_32__Iconset_Starter_Pack_215.yy",},
+    {"name":"snd_explosion_1","order":11,"path":"sounds/snd_explosion_1/snd_explosion_1.yy",},
     {"name":"__scribble_get_effects_map","order":5,"path":"scripts/__scribble_get_effects_map/__scribble_get_effects_map.yy",},
     {"name":"_32__Iconset_Starter_Pack_268","order":300,"path":"sprites/_32__Iconset_Starter_Pack_268/_32__Iconset_Starter_Pack_268.yy",},
     {"name":"scribble_external_sound_remove","order":2,"path":"scripts/scribble_external_sound_remove/scribble_external_sound_remove.yy",},

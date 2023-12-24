@@ -8,6 +8,7 @@ if(yspd_prev > 0 and obj_player.yspd <= 0)
 		player_attack(other.yspd_prev*0.8,id);
 	}
 	obj_camera_sys.screen_shake = yspd_prev;
+	audio_play_sound(snd_explosion_1,1,0);
 }
 
 

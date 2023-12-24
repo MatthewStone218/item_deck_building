@@ -654,6 +654,7 @@
     {"id":{"name":"obj_ui_refresh","path":"objects/obj_ui_refresh/obj_ui_refresh.yy",},},
     {"id":{"name":"player_get_spd","path":"scripts/player_get_spd/player_get_spd.yy",},},
     {"id":{"name":"_32__Iconset_Starter_Pack_215","path":"sprites/_32__Iconset_Starter_Pack_215/_32__Iconset_Starter_Pack_215.yy",},},
+    {"id":{"name":"snd_explosion_1","path":"sounds/snd_explosion_1/snd_explosion_1.yy",},},
     {"id":{"name":"__scribble_get_effects_map","path":"scripts/__scribble_get_effects_map/__scribble_get_effects_map.yy",},},
     {"id":{"name":"_32__Iconset_Starter_Pack_268","path":"sprites/_32__Iconset_Starter_Pack_268/_32__Iconset_Starter_Pack_268.yy",},},
     {"id":{"name":"scribble_external_sound_remove","path":"scripts/scribble_external_sound_remove/scribble_external_sound_remove.yy",},},
