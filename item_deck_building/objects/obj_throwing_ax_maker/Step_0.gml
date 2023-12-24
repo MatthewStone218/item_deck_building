@@ -13,7 +13,6 @@ if(_alarm < 0 and instance_exists(enemy))
 	if(incy.hspeed == 0){incy.hspeed = 1;}
 	incy.angle_speed = sign(enemy.x-obj_player.x)*18;
 }
-}
 
 
 

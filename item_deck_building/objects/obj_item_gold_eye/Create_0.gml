@@ -3,7 +3,7 @@
 
 event_inherited();
 
-data = obj_data_items.spr_item_gold_eye;
+data = obj_data_items.item_gold_eye;
 
 item_func = function()
 {

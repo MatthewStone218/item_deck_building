@@ -10,4 +10,4 @@ item_func = function(dmg)
 	return max(dmg-(player_get_ap()*0.2),0);
 }
 
-item_push_function(global.item_effects.def,item_func);
+item_push_function(global.item_effects.def_sum,item_func);
