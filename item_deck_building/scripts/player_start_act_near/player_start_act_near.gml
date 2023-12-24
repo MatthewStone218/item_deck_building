@@ -10,16 +10,24 @@ function player_start_act_near(_enemy){
 	
 	if(global.item_effects.act_start_near == -1)
 	{
-		attacking = 1;
-		act = [1,ACT_TYPE.ACTING_NEAR];
-		sprite_index = spr_player_attack_1;
-		image_index = 0;
-		image_speed = player_get_asp();
+		if(place_meeting(x,y+1,obj_sol))
+		{
+			attacking = 1;
+			act = [1,ACT_TYPE.ACTING_NEAR];
+			sprite_index = spr_player_attack_1;
+			image_index = 0;
+			image_speed = player_get_asp();
 	
-		coll_objs = {};
+			coll_objs = {};
 	
-		var _dir = sign(_enemy.x-x);
-		if(_dir == 1){image_xscale = 1;}else{image_xscale = -1;}
+			var _dir = sign(_enemy.x-x);
+			if(_dir == 1){image_xscale = 1;}else{image_xscale = -1;}
+		}
+		else
+		{
+			sprite_index = spr_player_idle;
+			image_speed = 1;
+		}
 	}
 	else
 	{
