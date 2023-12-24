@@ -4,7 +4,7 @@
 
 event_inherited();
 
-data = obj_data_items.item_sp_damaged;
+data = obj_data_items.item_purple_soul;
 
 pow = 0;
 

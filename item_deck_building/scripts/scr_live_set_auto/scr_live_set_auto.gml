@@ -334,7 +334,7 @@ function scr_live_set_auto(){
 	sprite_set_live(_32__Iconset_Starter_Pack_335,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_336,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_337,1); 
-	sprite_set_live(_32__Iconset_Starter_Pack_338,1); 
+	sprite_set_live(spr_item_shoese_land,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_339,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_34,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_340,1); 

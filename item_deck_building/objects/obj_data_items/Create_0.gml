@@ -420,6 +420,16 @@ item_purple_soul =
 }
 
 
+item_shoese_land =
+{
+	spr: spr_item_shoese_land,
+	name: text_load(global.csv_items,"shoese_land_name"),
+	state: text_load(global.csv_items,"shoese_land_state"),
+	obj: obj_item_shoese_land,
+	item_type: "normal"
+}
+
+
 
 
 
