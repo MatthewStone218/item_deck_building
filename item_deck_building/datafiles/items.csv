@@ -81,3 +81,5 @@ ignore_damage_5sec_name,"""[rainbow]신앙의 증표[/rainbow]""","""[rainbow]To
 ignore_damage_5sec_state,"""[rainbow]전투 시작 후 5초간 받는 모든 피해가 1이 됩니다.[/rainbow]""","[rainbow]For 5 seconds after the start of battle, all damage received becomes 1.[/rainbow]",,
 wizzard_portion_name,"""[rainbow]마법사의 포션[/rainbow]""","""[rainbow]Wizzard Portion[/rainbow]""",,
 wizzard_portion_state,"""[#ff4c97]주문력[/color] +30\n\n이 약은 당신을 높은 곳으로 데려다줍니다.""","""[#ff4c97]SP[/color] +30\n\nThis portion will make you high.""",,
+purple_soul_name,"""[#ff4c97]자주빛 영혼[/color]""","""[#ff4c97]자주빛 영혼[/color]""",,
+purple_soul_state,"""적에게 피해를 입힐 때마다 [#ff4c97]주문력[/color]을 [#00ff00]3 얻습니다.[/color]""","""Each time you deal to an enemy, gain [#00ff00]3 [#ff4c97]SP[/color].[/color]""",,

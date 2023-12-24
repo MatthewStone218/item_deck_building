@@ -410,6 +410,16 @@ item_wizzard_portion =
 }
 
 
+item_purple_soul =
+{
+	spr: spr_item_purple_soul,
+	name: text_load(global.csv_items,"purple_soul_name"),
+	state: text_load(global.csv_items,"purple_soul_state"),
+	obj: obj_item_purple_soul,
+	item_type: "normal"
+}
+
+
 
 
 
