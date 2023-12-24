@@ -74,7 +74,7 @@ hamma_state,"""[#00ff00]최대체력의 20%만큼 공격력을 얻습니다.[/co
 windsoul_name,"""[#93ff86]바람의 영혼[/color]""","""[#93ff86]Windsoul[/color]""",,
 windsoul_state,"""[#00ff00]적과의 거리에 비례해 추가 데미지를 얻습니다.[/color]\n(최대 100%)""","""Gain additional damage in proportion to the distance to the enemy.\n(Up to 100%)""",,
 meteor_name,"""[rainbow]메테오[/rainbow]""","""[rainbow]Meteor[/rainbow]""",,
-meteor_state,"""[rainbow]원거리 행동[/rainbow]: 제자리에서 [#fff98f]메테오를 소환합니다.[/color]\n메테오는 적에게 [#ff4c97]주문력+1[/color] 만큼의 피해를 입힙니다.""","""[rainbow]Far Action[/rainbow]: Summon a [#fff98f]meteor.[/color]\nThe meteor deals [#ff4c97]spell power+1[/color] damage to the enemy. """,,
+meteor_state,"""[rainbow]원거리 행동[/rainbow]: 제자리에서 [#fff98f]메테오를 소환합니다.[/color]\n메테오는 적에게 [#ff4c97]주문력+1[/color] 만큼의 피해를 입힙니다.""","""[rainbow]Ranged Action[/rainbow]: Summon a [#fff98f]meteor.[/color]\nThe meteor deals [#ff4c97]spell power+1[/color] damage to the enemy. """,,
 sp_damaged_name,"""[#bc00ff]불안정한 해골[/color]""","""[#bc00ff]Unstable Skull[/color]""",,
 sp_damaged_state,"""[#ff0000]피해를 입을 때마다[/color] 10의 주문력을 얻습니다.""","""[#ff0000]Each time you take damage[/color] gain 5 SP.""",,
 ignore_damage_5sec_name,"""[rainbow]신앙의 증표[/rainbow]""","""[rainbow]Token of faith[/rainbow]""",,
