@@ -430,6 +430,16 @@ item_shoese_land =
 }
 
 
+item_jump_def =
+{
+	spr: spr_item_jump_def,
+	name: text_load(global.csv_items,"jump_def_name"),
+	state: text_load(global.csv_items,"jump_def_state"),
+	obj: obj_item_jump_def,
+	item_type: "normal"
+}
+
+
 
 
 

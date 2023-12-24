@@ -179,7 +179,7 @@ function scr_live_set_auto(){
 	sprite_set_live(_32__Iconset_Starter_Pack_192,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_193,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_194,1); 
-	sprite_set_live(_32__Iconset_Starter_Pack_195,1); 
+	sprite_set_live(spr_item_jump_def,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_196,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_197,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_198,1); 
