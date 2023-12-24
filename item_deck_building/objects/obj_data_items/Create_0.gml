@@ -450,6 +450,17 @@ item_jump_double =
 }
 
 
+item_thorn_armor =
+{
+	spr: spr_item_thorn_armor,
+	name: text_load(global.csv_items,"thorn_armor_name"),
+	state: text_load(global.csv_items,"thorn_armor_state"),
+	obj: obj_item_thorn_armor,
+	item_type: "normal"
+}
+
+
+
 
 
 

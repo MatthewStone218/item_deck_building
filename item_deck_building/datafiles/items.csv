@@ -89,3 +89,5 @@ jump_def_name,"""[#93ff86]녹색 천[/color]""","""[#93ff86]Green Cloth[/color]"
 jump_def_state,"""공중에 있을 때, [#00ff00]받는 데미지가 절반으로 줄어듭니다.[/color]""","""When in the air, [#00ff00]damage taken is reduced by half.[/color]""",,
 jump_double_name,"""띠용 신발""","""JUMP SHOES""",,
 jump_double_state,"""점프력 +4""",“Jumping power +4”,,
+thorn_armor_name,"""[#fff98f]가시갑옷[/color]""",[#fff98f]Thorn Armor[/color],,
+thorn_armor_state,"""[#00ff00]피해를 받았을 때,[#00ff00]내 최대체력의 20%만큼 해당 적에게 피해를 가합니다[/color]""","""[#00ff00]When receiving damage,[#00ff00]deals damage to the enemy equal to 20% of your max HP[/color]""",,

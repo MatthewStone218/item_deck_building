@@ -1,6 +1,6 @@
 // v2.3.0에 대한 스크립트 어셋 변경됨 자세한 정보는
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
-function player_get_hit(dmg){
+function player_get_hit(dmg,enemy = id){
 	obj_player.xspd_knockback += 12*sign(obj_player.x-x);
 	obj_player.xspd -= 5;
 	
@@ -8,22 +8,22 @@ function player_get_hit(dmg){
 	for(var i = 0; i < array_length(global.item_effects.def_sum);i++)
 	{
 		var func = method(obj_player,global.item_effects.def_sum[i]);
-		dmg = func(dmg);
+		dmg = func(dmg,enemy);
 	}
 	for(var i = 0; i < array_length(global.item_effects.def_mult);i++)
 	{
 		var func = method(obj_player,global.item_effects.def_mult[i]);
-		dmg = func(dmg);
+		dmg = func(dmg,enemy);
 	}
 	for(var i = 0; i < array_length(global.item_effects.def_sum_post);i++)
 	{
 		var func = method(obj_player,global.item_effects.def_sum_post[i]);
-		dmg = func(dmg);
+		dmg = func(dmg,enemy);
 	}
 	for(var i = 0; i < array_length(global.item_effects.def_mult_post);i++)
 	{
 		var func = method(obj_player,global.item_effects.def_mult_post[i]);
-		dmg = func(dmg);
+		dmg = func(dmg,enemy);
 	}
 	
 	
@@ -31,17 +31,17 @@ function player_get_hit(dmg){
 	for(var i = 0; i < array_length(global.item_effects.get_hit_pre);i++)
 	{
 		var func = method(obj_player,global.item_effects.get_hit_pre[i]);
-		func(dmg);
+		func(dmg,enemy);
 	}
 	for(var i = 0; i < array_length(global.item_effects.get_hit);i++)
 	{
 		var func = method(obj_player,global.item_effects.get_hit[i]);
-		func(dmg);
+		func(dmg,enemy);
 	}
 	for(var i = 0; i < array_length(global.item_effects.get_hit_post);i++)
 	{
 		var func = method(obj_player,global.item_effects.get_hit_post[i]);
-		func(dmg);
+		func(dmg,enemy);
 	}
 		
 	obj_player.hp -= dmg;
