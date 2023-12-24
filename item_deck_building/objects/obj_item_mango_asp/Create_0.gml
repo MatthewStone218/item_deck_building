@@ -4,7 +4,7 @@
 
 event_inherited();
 
-data = obj_data_items.item_ring_asp;
+data = obj_data_items.item_mango_asp;
 
 item_func = function(asp)
 {

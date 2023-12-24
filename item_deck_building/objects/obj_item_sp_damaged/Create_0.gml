@@ -4,13 +4,13 @@
 
 event_inherited();
 
-data = obj_data_items.item_blood;
+data = obj_data_items.item_sp_damaged;
 
 pow = 0;
 
 item_func_1 = function(dmg)
 {
-	with(obj_item_blood)
+	with(obj_item_sp_damaged)
 	{
 		pow += 5;
 	}
@@ -20,10 +20,10 @@ item_func_1 = function(dmg)
 
 item_func_2 = function(dmg)
 {
-	if(!instance_exists(obj_item_blood)){return dmg;}
+	if(!instance_exists(obj_item_sp_damaged)){return dmg;}
 	else
 	{
-		return dmg+obj_item_blood.pow;
+		return dmg+obj_item_sp_damaged.pow;
 	}
 }
 
