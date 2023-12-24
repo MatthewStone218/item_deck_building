@@ -4,11 +4,14 @@
 
 event_inherited();
 
-data = obj_data_items.item_heart_attack_heal;
+data = obj_data_items.item_feather_near_start;
 
 item_func = function()
 {
-	player_heal(2+(0.1*player_get_sp()));
+	if(instance_exists(obj_enemy))
+	{
+		instance_create_layer(obj_player.x,obj_player.y,"player",obj_fether_near_start);
+	}
 }
 
 item_push_function(global.item_effects.near_act_start,item_func);

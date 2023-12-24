@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "_32__Iconset_Starter_Pack_165",
+  "name": "spr_item_feather_damaged",
   "bbox_bottom": 28,
   "bbox_left": 4,
   "bbox_right": 28,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4f989fe7-547e-46f6-92a5-ffb65aeb5505",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"41d78e99-a0bb-42d5-ba82-01fdc90922c9",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 32,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5f418c95-25c8-450c-a6ae-13a4dc1dda30","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7930424b-d1e8-4d7d-9c78-021bdc188b2e","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "_32__Iconset_Starter_Pack_165",
+    "name": "spr_item_feather_damaged",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4f989fe7-547e-46f6-92a5-ffb65aeb5505","path":"sprites/_32__Iconset_Starter_Pack_165/_32__Iconset_Starter_Pack_165.yy",},},},"Disabled":false,"id":"4b2f7d4f-fe00-472c-aa58-a6ec72986f16","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"41d78e99-a0bb-42d5-ba82-01fdc90922c9","path":"sprites/spr_item_feather_damaged/spr_item_feather_damaged.yy",},},},"Disabled":false,"id":"1ad77b97-0b0f-42ec-bcad-e7e656d55580","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

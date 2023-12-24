@@ -330,6 +330,46 @@ item_windsoul =
 }
 
 
+item_feather_near_start =
+{
+	spr: spr_item_feather_near_start,
+	name: text_load(global.csv_items,"feather_near_start_name"),
+	state: text_load(global.csv_items,"feather_near_start_state"),
+	obj: obj_item_feather_near_start,
+	item_type: "normal"
+}
+
+
+item_feather_far_start =
+{
+	spr: spr_item_feather_far_start,
+	name: text_load(global.csv_items,"feather_far_start_name"),
+	state: text_load(global.csv_items,"feather_far_start_state"),
+	obj: obj_item_feather_far_start,
+	item_type: "normal"
+}
+
+
+item_feather_damaged =
+{
+	spr: spr_item_feather_damaged,
+	name: text_load(global.csv_items,"feather_damaged_name"),
+	state: text_load(global.csv_items,"feather_damaged_state"),
+	obj: obj_item_feather_damaged,
+	item_type: "normal"
+}
+
+
+item_feather_dash =
+{
+	spr: spr_item_feather_dash,
+	name: text_load(global.csv_items,"feather_dash_name"),
+	state: text_load(global.csv_items,"feather_dash_state"),
+	obj: obj_item_feather_dash,
+	item_type: "normal"
+}
+
+
 
 
 

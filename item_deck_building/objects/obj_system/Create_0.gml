@@ -139,6 +139,10 @@ global.item_effects =
 	attack:[],
 	attack_post:[],
 	
+	dash_pre:[],
+	dash:[],
+	dash_post:[],
+	
 	get_hit_pre:[],
 	get_hit:[],
 	get_hit_post:[],
@@ -159,6 +163,7 @@ global.item_effects =
 	act_start_far:-1,
 	act_near:-1,
 	act_far:-1,
+	act_dash:-1,
 	act_dodge:-1,
 	act_guard:-1,
 	act_animation_end_near:-1,

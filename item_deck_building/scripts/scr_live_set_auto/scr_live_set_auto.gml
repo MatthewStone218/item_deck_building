@@ -145,9 +145,9 @@ function scr_live_set_auto(){
 	sprite_set_live(_32__Iconset_Starter_Pack_161,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_162,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_163,1); 
-	sprite_set_live(_32__Iconset_Starter_Pack_164,1); 
-	sprite_set_live(_32__Iconset_Starter_Pack_165,1); 
-	sprite_set_live(_32__Iconset_Starter_Pack_166,1); 
+	sprite_set_live(spr_item_feather_far_start,1); 
+	sprite_set_live(spr_item_feather_dash,1); 
+	sprite_set_live(spr_item_feather_damaged,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_167,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_168,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_169,1); 
@@ -163,7 +163,7 @@ function scr_live_set_auto(){
 	sprite_set_live(_32__Iconset_Starter_Pack_178,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_179,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_18,1); 
-	sprite_set_live(_32__Iconset_Starter_Pack_180,1); 
+	sprite_set_live(spr_item_feather_near_start,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_181,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_182,1); 
 	sprite_set_live(spr_item_feather_heal,1); 
