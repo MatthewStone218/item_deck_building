@@ -12,7 +12,7 @@ item_func_1 = function(dmg)
 {
 	with(obj_item_sp_damaged)
 	{
-		pow += 5;
+		pow += 10;
 	}
 	
 	return dmg;
