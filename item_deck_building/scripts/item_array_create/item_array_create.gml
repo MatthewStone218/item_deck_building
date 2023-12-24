@@ -103,7 +103,7 @@ function item_array_create(chest_level = 1){
 	if!(reward_duplicated(obj_data_items.item_cloak_jump_attack_start))
 	{
 		_item_array[count,0] = obj_data_items.item_cloak_jump_attack_start;
-		_item_array[count,1] = ITEM_RATE_NORMAL*999999999;
+		_item_array[count,1] = ITEM_RATE_NORMAL;
 		_item_array[count,2] = 0;
 		count++;
 	}
@@ -293,10 +293,10 @@ function item_array_create(chest_level = 1){
 		count++;
 	}
 	
-	if!(reward_duplicated(obj_data_items.item_shoese_land))
+	if!(reward_duplicated(obj_data_items.item_shoes_land))
 	{
-		_item_array[count,0] = obj_data_items.item_shoese_land;
-		_item_array[count,1] = ITEM_RATE_LEGEND*999999;
+		_item_array[count,0] = obj_data_items.item_shoes_land;
+		_item_array[count,1] = ITEM_RATE_LEGEND;
 		_item_array[count,2] = 0;
 		count++;
 	}
@@ -304,6 +304,14 @@ function item_array_create(chest_level = 1){
 	if!(reward_duplicated(obj_data_items.item_jump_def))
 	{
 		_item_array[count,0] = obj_data_items.item_jump_def;
+		_item_array[count,1] = ITEM_RATE_UNIQUE;
+		_item_array[count,2] = 0;
+		count++;
+	}
+	
+	if!(reward_duplicated(obj_data_items.item_jump_double))
+	{
+		_item_array[count,0] = obj_data_items.item_jump_double;
 		_item_array[count,1] = ITEM_RATE_UNIQUE;
 		_item_array[count,2] = 0;
 		count++;

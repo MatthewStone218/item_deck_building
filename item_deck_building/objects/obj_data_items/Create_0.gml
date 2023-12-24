@@ -420,12 +420,12 @@ item_purple_soul =
 }
 
 
-item_shoese_land =
+item_shoes_land =
 {
-	spr: spr_item_shoese_land,
-	name: text_load(global.csv_items,"shoese_land_name"),
-	state: text_load(global.csv_items,"shoese_land_state"),
-	obj: obj_item_shoese_land,
+	spr: spr_item_shoes_land,
+	name: text_load(global.csv_items,"shoes_land_name"),
+	state: text_load(global.csv_items,"shoes_land_state"),
+	obj: obj_item_shoes_land,
 	item_type: "normal"
 }
 
@@ -438,6 +438,17 @@ item_jump_def =
 	obj: obj_item_jump_def,
 	item_type: "normal"
 }
+
+
+item_jump_double =
+{
+	spr: spr_item_jump_double,
+	name: text_load(global.csv_items,"jump_double_name"),
+	state: text_load(global.csv_items,"jump_double_state"),
+	obj: obj_item_jump_double,
+	item_type: "normal"
+}
+
 
 
 
