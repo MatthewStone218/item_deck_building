@@ -13,10 +13,7 @@
     "name": "items",
     "path": "folders/Objects/game/items/items.yy",
   },
-  "parentObjectId": {
-    "name": "obj_item_wizzard_portion",
-    "path": "objects/obj_item_wizzard_portion/obj_item_wizzard_portion.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

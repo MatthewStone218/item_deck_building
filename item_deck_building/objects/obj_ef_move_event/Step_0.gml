@@ -27,6 +27,7 @@ if(step == 0)
 		call_later(1,time_source_units_frames,func);
 		global.map_show = 0;
 		global.can_goto_next_event = 0;
+		global.floor_level += 1;
 	}
 }
 else

@@ -5,7 +5,7 @@
 x = xstart;
 y = ystart;
 
-
+act[0] = false;
 
 
 

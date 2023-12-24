@@ -4,7 +4,7 @@
 
 event_inherited();
 
-data = obj_data_items.obj_item_throwing_ax;
+data = obj_data_items.item_throwing_ax;
 
 item_func1 = function(_enemy)
 {
@@ -23,6 +23,11 @@ item_func2 = function(_enemy)
 	{
 		player_start_act_near(_enemy);
 		instance_destroy(obj_throwing_ax_maker);
+	}
+	else
+	{
+		sprite_index = spr_player_idle;
+		image_speed = 1;
 	}
 }
 item_func3 = function(){};

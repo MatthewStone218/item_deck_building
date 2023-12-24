@@ -515,7 +515,7 @@ item_throwing_ax =
 	spr: spr_item_throwing_ax,
 	name: text_load(global.csv_items,"throwing_ax_name"),
 	state: text_load(global.csv_items,"throwing_ax_state"),
-	obj: obj_throwing_ax_maker,
+	obj: obj_item_throwing_ax,
 	item_type: "far_action"
 }
 

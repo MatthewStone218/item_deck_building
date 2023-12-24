@@ -14,9 +14,9 @@ ef_hit_white = max(0,ef_hit_white-1.5);
 
 if(sign(hp_spd) != hp-hp_yellow){hp_spd = 0;}
 
-hp_spd += sign(hp-hp_yellow)*0.13;
+hp_spd += sign(hp-hp_yellow)*0.13*(hp_max/20);
 
-if(abs(hp_spd) > hp_spd_max){hp_spd = sign(hp_spd)*hp_spd_max;}
+if(abs(hp_spd) > hp_spd_max*(hp_max/20)){hp_spd = sign(hp_spd)*hp_spd_max*(hp_max/20);}
 if(abs(hp-hp_yellow) < hp_spd){hp_spd = 0;hp_yellow = hp}
 
 hp_yellow += hp_spd;

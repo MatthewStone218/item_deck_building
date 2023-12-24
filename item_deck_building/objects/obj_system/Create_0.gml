@@ -41,6 +41,8 @@ global.inv_count = 3;
 global.level = 1;
 global.level_max = 17;
 
+global.floor_level = 0;
+
 count_combet_end = 120;
 
 global.map_show = 0;

@@ -24,6 +24,11 @@ item_func2 = function(_enemy)
 		player_start_act_near(_enemy);
 		instance_destroy(obj_meteor_maker);
 	}
+	else
+	{
+		sprite_index = spr_player_idle;
+		image_speed = 1;
+	}
 }
 item_func3 = function(){};
 
