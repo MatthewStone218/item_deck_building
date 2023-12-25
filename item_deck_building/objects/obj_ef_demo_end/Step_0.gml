@@ -4,9 +4,10 @@
 if(step == 0)
 {
 	image_alpha += 0.04;
-	if(image_alpha > 1.2)
+	if(image_alpha > 1.2 and room != rm_demo_end)
 	{
 		room_goto(rm_demo_end);
+		step = 1;
 	}
 }
 else
