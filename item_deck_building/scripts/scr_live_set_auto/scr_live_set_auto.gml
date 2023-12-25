@@ -270,7 +270,7 @@ function scr_live_set_auto(){
 	sprite_set_live(_32__Iconset_Starter_Pack_24,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_240,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_241,1); 
-	sprite_set_live(_32__Iconset_Starter_Pack_242,1); 
+	sprite_set_live(spr_item_sword_atk_1,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_243,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_244,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_245,1); 

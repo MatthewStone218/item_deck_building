@@ -520,6 +520,16 @@ item_throwing_ax =
 }
 
 
+item_sword_atk_1 =
+{
+	spr: spr_item_sword_atk_1,
+	name: text_load(global.csv_items,"sword_atk_1_name"),
+	state: text_load(global.csv_items,"sword_atk_1_state"),
+	obj: obj_item_sword_atk_1,
+	item_type: "normal"
+}
+
+
 
 
 

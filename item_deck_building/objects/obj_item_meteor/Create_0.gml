@@ -28,6 +28,14 @@ item_func2 = function(_enemy)
 	{
 		sprite_index = spr_player_idle;
 		image_speed = 1;
+		if(!instance_exists(obj_meteor_maker))
+		{
+			act = [1,ACT_TYPE.ACTING_FAR];
+	
+			var _dir = sign(_enemy.x-x);
+			if(_dir == 1){image_xscale = 1;}else{image_xscale = -1;}
+			instance_create_depth(obj_player.x,obj_player.y,obj_player.depth-1,obj_meteor_maker);
+		}
 	}
 }
 item_func3 = function(){};

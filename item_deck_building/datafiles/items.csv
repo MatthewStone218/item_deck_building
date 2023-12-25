@@ -103,3 +103,5 @@ gold_eye_name,"""[#fff98f]황금 눈알[/color]""","""[#fff98f]Gold Eye[/color]"
 gold_eye_state,"""[#ff0000]항상 원거리 행동만 합니다.[/color]\n\n신중히 생각하세요!""","""[#ff0000]Always only do far actions.[/color]\n\nThink carefully!""",,
 throwing_ax_name,"""[#fff98f]투척용 도끼[/color]""","""[#fff98f]Throwing Axe[/color]""",,
 throwing_ax_state,"""[rainbow]원거리 행동[/rainbow]: 제자리에서 [#fff98f]투척용 도끼를 던집니다.[/color]\n도끼는 적에게 [#fff98f]공격력[/color] 만큼의 피해를 입힙니다.""","""[rainbow]Far Action[/rainbow]: Throws a [#fff98f]ax from the spot.[/color]\nThe ax deals as [#fff98f]AP[/color] to the enemy.""",,
+sword_atk_1_name,"""[#fff98f]단검[/color]""","""[#fff98f]Dagger[/color]""",,
+sword_atk_1_state,"""[#00ff00]공격력 + 10[/color]""","""[#00ff00]AP + 10[/color]""",,

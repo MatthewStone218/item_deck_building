@@ -23,6 +23,26 @@ function event_array_create(ev_type){
 			_event_array[count,1] = 10*event_range(-10,7);
 			_event_array[count,2] = 0;
 			count++;
+			
+			_event_array[count,0] = obj_data_events.event_enemy_skeleton_archer.func;
+			_event_array[count,1] = 100000*event_range(-5,8);
+			_event_array[count,2] = 0;
+			count++;
+			
+			_event_array[count,0] = obj_data_events.event_enemy_skeleton_warrior_n_archer_1.func;
+			_event_array[count,1] = 10*event_range(3,8);
+			_event_array[count,2] = 0;
+			count++;
+			
+			_event_array[count,0] = obj_data_events.event_enemy_skeleton_warrior_n_archer_2.func;
+			_event_array[count,1] = 10*event_range(7,13);
+			_event_array[count,2] = 0;
+			count++;
+			
+			_event_array[count,0] = obj_data_events.event_enemy_skeleton_warrior_n_archer_3.func;
+			_event_array[count,1] = 10*event_range(12,18);
+			_event_array[count,2] = 0;
+			count++;
 	
 			_event_array[count,0] = obj_data_events.event_enemy_slime_blue_1.func;
 			_event_array[count,1] = 10*event_range(-10,5);

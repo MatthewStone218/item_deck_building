@@ -15,6 +15,64 @@ event_enemy_skeleton_warrior =
 	}
 }
 
+event_enemy_skeleton_archer = 
+{
+	func: function(){
+		call_later(60,time_source_units_frames,function(){
+		global.state = ST.COMBET;
+		global.st_prev = ST.COMBET;
+		});
+		
+		instance_create_layer(1686,536,"enemy",obj_enemy_skeleton_archer);
+		with(obj_ui_hp_2){set_hp()}
+	}
+}
+
+event_enemy_skeleton_warrior_n_archer_1 = 
+{
+	func: function(){
+		call_later(60,time_source_units_frames,function(){
+		global.state = ST.COMBET;
+		global.st_prev = ST.COMBET;
+		});
+		
+		instance_create_layer(1486,544,"enemy",obj_enemy_skeleton_warrior);
+		instance_create_layer(1686,536,"enemy",obj_enemy_skeleton_archer);
+		with(obj_ui_hp_2){set_hp()}
+	}
+}
+
+event_enemy_skeleton_warrior_n_archer_2 = 
+{
+	func: function(){
+		call_later(60,time_source_units_frames,function(){
+		global.state = ST.COMBET;
+		global.st_prev = ST.COMBET;
+		});
+		
+		instance_create_layer(1486,544,"enemy",obj_enemy_skeleton_warrior);
+		instance_create_layer(1286,544,"enemy",obj_enemy_skeleton_warrior);
+		instance_create_layer(1686,536,"enemy",obj_enemy_skeleton_archer);
+		with(obj_ui_hp_2){set_hp()}
+	}
+}
+
+event_enemy_skeleton_warrior_n_archer_3 = 
+{
+	func: function(){
+		call_later(60,time_source_units_frames,function(){
+		global.state = ST.COMBET;
+		global.st_prev = ST.COMBET;
+		});
+		
+		instance_create_layer(1486,544,"enemy",obj_enemy_skeleton_warrior);
+		instance_create_layer(1286,544,"enemy",obj_enemy_skeleton_warrior);
+		instance_create_layer(1586,536,"enemy",obj_enemy_skeleton_archer);
+		instance_create_layer(1686,536,"enemy",obj_enemy_skeleton_archer);
+		with(obj_ui_hp_2){set_hp()}
+	}
+}
+
 event_enemy_slime_blue_1 = 
 {
 	func: function(){
