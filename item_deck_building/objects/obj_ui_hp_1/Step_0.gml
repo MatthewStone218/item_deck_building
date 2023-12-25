@@ -15,7 +15,7 @@ hp_yellow += hp_spd;
 
 if(collision_point(mouse_x,mouse_y,id,0,0) and visible == 1 and image_alpha == 1)
 {
-	obj_info.str = text_load(global.csv_system,"hp")+$" {obj.hp} / {player_get_hp_max()}";
+	obj_info.str = text_load(global.csv_system,"hp")+$" {string_format(obj.hp,1,0)} / {string_format(player_get_hp_max(),1,0)}";
 	obj_info.x = mouse_x;
 	obj_info.y = 255;
 }

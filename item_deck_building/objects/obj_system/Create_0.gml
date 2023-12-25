@@ -48,6 +48,8 @@ count_combet_end = 120;
 global.map_show = 0;
 global.can_goto_next_event = 0;
 
+global.boss_fight = false;
+
 global.exp_max_arr =
 [
 	0,

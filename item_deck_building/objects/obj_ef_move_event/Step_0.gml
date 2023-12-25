@@ -28,6 +28,7 @@ if(step == 0)
 		global.map_show = 0;
 		global.can_goto_next_event = 0;
 		global.floor_level += 1;
+		global.boss_fight = false;
 	}
 }
 else

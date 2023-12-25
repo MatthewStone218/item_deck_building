@@ -366,6 +366,20 @@ event_enemy_zombie_slime_ranged_2 =
 	}
 }
 
+event_enemy_dragon = 
+{
+	func: function(){
+		call_later(60,time_source_units_frames,function(){
+		global.state = ST.COMBET;
+		global.st_prev = ST.COMBET;
+		global.boss_fight = true;
+		});
+		
+		instance_create_layer(1686,532,"enemy",obj_enemy_dragon);
+		with(obj_ui_hp_2){set_hp()}
+	}
+}
+
 //event
 
 

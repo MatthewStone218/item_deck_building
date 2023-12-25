@@ -3,6 +3,7 @@
 function event_array_create(ev_type){
 	_event_array = [];
 	var count = 0;
+			
 		if(ev_type == EV_TYPE.BONFIRE)
 		{
 			_event_array[count,0] = obj_data_events.event_event_bonfire.func;
@@ -13,6 +14,13 @@ function event_array_create(ev_type){
 		else if(ev_type == EV_TYPE.ITEM)
 		{
 			_event_array[count,0] = obj_data_events.event_event_treasure_chest.func;
+			_event_array[count,1] = 2;
+			_event_array[count,2] = 0;
+			count++;
+		}
+		else if(ev_type == EV_TYPE.BOSS_1)
+		{
+			_event_array[count,0] = obj_data_events.event_enemy_dragon.func;
 			_event_array[count,1] = 2;
 			_event_array[count,2] = 0;
 			count++;

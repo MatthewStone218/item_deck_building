@@ -23,7 +23,7 @@ hp_yellow += hp_spd;
 
 if(collision_point(mouse_x,mouse_y,id,0,0) and visible == 1 and image_alpha == 1) and (global.state == ST.COMBET or global.st_prev == ST.COMBET or global.state == ST.MOVING_EVENT)
 {
-	obj_info.str = text_load(global.csv_system,"hp")+$" {hp} / {hp_max}";
+	obj_info.str = text_load(global.csv_system,"hp")+$" {string_format(hp,1,0)} / {string_format(hp_max,1,0)}";
 	obj_info.x = mouse_x;
 	obj_info.y = 255;
 }
