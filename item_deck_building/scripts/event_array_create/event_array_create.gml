@@ -25,7 +25,7 @@ function event_array_create(ev_type){
 			count++;
 			
 			_event_array[count,0] = obj_data_events.event_enemy_skeleton_archer.func;
-			_event_array[count,1] = 100000*event_range(-5,8);
+			_event_array[count,1] = 10*event_range(-5,8);
 			_event_array[count,2] = 0;
 			count++;
 			
@@ -86,6 +86,61 @@ function event_array_create(ev_type){
 	
 			_event_array[count,0] = obj_data_events.event_enemy_mino_skeleton_archer.func;
 			_event_array[count,1] = 10*event_range(14,24);
+			_event_array[count,2] = 0;
+			count++;
+			
+			_event_array[count,0] = obj_data_events.event_enemy_slime_ranged.func;
+			_event_array[count,1] = 20000*10*event_range(14,20);
+			_event_array[count,2] = 0;
+			count++;
+			
+			_event_array[count,0] = obj_data_events.event_enemy_skeleton_warrior_slime_ranged_1.func;
+			_event_array[count,1] = 10*event_range(15,25);
+			_event_array[count,2] = 0;
+			count++;
+			
+			_event_array[count,0] = obj_data_events.event_enemy_skeleton_warrior_slime_ranged_2.func;
+			_event_array[count,1] = 10*event_range(15,25);
+			_event_array[count,2] = 0;
+			count++;
+			
+			_event_array[count,0] = obj_data_events.event_enemy_mino_slime_ranged.func;
+			_event_array[count,1] = 10*event_range(19,30);
+			_event_array[count,2] = 0;
+			count++;
+			
+			_event_array[count,0] = obj_data_events.event_enemy_zombie_1.func;
+			_event_array[count,1] = 10*event_range(15,20);
+			_event_array[count,2] = 0;
+			count++;
+			
+			_event_array[count,0] = obj_data_events.event_enemy_zombie_2.func;
+			_event_array[count,1] = 10*event_range(16,22);
+			_event_array[count,2] = 0;
+			count++;
+			
+			_event_array[count,0] = obj_data_events.event_enemy_zombie_slime_ranged_1.func;
+			_event_array[count,1] = 10*event_range(17,23);
+			_event_array[count,2] = 0;
+			count++;
+			
+			_event_array[count,0] = obj_data_events.event_enemy_zombie_slime_ranged_2.func;
+			_event_array[count,1] = 10*event_range(17,24);
+			_event_array[count,2] = 0;
+			count++;
+			
+			_event_array[count,0] = obj_data_events.event_enemy_mino_zombie_1.func;
+			_event_array[count,1] = 10*event_range(19,27);
+			_event_array[count,2] = 0;
+			count++;
+			
+			_event_array[count,0] = obj_data_events.event_enemy_mino_zombie_2.func;
+			_event_array[count,1] = 10*event_range(19,30);
+			_event_array[count,2] = 0;
+			count++;
+			
+			_event_array[count,0] = obj_data_events.event_enemy_mino_zombie_slime_ranged.func;
+			_event_array[count,1] = 10*event_range(24,30);
 			_event_array[count,2] = 0;
 			count++;
 	

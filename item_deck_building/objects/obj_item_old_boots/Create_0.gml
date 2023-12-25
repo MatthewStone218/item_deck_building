@@ -8,7 +8,7 @@ data = obj_data_items.item_old_boots;
 
 item_func = function(spd)
 {
-	return spd*1.1;
+	return spd*1.3;
 }
 
 item_push_function(global.item_effects.spd_mult,item_func)

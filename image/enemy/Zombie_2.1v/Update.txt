@@ -1,0 +1,19 @@
+2023-04-05 
+
+Zombie v1.1
+
+- Sprite dimension modify. 130x74 -> 130x70
+- Contrast UP.
+- Add one more Death animation. 
+- Organize the some Resource files.
+
+
+2023-10-08 
+
+Zombie v2.1
+
+- Add one of variation.
+- Add two animations.
+- Overall, we trimmed pixels little by little, and optimized frames in a few animations.
+
+- I raised the price by a dollar. I will continue to make pixel work, so please understand. thank you!
