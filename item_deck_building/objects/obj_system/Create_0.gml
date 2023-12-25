@@ -8,6 +8,8 @@
 
 scribble_font_set_default("ft_normal");
 
+if(!variable_global_exists("player_head")){global.player_head = 6;}
+
 global.state = ST.NORMAL;
 global.st_prev = global.state;
 
