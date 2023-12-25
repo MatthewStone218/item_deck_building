@@ -74,6 +74,21 @@ function event_array_create(ev_type){
 			_event_array[count,2] = 0;
 			count++;
 	
+			_event_array[count,0] = obj_data_events.event_enemy_mino_1.func;
+			_event_array[count,1] = 10*event_range(13,23);
+			_event_array[count,2] = 0;
+			count++;
+	
+			_event_array[count,0] = obj_data_events.event_enemy_mino_2.func;
+			_event_array[count,1] = 10*event_range(14,28);
+			_event_array[count,2] = 0;
+			count++;
+	
+			_event_array[count,0] = obj_data_events.event_enemy_mino_skeleton_archer.func;
+			_event_array[count,1] = 10*event_range(14,24);
+			_event_array[count,2] = 0;
+			count++;
+	
 			_event_array[count,0] = obj_data_events.event_event_bonfire.func;
 			_event_array[count,1] = 2*(ev_type == EV_TYPE.RANDOM);
 			_event_array[count,2] = 0;

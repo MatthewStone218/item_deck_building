@@ -155,6 +155,61 @@ event_enemy_slimes =
 	}
 }
 
+event_enemy_mino_1 = 
+{
+	func: function(){
+		call_later(60,time_source_units_frames,function(){
+		global.state = ST.COMBET;
+		global.st_prev = ST.COMBET;
+		});
+		
+		instance_create_layer(1686,584,"enemy",obj_enemy_mino);
+		with(obj_ui_hp_2){set_hp()}
+	}
+}
+
+event_enemy_mino_2 = 
+{
+	func: function(){
+		call_later(60,time_source_units_frames,function(){
+		global.state = ST.COMBET;
+		global.st_prev = ST.COMBET;
+		});
+		
+		instance_create_layer(1686,584,"enemy",obj_enemy_mino);
+		instance_create_layer(1486,584,"enemy",obj_enemy_mino);
+		with(obj_ui_hp_2){set_hp()}
+	}
+}
+
+event_enemy_mino_skeleton_archer = 
+{
+	func: function(){
+		call_later(60,time_source_units_frames,function(){
+		global.state = ST.COMBET;
+		global.st_prev = ST.COMBET;
+		});
+		
+		instance_create_layer(1486,584,"enemy",obj_enemy_mino);
+		instance_create_layer(1686,536,"enemy",obj_enemy_skeleton_archer);
+		with(obj_ui_hp_2){set_hp()}
+	}
+}
+
+event_enemy_mino_skeleton_slime_red = 
+{
+	func: function(){
+		call_later(60,time_source_units_frames,function(){
+		global.state = ST.COMBET;
+		global.st_prev = ST.COMBET;
+		});
+		
+		instance_create_layer(1486,584,"enemy",obj_enemy_mino);
+		instance_create_layer(1686,584,"enemy",obj_enemy_slime_red);
+		with(obj_ui_hp_2){set_hp()}
+	}
+}
+
 //event
 
 

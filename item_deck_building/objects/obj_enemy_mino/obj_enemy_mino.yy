@@ -1,22 +1,25 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_item_sword_1",
+  "name": "obj_enemy_mino",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "items",
-    "path": "folders/Objects/game/items/items.yy",
+    "name": "enemys",
+    "path": "folders/Objects/game/enemys.yy",
   },
   "parentObjectId": {
-    "name": "obj_item",
-    "path": "objects/obj_item/obj_item.yy",
+    "name": "obj_enemy",
+    "path": "objects/obj_enemy/obj_enemy.yy",
   },
-  "persistent": true,
+  "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
   "physicsFriction": 0.2,
@@ -32,9 +35,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_item_sword_atk_1",
-    "path": "sprites/spr_item_sword_atk_1/spr_item_sword_atk_1.yy",
+    "name": "spr_enemy_mino_run",
+    "path": "sprites/spr_enemy_mino_run/spr_enemy_mino_run.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_enemy_mino_run",
+    "path": "sprites/spr_enemy_mino_run/spr_enemy_mino_run.yy",
+  },
   "visible": true,
 }
