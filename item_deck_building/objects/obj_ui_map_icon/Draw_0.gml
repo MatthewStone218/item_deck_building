@@ -1,7 +1,7 @@
 /// @description 여기에 설명 삽입
 // 이 에디터에 코드를 작성할 수 있습니다
 
-if(global.map_show == 1)
+if(global.map_show == 1 and room == rm_game)
 {
 	/*
 	for(var i = 0; i < 20; i++)

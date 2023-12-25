@@ -27,5 +27,5 @@ if(hp <= 0)
 		func();
 	}
 	
-	if(hp <= 0){show_message("game_over")}
+	if(hp <= 0){game_over();}
 }
