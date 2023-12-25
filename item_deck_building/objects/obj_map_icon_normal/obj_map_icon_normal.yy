@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_ui_map_icon_bonfire",
+  "name": "obj_map_icon_normal",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
@@ -11,11 +11,8 @@
     "name": "map",
     "path": "folders/Objects/game/map.yy",
   },
-  "parentObjectId": {
-    "name": "obj_ui_map_icon",
-    "path": "objects/obj_ui_map_icon/obj_ui_map_icon.yy",
-  },
-  "persistent": true,
+  "parentObjectId": null,
+  "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
   "physicsFriction": 0.2,
@@ -31,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_ui_map_icon_bonfire",
-    "path": "sprites/spr_ui_map_icon_bonfire/spr_ui_map_icon_bonfire.yy",
+    "name": "spr_ui_map_icon_random",
+    "path": "sprites/spr_ui_map_icon_random/spr_ui_map_icon_random.yy",
   },
   "spriteMaskId": null,
   "visible": true,

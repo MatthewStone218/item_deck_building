@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_ui_map_icon_bonfire",
+  "name": "obj_ui_map_icon_boss_1",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_ui_map_icon_bonfire",
-    "path": "sprites/spr_ui_map_icon_bonfire/spr_ui_map_icon_bonfire.yy",
+    "name": "spr_ui_map_icon_boss",
+    "path": "sprites/spr_ui_map_icon_boss/spr_ui_map_icon_boss.yy",
   },
   "spriteMaskId": null,
   "visible": true,

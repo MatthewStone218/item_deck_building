@@ -203,7 +203,8 @@ enum EV_TYPE
 	ENEMY,
 	RANDOM,
 	ITEM,
-	BONFIRE
+	BONFIRE,
+	BOSS_1
 }
 
 enum LG
