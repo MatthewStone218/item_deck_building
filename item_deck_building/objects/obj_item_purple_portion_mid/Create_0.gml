@@ -4,7 +4,7 @@
 
 event_inherited();
 
-data = obj_data_items.item_purple_portion_big;
+data = obj_data_items.item_purple_portion_mid;
 
 item_func = function()
 {

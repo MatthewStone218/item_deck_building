@@ -11,7 +11,10 @@
     "name": "map",
     "path": "folders/Objects/game/map.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_ui_map_icon",
+    "path": "objects/obj_ui_map_icon/obj_ui_map_icon.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
