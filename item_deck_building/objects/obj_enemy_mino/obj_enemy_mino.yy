@@ -39,8 +39,8 @@
     "path": "sprites/spr_enemy_mino_run/spr_enemy_mino_run.yy",
   },
   "spriteMaskId": {
-    "name": "spr_enemy_mino_run",
-    "path": "sprites/spr_enemy_mino_run/spr_enemy_mino_run.yy",
+    "name": "spr_enemy_mino_idle",
+    "path": "sprites/spr_enemy_mino_idle/spr_enemy_mino_idle.yy",
   },
   "visible": true,
 }

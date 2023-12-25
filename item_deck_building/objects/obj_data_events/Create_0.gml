@@ -163,7 +163,7 @@ event_enemy_mino_1 =
 		global.st_prev = ST.COMBET;
 		});
 		
-		instance_create_layer(1686,584,"enemy",obj_enemy_mino);
+		instance_create_layer(1686,570,"enemy",obj_enemy_mino);
 		with(obj_ui_hp_2){set_hp()}
 	}
 }
@@ -176,8 +176,8 @@ event_enemy_mino_2 =
 		global.st_prev = ST.COMBET;
 		});
 		
-		instance_create_layer(1686,584,"enemy",obj_enemy_mino);
-		instance_create_layer(1486,584,"enemy",obj_enemy_mino);
+		instance_create_layer(1686,570,"enemy",obj_enemy_mino);
+		instance_create_layer(1486,570,"enemy",obj_enemy_mino);
 		with(obj_ui_hp_2){set_hp()}
 	}
 }
@@ -190,7 +190,7 @@ event_enemy_mino_skeleton_archer =
 		global.st_prev = ST.COMBET;
 		});
 		
-		instance_create_layer(1486,584,"enemy",obj_enemy_mino);
+		instance_create_layer(1486,570,"enemy",obj_enemy_mino);
 		instance_create_layer(1686,536,"enemy",obj_enemy_skeleton_archer);
 		with(obj_ui_hp_2){set_hp()}
 	}
@@ -204,7 +204,7 @@ event_enemy_mino_skeleton_slime_red =
 		global.st_prev = ST.COMBET;
 		});
 		
-		instance_create_layer(1486,584,"enemy",obj_enemy_mino);
+		instance_create_layer(1486,570,"enemy",obj_enemy_mino);
 		instance_create_layer(1686,584,"enemy",obj_enemy_slime_red);
 		with(obj_ui_hp_2){set_hp()}
 	}
@@ -231,7 +231,7 @@ event_enemy_mino_slime_ranged =
 		global.st_prev = ST.COMBET;
 		});
 		
-		instance_create_layer(1486,584,"enemy",obj_enemy_mino);
+		instance_create_layer(1486,570,"enemy",obj_enemy_mino);
 		instance_create_layer(1686,560,"enemy",obj_enemy_slime_ranged);
 		with(obj_ui_hp_2){set_hp()}
 	}
@@ -301,7 +301,7 @@ event_enemy_mino_zombie_1 =
 		global.st_prev = ST.COMBET;
 		});
 		
-		instance_create_layer(1486,584,"enemy",obj_enemy_mino);
+		instance_create_layer(1486,570,"enemy",obj_enemy_mino);
 		instance_create_layer(1686,492,"enemy",obj_enemy_zombie);
 		with(obj_ui_hp_2){set_hp()}
 	}
@@ -315,7 +315,7 @@ event_enemy_mino_zombie_2 =
 		global.st_prev = ST.COMBET;
 		});
 		
-		instance_create_layer(1286,584,"enemy",obj_enemy_mino);
+		instance_create_layer(1286,570,"enemy",obj_enemy_mino);
 		instance_create_layer(1486,492,"enemy",obj_enemy_zombie);
 		instance_create_layer(1686,492,"enemy",obj_enemy_zombie);
 		with(obj_ui_hp_2){set_hp()}
@@ -330,7 +330,7 @@ event_enemy_mino_zombie_slime_ranged =
 		global.st_prev = ST.COMBET;
 		});
 		
-		instance_create_layer(1286,584,"enemy",obj_enemy_mino);
+		instance_create_layer(1286,570,"enemy",obj_enemy_mino);
 		instance_create_layer(1486,492,"enemy",obj_enemy_zombie);
 		instance_create_layer(1686,560,"enemy",obj_enemy_slime_ranged);
 		with(obj_ui_hp_2){set_hp()}

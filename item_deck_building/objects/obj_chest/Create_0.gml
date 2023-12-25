@@ -9,17 +9,17 @@ typist.ease(SCRIBBLE_EASE.ELASTIC, 0, -2, 1, 1, 0, 0.1);
 
 var ran = random(100);
 
-if(ran < 50)
+if(ran < 30)
 {
 	sprite_index = spr_chest_1;
 	level = 1;
 }
-else if(ran < 80)
+else if(ran < 50)
 {
 	sprite_index = spr_chest_2;
 	level = 2;
 }
-else if(ran < 95)
+else if(ran < 80)
 {
 	sprite_index = spr_chest_3;
 	level = 3;

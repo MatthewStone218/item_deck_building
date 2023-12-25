@@ -1,10 +1,10 @@
 /// @description 여기에 설명 삽입
 // 이 에디터에 코드를 작성할 수 있습니다
 
-hp_max = 35;
+hp_max = 50;
 hp = hp_max;
 
-idle_spr = spr_enemy_mino_run;
+idle_spr = spr_enemy_mino_idle;
 run_spr = spr_enemy_mino_run;
 atk_spr = spr_enemy_mino_attack;
 get_hit_spr = spr_enemy_mino_get_hit;
