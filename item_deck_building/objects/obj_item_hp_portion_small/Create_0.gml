@@ -8,7 +8,7 @@ data = obj_data_items.item_hp_portion_small;
 
 item_func = function()
 {
-	player_heal(2);
+	player_heal(4);
 }
 
 item_push_function(global.item_effects.stage_end,item_func);

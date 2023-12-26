@@ -39,7 +39,7 @@ function item_array_create(chest_level = 1){
 	if!(reward_duplicated(obj_data_items.item_hp_portion_small))
 	{
 		_item_array[count,0] = obj_data_items.item_hp_portion_small;
-		_item_array[count,1] = ITEM_RATE_NORMAL;
+		_item_array[count,1] = 0.2*ITEM_RATE_NORMAL;
 		_item_array[count,2] = 0;
 		count++;
 	}
@@ -47,7 +47,7 @@ function item_array_create(chest_level = 1){
 	if!(reward_duplicated(obj_data_items.item_hp_portion_mid))
 	{
 		_item_array[count,0] = obj_data_items.item_hp_portion_mid;
-		_item_array[count,1] = ITEM_RATE_RARE;
+		_item_array[count,1] = 0.2*ITEM_RATE_RARE;
 		_item_array[count,2] = 0;
 		count++;
 	}
@@ -55,7 +55,7 @@ function item_array_create(chest_level = 1){
 	if!(reward_duplicated(obj_data_items.item_hp_portion_big))
 	{
 		_item_array[count,0] = obj_data_items.item_hp_portion_big;
-		_item_array[count,1] = ITEM_RATE_UNIQUE;
+		_item_array[count,1] = 0.2*ITEM_RATE_UNIQUE;
 		_item_array[count,2] = 0;
 		count++;
 	}
@@ -63,7 +63,7 @@ function item_array_create(chest_level = 1){
 	if!(reward_duplicated(obj_data_items.item_purple_portion_small))
 	{
 		_item_array[count,0] = obj_data_items.item_purple_portion_small;
-		_item_array[count,1] = ITEM_RATE_NORMAL;
+		_item_array[count,1] = 0.2*ITEM_RATE_NORMAL;
 		_item_array[count,2] = 0;
 		count++;
 	}
@@ -71,7 +71,7 @@ function item_array_create(chest_level = 1){
 	if!(reward_duplicated(obj_data_items.item_purple_portion_mid))
 	{
 		_item_array[count,0] = obj_data_items.item_purple_portion_mid;
-		_item_array[count,1] = ITEM_RATE_RARE;
+		_item_array[count,1] = 0.2*ITEM_RATE_RARE;
 		_item_array[count,2] = 0;
 		count++;
 	}
@@ -79,7 +79,7 @@ function item_array_create(chest_level = 1){
 	if!(reward_duplicated(obj_data_items.item_purple_portion_big))
 	{
 		_item_array[count,0] = obj_data_items.item_purple_portion_big;
-		_item_array[count,1] = ITEM_RATE_UNIQUE;
+		_item_array[count,1] = 0.2*ITEM_RATE_UNIQUE;
 		_item_array[count,2] = 0;
 		count++;
 	}
@@ -245,9 +245,9 @@ function item_array_create(chest_level = 1){
 		count++;
 	}
 	
-	if!(reward_duplicated(obj_data_items.item_feather_dash))
+	if!(reward_duplicated(obj_data_items.item_feather_damaged))
 	{
-		_item_array[count,0] = obj_data_items.item_feather_dash;
+		_item_array[count,0] = obj_data_items.item_feather_damaged;
 		_item_array[count,1] = 0;
 		_item_array[count,2] = 0;
 		count++;
@@ -257,6 +257,14 @@ function item_array_create(chest_level = 1){
 	{
 		_item_array[count,0] = obj_data_items.item_meteor;
 		_item_array[count,1] = ITEM_RATE_LEGEND;
+		_item_array[count,2] = 0;
+		count++;
+	}
+	
+	if!(reward_duplicated(obj_data_items.item_windsoul))
+	{
+		_item_array[count,0] = obj_data_items.item_windsoul;
+		_item_array[count,1] = ITEM_RATE_UNIQUE;
 		_item_array[count,2] = 0;
 		count++;
 	}
@@ -376,6 +384,14 @@ function item_array_create(chest_level = 1){
 	if!(reward_duplicated(obj_data_items.item_sword_atk_1))
 	{
 		_item_array[count,0] = obj_data_items.item_sword_atk_1;
+		_item_array[count,1] = ITEM_RATE_UNIQUE;
+		_item_array[count,2] = 0;
+		count++;
+	}
+	
+	if!(reward_duplicated(obj_data_items.item_red_horns))
+	{
+		_item_array[count,0] = obj_data_items.item_red_horns;
 		_item_array[count,1] = ITEM_RATE_UNIQUE;
 		_item_array[count,2] = 0;
 		count++;

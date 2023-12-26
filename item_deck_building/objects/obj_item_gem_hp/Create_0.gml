@@ -8,7 +8,7 @@ data = obj_data_items.item_gem_hp;
 
 item_func = function(hp_max)
 {
-	return hp_max+10;
+	return hp_max+15;
 }
 
 item_push_function(global.item_effects.hp_max_sum,item_func);

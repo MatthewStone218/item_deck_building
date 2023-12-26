@@ -8,7 +8,7 @@ data = obj_data_items.item_heart_heal;
 
 item_func = function(heal)
 {
-	return heal*1.3;
+	return heal*1.45;
 }
 
 item_push_function(global.item_effects.heal_mult,item_func);

@@ -80,7 +80,7 @@ if(hp > 0)
 			if(place_meeting(x,y,obj_player))
 			{
 				attacked = 1;
-				player_get_hit(20);
+				player_get_hit(30);
 			}
 			mask_index = idle_spr;
 		}

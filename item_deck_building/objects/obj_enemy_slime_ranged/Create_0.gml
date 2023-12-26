@@ -1,7 +1,7 @@
 /// @description 여기에 설명 삽입
 // 이 에디터에 코드를 작성할 수 있습니다
 
-hp_max = 45;
+hp_max = 90;
 hp = hp_max;
 
 image_index_prev = image_index;

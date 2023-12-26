@@ -196,7 +196,7 @@ function scr_live_set_auto(){
 	sprite_set_live(_32__Iconset_Starter_Pack_160,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_161,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_162,1); 
-	sprite_set_live(_32__Iconset_Starter_Pack_163,1); 
+	sprite_set_live(spr_item_red_horns,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_167,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_168,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_169,1); 

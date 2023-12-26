@@ -8,7 +8,7 @@ data = obj_data_items.item_jewel_hp;
 
 item_func = function(hp_max)
 {
-	return hp_max+35;
+	return hp_max+50;
 }
 
 item_push_function(global.item_effects.hp_max_sum,item_func);

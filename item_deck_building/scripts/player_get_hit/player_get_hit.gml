@@ -38,11 +38,6 @@ function player_get_hit(dmg,enemy = id){
 		var func = method(obj_player,global.item_effects.get_hit[i]);
 		func(dmg,enemy);
 	}
-	for(var i = 0; i < array_length(global.item_effects.get_hit_post);i++)
-	{
-		var func = method(obj_player,global.item_effects.get_hit_post[i]);
-		func(dmg,enemy);
-	}
 		
 	obj_player.hp -= dmg;
 	obj_player.hit = 8;
@@ -52,4 +47,10 @@ function player_get_hit(dmg,enemy = id){
 	
 	var incy = instance_create_layer(obj_player.x,obj_player.y-100,"effects",obj_ef_dmg);
 	incy.text = string_format(dmg,1,0);
+	
+	for(var i = 0; i < array_length(global.item_effects.get_hit_post);i++)
+	{
+		var func = method(obj_player,global.item_effects.get_hit_post[i]);
+		func(dmg,enemy);
+	}
 }

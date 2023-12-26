@@ -44,7 +44,8 @@ if(mouse_check_pressed_me(mb_left) and can_go and global.can_goto_next_event)
 	clicked_pos = [device_mouse_x_to_gui(0),device_mouse_y_to_gui(0)];
 }
 
-
+image_xscale *= scale_start;
+image_yscale *= scale_start;
 
 
 

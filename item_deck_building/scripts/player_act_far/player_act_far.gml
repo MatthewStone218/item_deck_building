@@ -5,7 +5,14 @@ function player_act_far(_enemy){
 	{
 		if(player_check_can_act_near(_enemy))
 		{
-			player_start_act_near(_enemy);
+			if(attack_delay_left == 0)
+			{
+				player_start_act_near(_enemy);
+			}
+			else
+			{
+				sprite_index = spr_player_idle;
+			}
 		}
 		else
 		{

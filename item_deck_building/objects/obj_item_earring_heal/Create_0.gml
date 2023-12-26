@@ -8,7 +8,7 @@ data = obj_data_items.item_earring_heal;
 
 item_func = function(heal)
 {
-	return heal+2;
+	return heal+3;
 }
 
 item_push_function(global.item_effects.heal_sum,item_func);

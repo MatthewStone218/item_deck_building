@@ -1,8 +1,8 @@
 /// @description 여기에 설명 삽입
 // 이 에디터에 코드를 작성할 수 있습니다
 
-#macro ITEM_RATE_LEGEND 0.5*power(2,chest_level-2)
-#macro ITEM_RATE_UNIQUE 0.5*power(1.8,chest_level)
+#macro ITEM_RATE_LEGEND 3*power(2,chest_level-2)
+#macro ITEM_RATE_UNIQUE 3*power(1.8,chest_level)
 #macro ITEM_RATE_RARE 5*power(1.4,chest_level+1)
 #macro ITEM_RATE_NORMAL 15
 
@@ -84,20 +84,20 @@ global.boss_fight = false;
 global.exp_max_arr =
 [
 	0,
+	5,
 	10,
 	15,
 	20,
 	30,
+	40,
 	50,
 	70,
-	100,
-	150,
-	200,
-	250,
+	90,
+	110,
+	130,
+	190,
 	300,
-	400,
 	500,
-	600,
 	700,
 	800,
 	900,

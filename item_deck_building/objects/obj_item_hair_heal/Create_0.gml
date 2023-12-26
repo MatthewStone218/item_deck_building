@@ -8,7 +8,7 @@ data = obj_data_items.item_hair_heal;
 
 item_func = function()
 {
-	player_heal(3+player_get_sp()*0.3);
+	player_heal(3+player_get_sp()*0.03);
 }
 
-item_push_function(global.item_effects.get_hit,item_func);
+item_push_function(global.item_effects.get_hit_post,item_func);

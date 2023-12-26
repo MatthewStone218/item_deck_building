@@ -8,7 +8,7 @@ data = obj_data_items.item_ring_heal;
 
 item_func = function(heal)
 {
-	return heal*1.15;
+	return heal*1.25;
 }
 
 item_push_function(global.item_effects.heal_mult,item_func);
