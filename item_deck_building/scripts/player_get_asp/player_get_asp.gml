@@ -22,5 +22,5 @@ function player_get_asp(){
 		var func = method(obj_player,global.item_effects.asp_mult_post[i]);
 		asp = func(asp);
 	}
-	return asp;
+	return min(asp,5);
 }

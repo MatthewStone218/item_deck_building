@@ -13,6 +13,7 @@ item_func_1 = function(dmg)
 	with(obj_item_purple_soul)
 	{
 		pow += 3;
+		break;
 	}
 	
 	return dmg;

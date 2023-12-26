@@ -7,7 +7,7 @@ data = obj_data_items.item_thorn_armor;
 
 item_func = function(dmg,enemy)
 {
-	player_attack(player_get_hp_max()*0.2,enemy)
+	player_attack(player_get_hp_max()*0.08,enemy)
 	return dmg;
 }
 

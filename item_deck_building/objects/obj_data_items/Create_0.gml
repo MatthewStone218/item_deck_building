@@ -535,7 +535,7 @@ item_red_horns =
 	spr: spr_item_red_horns,
 	name: text_load(global.csv_items,"red_horns_name"),
 	state: text_load(global.csv_items,"red_horns_state"),
-	obj: obj_item_sword_atk_1,
+	obj: obj_item_red_horns,
 	item_type: "normal"
 }
 

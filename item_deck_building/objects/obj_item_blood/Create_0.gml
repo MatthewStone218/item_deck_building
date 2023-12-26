@@ -13,6 +13,7 @@ item_func_1 = function(dmg)
 	with(obj_item_blood)
 	{
 		pow += 5;
+		break;
 	}
 	
 	return dmg;

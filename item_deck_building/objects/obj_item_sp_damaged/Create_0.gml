@@ -13,6 +13,7 @@ item_func_1 = function(dmg)
 	with(obj_item_sp_damaged)
 	{
 		pow += 10;
+		break;
 	}
 	
 	return dmg;

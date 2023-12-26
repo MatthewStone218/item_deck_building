@@ -17,6 +17,9 @@ else
 	image_alpha = 0.7;
 }
 
+image_xscale *= scale_start;
+image_yscale *= scale_start;
+
 x = obj_map.x+xstart;
 
 if(mouse_check_button_released(mb_left) and clicked and point_distance(device_mouse_x_to_gui(0),device_mouse_y_to_gui(0),clicked_pos[0],clicked_pos[1]) < 20)
@@ -43,10 +46,6 @@ if(mouse_check_pressed_me(mb_left) and can_go and global.can_goto_next_event)
 	clicked = 1;
 	clicked_pos = [device_mouse_x_to_gui(0),device_mouse_y_to_gui(0)];
 }
-
-image_xscale *= scale_start;
-image_yscale *= scale_start;
-
 
 
 

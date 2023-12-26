@@ -1,43 +1,12 @@
 /// @description 여기에 설명 삽입
 // 이 에디터에 코드를 작성할 수 있습니다
 
-#macro ITEM_RATE_LEGEND 3*power(2,chest_level-2)
-#macro ITEM_RATE_UNIQUE 3*power(1.8,chest_level)
+#macro ITEM_RATE_LEGEND 1*power(2,chest_level-2)
+#macro ITEM_RATE_UNIQUE 1*power(1.8,chest_level)
 #macro ITEM_RATE_RARE 5*power(1.4,chest_level+1)
 #macro ITEM_RATE_NORMAL 15
 
 scribble_font_set_default("ft_normal");
-
-if(!variable_global_exists("player_head"))
-{
-	global.player_head = 6;
-}
-else
-{
-	instance_create_depth(0,0,-1000,obj_ef_fake);
-	room_goto(rm_game);
-	audio_play_sound(snd_bgm_1,1,1);
-	global.map_show = 1;
-	global.state = ST.MOVING_EVENT;
-	global.st_prev = ST.MOVING_EVENT;
-	step = 1;
-	call_later(120,time_source_units_frames,function()
-	{
-		with(obj_map.icon_now)
-		{
-			with(obj_ui_map_icon)
-			{
-				can_go = 0;
-			}
-			global.can_goto_next_event = 0;
-	
-			global.state = ST.MOVING_EVENT;
-			global.st_prev = ST.MOVING_EVENT;
-
-			instance_create_layer(0,0,"move_ef",obj_ef_move_event,{type: ev_type});
-		}
-	});
-}
 
 global.state = ST.NORMAL;
 global.st_prev = global.state;
@@ -248,5 +217,31 @@ enum LG
 	CH
 }
 
+if(!variable_global_exists("player_head"))
+{
+	global.player_head = 6;
+}
+else
+{
+	instance_create_depth(0,0,-1000,obj_ef_fake);
+	room_goto(rm_game);
+	audio_play_sound(snd_bgm_1,1,1);
+	global.map_show = 1;
+	global.state = ST.MOVING_EVENT;
+	global.st_prev = ST.MOVING_EVENT;
+	step = 1;
+	call_later(120,time_source_units_frames,function()
+	{
+		with(obj_map.icon_now)
+		{
+			with(obj_ui_map_icon)
+			{
+				can_go = 0;
+			}
+			global.can_goto_next_event = 0;
 
+			instance_create_layer(0,0,"move_ef",obj_ef_move_event,{type: ev_type});
+		}
+	});
+}
 
