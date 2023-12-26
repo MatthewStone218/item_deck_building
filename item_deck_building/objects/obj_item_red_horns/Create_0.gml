@@ -12,7 +12,7 @@ item_func_1 = function(dmg)
 {
 	with(obj_item_red_horns)
 	{
-		pow *= 1.05;
+		pow *= 1.08;
 		break;
 	}
 	

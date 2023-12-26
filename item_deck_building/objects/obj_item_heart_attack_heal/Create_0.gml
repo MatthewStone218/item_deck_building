@@ -8,7 +8,7 @@ data = obj_data_items.item_heart_attack_heal;
 
 item_func = function()
 {
-	player_heal(2+(0.3*player_get_sp()));
+	player_heal(2+(0.3*player_get_ap()));
 }
 
 item_push_function(global.item_effects.near_act_start,item_func);

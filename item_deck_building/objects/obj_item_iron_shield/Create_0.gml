@@ -7,7 +7,7 @@ data = obj_data_items.item_iron_shield;
 
 item_func = function(dmg)
 {
-	return dmg*0.85;
+	return dmg*0.65;
 }
 
 item_push_function(global.item_effects.def_mult,item_func)
