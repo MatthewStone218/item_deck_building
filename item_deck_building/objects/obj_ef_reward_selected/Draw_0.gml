@@ -5,7 +5,7 @@ draw_self();
 draw_sprite_ext(spr_window_4,0,x,bbox_top,2,2,0,c_white,image_alpha);
 draw_sprite_ext(spr,-1,x-sprite_get_width(spr)*2,bbox_top-sprite_get_height(spr)*2,4,4,0,c_white,image_alpha);
 
-var _string = $"[alpha,{image_alpha}][ft_normal][scale,3]{name}[/fa_center][/scale,2][scale,2]\n\n{state}[/alpha]";
+var _string = $"[alpha,{image_alpha}][global.font_normal][scale,3]{name}[/fa_center][/scale,2][scale,2]\n\n{state}[/alpha]";
 
 scribble(_string)
 .wrap(sprite_width-50)
@@ -25,7 +25,7 @@ if(white > 0)
 	draw_sprite_ext(spr_window_4,0,x,bbox_top,2,2,0,c_white,white);
 	draw_sprite_ext(spr,-1,x-sprite_get_width(spr)*2,bbox_top-sprite_get_height(spr)*2,4,4,0,c_white,white);
 
-	var _string = $"[alpha,{white}][ft_normal][scale,3]{name}[/fa_center][/scale,2][scale,2]\n\n{state}[/alpha]";
+	var _string = $"[alpha,{white}][global.font_normal][scale,3]{name}[/fa_center][/scale,2][scale,2]\n\n{state}[/alpha]";
 
 	scribble(_string)
 	.wrap(sprite_width-50)

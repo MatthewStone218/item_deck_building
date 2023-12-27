@@ -10,7 +10,7 @@ if(global.state == ST.REWARD or global.st_prev == ST.REWARD)
 		draw_sprite_ext(spr_window_4,0,x,bbox_top,2,2,0,c_white,1);
 		draw_sprite_ext(item.spr,-1,x-sprite_get_width(item.spr)*2,bbox_top-sprite_get_height(item.spr)*2,4,4,0,c_white,1);
 
-		var _string = $"[ft_normal][scale,3]{item.name}[/fa_center][/scale,2][scale,2]\n\n{item.state}";
+		var _string = $"[global.font_normal][scale,3]{item.name}[/fa_center][/scale,2][scale,2]\n\n{item.state}";
 
 
 

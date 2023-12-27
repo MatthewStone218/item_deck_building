@@ -1,7 +1,7 @@
 {
   "resourceType": "GMFont",
   "resourceVersion": "1.0",
-  "name": "ft_normal",
+  "name": "ft_normal_ch",
   "AntiAlias": 1,
   "applyKerning": 0,
   "ascender": 13,
@@ -20682,7 +20682,7 @@
     {"lower":32,"upper":65535,},
   ],
   "regenerateBitmap": false,
-  "sampleText": "abcdef ABCDEF\n0123456789 .,<>\"'&!?\nthe quick brown fox jumps over the lazy dog\nTHE QUICK BROWN FOX JUMPS OVER THE LAZY DOG\nDefault character: ▯ (9647)",
+  "sampleText": "abcdef ABCDEF\n0123456789 .,<>\"'&!?\nthe quick brown fox jumps over the lazy dog\nTHE QUICK BROWN FOX JUMPS OVER THE LAZY DOG\nDefault character: ▯ (9647) 안녕하세요",
   "sdfSpread": 8,
   "size": 7.5,
   "styleName": "Regular",

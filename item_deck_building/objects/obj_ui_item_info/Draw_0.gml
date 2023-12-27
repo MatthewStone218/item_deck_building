@@ -4,7 +4,7 @@ LIVE
 
 if(item != -1)
 {
-	var _string = $"[ft_normal][scale,3]{item.name}[/fa_center][/scale,2][scale,2]\n\n{item.state}";	
+	var _string = $"[global.font_normal][scale,3]{item.name}[/fa_center][/scale,2][scale,2]\n\n{item.state}";	
 	
 	var _scrib = scribble(_string)
 	.wrap(sprite_width-50)

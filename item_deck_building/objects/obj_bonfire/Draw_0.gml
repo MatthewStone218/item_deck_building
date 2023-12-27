@@ -5,7 +5,7 @@ draw_self();
 
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
-draw_set_font(ft_normal);
+draw_set_font(global.font_normal);
 draw_set_alpha(1);
 
 var str;
@@ -20,7 +20,7 @@ else if(clicked == 1)
 
 if(clicked < 2)
 {
-	var str2 = "[ft_normal][scale,3]"+str;
+	var str2 = "[global.font_normal][scale,3]"+str;
 	var margin = 10;
 	draw_sprite_ext(spr_window_2,0,x,y-300,3*(margin*2+string_width(str))/sprite_get_width(spr_window_2),3*(margin*2+string_height(str))/sprite_get_height(spr_window_2),0,c_white,1);
 

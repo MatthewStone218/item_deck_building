@@ -5,14 +5,6 @@
 #macro ITEM_RATE_UNIQUE 1*power(1.8,chest_level)
 #macro ITEM_RATE_RARE 5*power(1.4,chest_level+1)
 #macro ITEM_RATE_NORMAL 15
-/*
-scribble_super_create("ft_normal");
-scribble_super_glyph_copy_all("ft_normal", "ft_normal_en_kr", true);
-scribble_super_glyph_copy_all("ft_normal", "ft_normal_jp_1", true);
-scribble_super_glyph_copy_all("ft_normal", "ft_normal_jp_2", true);
-scribble_super_glyph_copy_all("ft_normal", "ft_normal_ch", true);
-*/
-scribble_font_set_default("ft_normal");
 
 global.state = ST.NORMAL;
 global.st_prev = global.state;
@@ -34,6 +26,14 @@ switch(os_get_region())
 		global.language = LG.CH;
 	break;
 }
+
+ini_open("lang.ini");
+	
+var _lang = ini_read_real("lang","lang",-1);
+	
+ini_close();
+
+if(_lang != -1){global.language = _lang;}
 
 global.csv_items = load_csv("items.csv");
 global.csv_events = load_csv("events.csv");

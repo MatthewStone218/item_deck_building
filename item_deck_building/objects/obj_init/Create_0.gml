@@ -1,7 +1,7 @@
 /// @description 여기에 설명 삽입
 // 이 에디터에 코드를 작성할 수 있습니다
 
-val_room_start = rm_main;
+val_room_start = rm_loading;
 
 #macro LIVE if(live_call()){return live_result;}
 #macro K_real_string kor_string + text_eng_to_hangul(kor_buffer)

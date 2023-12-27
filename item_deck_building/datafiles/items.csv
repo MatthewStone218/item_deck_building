@@ -14,7 +14,7 @@ hp_portion_mid_state,"""매 스테이지가 끝날 때마다 체력을 [#00ff00]
 hp_portion_big_name,"""[#fff98f]고급 체력 물약[/color]""","""[#fff98f]Advanced Health Potion[/color]""","""[#fff98f]高級体力ポーション[/color]""","""[#fff98f]高级健康药水[/color]"""
 hp_portion_big_state,"""매 스테이지가 끝날 때마다 체력을 [#00ff00]+12 회복합니다[/color]""","""Recovers [#00ff00]+12 HP[/color] at the end of each stage""","""毎ステージ終了時に体力を[#00ff00]+12回復します[/color]""","""在每个阶段结束时恢复 [#00ff00]+12 HP[/color]"""
 purple_portion_small_name,"""하급 이상한 물약""","""Minor strange Potion""","""下級奇妙なポーション""","""小怪药剂"""
-purple_portion_small_state,"""매 스테이지가 끝날 때마다 체력을 [#00ff00]+0~10 회복합니다[/color]""","""Recovers [#00ff00]+0~10 HP[/color] at the end of each stage""","""毎ステージ終了時に体力を[#00ff00]+0~10回復します[/color]""","""在每个阶段结束时恢复 [#00ff00]+0~10 HP[/color] ""。"
+purple_portion_small_state,"""매 스테이지가 끝날 때마다 체력을 [#00ff00]+0~10 회복합니다[/color]""","""Recovers [#00ff00]+0~10 HP[/color] at the end of each stage""","""毎ステージ終了時に体力を[#00ff00]+0~10回復します[/color]""","""在每个阶段结束时恢复 [#00ff00]+0~10 HP[/color] """
 purple_portion_mid_name,"""[#2177ee]중급 이상한 물약[/color]""","""[#2177ee]Intermediate strange Potion[/color]""","""[#2177ee]中級変なポーション[/color]""","""[#2177ee]中级怪异药剂[/color]"""
 purple_portion_mid_state,"""매 스테이지가 끝날 때마다 체력을 [#00ff00]+0~16 회복합니다[/color]""","""Recovers [#00ff00]+0~16 HP[/color] at the end of each stage""","""毎ステージ終了時に体力を[#00ff00]+0~16回復します[/color]""","""每个阶段结束时恢复 [#00ff00]+0~16 HP[/color]"""
 purple_portion_big_name,"""[#fff98f]고급 이상한 물약[/color]""","""[#fff98f]Advanced strange Potion[/color]""","""[#fff98f]高級変なポーション[/color]""","""[#fff98f]高级怪药水[/color]"""
