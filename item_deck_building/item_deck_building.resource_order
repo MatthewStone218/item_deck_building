@@ -298,6 +298,7 @@
     {"name":"_32__Iconset_Starter_Pack_369","order":396,"path":"sprites/_32__Iconset_Starter_Pack_369/_32__Iconset_Starter_Pack_369.yy",},
     {"name":"spr_enemy_slime_red_run","order":3,"path":"sprites/spr_enemy_slime_red_run/spr_enemy_slime_red_run.yy",},
     {"name":"_32__Iconset_Starter_Pack_275","order":312,"path":"sprites/_32__Iconset_Starter_Pack_275/_32__Iconset_Starter_Pack_275.yy",},
+    {"name":"obj_gamepad_sys","order":10,"path":"objects/obj_gamepad_sys/obj_gamepad_sys.yy",},
     {"name":"_32__Iconset_Starter_Pack_14","order":81,"path":"sprites/_32__Iconset_Starter_Pack_14/_32__Iconset_Starter_Pack_14.yy",},
     {"name":"_32__Iconset_Starter_Pack_123","order":179,"path":"sprites/_32__Iconset_Starter_Pack_123/_32__Iconset_Starter_Pack_123.yy",},
     {"name":"move","order":3,"path":"scripts/move/move.yy",},

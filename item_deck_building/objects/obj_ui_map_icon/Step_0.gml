@@ -22,7 +22,7 @@ image_yscale *= scale_start;
 
 x = obj_map.x+xstart;
 
-if(mouse_check_button_released(mb_left) and clicked and point_distance(device_mouse_x_to_gui(0),device_mouse_y_to_gui(0),clicked_pos[0],clicked_pos[1]) < 20)
+if((mouse_check_button_released(mb_left) or gamepad_button_check_released(0,gp_face2) or gamepad_button_check_released(0,gp_face3) or gamepad_button_check_released(0,gp_face4)) and clicked and point_distance(device_mouse_x_to_gui(0),device_mouse_y_to_gui(0),clicked_pos[0],clicked_pos[1]) < 20)
 {
 	audio_play_sound(snd_confirm_2,1,0)
 	
@@ -39,7 +39,7 @@ if(mouse_check_button_released(mb_left) and clicked and point_distance(device_mo
 	var incy = instance_create_layer(0,0,"move_ef",obj_ef_move_event,{type: ev_type});
 }
 
-if(!mouse_check_button(mb_left)){clicked = 0;}
+if(!(mouse_check_button(mb_left) or gamepad_button_check(0,gp_face2) or gamepad_button_check(0,gp_face3) or gamepad_button_check(0,gp_face4))){clicked = 0;}
 
 if(mouse_check_pressed_me(mb_left) and can_go and global.can_goto_next_event)
 {

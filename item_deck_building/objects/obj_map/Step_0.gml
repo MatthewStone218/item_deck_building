@@ -8,7 +8,7 @@ if(global.map_show == 1)
 		clicked = 1;
 	}
 	
-	if(mouse_check_button(mb_left) and clicked)
+	if((mouse_check_button(mb_left) or gamepad_button_check(0,gp_face2) or gamepad_button_check(0,gp_face3) or gamepad_button_check(0,gp_face4)) and clicked)
 	{
 		xspd = device_mouse_x_to_gui(0)-mouse_x_prev;
 	}
@@ -19,6 +19,12 @@ if(global.map_show == 1)
 	}
 
 	view_x -= xspd;
+	if(gamepad_is_connected(0))
+	{
+		if(gamepad_button_check(0,gp_shoulderl) or gamepad_button_check(0,gp_shoulderlb)){view_x -= 15;}
+		if(gamepad_button_check(0,gp_shoulderr) or gamepad_button_check(0,gp_shoulderrb)){view_x += 15;}
+	}
+
 
 	if(view_x < 0){view_x = 0;xspd = 0;}
 	if(view_x+CM_W > sprite_width){view_x = sprite_width-CM_W;xspd = 0;}

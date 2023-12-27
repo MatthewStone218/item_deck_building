@@ -5,7 +5,7 @@ if(global.state != ST.DELETE)
 {
 	if(global.inv_count >= num)
 	{
-		if(mouse_check_button_released(mb_left) and collision_point(mouse_x,mouse_y,id,0,0))
+		if((mouse_check_button_released(mb_left) or gamepad_button_check_released(0,gp_face2) or gamepad_button_check_released(0,gp_face3) or gamepad_button_check_released(0,gp_face4)) and collision_point(mouse_x,mouse_y,id,0,0))
 		{
 			var _cell = -1;
 			with(obj_inv_cell){if(clicked == 1 and obj_inv.inv[num-1] != -1){_cell = id;break;}}

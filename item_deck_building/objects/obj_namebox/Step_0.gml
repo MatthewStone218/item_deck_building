@@ -8,7 +8,7 @@ if(can_write)
 {
 	if 1//(os_type != os_windows and os_type != os_linux and os_type != os_macosx)
 	{
-		if(mouse_check_button_pressed(mb_left) and collision_point(mouse_x,mouse_y,id,0,0))
+		if((mouse_check_button_pressed(mb_left) or gamepad_button_check_pressed(0,gp_face2) or gamepad_button_check_pressed(0,gp_face3) or gamepad_button_check_pressed(0,gp_face4)) and collision_point(mouse_x,mouse_y,id,0,0))
 		{
 			with(obj_keyboard_key){keyboard_key_set();}
 		}

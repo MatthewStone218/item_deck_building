@@ -6,7 +6,7 @@ if(global.state != ST.DELETE)
 {
 	x_last = mouse_x;
 	y_last = mouse_y;
-	if(collision_point(mouse_x,mouse_y,obj_inv_delete,0,0) and mouse_check_button(mb_left))
+	if(collision_point(mouse_x,mouse_y,obj_inv_delete,0,0) and (mouse_check_button(mb_left) or gamepad_button_check(0,gp_face2) or gamepad_button_check(0,gp_face3) or gamepad_button_check(0,gp_face4)))
 	{
 		scale -= 0.1;
 		if(scale < 0.3){scale = 0.3;}

@@ -351,6 +351,7 @@
     {"id":{"name":"__shd_scribble","path":"shaders/__shd_scribble/__shd_scribble.yy",},},
     {"id":{"name":"spr_enemy_slime_red_run","path":"sprites/spr_enemy_slime_red_run/spr_enemy_slime_red_run.yy",},},
     {"id":{"name":"_32__Iconset_Starter_Pack_275","path":"sprites/_32__Iconset_Starter_Pack_275/_32__Iconset_Starter_Pack_275.yy",},},
+    {"id":{"name":"obj_gamepad_sys","path":"objects/obj_gamepad_sys/obj_gamepad_sys.yy",},},
     {"id":{"name":"_32__Iconset_Starter_Pack_14","path":"sprites/_32__Iconset_Starter_Pack_14/_32__Iconset_Starter_Pack_14.yy",},},
     {"id":{"name":"_32__Iconset_Starter_Pack_123","path":"sprites/_32__Iconset_Starter_Pack_123/_32__Iconset_Starter_Pack_123.yy",},},
     {"id":{"name":"move","path":"scripts/move/move.yy",},},
