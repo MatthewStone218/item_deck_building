@@ -6,6 +6,9 @@
 #macro ITEM_RATE_RARE 5*power(1.4,chest_level+1)
 #macro ITEM_RATE_NORMAL 15
 
+scribble_super_create("ft_normal");
+scribble_super_glyph_copy_all("ft_normal", "ft_normal_jp", true);
+
 scribble_font_set_default("ft_normal");
 
 global.state = ST.NORMAL;

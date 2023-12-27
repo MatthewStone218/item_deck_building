@@ -4,7 +4,7 @@ LIVE
 if(global.state == ST.REWARD or global.st_prev == ST.REWARD)
 {
 	draw_set_alpha(1);
-	draw_set_font(ft_normal);
+	draw_set_font(ft_normal_en_kr);
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
 
