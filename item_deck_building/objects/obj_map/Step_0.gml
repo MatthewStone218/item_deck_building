@@ -24,7 +24,7 @@ if(global.map_show == 1)
 		if(gamepad_button_check(0,gp_shoulderl) or gamepad_button_check(0,gp_shoulderlb)){view_x -= 15;}
 		if(gamepad_button_check(0,gp_shoulderr) or gamepad_button_check(0,gp_shoulderrb)){view_x += 15;}
 		var _x = gamepad_axis_value(0,gp_axisrh)*13;
-		if(abs(_x) > 0.3){view_x += _x;}
+		if(abs(_x) > 5){view_x += _x;}
 	}
 
 
