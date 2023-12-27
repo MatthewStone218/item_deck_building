@@ -9,7 +9,7 @@ if(_alarm < 0 and instance_exists(enemy))
 	for(var i = 0; i < array_length(global.item_effects.far_act_start);i++)
 	{
 		var func = method(obj_player,global.item_effects.far_act_start[i]);
-		func(_enemy);
+		func(enemy);
 	}
 	_alarm = 60/player_get_asp();
 	instance_create_layer(enemy.x-600,enemy.y-600,"enemy",obj_meteor);
