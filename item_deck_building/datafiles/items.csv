@@ -65,45 +65,45 @@ feather_damaged_name,"""[#ff0000]검은 깃털[/color]""","""[#ff0000]Black Feat
 feather_damaged_state,"""[#ff0000]피해를 받을 때마다 (4+주문력의 30%)의 데미지를 가진 깃털을 적에게 발사합니다.[/color]""","""[#ff0000]Whenever you get damage, fire a feather at the enemy that deals (4+30% of SP) damage.[/color]""","""[#ff0000]ダメージを受けるたびに(4+呪文力の30%)のダメージを持つ羽を敵に発射する[/color]""","""[#ff0000]每当你受到伤害时，向敌人发射一根羽毛，造成 (4+30% 的 SP) 伤害。[/color]"""
 feather_dash_name,"""[#ff0000]붉은 깃털[/color]""","""[#ff0000]Red Feather[/color]""","""[#ff0000]赤い羽根[/color]""","""[#ff0000]红色羽毛[/color]"""
 feather_dash_state,"""[#ff0000]대시를 할 때마다 (3+주문력의 30%)의 데미지를 가진 깃털을 적에게 발사합니다.[/color]""","""[#ff0000]Whenever you dash, fire a feather at the enemy that deals (3+30% of SP) damage.[/color]""",,"""[#ff0000]每当你冲刺时，向敌人发射一根羽毛，造成 (3+30% SP) 的伤害[/color]""。"
-hair_heal_name,"""[#e5b9b9]분홍 모피[/color]""","""[#e5b9b9]Pink Fur[/color]""","""[#e5b9b9]ピンクの毛皮[/color]""",
-hair_heal_state,"""[#ff0000]피해를 입을 때마다[/color] [#00ff00](3+주문력의 3%)의 체력을 회복합니다.[/color]""","""[#ff0000]Each time you take damage[/color] [#00ff00]recover (3+3% of SP) health.[/color]""","""[#ff0000]ダメージを受けるたびに[/color] [#00ff00](3+呪文力の3%)の体力を回復します[/color]""",
-heart_attack_heal_name,"""[#e5b9b9]자주색 심장[/color]""","""[#e5b9b9]Purple Heart[/color]""","""[#e5b9b9]紫のハート[/color]""",
-heart_attack_heal_state,"""[#00ff00]근접 행동 시작마다 체력을 +(2+공격력의 30%) 회복합니다.[/color]""","""[#00ff00]Recovers +(2+30% of AP) HP at the start of melee action.[/color]""","""[#00ff00]近接行動開始ごとに体力を+(2+攻撃力の30%)回復します[/color]""",
-hamma_name,"""[#fff98f]워해머[/color]""","""[#fff98f]Warhammer[/color]""","""[#fff98f]ウォーハンマー[/color]""",
-hamma_state,"""[#00ff00]최대체력의 10%만큼 공격력을 얻습니다.[/color]""","""[#00ff00]Gain AP equal to 10% of maximum health.[/color]""","""[#00ff00] 最大体力の10%分の攻撃力を獲得します[/color]""",
-windsoul_name,"""[#93ff86]바람의 영혼[/color]""","""[#93ff86]Windsoul[/color]""","""[#93ff86]風の魂[/color]""",
-windsoul_state,"""[#00ff00]적과의 거리에 비례해 추가 데미지를 얻습니다.[/color]\n(최대 100%)""","""Gain additional damage in proportion to the distance to the enemy.\n(Up to 100%)""","""[#00ff00]敵との距離に比例して追加ダメージを得ます[/color]\n(最大100%)""",
-meteor_name,"""[rainbow]메테오[/rainbow]""","""[rainbow]Meteor[/rainbow]""","""[rainbow]メテオ[/rainbow]""",
-meteor_state,"""[rainbow]원거리 행동[/rainbow]: 제자리에서 [#fff98f]메테오를 소환합니다.[/color]\n메테오는 적에게 [#ff4c97]주문력+1[/color] 만큼의 피해를 입힙니다.""","""[rainbow]Ranged Action[/rainbow]: Summon a [#fff98f]meteor.[/color]\nThe meteor deals [#ff4c97]spell power+1[/color] damage to the enemy. ""","""[rainbow]遠距離行動[/rainbow]： その場で[#fff98f]メテオを召喚します。[/color]\nメテオは敵に[#ff4c97]呪文力+1[/color]分のダメージを与えます。""",
-sp_damaged_name,"""[#bc00ff]불안정한 해골[/color]""","""[#bc00ff]Unstable Skull[/color]""","""[#bc00ff]不安定な骸骨[/color]""",
-sp_damaged_state,"""[#ff0000]피해를 입을 때마다[/color] 10의 주문력을 얻습니다.""","""[#ff0000]Each time you take damage[/color] gain 5 SP.""","""[#ff0000]ダメージを受けるたびに[/color] 10の呪文力を獲得します。""",
-ignore_damage_5sec_name,"""[rainbow]신앙의 증표[/rainbow]""","""[rainbow]Token of faith[/rainbow]""","""[rainbow]信仰の証[/rainbow]""",
-ignore_damage_5sec_state,"""[rainbow]전투 시작 후 5초간 받는 모든 피해가 1이 됩니다.[/rainbow]""","""[rainbow]For 5 seconds after the start of battle, all damage received becomes 1.[/rainbow]""","""[rainbow]戦闘開始後5秒間、受ける全てのダメージが1になります[/rainbow]""",
-wizzard_portion_name,"""[rainbow]마법사의 포션[/rainbow]""","""[rainbow]Wizzard Portion[/rainbow]""","""[rainbow]魔法使いのポーション[/rainbow]""",
-wizzard_portion_state,"""[#ff4c97]주문력[/color] +30\n\n이 약은 당신을 높은 곳으로 데려다줍니다.""","""[#ff4c97]SP[/color] +30\n\nThis portion will make you high.""","""[#ff4c97]呪文力[/color] +30\n\nこの薬はあなたを高いところに連れて行ってくれます。""",
-purple_soul_name,"""[#ff4c97]자주빛 영혼[/color]""","""[#ff4c97]자주빛 영혼[/color]""","""[#ff4c97]紫色の魂[/color]""",
-purple_soul_state,"""적에게 피해를 입힐 때마다 [#ff4c97]주문력[/color]을 [#00ff00]3 얻습니다.[/color]""","""Each time you deal to an enemy, gain [#00ff00]3 [#ff4c97]SP[/color].[/color]""","""敵にダメージを与えるたびに[#ff4c97]呪文力[/color]を[#00ff00]3得る[/color]""",
-shoes_land_name,"""[rainbow]지진신[/rainbow]""","""[rainbow]Earthquake shoes[/rainbow]""","""[rainbow]地震靴[/rainbow]""",
-shoes_land_state,"""[#fff98f]땅에 착지할 때마다 착지 속도에 비례한 데미지를 모든 적에게 줍니다.[/color]""","""[#fff98f]Each time you land on the ground, deal damage to all enemies proportional to your landing speed.[/color]""","""[#fff98f]地面に着地するたびに、着地速度に比例したダメージを全ての敵に与える[/color]""",
-jump_def_name,"""[#93ff86]녹색 천[/color]""","""[#93ff86]Green Cloth[/color]""","""[#93ff86]緑色の布[/color]""",
-jump_def_state,"""공중에 있을 때, [#00ff00]받는 데미지가 절반으로 줄어듭니다.[/color]""","""When in the air, [#00ff00]damage taken is reduced by half.[/color]""","""空中にいるとき、[#00ff00]受けるダメージが半分になります[/color]""",
-jump_double_name,"""띠용 신발""","""JUMP SHOES""","""帯用シューズ""",
-jump_double_state,"""점프력 +4""",“Jumping power +4”,"""ジャンプ力+4""",
-thorn_armor_name,"""[#fff98f]가시갑옷[/color]""","""[#fff98f]Thorn Armor[/color]""","""[#fff98f]棘の鎧[/color]""",
-thorn_armor_state,"""[#00ff00]피해를 받았을 때,[#00ff00]내 최대체력의 12%만큼 해당 적에게 피해를 가합니다[/color]""","""[#00ff00]When receiving damage,[#00ff00]deals damage to the enemy equal to 12% of your max HP[/color]""","""[#00ff00]ダメージを受けた時、[#00ff00]自分の最大体力の12%分のダメージを与えます[/color]""",
-iron_shield_name,"""[#fff98f]강철 방패[/color]""","""[#fff98f]Steel Shield[/color]""","""[#fff98f]スチールシールド[/color]""",
-iron_shield_state,"""[#00ff00]대미지를 35% 덜 받습니다.[/color]""",“[#00ff00]You take 35% less damage.[/color]”,"""[#00ff00]ダメージを35%軽減します[/color]""",
-wood_shield_name,"""[#2177ee]나무 방패[/color]""","""[#2177ee]Steel Shield[/color]""","""[#2177ee]木製の盾[/color]""",
-wood_shield_state,"""[#00ff00]대미지를 3 덜 받습니다.[/color]""",“[#00ff00]You take 3 less damage.[/color]”,"""[#00ff00]ダメージが3少なくなります[/color]""",
-rock_name,"""무식한 돌덩이""","""Ignorant stone""","""無知な石ころ""",
-rock_state,"""[#ff0000]공격속도 -50%[/color]\n[#00ff00]공격력 +140%[/color]""","""[#ff0000]Attack speed -50%[/color]\n[#00ff00]AP +140%[/color]""","""[#ff0000]攻撃速度-50%[/color]\n[#00ff00]攻撃力+140%[/color]""",
-fur_name,"""[#2177ee]모피[/color]""","""[#2177ee]Fur[/color]""","""[#2177ee]毛皮[/color]""",
-fur_state,"""[#2177ee]피해를 공격력의 20%만큼 덜 받습니다.[/color]""","""[#2177ee]Receive less damage by 20% of AP.[/color]""","""[#2177ee]ダメージを攻撃力の20%分少なく受けます[/color]""",
-gold_eye_name,"""[#fff98f]황금 눈알[/color]""","""[#fff98f]Gold Eye[/color]""","""[#fff98f]ゴールデンアイ[/color]""",
-gold_eye_state,"""[#ff0000]항상 원거리 행동만 합니다.[/color]\n\n신중히 생각하세요!""","""[#ff0000]Always only do far actions.[/color]\n\nThink carefully!""","""[#ff0000]いつも遠距離行動ばかりする[/color]\n\n慎重に考えてください！""",
-throwing_ax_name,"""[#fff98f]투척용 도끼[/color]""","""[#fff98f]Throwing Axe[/color]""","""[#fff98f]投擲用斧[/color]""",
-throwing_ax_state,"""[rainbow]원거리 행동[/rainbow]: 제자리에서 [#fff98f]투척용 도끼를 던집니다.[/color]\n도끼는 적에게 [#fff98f]공격력[/color] 만큼의 피해를 입힙니다.""","""[rainbow]Far Action[/rainbow]: Throws a [#fff98f]ax from the spot.[/color]\nThe ax deals as [#fff98f]AP[/color] to the enemy.""","""[rainbow]遠距離行動[/rainbow]： その場で[#fff98f]投げ斧を投げます。[/color]\n斧は敵に[#fff98f]攻撃力[/color]分のダメージを与えます。""",
-sword_atk_1_name,"""[#fff98f]단검[/color]""","""[#fff98f]Dagger[/color]""","""[#fff98f]短剣[/color]""",
-sword_atk_1_state,"""[#00ff00]공격력 + 10[/color]""","""[#00ff00]AP + 10[/color]""","""[#00ff00]攻撃力+10[/color]""",
-red_horns_name,"""[rainbow]붉은 뿔[/rainbow]""",[rainbow]Red Horns[/rainbow],"""[rainbow]レッドホーン[/rainbow]""",
-red_horns_state,"""[#fff98f]적을 공격할 때마다 공격속도가 8% 증가합니다.[/color]""","[#fff98f]Every time you attack an enemy, your attack speed increases by 8%.[/color]","""[#fff98f]敵を攻撃するたびに攻撃速度が8%アップ[/color]""",
+hair_heal_name,"""[#e5b9b9]분홍 모피[/color]""","""[#e5b9b9]Pink Fur[/color]""","""[#e5b9b9]ピンクの毛皮[/color]""",[#e5b9b9]粉色皮草[/color]
+hair_heal_state,"""[#ff0000]피해를 입을 때마다[/color] [#00ff00](3+주문력의 3%)의 체력을 회복합니다.[/color]""","""[#ff0000]Each time you take damage[/color] [#00ff00]recover (3+3% of SP) health.[/color]""","""[#ff0000]ダメージを受けるたびに[/color] [#00ff00](3+呪文力の3%)の体力を回復します[/color]""","""[#ff0000]每次受到伤害时[/color] [#00ff00]恢复 (3+3% SP) 健康值。[/color]"""
+heart_attack_heal_name,"""[#e5b9b9]자주색 심장[/color]""","""[#e5b9b9]Purple Heart[/color]""","""[#e5b9b9]紫のハート[/color]""","""[#e5b9b9]紫心[/color]"""
+heart_attack_heal_state,"""[#00ff00]근접 행동 시작마다 체력을 +(2+공격력의 30%) 회복합니다.[/color]""","""[#00ff00]Recovers +(2+30% of AP) HP at the start of melee action.[/color]""","""[#00ff00]近接行動開始ごとに体力を+(2+攻撃力の30%)回復します[/color]""","""[#00ff00]近战行动开始时恢复 +(2+30% AP) HP。[/color]"""
+hamma_name,"""[#fff98f]워해머[/color]""","""[#fff98f]Warhammer[/color]""","""[#fff98f]ウォーハンマー[/color]""","""[#fff98f]战锤[/color]"""
+hamma_state,"""[#00ff00]최대체력의 10%만큼 공격력을 얻습니다.[/color]""","""[#00ff00]Gain AP equal to 10% of maximum health.[/color]""","""[#00ff00] 最大体力の10%分の攻撃力を獲得します[/color]""","""[#00ff00]获得相当于最大生命值 10%的 AP。[/color]"""
+windsoul_name,"""[#93ff86]바람의 영혼[/color]""","""[#93ff86]Windsoul[/color]""","""[#93ff86]風の魂[/color]""","""[#93ff86]风魂[/color]"""
+windsoul_state,"""[#00ff00]적과의 거리에 비례해 추가 데미지를 얻습니다.[/color]\n(최대 100%)""","""Gain additional damage in proportion to the distance to the enemy.\n(Up to 100%)""","""[#00ff00]敵との距離に比例して追加ダメージを得ます[/color]\n(最大100%)""","""获得与敌人距离成比例的额外伤害（最高100%）"""
+meteor_name,"""[rainbow]메테오[/rainbow]""","""[rainbow]Meteor[/rainbow]""","""[rainbow]メテオ[/rainbow]""","""[rainbow]流星[/rainbow]"""
+meteor_state,"""[rainbow]원거리 행동[/rainbow]: 제자리에서 [#fff98f]메테오를 소환합니다.[/color]\n메테오는 적에게 [#ff4c97]주문력+1[/color] 만큼의 피해를 입힙니다.""","""[rainbow]Ranged Action[/rainbow]: Summon a [#fff98f]meteor.[/color]\nThe meteor deals [#ff4c97]spell power+1[/color] damage to the enemy. ""","""[rainbow]遠距離行動[/rainbow]： その場で[#fff98f]メテオを召喚します。[/color]\nメテオは敵に[#ff4c97]呪文力+1[/color]分のダメージを与えます。""","""[彩虹]范围行动[/彩虹]： 召唤一颗[#fff98f]流星。[/color]这颗流星会对敌人造成[#ff4c97]法术威力+1[/color]的伤害。"""
+sp_damaged_name,"""[#bc00ff]불안정한 해골[/color]""","""[#bc00ff]Unstable Skull[/color]""","""[#bc00ff]不安定な骸骨[/color]""","""[#bc00ff]不稳定的头骨[/color]"""
+sp_damaged_state,"""[#ff0000]피해를 입을 때마다[/color] 10의 주문력을 얻습니다.""","""[#ff0000]Each time you take damage[/color] gain 5 SP.""","""[#ff0000]ダメージを受けるたびに[/color] 10の呪文力を獲得します。""","""[#ff0000]每次受到伤害[/color]都会获得 5 SP。"""
+ignore_damage_5sec_name,"""[rainbow]신앙의 증표[/rainbow]""","""[rainbow]Token of faith[/rainbow]""","""[rainbow]信仰の証[/rainbow]""","""[彩虹]信仰信物[/彩虹]"""
+ignore_damage_5sec_state,"""[rainbow]전투 시작 후 5초간 받는 모든 피해가 1이 됩니다.[/rainbow]""","""[rainbow]For 5 seconds after the start of battle, all damage received becomes 1.[/rainbow]""","""[rainbow]戦闘開始後5秒間、受ける全てのダメージが1になります[/rainbow]""","""[彩虹]战斗开始后的 5 秒内，受到的所有伤害变为 1。[/彩虹]"""
+wizzard_portion_name,"""[rainbow]마법사의 포션[/rainbow]""","""[rainbow]Wizzard Portion[/rainbow]""","""[rainbow]魔法使いのポーション[/rainbow]""","""[rainbow]威兹部分[/rainbow]"""
+wizzard_portion_state,"""[#ff4c97]주문력[/color] +30\n\n이 약은 당신을 높은 곳으로 데려다줍니다.""","""[#ff4c97]SP[/color] +30\n\nThis portion will make you high.""","""[#ff4c97]呪文力[/color] +30\n\nこの薬はあなたを高いところに連れて行ってくれます。""","""[#ff4c97]SP[/color] +30\n\n这部分会让你嗨起来。"" "
+purple_soul_name,"""[#ff4c97]자주빛 영혼[/color]""","""[#ff4c97]Purple Soul[/color]""","""[#ff4c97]紫色の魂[/color]""","""[#ff4c97]紫色灵魂[/color]"" "
+purple_soul_state,"""적에게 피해를 입힐 때마다 [#ff4c97]주문력[/color]을 [#00ff00]3 얻습니다.[/color]""","""Each time you deal to an enemy, gain [#00ff00]3 [#ff4c97]SP[/color].[/color]""","""敵にダメージを与えるたびに[#ff4c97]呪文力[/color]を[#00ff00]3得る[/color]""","""每次攻击敌人时，获得 [#00ff00]3 [#ff4c97]SP[/color].[/color]"""
+shoes_land_name,"""[rainbow]지진신[/rainbow]""","""[rainbow]Earthquake shoes[/rainbow]""","""[rainbow]地震靴[/rainbow]""","""[彩虹]地震鞋[/彩虹]"""
+shoes_land_state,"""[#fff98f]땅에 착지할 때마다 착지 속도에 비례한 데미지를 모든 적에게 줍니다.[/color]""","""[#fff98f]Each time you land on the ground, deal damage to all enemies proportional to your landing speed.[/color]""","""[#fff98f]地面に着地するたびに、着地速度に比例したダメージを全ての敵に与える[/color]""","""[#fff98f]每次落地时，对所有敌人造成与落地速度成比例的伤害。"
+jump_def_name,"""[#93ff86]녹색 천[/color]""","""[#93ff86]Green Cloth[/color]""","""[#93ff86]緑色の布[/color]""","""[#93ff86]绿布[/color]"""
+jump_def_state,"""공중에 있을 때, [#00ff00]받는 데미지가 절반으로 줄어듭니다.[/color]""","""When in the air, [#00ff00]damage taken is reduced by half.[/color]""","""空中にいるとき、[#00ff00]受けるダメージが半分になります[/color]""","""在空中时，[#00ff00]受到的伤害减半。"
+jump_double_name,"""띠용 신발""","""JUMP SHOES""","""帯用シューズ""","""跳跃鞋"""
+jump_double_state,"""점프력 +4""",“Jumping power +4”,"""ジャンプ力+4""","""跳跃能力 +4"""
+thorn_armor_name,"""[#fff98f]가시갑옷[/color]""","""[#fff98f]Thorn Armor[/color]""","""[#fff98f]棘の鎧[/color]""","""[#fff98f]荆棘盔甲[/color]"""
+thorn_armor_state,"""[#00ff00]피해를 받았을 때,[#00ff00]내 최대체력의 12%만큼 해당 적에게 피해를 가합니다[/color]""","""[#00ff00]When receiving damage,[#00ff00]deals damage to the enemy equal to 12% of your max HP[/color]""","""[#00ff00]ダメージを受けた時、[#00ff00]自分の最大体力の12%分のダメージを与えます[/color]""","""[#00ff00]受到伤害时，[#00ff00]对敌人造成相当于最大 HP 值 12% 的伤害[/color]"""
+iron_shield_name,"""[#fff98f]강철 방패[/color]""","""[#fff98f]Steel Shield[/color]""","""[#fff98f]スチールシールド[/color]""","""[#fff98f]钢盾[/color]"""
+iron_shield_state,"""[#00ff00]대미지를 35% 덜 받습니다.[/color]""",“[#00ff00]You take 35% less damage.[/color]”,"""[#00ff00]ダメージを35%軽減します[/color]""","""[#00ff00]您受到的伤害降低 35%。[/color]"""
+wood_shield_name,"""[#2177ee]나무 방패[/color]""","""[#2177ee]Steel Shield[/color]""","""[#2177ee]木製の盾[/color]""","""[#2177ee]钢盾[/color]"""
+wood_shield_state,"""[#00ff00]대미지를 3 덜 받습니다.[/color]""",“[#00ff00]You take 3 less damage.[/color]”,"""[#00ff00]ダメージが3少なくなります[/color]""","""[#00ff00]你受到的伤害减少 3。[/color]"""
+rock_name,"""무식한 돌덩이""","""Ignorant stone""","""無知な石ころ""","""无知的石头"""
+rock_state,"""[#ff0000]공격속도 -50%[/color]\n[#00ff00]공격력 +140%[/color]""","""[#ff0000]Attack speed -50%[/color]\n[#00ff00]AP +140%[/color]""","""[#ff0000]攻撃速度-50%[/color]\n[#00ff00]攻撃力+140%[/color]""","""[#ff0000]攻击速度 -50%[/color]（[#00ff00]AP +140%[/color]）"""
+fur_name,"""[#2177ee]모피[/color]""","""[#2177ee]Fur[/color]""","""[#2177ee]毛皮[/color]""","""[#2177ee]毛皮[/color]"""
+fur_state,"""[#2177ee]피해를 공격력의 20%만큼 덜 받습니다.[/color]""","""[#2177ee]Receive less damage by 20% of AP.[/color]""","""[#2177ee]ダメージを攻撃力の20%分少なく受けます[/color]""","""[#2177ee]受到的伤害减少 20% AP。[/color]"""
+gold_eye_name,"""[#fff98f]황금 눈알[/color]""","""[#fff98f]Gold Eye[/color]""","""[#fff98f]ゴールデンアイ[/color]""","""[#fff98f]黄金眼[/color]"""
+gold_eye_state,"""[#ff0000]항상 원거리 행동만 합니다.[/color]\n\n신중히 생각하세요!""","""[#ff0000]Always only do far actions.[/color]\n\nThink carefully!""","""[#ff0000]いつも遠距離行動ばかりする[/color]\n\n慎重に考えてください！""","""[#ff0000]永远只做远方的行动。 [/color]\n\n仔细想想！"""
+throwing_ax_name,"""[#fff98f]투척용 도끼[/color]""","""[#fff98f]Throwing Axe[/color]""","""[#fff98f]投擲用斧[/color]""","""[#fff98f]投掷斧[/color]"""
+throwing_ax_state,"""[rainbow]원거리 행동[/rainbow]: 제자리에서 [#fff98f]투척용 도끼를 던집니다.[/color]\n도끼는 적에게 [#fff98f]공격력[/color] 만큼의 피해를 입힙니다.""","""[rainbow]Far Action[/rainbow]: Throws a [#fff98f]ax from the spot.[/color]\nThe ax deals as [#fff98f]AP[/color] to the enemy.""","""[rainbow]遠距離行動[/rainbow]： その場で[#fff98f]投げ斧を投げます。[/color]\n斧は敵に[#fff98f]攻撃力[/color]分のダメージを与えます。""","""[彩虹]远距离行动[/彩虹]： 从原地投掷一把[#fff98f]斧头。[/color]这把斧头会对敌人造成[#fff98f]AP[/color]伤害。"""
+sword_atk_1_name,"""[#fff98f]단검[/color]""","""[#fff98f]Dagger[/color]""","""[#fff98f]短剣[/color]""","""[#fff98f]匕首[/color]"""
+sword_atk_1_state,"""[#00ff00]공격력 + 10[/color]""","""[#00ff00]AP + 10[/color]""","""[#00ff00]攻撃力+10[/color]""","""[#00ff00]AP + 10[/color]"""
+red_horns_name,"""[rainbow]붉은 뿔[/rainbow]""",[rainbow]Red Horns[/rainbow],"""[rainbow]レッドホーン[/rainbow]""",[彩虹]红角[/彩虹］
+red_horns_state,"""[#fff98f]적을 공격할 때마다 공격속도가 8% 증가합니다.[/color]""","[#fff98f]Every time you attack an enemy, your attack speed increases by 8%.[/color]","""[#fff98f]敵を攻撃するたびに攻撃速度が8%アップ[/color]""",[#fff98f] 每次攻击敌人时，您的攻击速度都会增加 8% [/color]。
