@@ -5,10 +5,13 @@
 #macro ITEM_RATE_UNIQUE 1*power(1.8,chest_level)
 #macro ITEM_RATE_RARE 5*power(1.4,chest_level+1)
 #macro ITEM_RATE_NORMAL 15
-
+/*
 scribble_super_create("ft_normal");
-scribble_super_glyph_copy_all("ft_normal", "ft_normal_jp", true);
-
+scribble_super_glyph_copy_all("ft_normal", "ft_normal_en_kr", true);
+scribble_super_glyph_copy_all("ft_normal", "ft_normal_jp_1", true);
+scribble_super_glyph_copy_all("ft_normal", "ft_normal_jp_2", true);
+scribble_super_glyph_copy_all("ft_normal", "ft_normal_ch", true);
+*/
 scribble_font_set_default("ft_normal");
 
 global.state = ST.NORMAL;

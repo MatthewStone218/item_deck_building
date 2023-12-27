@@ -7,7 +7,7 @@ draw_set_alpha(1);
 draw_set_halign(fa_left);
 draw_set_valign(fa_middle);
 
-draw_set_font(ft_normal_en_kr);
+draw_set_font(ft_normal);
 
 draw_text_transformed(x+70,y,$" X {global.player_head}",4,4,0);
 

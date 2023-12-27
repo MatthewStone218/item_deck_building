@@ -1,7 +1,7 @@
 {
   "resourceType": "GMFont",
   "resourceVersion": "1.0",
-  "name": "ft_normal_jp_2",
+  "name": "ft_normal",
   "AntiAlias": 1,
   "applyKerning": 0,
   "ascender": 14,
