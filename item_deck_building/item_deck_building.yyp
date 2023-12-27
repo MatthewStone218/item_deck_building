@@ -725,6 +725,7 @@
     {"id":{"name":"spr_enemy_slime_get_hit","path":"sprites/spr_enemy_slime_get_hit/spr_enemy_slime_get_hit.yy",},},
     {"id":{"name":"_32__Iconset_Starter_Pack_293","path":"sprites/_32__Iconset_Starter_Pack_293/_32__Iconset_Starter_Pack_293.yy",},},
     {"id":{"name":"player_act","path":"scripts/player_act/player_act.yy",},},
+    {"id":{"name":"spr_cursor","path":"sprites/spr_cursor/spr_cursor.yy",},},
     {"id":{"name":"_32__Iconset_Starter_Pack_38","path":"sprites/_32__Iconset_Starter_Pack_38/_32__Iconset_Starter_Pack_38.yy",},},
     {"id":{"name":"obj_meteor","path":"objects/obj_meteor/obj_meteor.yy",},},
     {"id":{"name":"_32__Iconset_Starter_Pack_157","path":"sprites/_32__Iconset_Starter_Pack_157/_32__Iconset_Starter_Pack_157.yy",},},

@@ -647,6 +647,7 @@
     {"name":"spr_enemy_slime_get_hit","order":4,"path":"sprites/spr_enemy_slime_get_hit/spr_enemy_slime_get_hit.yy",},
     {"name":"_32__Iconset_Starter_Pack_293","order":330,"path":"sprites/_32__Iconset_Starter_Pack_293/_32__Iconset_Starter_Pack_293.yy",},
     {"name":"player_act","order":1,"path":"scripts/player_act/player_act.yy",},
+    {"name":"spr_cursor","order":7,"path":"sprites/spr_cursor/spr_cursor.yy",},
     {"name":"_32__Iconset_Starter_Pack_38","order":101,"path":"sprites/_32__Iconset_Starter_Pack_38/_32__Iconset_Starter_Pack_38.yy",},
     {"name":"obj_meteor","order":45,"path":"objects/obj_meteor/obj_meteor.yy",},
     {"name":"_32__Iconset_Starter_Pack_157","order":213,"path":"sprites/_32__Iconset_Starter_Pack_157/_32__Iconset_Starter_Pack_157.yy",},
