@@ -1,4 +1,4 @@
 ﻿,KR,EN,JP,CH
-bonfire_text_1,"""쉬어갈 곳을 찾았습니다!\n[#00ff00]체력 +player_max_hp_div_3 (최대 체력의 33%)[/color]""","""You found a place to rest!\n[#00ff00]HP +player_max_hp_div_3 (33% of max HP)[/color]""",,
-bonfire_text_2,"""체력을 회복했습니다!""","""Your HP have been healed!""",,
-treasure_chest_text_1,"""[rate_color1]보물상자[/color_closer]를 발견했습니다!""",“Yoe found the [rate_color1]treasure chest[/color_closer]!”,,
+bonfire_text_1,"""쉬어갈 곳을 찾았습니다!\n[#00ff00]체력 +player_max_hp_div_3 (최대 체력의 33%)[/color]""","""You found a place to rest!\n[#00ff00]HP +player_max_hp_div_3 (33% of max HP)[/color]""","""休憩場所を見つけました！\n[#00ff00]体力+player_max_hp_div_3 (最大体力の33%)[/color]""",
+bonfire_text_2,"""체력을 회복했습니다!""","""Your HP have been healed!""","""体力を回復しました!""",
+treasure_chest_text_1,"""[rate_color1]보물상자[/color_closer]를 발견했습니다!""",“Yoe found the [rate_color1]treasure chest[/color_closer]!”,"""[rate_color1]宝箱[/color_closer]を発見しました！""",
