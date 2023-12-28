@@ -18,7 +18,7 @@
   "exportToGame": true,
   "extensionVersion": "0.0.1",
   "files": [
-    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","constants":[],"copyToTargets":-1,"filename":"js_get_zoom.js","final":"","functions":[
+    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"js_get_zoom.js","constants":[],"copyToTargets":-1,"filename":"js_get_zoom.js","final":"","functions":[
         {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"browser_get_zoom","argCount":0,"args":[
             2,
           ],"documentation":"","externalName":"browser_get_zoom","help":"","hidden":false,"kind":5,"returnType":2,},

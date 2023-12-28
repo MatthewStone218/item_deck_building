@@ -5,6 +5,7 @@ if((mouse_check_pressed_me(mb_left) or global.player_head != 6) and !instance_ex
 {
 	if(global.state == ST.NORMAL)
 	{
+		audio_play_sound(snd_confirm_2,1,0);
 		instance_create_depth(0,0,-10,obj_ef_game_start);
 		if !steam_get_achievement("ACHIEVEMENT_START"){steam_set_achievement("ACHIEVEMENT_START");}
 	}

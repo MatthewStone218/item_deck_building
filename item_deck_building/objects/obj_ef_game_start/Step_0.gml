@@ -7,7 +7,6 @@ if(step == 0)
 	if(image_alpha > 1.2)
 	{
 		room_goto(rm_game);
-		audio_play_sound(snd_bgm_1,1,1);
 		global.map_show = 1;
 		global.state = ST.MOVING_EVENT;
 		global.st_prev = ST.MOVING_EVENT;

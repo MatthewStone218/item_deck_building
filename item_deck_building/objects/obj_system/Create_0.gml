@@ -6,6 +6,8 @@
 #macro ITEM_RATE_RARE 5*power(1.4,chest_level+1)
 #macro ITEM_RATE_NORMAL 15
 
+if(!audio_is_playing(snd_bgm_1)){audio_play_sound(snd_bgm_1,1,1);}
+
 global.state = ST.NORMAL;
 global.st_prev = global.state;
 
@@ -231,7 +233,6 @@ else
 {
 	instance_create_depth(0,0,-1000,obj_ef_fake);
 	room_goto(rm_game);
-	audio_play_sound(snd_bgm_1,1,1);
 	global.map_show = 1;
 	global.state = ST.MOVING_EVENT;
 	global.st_prev = ST.MOVING_EVENT;

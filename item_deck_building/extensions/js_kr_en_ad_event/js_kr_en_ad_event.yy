@@ -18,7 +18,7 @@
   "exportToGame": true,
   "extensionVersion": "0.0.1",
   "files": [
-    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","constants":[],"copyToTargets":-1,"filename":"js_kr_en_ad_event.js","final":"","functions":[
+    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"js_kr_en_ad_event.js","constants":[],"copyToTargets":-1,"filename":"js_kr_en_ad_event.js","final":"","functions":[
         {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"kr_en_add_event","argCount":0,"args":[],"documentation":"","externalName":"kr_en_add_event","help":"","hidden":false,"kind":5,"returnType":2,},
       ],"init":"","kind":5,"order":[],"origname":"","ProxyFiles":[],"uncompress":false,"usesRunnerInterface":false,},
   ],
