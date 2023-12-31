@@ -502,6 +502,7 @@
     {"id":{"name":"_32__Iconset_Starter_Pack_355","path":"sprites/_32__Iconset_Starter_Pack_355/_32__Iconset_Starter_Pack_355.yy",},},
     {"id":{"name":"_32__Iconset_Starter_Pack_266","path":"sprites/_32__Iconset_Starter_Pack_266/_32__Iconset_Starter_Pack_266.yy",},},
     {"id":{"name":"item_clean_function","path":"scripts/item_clean_function/item_clean_function.yy",},},
+    {"id":{"name":"obj_ef_goto_game_2","path":"objects/obj_ef_goto_game_2/obj_ef_goto_game_2.yy",},},
     {"id":{"name":"spr_item_hair_heal","path":"sprites/spr_item_hair_heal/spr_item_hair_heal.yy",},},
     {"id":{"name":"_32__Iconset_Starter_Pack_281","path":"sprites/_32__Iconset_Starter_Pack_281/_32__Iconset_Starter_Pack_281.yy",},},
     {"id":{"name":"spr_enemy_slime_ranged_arrow_14","path":"sprites/spr_enemy_slime_ranged_arrow_14/spr_enemy_slime_ranged_arrow_14.yy",},},
@@ -1120,6 +1121,7 @@
     {"id":{"name":"_32__Iconset_Starter_Pack_317","path":"sprites/_32__Iconset_Starter_Pack_317/_32__Iconset_Starter_Pack_317.yy",},},
     {"id":{"name":"_32__Iconset_Starter_Pack_84","path":"sprites/_32__Iconset_Starter_Pack_84/_32__Iconset_Starter_Pack_84.yy",},},
     {"id":{"name":"obj_ef_reward_selected","path":"objects/obj_ef_reward_selected/obj_ef_reward_selected.yy",},},
+    {"id":{"name":"rm_game_2","path":"rooms/rm_game_2/rm_game_2.yy",},},
     {"id":{"name":"__scribble_get_krutidev_lookup_map","path":"scripts/__scribble_get_krutidev_lookup_map/__scribble_get_krutidev_lookup_map.yy",},},
     {"id":{"name":"spr_item_heart_heal","path":"sprites/spr_item_heart_heal/spr_item_heart_heal.yy",},},
     {"id":{"name":"_32__Iconset_Starter_Pack_136","path":"sprites/_32__Iconset_Starter_Pack_136/_32__Iconset_Starter_Pack_136.yy",},},
@@ -1152,6 +1154,7 @@
     {"roomId":{"name":"Room_Steam_Storage","path":"rooms/Room_Steam_Storage/Room_Steam_Storage.yy",},},
     {"roomId":{"name":"Room_Steam_UGC","path":"rooms/Room_Steam_UGC/Room_Steam_UGC.yy",},},
     {"roomId":{"name":"Room_Steam_Init","path":"rooms/Room_Steam_Init/Room_Steam_Init.yy",},},
+    {"roomId":{"name":"rm_game_2","path":"rooms/rm_game_2/rm_game_2.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

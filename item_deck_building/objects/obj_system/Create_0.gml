@@ -6,6 +6,8 @@
 #macro ITEM_RATE_RARE 5*power(1.4,chest_level+1)
 #macro ITEM_RATE_NORMAL 15
 
+global.demo = true;
+
 if(!audio_is_playing(snd_bgm_1)){audio_play_sound(snd_bgm_1,1,1);}
 
 global.state = ST.NORMAL;
