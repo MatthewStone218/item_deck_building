@@ -13,7 +13,10 @@
     "name": "enemys",
     "path": "folders/Objects/game/enemys.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_arrows",
+    "path": "objects/obj_arrows/obj_arrows.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

@@ -7,6 +7,8 @@
 #macro ITEM_RATE_NORMAL 15
 
 global.demo = true;
+global.itch_io = false;
+
 
 if(!audio_is_playing(snd_bgm_1)){audio_play_sound(snd_bgm_1,1,1);}
 

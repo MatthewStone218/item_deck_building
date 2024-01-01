@@ -1,20 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_enemy_skeleton_archer_arrow",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
-  ],
+  "name": "obj_arrows",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "enemys",
     "path": "folders/Objects/game/enemys.yy",
   },
-  "parentObjectId": {
-    "name": "obj_arrows",
-    "path": "objects/obj_arrows/obj_arrows.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -30,10 +25,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_enemy_skeleton_archer_arrow",
-    "path": "sprites/spr_enemy_skeleton_archer_arrow/spr_enemy_skeleton_archer_arrow.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

@@ -396,7 +396,7 @@ item_ignore_damage_5sec =
 	name: text_load(global.csv_items,"ignore_damage_5sec_name"),
 	state: text_load(global.csv_items,"ignore_damage_5sec_state"),
 	obj: obj_item_ignore_damage_5sec,
-	item_type: "normal"
+	item_type: "item_ignore_damage_5sec"
 }
 
 

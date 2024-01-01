@@ -51,8 +51,8 @@ if(hp > 0)
 	{
 		image_xscale = sign(obj_player.x-x);
 		if(image_xscale == 0){image_xscale = 1;}
-		xspd += 4*sign(obj_player.x-x);
-		if(abs(xspd) > 4){xspd = sign(xspd)*4;}
+		xspd += 8*sign(obj_player.x-x);
+		if(abs(xspd) > 8){xspd = sign(xspd)*8;}
 		if(place_meeting_mask(x-sign(obj_player.x-x)*50,y,obj_player,atk_spr))
 		{
 			image_xscale = sign(obj_player.x-x);
@@ -80,7 +80,7 @@ if(hp > 0)
 			if(place_meeting(x,y,obj_player))
 			{
 				attacked = 1;
-				player_get_hit(30);
+				player_get_hit(45);
 			}
 			mask_index = idle_spr;
 		}

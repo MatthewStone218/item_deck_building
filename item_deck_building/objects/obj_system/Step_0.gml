@@ -12,6 +12,7 @@ if(global.state == ST.COMBET and room == rm_game and global.boss_fight == false)
 	
 	if(count_combet_end <= 0)
 	{
+		instance_destroy(obj_arrows);
 		set_reward_first();
 	}
 }

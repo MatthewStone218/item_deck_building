@@ -17,7 +17,7 @@ xspd_knock = 0;
 hit = 0;
 attacked = 0;
 
-delay_max = 180;
+delay_max = 80;
 delay = 0;
 
 function get_hit(dmg)
