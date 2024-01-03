@@ -11,7 +11,7 @@ item_func1 = function(asp)
 }
 item_func2 = function(atk)
 {
-	return atk*2.5;
+	return atk*2.25;
 }
 
 item_push_function(global.item_effects.asp_mult,item_func1)

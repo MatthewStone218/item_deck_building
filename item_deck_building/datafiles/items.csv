@@ -96,7 +96,7 @@ iron_shield_state,"""[#00ff00]대미지를 35% 덜 받습니다.[/color]""",“[
 wood_shield_name,"""[#2177ee]나무 방패[/color]""","""[#2177ee]Steel Shield[/color]""","""[#2177ee]木製の盾[/color]""","""[#2177ee]钢盾[/color]"""
 wood_shield_state,"""[#00ff00]대미지를 3 덜 받습니다.[/color]""",“[#00ff00]You take 3 less damage.[/color]”,"""[#00ff00]ダメージが3少なくなります[/color]""","""[#00ff00]你受到的伤害减少 3。[/color]"""
 rock_name,"""무식한 돌덩이""","""Ignorant stone""","""無知な石ころ""","""无知的石头"""
-rock_state,"""[#ff0000]공격속도 -50%[/color]\n[#00ff00]공격력 +140%[/color]""","""[#ff0000]Attack speed -50%[/color]\n[#00ff00]AP +140%[/color]""","""[#ff0000]攻撃速度-50%[/color]\n[#00ff00]攻撃力+140%[/color]""","""[#ff0000]攻击速度 -50%[/color]（[#00ff00]AP +140%[/color]）"""
+rock_state,"""[#ff0000]공격속도 -50%[/color]\n[#00ff00]공격력 +125%[/color]""","""[#ff0000]Attack speed -50%[/color]\n[#00ff00]AP +125%[/color]""","""[#ff0000]攻撃速度-50%[/color]\n[#00ff00]攻撃力+125%[/color]""","""[#ff0000]攻击速度 -50%[/color]（[#00ff00]AP +125%[/color]）"""
 fur_name,"""[#2177ee]모피[/color]""","""[#2177ee]Fur[/color]""","""[#2177ee]毛皮[/color]""","""[#2177ee]毛皮[/color]"""
 fur_state,"""[#2177ee]피해를 공격력의 20%만큼 덜 받습니다.[/color]""","""[#2177ee]Receive less damage by 20% of AP.[/color]""","""[#2177ee]ダメージを攻撃力の20%分少なく受けます[/color]""","""[#2177ee]受到的伤害减少 20% AP。[/color]"""
 gold_eye_name,"""[#fff98f]황금 눈알[/color]""","""[#fff98f]Gold Eye[/color]""","""[#fff98f]ゴールデンアイ[/color]""","""[#fff98f]黄金眼[/color]"""
