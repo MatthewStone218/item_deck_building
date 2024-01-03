@@ -115,8 +115,8 @@
     "path": "folders/Tile Sets.yy",
   },
   "spriteId": {
-    "name": "spr_tile_volcano_map448",
-    "path": "sprites/spr_tile_volcano_map448/spr_tile_volcano_map448.yy",
+    "name": "spr_tile_volcano_map_2",
+    "path": "sprites/spr_tile_volcano_map_2/spr_tile_volcano_map_2.yy",
   },
   "spriteNoExport": false,
   "textureGroupId": {

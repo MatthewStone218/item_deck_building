@@ -105,7 +105,7 @@ function scr_live_set_auto(){
 	sprite_set_live(spr_tileset_1,1); 
 	sprite_set_live(spr_tileset_2,1); 
 	sprite_set_live(spr_tile_volcano_map,1); 
-	sprite_set_live(spr_tile_volcano_map448,1); 
+	sprite_set_live(spr_tile_volcano_map_2,1); 
 	sprite_set_live(spr_ui_delete,1); 
 	sprite_set_live(spr_ui_exp,1); 
 	sprite_set_live(spr_ui_hpbar_1,1); 

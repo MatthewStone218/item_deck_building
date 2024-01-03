@@ -6,7 +6,7 @@ if(global.demo == 0)
 	instance_destroy();
 }
 
-if(room != rm_game or global.map_show == 0) and (mouse_check_button_pressed(mb_left) or gamepad_button_check_pressed(0,gp_face2) or gamepad_button_check_pressed(0,gp_face3) or gamepad_button_check_pressed(0,gp_face4)) and collision_point(mouse_x,mouse_y,id,0,0)
+if((room != rm_game and room != rm_game_2) or global.map_show == 0) and (mouse_check_button_pressed(mb_left) or gamepad_button_check_pressed(0,gp_face2) or gamepad_button_check_pressed(0,gp_face3) or gamepad_button_check_pressed(0,gp_face4)) and collision_point(mouse_x,mouse_y,id,0,0)
 {
 	clipboard_set_text("https://store.steampowered.com/app/2759840/Hell_Knight/");
 	url_open("https://store.steampowered.com/app/2759840/Hell_Knight/");

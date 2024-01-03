@@ -1,7 +1,7 @@
 /// @description 여기에 설명 삽입
 // 이 에디터에 코드를 작성할 수 있습니다
 
-if(room == rm_game)
+if((room == rm_game or room == rm_game_2))
 {
 	screen_shake = max(0,screen_shake-1);
 

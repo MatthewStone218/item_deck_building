@@ -7,7 +7,14 @@ if(step == 0)
 	if(image_alpha > 1.5)
 	{
 		step = 1;
-		room_goto(rm_game);
+		if(global.game_level == 1)
+		{
+			room_goto(rm_game);
+		}
+		else if(global.game_level == 2)
+		{
+			room_goto(rm_game_2);
+		}
 		//show_message(type)
 		
 		for(var i = 0; i < array_length(global.item_effects.stage_end);i++)

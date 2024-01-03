@@ -6,7 +6,8 @@
 #macro ITEM_RATE_RARE 5*power(1.4,chest_level+1)
 #macro ITEM_RATE_NORMAL 15
 
-global.demo = true;
+global.debug = true;
+global.demo = false;
 global.itch_io = false;
 
 
@@ -53,7 +54,9 @@ global.inv_count = 3;
 global.level = 1;
 global.level_max = 17;
 
-global.floor_level = 0;
+global.floor_level = 1;
+
+global.game_level = 1;
 
 count_combet_end = 120;
 
