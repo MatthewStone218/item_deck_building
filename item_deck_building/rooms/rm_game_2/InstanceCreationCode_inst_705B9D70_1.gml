@@ -1,1 +1,1 @@
-next_icon = [inst_76B00A8B];
+next_icon = [inst_76B00A8B_1];
