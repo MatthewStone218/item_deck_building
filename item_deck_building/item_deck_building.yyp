@@ -678,7 +678,7 @@
     {"id":{"name":"GMLive_compiler","path":"scripts/GMLive_compiler/GMLive_compiler.yy",},},
     {"id":{"name":"ime_init","path":"scripts/ime_init/ime_init.yy",},},
     {"id":{"name":"obj_ef_fake","path":"objects/obj_ef_fake/obj_ef_fake.yy",},},
-    {"id":{"name":"_32__Iconset_Starter_Pack_79","path":"sprites/_32__Iconset_Starter_Pack_79/_32__Iconset_Starter_Pack_79.yy",},},
+    {"id":{"name":"spr_item_wind_blade","path":"sprites/spr_item_wind_blade/spr_item_wind_blade.yy",},},
     {"id":{"name":"_32__Iconset_Starter_Pack_110","path":"sprites/_32__Iconset_Starter_Pack_110/_32__Iconset_Starter_Pack_110.yy",},},
     {"id":{"name":"ime_hangul_2","path":"scripts/ime_hangul_2/ime_hangul_2.yy",},},
     {"id":{"name":"obj_item_wizzard_portion","path":"objects/obj_item_wizzard_portion/obj_item_wizzard_portion.yy",},},

@@ -603,7 +603,7 @@
     {"name":"GMLive_compiler","order":1,"path":"scripts/GMLive_compiler/GMLive_compiler.yy",},
     {"name":"ime_init","order":2,"path":"scripts/ime_init/ime_init.yy",},
     {"name":"obj_ef_fake","order":12,"path":"objects/obj_ef_fake/obj_ef_fake.yy",},
-    {"name":"_32__Iconset_Starter_Pack_79","order":137,"path":"sprites/_32__Iconset_Starter_Pack_79/_32__Iconset_Starter_Pack_79.yy",},
+    {"name":"spr_item_wind_blade","order":137,"path":"sprites/spr_item_wind_blade/spr_item_wind_blade.yy",},
     {"name":"_32__Iconset_Starter_Pack_110","order":166,"path":"sprites/_32__Iconset_Starter_Pack_110/_32__Iconset_Starter_Pack_110.yy",},
     {"name":"ime_hangul_2","order":1,"path":"scripts/ime_hangul_2/ime_hangul_2.yy",},
     {"name":"obj_item_wizzard_portion","order":48,"path":"objects/obj_item_wizzard_portion/obj_item_wizzard_portion.yy",},

@@ -459,7 +459,7 @@ function scr_live_set_auto(){
 	sprite_set_live(_32__Iconset_Starter_Pack_76,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_77,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_78,1); 
-	sprite_set_live(_32__Iconset_Starter_Pack_79,1); 
+	sprite_set_live(spr_item_wind_blade,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_80,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_81,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_82,1); 
