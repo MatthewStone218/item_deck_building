@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "_32__Iconset_Starter_Pack_339",
+  "name": "spr_item_fools_boots",
   "bbox_bottom": 28,
   "bbox_left": 2,
   "bbox_right": 28,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "_32__Iconset_Starter_Pack_339",
+    "name": "spr_item_fools_boots",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d295b068-9a64-44c8-95f5-a806e6f1770d","path":"sprites/_32__Iconset_Starter_Pack_339/_32__Iconset_Starter_Pack_339.yy",},},},"Disabled":false,"id":"1e74d2b1-484d-49a1-9dc2-488b92ecaa87","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d295b068-9a64-44c8-95f5-a806e6f1770d","path":"sprites/spr_item_fools_boots/spr_item_fools_boots.yy",},},},"Disabled":false,"id":"1e74d2b1-484d-49a1-9dc2-488b92ecaa87","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

@@ -4,4 +4,8 @@
 
 event_inherited();
 
-data = obj_data_items.obj_item_charge_shield;
+data = obj_data_items.item_charge_shield;
+
+colls = {};
+
+dir = 1;

@@ -560,6 +560,16 @@ item_charge_shield =
 }
 
 
+item_fools_boots =
+{
+	spr: spr_item_fools_boots,
+	name: text_load(global.csv_items,"fools_boots_name"),
+	state: text_load(global.csv_items,"fools_boots_state"),
+	obj: obj_item_fools_boots,
+	item_type: "fools_boots"
+}
+
+
 
 
 
