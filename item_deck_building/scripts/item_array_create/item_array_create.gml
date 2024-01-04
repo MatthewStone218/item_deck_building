@@ -15,7 +15,7 @@ function item_array_create(chest_level = 1){
 	if!(reward_duplicated(obj_data_items.item_old_boots))
 	{
 		_item_array[count,0] = obj_data_items.item_old_boots;
-		_item_array[count,1] = ITEM_RATE_NORMAL*999999;
+		_item_array[count,1] = ITEM_RATE_NORMAL;
 		_item_array[count,2] = 0;
 		count++;
 	}
@@ -408,7 +408,7 @@ function item_array_create(chest_level = 1){
 	if!(reward_duplicated(obj_data_items.item_charge_shield))
 	{
 		_item_array[count,0] = obj_data_items.item_charge_shield;
-		_item_array[count,1] = ITEM_RATE_LEGEND*99999;
+		_item_array[count,1] = ITEM_RATE_LEGEND;
 		_item_array[count,2] = 0;
 		count++;
 	}
@@ -416,7 +416,7 @@ function item_array_create(chest_level = 1){
 	if!(reward_duplicated(obj_data_items.item_fools_boots))
 	{
 		_item_array[count,0] = obj_data_items.item_fools_boots;
-		_item_array[count,1] = ITEM_RATE_NORMAL*999999;
+		_item_array[count,1] = ITEM_RATE_NORMAL;
 		_item_array[count,2] = 0;
 		count++;
 	}
