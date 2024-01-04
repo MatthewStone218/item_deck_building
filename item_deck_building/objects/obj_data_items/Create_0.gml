@@ -540,6 +540,26 @@ item_red_horns =
 }
 
 
+item_wind_blade =
+{
+	spr: spr_item_wind_blade,
+	name: text_load(global.csv_items,"wind_blade_name"),
+	state: text_load(global.csv_items,"wind_blade_state"),
+	obj: obj_item_wind_blade,
+	item_type: "wind_blade"
+}
+
+
+item_charge_shield =
+{
+	spr: spr_item_charge_shield,
+	name: text_load(global.csv_items,"charge_shield_name"),
+	state: text_load(global.csv_items,"charge_shield_state"),
+	obj: obj_item_charge_shield,
+	item_type: "normal"
+}
+
+
 
 
 

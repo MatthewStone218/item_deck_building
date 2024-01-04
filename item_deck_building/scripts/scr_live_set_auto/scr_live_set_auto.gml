@@ -341,7 +341,7 @@ function scr_live_set_auto(){
 	sprite_set_live(_32__Iconset_Starter_Pack_307,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_308,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_309,1); 
-	sprite_set_live(_32__Iconset_Starter_Pack_310,1); 
+	sprite_set_live(spr_item_charge_shield,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_311,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_312,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_313,1); 

@@ -5,6 +5,8 @@ global.item_effects.act_start_far = -1;
 global.item_effects.act_far = -1;
 global.item_effects.act_animation_end_far = -1;
 
+instance_destroy(obj_throwing_ax_maker);
+
 // Inherit the parent event
 event_inherited();
 
