@@ -570,6 +570,16 @@ item_fools_boots =
 }
 
 
+item_blackhole =
+{
+	spr: spr_item_blackhole,
+	name: text_load(global.csv_items,"blackhole_name"),
+	state: text_load(global.csv_items,"blackhole_state"),
+	obj: obj_item_blackhole,
+	item_type: "normal"
+}
+
+
 
 
 

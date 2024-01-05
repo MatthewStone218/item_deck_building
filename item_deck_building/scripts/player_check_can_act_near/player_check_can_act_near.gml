@@ -3,7 +3,7 @@
 function player_check_can_act_near(_enemy){
 	if(global.item_effects.act_check_type == -1)
 	{
-		return (place_meeting_mask(x,y,_enemy,spr_player_attack_1));
+		return (place_meeting_mask(x-sign(_enemy.x-x)*50,y,_enemy,spr_player_attack_1) and place_meeting_mask(x,y,_enemy,spr_player_attack_1));
 	}
 	else
 	{

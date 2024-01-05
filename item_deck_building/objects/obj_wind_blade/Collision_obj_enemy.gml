@@ -3,7 +3,7 @@
 
 if(!variable_struct_exists(colls,"_"+string(real(other.id))))
 {
-	player_attack(0.5*player_get_asp(),other.id);
+	player_attack(1*player_get_asp(),other.id);
 	colls[$"_"+string(real(other.id))] = 1;
 }
 

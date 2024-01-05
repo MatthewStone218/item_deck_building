@@ -429,7 +429,7 @@ function scr_live_set_auto(){
 	sprite_set_live(_32__Iconset_Starter_Pack_42,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_43,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_44,1); 
-	sprite_set_live(_32__Iconset_Starter_Pack_45,1); 
+	sprite_set_live(spr_item_blackhole,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_46,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_49,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_50,1); 

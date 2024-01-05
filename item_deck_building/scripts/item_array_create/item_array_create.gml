@@ -421,6 +421,14 @@ function item_array_create(chest_level = 1){
 		count++;
 	}
 	
+	if!(reward_duplicated(obj_data_items.item_blackhole))
+	{
+		_item_array[count,0] = obj_data_items.item_blackhole;
+		_item_array[count,1] = ITEM_RATE_RARE*9999999;
+		_item_array[count,2] = 0;
+		count++;
+	}
+	
 	
 	return count;//길이 반환.
 }
