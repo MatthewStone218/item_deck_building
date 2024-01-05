@@ -11,4 +11,4 @@ item_func = function()
 	player_get_hit(1,noone);
 }
 
-item_push_function(global.item_effects.act_start_far,item_func);
+item_push_function(global.item_effects.far_act_start,item_func);
