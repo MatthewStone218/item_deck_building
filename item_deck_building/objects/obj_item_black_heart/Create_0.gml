@@ -12,7 +12,7 @@ item_func = function()
 	if(variable_global_exists("black_heart_used") and global.black_heart_used == 0)
 	{
 		global.black_heart_used = 1;
-		player_get_hit(1);
+		player_get_hit(1,noone);
 	}
 }
 

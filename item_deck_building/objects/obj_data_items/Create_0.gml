@@ -590,6 +590,17 @@ item_black_heart =
 }
 
 
+item_black_ring =
+{
+	spr: spr_item_black_ring,
+	name: text_load(global.csv_items,"black_ring_name"),
+	state: text_load(global.csv_items,"black_ring_state"),
+	obj: obj_item_black_ring,
+	item_type: "normal"
+}
+
+
+
 
 
 
