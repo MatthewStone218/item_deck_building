@@ -123,3 +123,5 @@ black_book_name,"""[#ff4c97]검은 책[/color]""","""[#ff4c97]Black Book[/color]
 black_book_state,"""[#ff4c97]원거리 행동을 시작할 때마다 1의 피해를 입습니다.[/color]""","""[#FF4C97]Whenever you start a ranged action, you take 1 damage[/color]""","""[#ff4c97]遠距離行動を開始するたびに1ダメージを受ける[/color]""","""[#FF4C97]每当你开始一个范围行动时，你都会受到 1 次伤害[/color]"""
 black_fruit_name,"""[#ff4c97]검은 과일[/color]""","""[#FF4C97]Black Fruit[/color]""","""[#ff4c97]ブラックフルーツ[/color]""","""[#FF4C97]黑色水果[/color]"""
 black_fruit_state,"""[#ff4c97]근접 행동을 시작할 때마다 1의 피해를 입습니다.[/color]""","[#FF4C97]Whenever you start a melee action, you take 1 damage[/color]","""[#ff4c97]近接行動を開始するたびに1ダメージを受ける[/color]""","""[#FF4C97]无论何时开始近战行动，你都会受到 1 次伤害[/color]"""
+fools_coat_name,"""[#428642]멍청이의 코트[/color]""","""[#428642]Fool's Coat[/color]""","""[#428642]馬鹿のコート[/color]""","""[#428642]白痴的外套[/color]"""
+fools_coat_state,"""[#428642]더 이상 근접 공격을 하지 않습니다. 받는 대미지가 절반으로 줄어듭니다.[/color]""","""[#428642]You no longer make melee attacks. You take half as much damage[/color]""","""[#428642]もう近接攻撃をしません。 受けるダメージが半分になります[/color]""","""[#428642]你不再进行近战攻击，受到的伤害减半[/color]"""

@@ -456,7 +456,15 @@ function item_array_create(chest_level = 1){
 	if!(reward_duplicated(obj_data_items.item_black_fruit))
 	{
 		_item_array[count,0] = obj_data_items.item_black_fruit;
-		_item_array[count,1] = ITEM_RATE_UNIQUE*99999;
+		_item_array[count,1] = ITEM_RATE_UNIQUE;
+		_item_array[count,2] = 0;
+		count++;
+	}
+	
+	if!(reward_duplicated(obj_data_items.item_fools_coat))
+	{
+		_item_array[count,0] = obj_data_items.item_fools_coat;
+		_item_array[count,1] = ITEM_RATE_RARE*99999999;
 		_item_array[count,2] = 0;
 		count++;
 	}

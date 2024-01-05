@@ -620,6 +620,16 @@ item_black_fruit =
 }
 
 
+item_fools_coat =
+{
+	spr: spr_item_fools_coat,
+	name: text_load(global.csv_items,"fools_coat_name"),
+	state: text_load(global.csv_items,"fools_coat_state"),
+	obj: obj_item_fools_coat,
+	item_type: "fools_coat"
+}
+
+
 
 
 
