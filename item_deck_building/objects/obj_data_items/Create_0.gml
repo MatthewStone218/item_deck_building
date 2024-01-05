@@ -580,6 +580,16 @@ item_blackhole =
 }
 
 
+item_black_heart =
+{
+	spr: spr_item_black_heart,
+	name: text_load(global.csv_items,"black_heart_name"),
+	state: text_load(global.csv_items,"black_heart_state"),
+	obj: obj_item_black_heart,
+	item_type: "black_heart"
+}
+
+
 
 
 

@@ -422,7 +422,7 @@ function scr_live_set_auto(){
 	sprite_set_live(_32__Iconset_Starter_Pack_394,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_396,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_397,1); 
-	sprite_set_live(_32__Iconset_Starter_Pack_399,1); 
+	sprite_set_live(spr_item_black_heart,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_40,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_400,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_41,1); 
