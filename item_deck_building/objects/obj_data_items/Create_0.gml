@@ -600,6 +600,16 @@ item_black_ring =
 }
 
 
+item_black_book =
+{
+	spr: spr_item_black_book,
+	name: text_load(global.csv_items,"black_book_name"),
+	state: text_load(global.csv_items,"black_book_state"),
+	obj: obj_item_black_book,
+	item_type: "normal"
+}
+
+
 
 
 
