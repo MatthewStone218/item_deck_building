@@ -6,7 +6,7 @@
 #macro ITEM_RATE_RARE 5*power(1.4,chest_level+1)
 #macro ITEM_RATE_NORMAL 15
 
-global.debug = true;
+global.debug = false;
 global.demo = true;
 global.itch_io = false;
 
