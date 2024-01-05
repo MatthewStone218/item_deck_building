@@ -136,7 +136,7 @@ function scr_live_set_auto(){
 	sprite_set_live(_32__Iconset_Starter_Pack_104,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_105,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_106,1); 
-	sprite_set_live(_32__Iconset_Starter_Pack_107,1); 
+	sprite_set_live(spr_item_black_fruit,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_108,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_109,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_11,1); 

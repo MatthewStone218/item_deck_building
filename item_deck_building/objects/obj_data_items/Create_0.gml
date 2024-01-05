@@ -610,6 +610,16 @@ item_black_book =
 }
 
 
+item_black_fruit =
+{
+	spr: spr_item_black_fruit,
+	name: text_load(global.csv_items,"black_fruit_name"),
+	state: text_load(global.csv_items,"black_fruit_state"),
+	obj: obj_item_black_fruit,
+	item_type: "normal"
+}
+
+
 
 
 

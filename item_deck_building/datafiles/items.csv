@@ -121,3 +121,5 @@ black_ring_name,"""[#ff4c97]검은 반지[/color]""","""[#FF4C97]Black Ring[/col
 black_ring_state,"""[#ff4c97]피해를 입을 때마다 가장 가까운 적에게 5의 피해를 입힙니다.[/color]""","""[#FF4C97]Whenever you take damage, deal 5 damage to the nearest enemy[/color]""","""[#ff4c97]ダメージを受けるたびに、最も近い敵に5のダメージを与えます[/color]""","""[#FF4C97]每当你受到伤害时，对最近的敌人造成 5 点伤害[/color]"""
 black_book_name,"""[#ff4c97]검은 책[/color]""","""[#ff4c97]Black Book[/color]""","""[#ff4c97]黒い本[/color]""","""[#ff4c97]黑皮书[/color]"""
 black_book_state,"""[#ff4c97]원거리 행동을 시작할 때마다 1의 피해를 입습니다.[/color]""","""[#FF4C97]Whenever you start a ranged action, you take 1 damage[/color]""","""[#ff4c97]遠距離行動を開始するたびに1ダメージを受ける[/color]""","""[#FF4C97]每当你开始一个范围行动时，你都会受到 1 次伤害[/color]"""
+black_fruit_name,"""[#ff4c97]검은 과일[/color]""","""[#FF4C97]Black Fruit[/color]""","""[#ff4c97]ブラックフルーツ[/color]""","""[#FF4C97]黑色水果[/color]"""
+black_fruit_state,"""[#ff4c97]근접 행동을 시작할 때마다 1의 피해를 입습니다.[/color]""","[#FF4C97]Whenever you start a melee action, you take 1 damage[/color]","""[#ff4c97]近接行動を開始するたびに1ダメージを受ける[/color]""","""[#FF4C97]无论何时开始近战行动，你都会受到 1 次伤害[/color]"""
