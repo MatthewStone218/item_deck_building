@@ -390,7 +390,281 @@ event_enemy_ghost_warrior =
 		global.st_prev = ST.COMBET;
 		});
 		
-		instance_create_layer(1686,560,"enemy",obj_enemy_ghost_warrior);
+		var incy = instance_create_layer(1686,560,"enemy",obj_enemy_ghost_warrior);
+		incy.y = 640-sprite_height+sprite_yoffset;
+		
+		with(obj_ui_hp_2){set_hp()}
+	}
+}
+
+event_enemy_ghost_warrior_2 = 
+{
+	func: function(){
+		call_later(60,time_source_units_frames,function(){
+		global.state = ST.COMBET;
+		global.st_prev = ST.COMBET;
+		});
+		
+		var incy = instance_create_layer(1686,560,"enemy",obj_enemy_ghost_warrior_2);
+		incy.y = 640-sprite_height+sprite_yoffset;
+		
+		with(obj_ui_hp_2){set_hp()}
+	}
+}
+
+event_enemy_ghost_warrior_3 = 
+{
+	func: function(){
+		call_later(60,time_source_units_frames,function(){
+		global.state = ST.COMBET;
+		global.st_prev = ST.COMBET;
+		});
+		
+		var incy = instance_create_layer(1686,560,"enemy",obj_enemy_ghost_warrior_3);
+		incy.y = 640-sprite_height+sprite_yoffset;
+		
+		with(obj_ui_hp_2){set_hp()}
+	}
+}
+
+event_enemy_ghost_warrior_2s = 
+{
+	func: function(){
+		call_later(60,time_source_units_frames,function(){
+		global.state = ST.COMBET;
+		global.st_prev = ST.COMBET;
+		});
+		
+		var incy = instance_create_layer(1686,560,"enemy",obj_enemy_ghost_warrior);
+		incy.y = 640-sprite_height+sprite_yoffset;
+		var incy = instance_create_layer(1486,560,"enemy",obj_enemy_ghost_warrior_2);
+		incy.y = 640-sprite_height+sprite_yoffset;
+		
+		with(obj_ui_hp_2){set_hp()}
+	}
+}
+
+event_enemy_ghost_warrior_3s = 
+{
+	func: function(){
+		call_later(60,time_source_units_frames,function(){
+		global.state = ST.COMBET;
+		global.st_prev = ST.COMBET;
+		});
+		
+		var incy = instance_create_layer(1686,560,"enemy",obj_enemy_ghost_warrior);
+		incy.y = 640-sprite_height+sprite_yoffset;
+		var incy = instance_create_layer(1486,560,"enemy",obj_enemy_ghost_warrior_2);
+		incy.y = 640-sprite_height+sprite_yoffset;
+		var incy = instance_create_layer(1286,560,"enemy",obj_enemy_ghost_warrior_3);
+		incy.y = 640-sprite_height+sprite_yoffset;
+		
+		with(obj_ui_hp_2){set_hp()}
+	}
+}
+
+event_enemy_dark_knight = 
+{
+	func: function(){
+		call_later(60,time_source_units_frames,function(){
+		global.state = ST.COMBET;
+		global.st_prev = ST.COMBET;
+		});
+		
+		var incy = instance_create_layer(1686,560,"enemy",obj_enemy_dark_knight);
+		incy.y = 640-sprite_height+sprite_yoffset;
+		
+		with(obj_ui_hp_2){set_hp()}
+	}
+}
+
+event_enemy_dark_knight_2 = 
+{
+	func: function(){
+		call_later(60,time_source_units_frames,function(){
+		global.state = ST.COMBET;
+		global.st_prev = ST.COMBET;
+		});
+		
+		var incy = instance_create_layer(1686,560,"enemy",obj_enemy_dark_knight);
+		incy.y = 640-sprite_height+sprite_yoffset;
+		
+		var incy = instance_create_layer(1486,560,"enemy",obj_enemy_dark_knight);
+		incy.y = 640-sprite_height+sprite_yoffset;
+		
+		with(obj_ui_hp_2){set_hp()}
+	}
+}
+
+event_enemy_dark_knight_ghost_warrior = 
+{
+	func: function(){
+		call_later(60,time_source_units_frames,function(){
+		global.state = ST.COMBET;
+		global.st_prev = ST.COMBET;
+		});
+		
+		var incy = instance_create_layer(1686,560,"enemy",obj_enemy_dark_knight);
+		incy.y = 640-sprite_height+sprite_yoffset;
+		
+		var incy = instance_create_layer(1486,560,"enemy",obj_enemy_ghost_warrior);
+		incy.y = 640-sprite_height+sprite_yoffset;
+		
+		with(obj_ui_hp_2){set_hp()}
+	}
+}
+
+event_enemy_dark_knight_ghost_warrior_2 = 
+{
+	func: function(){
+		call_later(60,time_source_units_frames,function(){
+		global.state = ST.COMBET;
+		global.st_prev = ST.COMBET;
+		});
+		
+		var incy = instance_create_layer(1686,560,"enemy",obj_enemy_dark_knight);
+		incy.y = 640-sprite_height+sprite_yoffset;
+		
+		var incy = instance_create_layer(1486,560,"enemy",obj_enemy_ghost_warrior_2);
+		incy.y = 640-sprite_height+sprite_yoffset;
+		
+		with(obj_ui_hp_2){set_hp()}
+	}
+}
+
+event_enemy_dark_knight_ghost_warrior_3 = 
+{
+	func: function(){
+		call_later(60,time_source_units_frames,function(){
+		global.state = ST.COMBET;
+		global.st_prev = ST.COMBET;
+		});
+		
+		var incy = instance_create_layer(1686,560,"enemy",obj_enemy_dark_knight);
+		incy.y = 640-sprite_height+sprite_yoffset;
+		
+		var incy = instance_create_layer(1486,560,"enemy",obj_enemy_ghost_warrior_3);
+		incy.y = 640-sprite_height+sprite_yoffset;
+		
+		with(obj_ui_hp_2){set_hp()}
+	}
+}
+
+event_enemy_beast = 
+{
+	func: function(){
+		call_later(60,time_source_units_frames,function(){
+		global.state = ST.COMBET;
+		global.st_prev = ST.COMBET;
+		});
+		
+		var incy = instance_create_layer(1686,560,"enemy",obj_enemy_beast);
+		incy.y = 640-sprite_height+sprite_yoffset;
+		
+		with(obj_ui_hp_2){set_hp()}
+	}
+}
+
+event_enemy_beast_2 = 
+{
+	func: function(){
+		call_later(60,time_source_units_frames,function(){
+		global.state = ST.COMBET;
+		global.st_prev = ST.COMBET;
+		});
+		
+		var incy = instance_create_layer(1686,560,"enemy",obj_enemy_beast);
+		incy.y = 640-sprite_height+sprite_yoffset;
+		var incy = instance_create_layer(1486,560,"enemy",obj_enemy_beast);
+		incy.y = 640-sprite_height+sprite_yoffset;
+		
+		with(obj_ui_hp_2){set_hp()}
+	}
+}
+
+event_enemy_beast_3 = 
+{
+	func: function(){
+		call_later(60,time_source_units_frames,function(){
+		global.state = ST.COMBET;
+		global.st_prev = ST.COMBET;
+		});
+		
+		var incy = instance_create_layer(1686,560,"enemy",obj_enemy_beast);
+		incy.y = 640-sprite_height+sprite_yoffset;
+		var incy = instance_create_layer(1486,560,"enemy",obj_enemy_beast);
+		incy.y = 640-sprite_height+sprite_yoffset;
+		var incy = instance_create_layer(1286,560,"enemy",obj_enemy_beast);
+		incy.y = 640-sprite_height+sprite_yoffset;
+		
+		with(obj_ui_hp_2){set_hp()}
+	}
+}
+
+event_enemy_beast_4 = 
+{
+	func: function(){
+		call_later(60,time_source_units_frames,function(){
+		global.state = ST.COMBET;
+		global.st_prev = ST.COMBET;
+		});
+		
+		var incy = instance_create_layer(1686,560,"enemy",obj_enemy_beast);
+		incy.y = 640-sprite_height+sprite_yoffset;
+		var incy = instance_create_layer(1486,560,"enemy",obj_enemy_beast);
+		incy.y = 640-sprite_height+sprite_yoffset;
+		var incy = instance_create_layer(1286,560,"enemy",obj_enemy_beast);
+		incy.y = 640-sprite_height+sprite_yoffset;
+		var incy = instance_create_layer(1086,560,"enemy",obj_enemy_beast);
+		incy.y = 640-sprite_height+sprite_yoffset;
+		
+		with(obj_ui_hp_2){set_hp()}
+	}
+}
+
+event_enemy_heavy_armor = 
+{
+	func: function(){
+		call_later(60,time_source_units_frames,function(){
+		global.state = ST.COMBET;
+		global.st_prev = ST.COMBET;
+		});
+		
+		var incy = instance_create_layer(1686,560,"enemy",obj_enemy_heavy_armor);
+		incy.y = 640-sprite_height+sprite_yoffset;
+		
+		with(obj_ui_hp_2){set_hp()}
+	}
+}
+
+event_enemy_heavy_armor_2 = 
+{
+	func: function(){
+		call_later(60,time_source_units_frames,function(){
+		global.state = ST.COMBET;
+		global.st_prev = ST.COMBET;
+		});
+		
+		var incy = instance_create_layer(1686,560,"enemy",obj_enemy_heavy_armor_2);
+		incy.y = 640-sprite_height+sprite_yoffset;
+		
+		with(obj_ui_hp_2){set_hp()}
+	}
+}
+
+event_enemy_heavy_armor_2s = 
+{
+	func: function(){
+		call_later(60,time_source_units_frames,function(){
+		global.state = ST.COMBET;
+		global.st_prev = ST.COMBET;
+		});
+		
+		var incy = instance_create_layer(1686,560,"enemy",obj_enemy_heavy_armor);
+		incy.y = 640-sprite_height+sprite_yoffset;
+		var incy = instance_create_layer(1486,560,"enemy",obj_enemy_heavy_armor_2);
+		incy.y = 640-sprite_height+sprite_yoffset;
+		
 		with(obj_ui_hp_2){set_hp()}
 	}
 }
