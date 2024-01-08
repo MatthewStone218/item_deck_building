@@ -14,6 +14,7 @@ if(mouse_y < y and (mouse_check_button_pressed(mb_left) or gamepad_button_check_
 		global.state = ST.NORMAL;
 		global.st_prev = ST.NORMAL;
 		call_later(30,time_source_units_frames,function(){
+			//goto_next_floor()
 			instance_create_layer(0,0,"move_ef",obj_ef_map_reveal);
 		});
 	}

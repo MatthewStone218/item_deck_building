@@ -13,6 +13,7 @@ if(global.state == ST.COMBET and (room == rm_game or room == rm_game_2) and glob
 	if(count_combet_end <= 0)
 	{
 		instance_destroy(obj_arrows);
+		//goto_next_floor();
 		set_reward_first();
 	}
 }

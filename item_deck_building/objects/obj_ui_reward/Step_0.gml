@@ -56,6 +56,7 @@ if(global.state == ST.REWARD and item != -1 and !global.map_show)
 			audio_play_sound(snd_confirm_1,1,0);
 			
 			call_later(30,time_source_units_frames,function(){
+				//goto_next_floor()
 				instance_create_layer(0,0,"move_ef",obj_ef_map_reveal);
 			});
 			

@@ -6,8 +6,8 @@
 #macro ITEM_RATE_RARE 5*power(1.4,chest_level+1)
 #macro ITEM_RATE_NORMAL 15
 
-global.debug = false;
-global.demo = true;
+global.debug = true;
+global.demo = false;
 global.itch_io = false;
 
 
@@ -88,7 +88,8 @@ global.exp_max_arr =
 	1000,
 	1500,
 	2000,
-	3000
+	3000,
+	999999999999999999
 ]
 
 global.exp_max = global.exp_max_arr[global.level];

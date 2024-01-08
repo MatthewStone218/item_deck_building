@@ -38,7 +38,7 @@ function event_array_create(ev_type){
 			count++;
 			
 			_event_array[count,0] = obj_data_events.event_enemy_skeleton_warrior_n_archer_1.func;
-			_event_array[count,1] = 10*event_range(3,6);
+			_event_array[count,1] = 10*event_range(4,6);
 			_event_array[count,2] = 0;
 			count++;
 			
@@ -58,7 +58,7 @@ function event_array_create(ev_type){
 			count++;
 	
 			_event_array[count,0] = obj_data_events.event_enemy_slime_blue_2.func;
-			_event_array[count,1] = 10*event_range(-10,6);
+			_event_array[count,1] = 10*event_range(3,6);
 			_event_array[count,2] = 0;
 			count++;
 	
@@ -68,17 +68,17 @@ function event_array_create(ev_type){
 			count++;
 	
 			_event_array[count,0] = obj_data_events.event_enemy_slime_green_2.func;
-			_event_array[count,1] = 10*event_range(-10,4);
+			_event_array[count,1] = 10*event_range(3,4);
 			_event_array[count,2] = 0;
 			count++;
 	
 			_event_array[count,0] = obj_data_events.event_enemy_slime_red_1.func;
-			_event_array[count,1] = 10*event_range(0,6);
+			_event_array[count,1] = 10*event_range(3,6);
 			_event_array[count,2] = 0;
 			count++;
 	
 			_event_array[count,0] = obj_data_events.event_enemy_slimes.func;
-			_event_array[count,1] = 10*event_range(4,10);
+			_event_array[count,1] = 10*event_range(7,10);
 			_event_array[count,2] = 0;
 			count++;
 	
@@ -153,12 +153,12 @@ function event_array_create(ev_type){
 			count++;
 	
 			_event_array[count,0] = obj_data_events.event_event_bonfire.func;
-			_event_array[count,1] = 2*(ev_type == EV_TYPE.RANDOM);
+			_event_array[count,1] = 20*(ev_type == EV_TYPE.RANDOM);
 			_event_array[count,2] = 0;
 			count++;
 			
 			_event_array[count,0] = obj_data_events.event_event_treasure_chest.func;
-			_event_array[count,1] = 2*(ev_type == EV_TYPE.RANDOM);
+			_event_array[count,1] = 10*(ev_type == EV_TYPE.RANDOM);
 			_event_array[count,2] = 0;
 			count++;
 		}

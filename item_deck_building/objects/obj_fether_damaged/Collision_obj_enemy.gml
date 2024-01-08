@@ -3,7 +3,7 @@
 
 if(can_hit)
 {
-	player_attack(4+(0.15*player_get_hp_max()),other.id);
+	player_attack(4+(0.3*player_get_sp()),other.id);
 	instance_destroy();
 }
 
