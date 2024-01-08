@@ -4,11 +4,11 @@
 hp_max = 100;
 hp = hp_max;
 
-idle_spr = spr_enemy_ghost_warrior_3_idle;
-run_spr = spr_enemy_ghost_warrior_3_run;
-atk_spr = spr_enemy_ghost_warrior_3_attack;
-get_hit_spr = spr_enemy_ghost_warrior_3_get_hit;
-die_spr = spr_enemy_ghost_warrior_3_die;
+idle_spr = spr_enemy_heavy_armor_2_idle;
+run_spr = spr_enemy_heavy_armor_2_run;
+atk_spr = spr_enemy_heavy_armor_2_attack;
+get_hit_spr = spr_enemy_heavy_armor_2_get_hit;
+die_spr = spr_enemy_heavy_armor_2_die;
 
 xspd = 0;
 yspd = 0;

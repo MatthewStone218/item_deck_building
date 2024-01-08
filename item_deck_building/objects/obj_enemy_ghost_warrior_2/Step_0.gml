@@ -74,7 +74,7 @@ if(hp > 0)
 	}
 	else if(sprite_index == atk_spr and attacked == 0)
 	{
-		if(image_index >= 4 and image_index <= 5)
+		if(image_index >= 6 and image_index <= 8)
 		{
 			mask_index = atk_spr;
 			if(place_meeting(x,y,obj_player))
