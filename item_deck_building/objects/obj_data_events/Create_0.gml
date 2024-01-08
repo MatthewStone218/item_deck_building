@@ -379,6 +379,22 @@ event_enemy_dragon =
 		with(obj_ui_hp_2){set_hp()}
 	}
 }
+// 2 level
+
+
+event_enemy_ghost_warrior = 
+{
+	func: function(){
+		call_later(60,time_source_units_frames,function(){
+		global.state = ST.COMBET;
+		global.st_prev = ST.COMBET;
+		});
+		
+		instance_create_layer(1686,560,"enemy",obj_enemy_ghost_warrior);
+		with(obj_ui_hp_2){set_hp()}
+	}
+}
+
 
 //event
 
