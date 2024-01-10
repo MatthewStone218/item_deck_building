@@ -1,7 +1,7 @@
 /// @description 여기에 설명 삽입
 // 이 에디터에 코드를 작성할 수 있습니다
 
-var scrib = scribble("[global.font_normal][scale,3]"+str)
+var scrib = scribble("[scale,3]"+str)
 .wrap(370)
 .align(fa_center,fa_middle);
 

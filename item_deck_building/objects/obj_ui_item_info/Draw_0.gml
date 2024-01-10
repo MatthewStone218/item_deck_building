@@ -4,9 +4,10 @@ LIVE
 
 if(item != -1)
 {
-	var _string = $"[global.font_normal][scale,3]{item.name}[/fa_center][/scale,2][scale,2]\n\n{item.state}";	
+	var str_up = (item.up_point != -1) ? $"\n\n[rainbow]{text_load(global.csv_system,"up_required")}[/rainbow]{item.up_point}" : "\n\n"+text_load(global.csv_system,"up_invalid");
+	var _string = $"[scale,3]{item.name}[/scale,2][scale,2]\n\n{item.state}";	
 	
-	var _scrib = scribble(_string)
+	var _scrib = scribble(_string+str_up)
 	.wrap(sprite_width-50)
 	.align(fa_center,fa_top)
 	.line_height(35,35)

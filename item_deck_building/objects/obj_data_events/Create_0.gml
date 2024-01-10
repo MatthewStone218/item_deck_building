@@ -391,7 +391,7 @@ event_enemy_ghost_warrior =
 		});
 		
 		var incy = instance_create_layer(1686,560,"enemy",obj_enemy_ghost_warrior);
-		incy.y = 640-sprite_height+sprite_yoffset;
+		incy.y = 640-(incy.sprite_height-incy.sprite_yoffset);
 		
 		with(obj_ui_hp_2){set_hp()}
 	}
@@ -406,7 +406,7 @@ event_enemy_ghost_warrior_2 =
 		});
 		
 		var incy = instance_create_layer(1686,560,"enemy",obj_enemy_ghost_warrior_2);
-		incy.y = 640-sprite_height+sprite_yoffset;
+		incy.y = 640-(incy.sprite_height-incy.sprite_yoffset);
 		
 		with(obj_ui_hp_2){set_hp()}
 	}
@@ -421,7 +421,7 @@ event_enemy_ghost_warrior_3 =
 		});
 		
 		var incy = instance_create_layer(1686,560,"enemy",obj_enemy_ghost_warrior_3);
-		incy.y = 640-sprite_height+sprite_yoffset;
+		incy.y = 640-(incy.sprite_height-incy.sprite_yoffset);
 		
 		with(obj_ui_hp_2){set_hp()}
 	}
@@ -436,9 +436,9 @@ event_enemy_ghost_warrior_2s =
 		});
 		
 		var incy = instance_create_layer(1686,560,"enemy",obj_enemy_ghost_warrior);
-		incy.y = 640-sprite_height+sprite_yoffset;
+		incy.y = 640-(incy.sprite_height-incy.sprite_yoffset);
 		var incy = instance_create_layer(1486,560,"enemy",obj_enemy_ghost_warrior_2);
-		incy.y = 640-sprite_height+sprite_yoffset;
+		incy.y = 640-(incy.sprite_height-incy.sprite_yoffset);
 		
 		with(obj_ui_hp_2){set_hp()}
 	}
@@ -453,11 +453,11 @@ event_enemy_ghost_warrior_3s =
 		});
 		
 		var incy = instance_create_layer(1686,560,"enemy",obj_enemy_ghost_warrior);
-		incy.y = 640-sprite_height+sprite_yoffset;
+		incy.y = 640-(incy.sprite_height-incy.sprite_yoffset);
 		var incy = instance_create_layer(1486,560,"enemy",obj_enemy_ghost_warrior_2);
-		incy.y = 640-sprite_height+sprite_yoffset;
+		incy.y = 640-(incy.sprite_height-incy.sprite_yoffset);
 		var incy = instance_create_layer(1286,560,"enemy",obj_enemy_ghost_warrior_3);
-		incy.y = 640-sprite_height+sprite_yoffset;
+		incy.y = 640-(incy.sprite_height-incy.sprite_yoffset);
 		
 		with(obj_ui_hp_2){set_hp()}
 	}
@@ -472,7 +472,7 @@ event_enemy_dark_knight =
 		});
 		
 		var incy = instance_create_layer(1686,560,"enemy",obj_enemy_dark_knight);
-		incy.y = 640-sprite_height+sprite_yoffset;
+		incy.y = 640-(incy.sprite_height-incy.sprite_yoffset);
 		
 		with(obj_ui_hp_2){set_hp()}
 	}
@@ -487,10 +487,10 @@ event_enemy_dark_knight_2 =
 		});
 		
 		var incy = instance_create_layer(1686,560,"enemy",obj_enemy_dark_knight);
-		incy.y = 640-sprite_height+sprite_yoffset;
+		incy.y = 640-(incy.sprite_height-incy.sprite_yoffset);
 		
 		var incy = instance_create_layer(1486,560,"enemy",obj_enemy_dark_knight);
-		incy.y = 640-sprite_height+sprite_yoffset;
+		incy.y = 640-(incy.sprite_height-incy.sprite_yoffset);
 		
 		with(obj_ui_hp_2){set_hp()}
 	}
@@ -505,10 +505,10 @@ event_enemy_dark_knight_ghost_warrior =
 		});
 		
 		var incy = instance_create_layer(1686,560,"enemy",obj_enemy_dark_knight);
-		incy.y = 640-sprite_height+sprite_yoffset;
+		incy.y = 640-(incy.sprite_height-incy.sprite_yoffset);
 		
 		var incy = instance_create_layer(1486,560,"enemy",obj_enemy_ghost_warrior);
-		incy.y = 640-sprite_height+sprite_yoffset;
+		incy.y = 640-(incy.sprite_height-incy.sprite_yoffset);
 		
 		with(obj_ui_hp_2){set_hp()}
 	}
@@ -523,10 +523,10 @@ event_enemy_dark_knight_ghost_warrior_2 =
 		});
 		
 		var incy = instance_create_layer(1686,560,"enemy",obj_enemy_dark_knight);
-		incy.y = 640-sprite_height+sprite_yoffset;
+		incy.y = 640-(incy.sprite_height-incy.sprite_yoffset);
 		
 		var incy = instance_create_layer(1486,560,"enemy",obj_enemy_ghost_warrior_2);
-		incy.y = 640-sprite_height+sprite_yoffset;
+		incy.y = 640-(incy.sprite_height-incy.sprite_yoffset);
 		
 		with(obj_ui_hp_2){set_hp()}
 	}
@@ -541,10 +541,10 @@ event_enemy_dark_knight_ghost_warrior_3 =
 		});
 		
 		var incy = instance_create_layer(1686,560,"enemy",obj_enemy_dark_knight);
-		incy.y = 640-sprite_height+sprite_yoffset;
+		incy.y = 640-(incy.sprite_height-incy.sprite_yoffset);
 		
 		var incy = instance_create_layer(1486,560,"enemy",obj_enemy_ghost_warrior_3);
-		incy.y = 640-sprite_height+sprite_yoffset;
+		incy.y = 640-(incy.sprite_height-incy.sprite_yoffset);
 		
 		with(obj_ui_hp_2){set_hp()}
 	}
@@ -559,7 +559,7 @@ event_enemy_beast =
 		});
 		
 		var incy = instance_create_layer(1686,560,"enemy",obj_enemy_beast);
-		incy.y = 640-sprite_height+sprite_yoffset;
+		incy.y = 640-(incy.sprite_height-incy.sprite_yoffset);
 		
 		with(obj_ui_hp_2){set_hp()}
 	}
@@ -574,9 +574,9 @@ event_enemy_beast_2 =
 		});
 		
 		var incy = instance_create_layer(1686,560,"enemy",obj_enemy_beast);
-		incy.y = 640-sprite_height+sprite_yoffset;
+		incy.y = 640-(incy.sprite_height-incy.sprite_yoffset);
 		var incy = instance_create_layer(1486,560,"enemy",obj_enemy_beast);
-		incy.y = 640-sprite_height+sprite_yoffset;
+		incy.y = 640-(incy.sprite_height-incy.sprite_yoffset);
 		
 		with(obj_ui_hp_2){set_hp()}
 	}
@@ -591,11 +591,11 @@ event_enemy_beast_3 =
 		});
 		
 		var incy = instance_create_layer(1686,560,"enemy",obj_enemy_beast);
-		incy.y = 640-sprite_height+sprite_yoffset;
+		incy.y = 640-(incy.sprite_height-incy.sprite_yoffset);
 		var incy = instance_create_layer(1486,560,"enemy",obj_enemy_beast);
-		incy.y = 640-sprite_height+sprite_yoffset;
+		incy.y = 640-(incy.sprite_height-incy.sprite_yoffset);
 		var incy = instance_create_layer(1286,560,"enemy",obj_enemy_beast);
-		incy.y = 640-sprite_height+sprite_yoffset;
+		incy.y = 640-(incy.sprite_height-incy.sprite_yoffset);
 		
 		with(obj_ui_hp_2){set_hp()}
 	}
@@ -610,13 +610,13 @@ event_enemy_beast_4 =
 		});
 		
 		var incy = instance_create_layer(1686,560,"enemy",obj_enemy_beast);
-		incy.y = 640-sprite_height+sprite_yoffset;
+		incy.y = 640-(incy.sprite_height-incy.sprite_yoffset);
 		var incy = instance_create_layer(1486,560,"enemy",obj_enemy_beast);
-		incy.y = 640-sprite_height+sprite_yoffset;
+		incy.y = 640-(incy.sprite_height-incy.sprite_yoffset);
 		var incy = instance_create_layer(1286,560,"enemy",obj_enemy_beast);
-		incy.y = 640-sprite_height+sprite_yoffset;
+		incy.y = 640-(incy.sprite_height-incy.sprite_yoffset);
 		var incy = instance_create_layer(1086,560,"enemy",obj_enemy_beast);
-		incy.y = 640-sprite_height+sprite_yoffset;
+		incy.y = 640-(incy.sprite_height-incy.sprite_yoffset);
 		
 		with(obj_ui_hp_2){set_hp()}
 	}
@@ -631,7 +631,7 @@ event_enemy_heavy_armor =
 		});
 		
 		var incy = instance_create_layer(1686,560,"enemy",obj_enemy_heavy_armor);
-		incy.y = 640-sprite_height+sprite_yoffset;
+		incy.y = 640-(incy.sprite_height-incy.sprite_yoffset);
 		
 		with(obj_ui_hp_2){set_hp()}
 	}
@@ -646,7 +646,7 @@ event_enemy_heavy_armor_2 =
 		});
 		
 		var incy = instance_create_layer(1686,560,"enemy",obj_enemy_heavy_armor_2);
-		incy.y = 640-sprite_height+sprite_yoffset;
+		incy.y = 640-(incy.sprite_height-incy.sprite_yoffset);
 		
 		with(obj_ui_hp_2){set_hp()}
 	}
@@ -661,9 +661,9 @@ event_enemy_heavy_armor_2s =
 		});
 		
 		var incy = instance_create_layer(1686,560,"enemy",obj_enemy_heavy_armor);
-		incy.y = 640-sprite_height+sprite_yoffset;
+		incy.y = 640-(incy.sprite_height-incy.sprite_yoffset);
 		var incy = instance_create_layer(1486,560,"enemy",obj_enemy_heavy_armor_2);
-		incy.y = 640-sprite_height+sprite_yoffset;
+		incy.y = 640-(incy.sprite_height-incy.sprite_yoffset);
 		
 		with(obj_ui_hp_2){set_hp()}
 	}

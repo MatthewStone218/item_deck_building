@@ -21,7 +21,7 @@ if(clicked == 0)
 		case spr_chest_4: color = "rainbow"; closer = "rainbow" break;
 	}
 	str = string_replace_all(string_replace_all(text_load(global.csv_events,"treasure_chest_text_1"),"rate_color1",color),"color_closer",closer);
-	var str2 = "[global.font_normal][scale,3]"+str;
+	var str2 = "[scale,3]"+str;
 	var margin = 10;
 	draw_sprite_ext(spr_window_2,0,x,y-300,3*(margin*2+string_width(str))/sprite_get_width(spr_window_2),3*(margin*2+string_height(str))/sprite_get_height(spr_window_2),0,c_white,1);
 

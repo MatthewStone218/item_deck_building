@@ -2,7 +2,7 @@
 // 이 에디터에 코드를 작성할 수 있습니다
 
 LIVE
-var scrib = scribble("[global.font_normal][scale,3]"+str)
+var scrib = scribble("[scale,3]"+str)
 .align(fa_center,fa_middle);
 
 var width = scrib.get_width();

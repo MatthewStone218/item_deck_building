@@ -1,7 +1,7 @@
 /// @description 여기에 설명 삽입
 // 이 에디터에 코드를 작성할 수 있습니다
 LIVE
-if(global.state == ST.REWARD and item != -1 and !global.map_show)
+if((global.state == ST.REWARD or global.state == ST.UPGRADE) and item != -1 and !global.map_show)
 {
 	if(mouse_check_pressed_me(mb_left))
 	{
@@ -30,7 +30,7 @@ if(global.state == ST.REWARD and item != -1 and !global.map_show)
 				col2 = c_red;
 			}
 		}
-		else if(global.inv_count <= instance_number(obj_item))
+		else if(global.state == ST.REWARD and global.inv_count <= instance_number(obj_item))
 		{
 			with(obj_popup)
 			{
@@ -50,38 +50,73 @@ if(global.state == ST.REWARD and item != -1 and !global.map_show)
 		}
 		else
 		{
-			global.state = ST.NORMAL;
-			global.st_prev = ST.NORMAL;
-			
-			audio_play_sound(snd_confirm_1,1,0);
-			
-			call_later(30,time_source_units_frames,function(){
-				//goto_next_floor()
-				instance_create_layer(0,0,"move_ef",obj_ef_map_reveal);
-			});
-			
-			var incy = instance_create_layer(-500,-500,"Items",item.obj);
-		
-			//obj_camera_sys.screen_shake = 3;
-		
-			with(obj_ui_reward)
+			if(global.state == ST.REWARD)
 			{
-				if(item != -1)
+				global.state = ST.NORMAL;
+				global.st_prev = ST.NORMAL;
+			
+				audio_play_sound(snd_confirm_1,1,0);
+			
+				call_later(30,time_source_units_frames,function(){
+					//goto_next_floor()
+					instance_create_layer(0,0,"move_ef",obj_ef_map_reveal);
+				});
+			
+				var incy = instance_create_layer(-500,-500,"Items",item.obj);
+		
+				//obj_camera_sys.screen_shake = 3;
+		
+				with(obj_ui_reward)
 				{
-					var incy = instance_create_depth(x,y,depth-1,obj_ef_reward_selected);
-					if(other.id == id)
+					if(item != -1)
 					{
-						var incy2 = instance_create_depth(x,y,depth-2,obj_ef_reward_selected_2);
-						incy2.spr = item.spr;
+						var incy = instance_create_depth(x,y,depth-1,obj_ef_reward_selected);
+						if(other.id == id)
+						{
+							var incy2 = instance_create_depth(x,y,depth-2,obj_ef_reward_selected_2);
+							incy2.spr = item.spr;
 				
-						incy.selected = 1;
-						incy.white = 1;
+							incy.selected = 1;
+							incy.white = 1;
+						}
+						else{incy.image_alpha = 1;}
+						incy.spr = item.spr;
+						incy.name = item.name;
+						incy.state = item.state;
+						incy.typist = scribble_typist();;
 					}
-					else{incy.image_alpha = 1;}
-					incy.spr = item.spr;
-					incy.name = item.name;
-					incy.state = item.state;
-					incy.typist = scribble_typist();;
+				}
+			}
+			else
+			{
+				global.state = global.st_prev;
+			
+				audio_play_sound(snd_confirm_1,1,0);
+			
+				instance_destroy(obj_inv_upgrade.obj);
+				var incy = instance_create_layer(-500,-500,"Items",item.obj);
+		
+				//obj_camera_sys.screen_shake = 3;
+		
+				with(obj_ui_reward)
+				{
+					if(item != -1)
+					{
+						var incy = instance_create_depth(x,y,depth-1,obj_ef_reward_selected);
+						if(other.id == id)
+						{
+							var incy2 = instance_create_depth(x,y,depth-2,obj_ef_reward_selected_2);
+							incy2.spr = item.spr;
+				
+							incy.selected = 1;
+							incy.white = 1;
+						}
+						else{incy.image_alpha = 1;}
+						incy.spr = item.spr;
+						incy.name = item.name;
+						incy.state = item.state;
+						incy.typist = scribble_typist();;
+					}
 				}
 			}
 		}

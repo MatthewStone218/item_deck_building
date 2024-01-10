@@ -10,7 +10,7 @@ draw_set_alpha(1);
 
 str = text_load(global.csv_system,"levelup")+((global.level == 3 or global.level == 6 or global.level == 9) ? text_load(global.csv_system,"levelup_refresh") : "");
 
-var str2 = $"[global.font_normal][scale,3]"+str;
+var str2 = $"[scale,3]"+str;
 var margin = 20;
 draw_sprite_ext(spr_window_2,0,x,y,3*(margin*2+string_width(str))/sprite_get_width(spr_window_2),3*(margin*2+string_height(str))/sprite_get_height(spr_window_2),0,c_white,image_alpha);
 

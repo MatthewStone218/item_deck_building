@@ -6,7 +6,7 @@
 #macro ITEM_RATE_RARE 5*power(1.4,chest_level+1)
 #macro ITEM_RATE_NORMAL 15
 
-global.debug = true;
+global.debug = false;
 global.demo = false;
 global.itch_io = false;
 
@@ -53,6 +53,8 @@ global.refresh_left = global.refresh;
 global.inv_count = 3;
 global.level = 1;
 global.level_max = 17;
+
+global.upgrade_point = 0;
 
 global.floor_level = 1;
 
@@ -203,6 +205,7 @@ enum ST
 	OPTION,
 	REWARD,
 	DELETE,
+	UPGRADE,
 	MOVING_EVENT,
 	EVENT_BONFIRE,
 	EVENT_TREASURE_CHEST

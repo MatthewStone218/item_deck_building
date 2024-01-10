@@ -1,6 +1,6 @@
 ﻿,KR,EN,JP,CH
-levelup,"""[rainbow]레벨업![/rainbow]\n\n아이템 칸 +1""","""[rainbow]Level UP![/rainbow]\nItem slot +1""","""[rainbow]レベルアップ！[/rainbow]\n\nアイテム欄+1""","""[rainbow]升级！[/rainbow]（物品插槽 +1）"""
-levelup_refresh,"""\n새로고침 +1""","""\nRefresh +1""","""\nリフレッシュ+1""","""\n刷新 +1"""
+levelup,"""[rainbow]레벨업![/rainbow]\n\n강화 포인트 +1\n""","""[rainbow]Level UP![/rainbow]\n\nUP+1\n""","""[rainbow]レベルアップ！[/rainbow]\n\nUP+1\n""","""[rainbow]升级！[/rainbow]\n\nUP+1\n"""
+levelup_refresh,"""아이템 칸 +1\n새로고침 +1""","""Item slot +1\nRefresh +1""","""アイテム欄+1\nリフレッシュ+1""","""物品插槽 +1\n刷新 +1"""
 not_enough_space,"""아이템을 넣을 공간이 부족합니다!\n보유중인 아이템을 버리거나 보상을 스킵하세요.""","""There is not enough space for an item!\nPlease throw away an item or skip the reward…""","""アイテムを入れるスペースが不足しています！\n保有中のアイテムを捨てるか、報酬をスキップしてください。""","""没有足够的空间放置物品！请扔掉一件物品或跳过奖励......"""
 throw_away_item,"""정말로 이 아이템을 버리시겠습니까?""","""Wanna throw away this item?""","""本当にこのアイテムを捨てますか？""","""想扔掉这个东西吗？"""
 yes,"""네""","""Yes""","""はい""","""是"""
@@ -10,11 +10,15 @@ hp,"""[#00ff00]체력[/color]""","""[#00ff00]HP[/color]""","""[#00ff00]体力[/c
 item_type_duplicated,"""이 아이템을 사용하려면 'item_name'을(를) 먼저 버려야합니다.""","""To use this item, item_name must be discarded first.""","""このアイテムを使用するには、'item_name'を先に捨てなければなりません。""","""要使用此物品，必须先丢弃 item_name""。"
 ap,"""[#ff6b00]공격력[/color]""","""[#ff6b00]AP[/color]""","""[#ff6b00]攻撃力[/color]""","""[#ff6b00]AP[/color]"""
 sp,"""[#ff4c97]주문력[/color]""","""[#ff4c97]SP[/color]""","""[#ff4c97]呪力[/color]""","""[#ff4c97]SP[/color]"""
+up,"""[rainbow]강화 포인트[/rainbow]""","""[rainbow]UP[/rainbow]""",[rainbow]UP[/rainbow],[rainbow]UP[/rainbow]
 ap_info,"""[#ff6b00]기본공격시[/color] 적용되는 대미지입니다.""",“[#ff6b00]Attack Power[/color]\nThe damage applied during [#ff6b00]basic attacks[/color].”,"""[#ff6b00]基本攻撃時[/color]適用されるダメージです。""","""[#ff6b00]攻击力[/color]（[#ff6b00]基本攻击时造成的伤害[/color]）""。"
 sp_info,"""일부 [#ff4c97]특수 공격[/color]시에 적용되는 대미지입니다.""",“[#ff4c97]Spell Power[/color]\nThe damage applied during some [#ff4c97]special attacks[/color].”,"""一部の[#ff4c97]特殊攻撃[/color]時に適用されるダメージです。""","""[#ff4c97]法术威力[/color]（在某些[#ff4c97]特殊攻击[/color]时施加的伤害）""。"
+up_info,"""[rainbow]이 포인트로 아이템을 강화할 수 있습니다![/rainbow]""","""[rainbow]Upgrade Point[/rainbow]\nYou can upgrade items with this!""","[rainbow]アップグレードポイント[/rainbow]アイテムをアップグレードできます！ "" ",[彩虹]升级点[/彩虹]（你可以用这个升级物品）！ 
 refresh,"""새로고침""","""Refresh""","""リフレッシュ""","""刷新"""
 left,"""num 남음""","""num left""","""num 残り""","""还剩 num 个"""
 demo_end_text,"""[scale,4][rainbow]데모를 플레이 해주셔서 감사합니다![/rainbow][scale,3]\n\n게임이 재밌었다면, [rainbow]스팀에서 '찜하기' 버튼을 눌러주세요![/rainbow]\n\n또, 아래 [#00ff00]디스코드 버튼[/color]을 눌러서 커뮤니티에 참여하면 추첨을 통해 게임의 [rainbow]베타 키[/rainbow]를 받아볼 수 있습니다! 혹은 [#ff6b00]새로운 아이템[/color]에 대한 당신의 아이디어를 전달하거나, 마음에 안 드는 [#ff4c97]번역을 수정[/color]하는데에 도움을 줄 수도 있습니다. 그 외에도 다양한 이벤트에 참여할 수 있으니 꼭 놀러오시기 바랍니다!\n\n당신의 친구들과 당신이 좋아하는 스트리머에게도 추천 부탁합니다!""","""[scale,4][rainbow]Thank you for playing the demo![/rainbow][scale,3]\n\nIf you enjoyed the game, [rainbow] please click the 'Wishlist' button on Steam![/rainbow]\n\nAlso, if you join the community by clicking the [#00ff00]Discord button[/color] below, you can enter a drawing to receive the game's [rainbow]beta key[/rainbow]! Or You can also convey your ideas for [#ff6b00]new items[/color] or help correct [#ff4c97]translations[/color]. In addition, you can participate in various events, so please come and visit us!\n\nAnd please recommend this to your friends and favorite streamers!""","""[scale,4][rainbow]デモをプレイしていただきありがとうございます！[/rainbow][scale,3]\n\nゲームが楽しかったら、[rainbow]Steamで「いいね！」ボタンを押してください！[/rainbow]\n\nまた、下の[#00ff00]ディスコードボタン[/color]を押してコミュニティに参加すると、抽選でゲームの[rainbow]ベータキー[/rainbow]を受け取ることができます！また、[#ff6b00]新しいアイテム[/color]に関するあなたのアイデアを伝えたり、気に入らない[#ff4c97]翻訳の修正[/color]を手伝うこともできます。 他にも様々なイベントに参加できますので、ぜひ遊びに来てください！\n\nあなたの友達や好きなストリーマーを紹介してください！""","[/rainbow][scale,4]如果您喜欢这款游戏，[rainbow]请点击 Steam 上的 ""收藏夹 ""按钮！[/rainbow]（如果您点击下面的[#00ff00]Discord 按钮[/color]加入社区，您还可以参加抽奖，获得游戏的[rainbow]测试版密钥[/rainbow]！或者您也可以传达您对 [#ff6b00]new items[/color] 的想法，或者帮助纠正 [#ff4c97]translations[/color] 。此外，您还可以参加各种活动，所以请来看看我们吧！请向您的朋友和最喜欢的流媒体推荐这里！"""
 url_duplicated,"""URL이 복사되었습니다!""","""The URL was duplicated on clipboard!""","""URLがコピーされました!""","""剪贴板上的 URL 被复制了！"""
 start,"""게임 시작""","""Start Game""","""ゲームスタート""","""开始游戏"""
 retry,"""다시하기""","""Retry""","""リトライ""","""重试"""
+up_required,"""강화포인트 요구량 : ""","""Required UP :""","""必須UP：""","""所需 UP："""
+up_invalid,"""[#ff0000] 강화 불가[/color]""",[#FF0000] Not upgradable[/color],[#ff0000] 強化不可[/color],"""[#FF0000] 未加固[/color]"""
