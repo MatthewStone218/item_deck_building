@@ -34,9 +34,10 @@ switch(os_get_region())
 	break;
 }
 
-ini_open("lang.ini");
+ini_open("save.ini");
 	
 var _lang = ini_read_real("lang","lang",-1);
+global.upgrade_tuto = ini_read_real("upgrade_tuto","upgrade_tuto",1);
 	
 ini_close();
 

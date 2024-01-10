@@ -28,6 +28,7 @@ if(global.state != ST.DELETE and global.state != ST.UPGRADE and  global.map_show
 		else if(_cell != -1)
 		{
 			var _items = obj_inv.inv[_cell.num-1].data.upgrade;
+			instance_destroy(obj_upgrade_tuto);
 			
 			if(_items != -1)
 			{

@@ -32,7 +32,15 @@ while(global.exp >= global.exp_max)
 	obj_ui_levelup.image_alpha = 5;
 }
 
-
-
-
-
+if(global.upgrade_tuto)
+{
+	if(obj_inv.inv[0] != -1 and obj_inv.inv[0].data.up_point <= global.upgrade_point)
+	{
+		ini_open("save.ini");
+		ini_write_real("upgrade_tuto","upgrade_tuto",0);
+		ini_close();
+		global.upgrade_tuto = 0;
+		
+		instance_create_layer(790,790,"ui",obj_upgrade_tuto);
+	}
+}
