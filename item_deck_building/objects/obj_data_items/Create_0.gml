@@ -572,6 +572,30 @@ item_wood_shield =
 	name: text_load(global.csv_items,"wood_shield_name"),
 	state: text_load(global.csv_items,"wood_shield_state"),
 	obj: obj_item_wood_shield,
+	up_point: 1,
+	upgrade : ["item_wood_shield_2"],
+	item_type: "normal"
+}
+
+
+item_wood_shield_2 =
+{
+	spr: spr_item_wood_shield,
+	name: text_load(global.csv_items,"wood_shield_2_name"),
+	state: text_load(global.csv_items,"wood_shield_2_state"),
+	obj: obj_item_wood_shield_2,
+	up_point: 2,
+	upgrade : ["item_wood_shield_3"],
+	item_type: "normal"
+}
+
+
+item_wood_shield_3 =
+{
+	spr: spr_item_wood_shield,
+	name: text_load(global.csv_items,"wood_shield_3_name"),
+	state: text_load(global.csv_items,"wood_shield_3_state"),
+	obj: obj_item_wood_shield_3,
 	up_point: -1,
 	upgrade : -1,
 	item_type: "normal"
@@ -632,6 +656,30 @@ item_sword_atk_1 =
 	name: text_load(global.csv_items,"sword_atk_1_name"),
 	state: text_load(global.csv_items,"sword_atk_1_state"),
 	obj: obj_item_sword_atk_1,
+	up_point: 1,
+	upgrade : ["item_sword_atk_2"],
+	item_type: "normal"
+}
+
+
+item_sword_atk_2 =
+{
+	spr: spr_item_sword_atk_1,
+	name: text_load(global.csv_items,"sword_atk_2_name"),
+	state: text_load(global.csv_items,"sword_atk_2_state"),
+	obj: obj_item_sword_atk_2,
+	up_point: 2,
+	upgrade : ["item_sword_atk_3"],
+	item_type: "normal"
+}
+
+
+item_sword_atk_3 =
+{
+	spr: spr_item_sword_atk_1,
+	name: text_load(global.csv_items,"sword_atk_3_name"),
+	state: text_load(global.csv_items,"sword_atk_3_state"),
+	obj: obj_item_sword_atk_3,
 	up_point: -1,
 	upgrade : -1,
 	item_type: "normal"

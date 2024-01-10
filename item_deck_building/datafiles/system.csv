@@ -21,4 +21,6 @@ url_duplicated,"""URL이 복사되었습니다!""","""The URL was duplicated on 
 start,"""게임 시작""","""Start Game""","""ゲームスタート""","""开始游戏"""
 retry,"""다시하기""","""Retry""","""リトライ""","""重试"""
 up_required,"""강화포인트 요구량 : ""","""Required UP :""","""必須UP：""","""所需 UP："""
-up_invalid,"""[#ff0000] 강화 불가[/color]""",[#FF0000] Not upgradable[/color],[#ff0000] 強化不可[/color],"""[#FF0000] 未加固[/color]"""
+up_invalid,"""[#ff0000] 강화 불가[/color]""","""[#FF0000] Not upgradable[/color]""","""[#ff0000] 強化不可[/color]""","""[#FF0000] 未加固[/color]"""
+need_more_up,"""강화 포인트가 부족합니다!""","""You need more UP!""","""強化ポイントが足りません！""","""强化点不够！"""
+cancel,"""취소""","""cancel""","""キャンセル""","""取消"""

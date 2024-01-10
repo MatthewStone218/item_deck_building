@@ -7,7 +7,25 @@ if(global.state != ST.DELETE and global.state != ST.UPGRADE and  global.map_show
 		var _cell = -1;
 		with(obj_inv_cell){if(clicked == 1 and obj_inv.inv[num-1] != -1){_cell = id;break;}}
 		
-		if(_cell != -1)
+		if(obj_inv.inv[_cell.num-1].data.up_point > global.upgrade_point)
+		{
+			with(obj_popup)
+			{
+				if(text == text_load(global.csv_system,"need_more_up"))
+				{
+					instance_destroy();
+				}
+			}
+			var inst = instance_create_depth(1920/2,1080/2 - 100,depth-10,obj_popup);
+			with(inst)
+			{
+				text = text_load(global.csv_system,"need_more_up");
+				text_scale = 4;
+				col1 = c_black;
+				col2 = c_red;
+			}
+		}
+		else if(_cell != -1)
 		{
 			var _items = obj_inv.inv[_cell.num-1].data.upgrade;
 			
@@ -30,14 +48,47 @@ if(global.state != ST.DELETE and global.state != ST.UPGRADE and  global.map_show
 				var _num = 0;
 				with(obj_ui_reward)
 				{
-					if(_num+1 <= array_length(_items))
+					if(num == 0)
 					{
-						item = variable_struct_get(obj_data_items,_items[_num]);
-						_num++;
+						if(_num+1 <= array_length(_items))
+						{
+							item = variable_struct_get(obj_data_items,_items[_num]);
+							_num++;
+						}
+						else
+						{
+							break;
+						}
 					}
-					else
+				}
+				with(obj_ui_reward)
+				{
+					if(num == 1)
 					{
-						break;
+						if(_num+1 <= array_length(_items))
+						{
+							item = variable_struct_get(obj_data_items,_items[_num]);
+							_num++;
+						}
+						else
+						{
+							break;
+						}
+					}
+				}
+				with(obj_ui_reward)
+				{
+					if(num == 2)
+					{
+						if(_num+1 <= array_length(_items))
+						{
+							item = variable_struct_get(obj_data_items,_items[_num]);
+							_num++;
+						}
+						else
+						{
+							break;
+						}
 					}
 				}
 			}

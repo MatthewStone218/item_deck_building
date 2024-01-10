@@ -3,11 +3,11 @@
 
 event_inherited();
 
-data = obj_data_items.item_wood_shield;
+data = obj_data_items.item_wood_shield_3;
 
 item_func = function(dmg)
 {
-	return max(dmg-2,0);
+	return max(dmg-4,0);
 }
 
 item_push_function(global.item_effects.def_sum,item_func)

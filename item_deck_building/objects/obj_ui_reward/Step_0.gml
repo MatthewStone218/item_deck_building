@@ -93,6 +93,7 @@ if((global.state == ST.REWARD or global.state == ST.UPGRADE) and item != -1 and 
 			
 				audio_play_sound(snd_confirm_1,1,0);
 			
+				global.upgrade_point -= obj_inv_upgrade.obj.data.up_point;
 				instance_destroy(obj_inv_upgrade.obj);
 				var incy = instance_create_layer(-500,-500,"Items",item.obj);
 		
