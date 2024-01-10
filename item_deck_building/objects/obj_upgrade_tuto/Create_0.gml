@@ -4,7 +4,7 @@
 target_x = x;
 target_y = y;
 
-alarm[0] = 60;
+alarm[0] = 10;
 
 image_speed = 0;
 

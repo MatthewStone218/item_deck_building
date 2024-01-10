@@ -34,13 +34,18 @@ while(global.exp >= global.exp_max)
 
 if(global.upgrade_tuto)
 {
-	if(obj_inv.inv[0] != -1 and obj_inv.inv[0].data.up_point <= global.upgrade_point)
+	for(var i = 0; i < array_length(obj_inv.inv); i++)
 	{
-		ini_open("save.ini");
-		ini_write_real("upgrade_tuto","upgrade_tuto",0);
-		ini_close();
-		global.upgrade_tuto = 0;
-		
-		instance_create_layer(790,790,"ui",obj_upgrade_tuto);
+		if(obj_inv.inv[i] != -1 and obj_inv.inv[i].data.up_point != -1 and obj_inv.inv[i].data.up_point <= global.upgrade_point)
+		{
+			global.upgrade_tuto = 0;
+			with(obj_inv_cell)
+			{
+				if(num == i+1)
+				{
+					instance_create_layer(x,y,"item_delete",obj_upgrade_tuto);
+				}
+			}
+		}
 	}
 }

@@ -10,7 +10,7 @@ if(mouse_y < y and (mouse_check_button_pressed(mb_left) or gamepad_button_check_
 		
 		call_later(60,time_source_units_frames,
 		function(){
-			set_reward_first(level);
+			alarm[0] = 2;
 		});
 	}
 	clicked++;
