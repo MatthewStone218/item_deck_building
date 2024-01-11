@@ -17,23 +17,25 @@ if(global.state != ST.DELETE and global.state != ST.UPGRADE and global.map_show 
 
 }
 
-if(mouse_check_me(mb_left))
+if(global.map_show == 0)
 {
-	if(a == 0)
+	if(mouse_check_me(mb_left))
 	{
-		a = 1;
-		audio_play_sound(snd_trashcan_1,1,0);
+		if(a == 0)
+		{
+			a = 1;
+			audio_play_sound(snd_trashcan_1,1,0);
+		}
+	}
+	else
+	{
+		if(a == 1)
+		{
+			a = 0;
+			audio_play_sound(snd_trashcan_2,1,0);
+		}
 	}
 }
-else
-{
-	if(a == 1)
-	{
-		a = 0;
-		audio_play_sound(snd_trashcan_2,1,0);
-	}
-}
-
 
 
 
