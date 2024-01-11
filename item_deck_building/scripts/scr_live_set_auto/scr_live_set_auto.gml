@@ -366,8 +366,8 @@ function scr_live_set_auto(){
 	sprite_set_live(_32__Iconset_Starter_Pack_333,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_334,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_335,1); 
-	sprite_set_live(_32__Iconset_Starter_Pack_336,1); 
-	sprite_set_live(_32__Iconset_Starter_Pack_337,1); 
+	sprite_set_live(spr_item_atk_boots,1); 
+	sprite_set_live(spr_item_spd_boots,1); 
 	sprite_set_live(spr_item_fools_boots,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_34,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_340,1); 

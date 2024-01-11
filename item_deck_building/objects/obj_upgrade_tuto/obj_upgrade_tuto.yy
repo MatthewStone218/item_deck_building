@@ -13,8 +13,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "ui",
-    "path": "folders/Objects/game/ui.yy",
+    "name": "upgrade",
+    "path": "folders/Objects/game/ui/upgrade.yy",
   },
   "parentObjectId": null,
   "persistent": false,

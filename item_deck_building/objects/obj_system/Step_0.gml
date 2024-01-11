@@ -12,9 +12,15 @@ if(global.state == ST.COMBET and (room == rm_game or room == rm_game_2) and glob
 	
 	if(count_combet_end <= 0)
 	{
+		if(global.floor_level == 2){set_reward_first();}
+		else
+		{
+			global.st_prev = ST.NORMAL;
+			global.state = ST.NORMAL;
+		}
 		instance_destroy(obj_arrows);
 		//goto_next_floor();
-		set_reward_first();
+		map_unlock_next();
 	}
 }
 

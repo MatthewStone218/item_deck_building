@@ -19,6 +19,28 @@ item_old_boots =
 	name: text_load(global.csv_items,"old_boots_name"),
 	state: text_load(global.csv_items,"old_boots_state"),
 	obj: obj_item_old_boots,
+	up_point: 2,
+	upgrade : ["item_spd_boots","item_atk_boots"],
+	item_type: "normal"
+}
+
+item_spd_boots = 
+{
+	spr: spr_item_spd_boots,
+	name: text_load(global.csv_items,"spd_boots_name"),
+	state: text_load(global.csv_items,"spd_boots_state"),
+	obj: obj_item_spd_boots,
+	up_point: -1,
+	upgrade : -1,
+	item_type: "normal"
+}
+
+item_atk_boots = 
+{
+	spr: spr_item_atk_boots,
+	name: text_load(global.csv_items,"atk_boots_name"),
+	state: text_load(global.csv_items,"atk_boots_state"),
+	obj: obj_item_atk_boots,
 	up_point: -1,
 	upgrade : -1,
 	item_type: "normal"
@@ -536,8 +558,8 @@ item_jump_double =
 	name: text_load(global.csv_items,"jump_double_name"),
 	state: text_load(global.csv_items,"jump_double_state"),
 	obj: obj_item_jump_double,
-	up_point: -1,
-	upgrade : -1,
+	up_point: 4,
+	upgrade : "item_shoes_land",
 	item_type: "normal"
 }
 

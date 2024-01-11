@@ -52,11 +52,10 @@ if((global.state == ST.REWARD or global.state == ST.UPGRADE) and item != -1 and 
 		{
 			if(global.state == ST.REWARD)
 			{
-				global.state = ST.WAITING;
-				global.st_prev = ST.WAITING;
+				global.state = ST.NORMAL;
+				global.st_prev = ST.NORMAL;
 			
 				audio_play_sound(snd_confirm_1,1,0);
-				map_unlock_next();
 				obj_map.view_x = obj_map_ui_player.x - 700;
 				/*
 				call_later(30,time_source_units_frames,function(){

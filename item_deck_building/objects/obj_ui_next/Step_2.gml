@@ -4,9 +4,9 @@
 x = CM_X+xstart;
 y = CM_Y+ystart;
 
-if(global.state == ST.WAITING)
+if(global.state == ST.NORMAL)
 {
-	can_press  = 1;
+	can_press += 0.5;
 }
 else
 {

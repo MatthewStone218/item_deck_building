@@ -35,7 +35,9 @@ if(global.state != ST.DELETE and global.state != ST.UPGRADE and global.state != 
 				ini_open("save.ini");
 				ini_write_real("upgrade_tuto","upgrade_tuto",0);
 				ini_close();
-			
+				
+				audio_play_sound(snd_upgrade_2,1,0)
+				
 				if(_items != -1)
 				{
 					obj = obj_inv.inv[_cell.num-1];

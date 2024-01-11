@@ -11,9 +11,6 @@ if(global.state == ST.REWARD or global.st_prev == ST.REWARD)
 		global.state = ST.NORMAL;
 		global.st_prev = ST.NORMAL;
 		audio_play_sound(snd_confirm_2,1,0);
-		call_later(30,time_source_units_frames,function(){
-			instance_create_layer(0,0,"move_ef",obj_ef_map_reveal);
-		});
 		
 		obj_camera_sys.screen_shake = 3;
 		

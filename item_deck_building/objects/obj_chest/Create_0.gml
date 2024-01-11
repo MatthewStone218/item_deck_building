@@ -32,7 +32,7 @@ else
 
 image_speed = 0;
 
-
+map_unlock_next();
 
 
 

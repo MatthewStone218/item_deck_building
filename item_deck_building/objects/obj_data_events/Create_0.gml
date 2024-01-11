@@ -678,8 +678,11 @@ event_event_bonfire =
 {
 	func: function(){
 		call_later(60,time_source_units_frames,function(){
-		global.state = ST.EVENT_BONFIRE;
-		global.st_prev = ST.EVENT_BONFIRE;
+			if(global.state == ST.MOVING_EVENT)
+			{
+				global.state = ST.EVENT_BONFIRE;
+				global.st_prev = ST.EVENT_BONFIRE;
+			}
 		});
 		
 		instance_create_layer(1120,640,"enemy",obj_bonfire);
