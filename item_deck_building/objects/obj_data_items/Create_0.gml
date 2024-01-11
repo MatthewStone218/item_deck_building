@@ -414,6 +414,18 @@ item_windsoul =
 	name: text_load(global.csv_items,"windsoul_name"),
 	state: text_load(global.csv_items,"windsoul_state"),
 	obj: obj_item_windsoul,
+	up_point: 2,
+	upgrade : ["item_windsoul_2"],
+	item_type: "normal"
+}
+
+
+item_windsoul_2 =
+{
+	spr: spr_item_windsoul_2,
+	name: text_load(global.csv_items,"windsoul_2_name"),
+	state: text_load(global.csv_items,"windsoul_2_state"),
+	obj: obj_item_windsoul_2,
 	up_point: -1,
 	upgrade : -1,
 	item_type: "normal"
@@ -486,6 +498,30 @@ item_sp_damaged =
 	name: text_load(global.csv_items,"sp_damaged_name"),
 	state: text_load(global.csv_items,"sp_damaged_state"),
 	obj: obj_item_sp_damaged,
+	up_point: 3,
+	upgrade : ["item_sp_damaged_2","item_sp_damaged_3"],
+	item_type: "normal"
+}
+
+
+item_sp_damaged_2 =
+{
+	spr: spr_item_sp_damaged,
+	name: text_load(global.csv_items,"sp_damaged_2_name"),
+	state: text_load(global.csv_items,"sp_damaged_2_state"),
+	obj: obj_item_sp_damaged_2,
+	up_point: -1,
+	upgrade : -1,
+	item_type: "normal"
+}
+
+
+item_sp_damaged_3 =
+{
+	spr: spr_item_sp_damaged_3,
+	name: text_load(global.csv_items,"sp_damaged_3_name"),
+	state: text_load(global.csv_items,"sp_damaged_3_state"),
+	obj: obj_item_sp_damaged_3,
 	up_point: -1,
 	upgrade : -1,
 	item_type: "normal"
@@ -498,6 +534,30 @@ item_ignore_damage_5sec =
 	name: text_load(global.csv_items,"ignore_damage_5sec_name"),
 	state: text_load(global.csv_items,"ignore_damage_5sec_state"),
 	obj: obj_item_ignore_damage_5sec,
+	up_point: 1,
+	upgrade : ["item_ignore_damage_5sec_2"],
+	item_type: "item_ignore_damage_5sec"
+}
+
+
+item_ignore_damage_5sec_2 =
+{
+	spr: spr_item_ignore_damage_5sec,
+	name: text_load(global.csv_items,"ignore_damage_5sec_2_name"),
+	state: text_load(global.csv_items,"ignore_damage_5sec_2_state"),
+	obj: obj_item_ignore_damage_5sec_2,
+	up_point: 3,
+	upgrade : ["item_ignore_damage_5sec_3"],
+	item_type: "item_ignore_damage_5sec"
+}
+
+
+item_ignore_damage_5sec_3 =
+{
+	spr: spr_item_ignore_damage_5sec,
+	name: text_load(global.csv_items,"ignore_damage_5sec_3_name"),
+	state: text_load(global.csv_items,"ignore_damage_5sec_3_state"),
+	obj: obj_item_ignore_damage_5sec_3,
 	up_point: -1,
 	upgrade : -1,
 	item_type: "item_ignore_damage_5sec"

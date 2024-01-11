@@ -351,7 +351,7 @@ function scr_live_set_auto(){
 	sprite_set_live(_32__Iconset_Starter_Pack_317,1); 
 	sprite_set_live(spr_item_thorn_armor,1); 
 	sprite_set_live(spr_item_fools_coat,1); 
-	sprite_set_live(_32__Iconset_Starter_Pack_32,1); 
+	sprite_set_live(spr_item_sp_damaged_3,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_320,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_321,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_322,1); 
@@ -456,7 +456,7 @@ function scr_live_set_auto(){
 	sprite_set_live(_32__Iconset_Starter_Pack_73,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_74,1); 
 	sprite_set_live(spr_item_fur,1); 
-	sprite_set_live(_32__Iconset_Starter_Pack_76,1); 
+	sprite_set_live(spr_item_windsoul_2,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_77,1); 
 	sprite_set_live(_32__Iconset_Starter_Pack_78,1); 
 	sprite_set_live(spr_item_wind_blade,1); 

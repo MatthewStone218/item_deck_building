@@ -32,6 +32,7 @@ while(global.exp >= global.exp_max)
 	global.upgrade_point++;
 	global.exp_max = global.exp_max_arr[global.level];
 	
+	if(global.level mod 3 == 0){global.inv_count++;}
 	if(global.level == 3 or global.level == 6 or global.level == 9){global.refresh++;global.inv_count++;}
 	
 	instance_create_depth(0,0,0,obj_ef_levelup);

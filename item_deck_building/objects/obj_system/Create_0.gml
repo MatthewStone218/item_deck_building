@@ -51,7 +51,7 @@ global.current_reward_level = 0;
 global.refresh = 1;
 global.refresh_left = global.refresh;
 
-global.inv_count = 3;
+global.inv_count = 2;
 global.level = 1;
 global.level_max = 17;
 
@@ -74,24 +74,24 @@ global.exp_max_arr =
 	5,
 	10,
 	15,
+	15,
+	20,
 	20,
 	30,
+	30,
+	40,
 	40,
 	50,
+	50,
+	60,
+	60,
 	70,
+	70,
+	80,
+	80,
 	90,
-	110,
-	130,
-	190,
-	300,
-	500,
-	700,
-	800,
-	900,
-	1000,
-	1500,
-	2000,
-	3000,
+	90,
+	100,
 	999999999999999999
 ]
 
