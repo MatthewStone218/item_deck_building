@@ -498,7 +498,7 @@ item_sp_damaged =
 	name: text_load(global.csv_items,"sp_damaged_name"),
 	state: text_load(global.csv_items,"sp_damaged_state"),
 	obj: obj_item_sp_damaged,
-	up_point: 3,
+	up_point: 1,
 	upgrade : ["item_sp_damaged_2","item_sp_damaged_3"],
 	item_type: "normal"
 }

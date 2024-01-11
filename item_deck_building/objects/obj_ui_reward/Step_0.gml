@@ -9,7 +9,7 @@ if((global.state == ST.REWARD or global.state == ST.UPGRADE) and item != -1 and 
 		var dup_obj = noone;
 		with(obj_item)
 		{
-			if(data.item_type != "normal" and data.item_type == other.item.item_type){check_type = 1;dup_obj = id;break;}
+			if(data.item_type != "normal" and data.item_type == other.item.item_type and !(global.state == ST.UPGRADE and obj_inv_upgrade.obj == id)){check_type = 1;dup_obj = id;break;}
 		}
 		
 		if(check_type == 1)

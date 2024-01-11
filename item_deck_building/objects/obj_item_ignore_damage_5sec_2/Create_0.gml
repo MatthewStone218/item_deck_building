@@ -10,9 +10,9 @@ time = 0;
 
 item_func = function(dmg)
 {
-	if(instance_exists(obj_item_ignore_damage_5sec))
+	if(instance_exists(obj_item_ignore_damage_5sec_2))
 	{
-		if(global.state == ST.COMBET and obj_item_ignore_damage_5sec.time > 0){return 1;}
+		if(global.state == ST.COMBET and obj_item_ignore_damage_5sec_2.time > 0){return 1;}
 		else
 		{
 			return dmg;

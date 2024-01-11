@@ -33,7 +33,7 @@ while(global.exp >= global.exp_max)
 	global.exp_max = global.exp_max_arr[global.level];
 	
 	if(global.level mod 3 == 0){global.inv_count++;}
-	if(global.level == 3 or global.level == 6 or global.level == 9){global.refresh++;global.inv_count++;}
+	if(global.level == 3 or global.level == 6 or global.level == 9){global.refresh++;}
 	
 	instance_create_depth(0,0,0,obj_ef_levelup);
 	obj_ui_levelup.image_alpha = 5;

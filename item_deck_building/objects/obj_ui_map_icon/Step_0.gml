@@ -22,7 +22,7 @@ image_yscale *= scale_start;
 
 x = obj_map.x+xstart;
 
-if((mouse_check_button_released(mb_left) or gamepad_button_check_released(0,gp_face2) or gamepad_button_check_released(0,gp_face3) or gamepad_button_check_released(0,gp_face4)) and clicked and point_distance(device_mouse_x_to_gui(0),device_mouse_y_to_gui(0),clicked_pos[0],clicked_pos[1]) < 20)
+if((mouse_check_button_released(mb_left) or gamepad_button_check_released(0,gp_face2) or gamepad_button_check_released(0,gp_face3) or gamepad_button_check_released(0,gp_face4)) and global.map_show == 1 and clicked and point_distance(device_mouse_x_to_gui(0),device_mouse_y_to_gui(0),clicked_pos[0],clicked_pos[1]) < 20)
 {
 	audio_play_sound(snd_confirm_2,1,0)
 	
