@@ -52,15 +52,17 @@ if((global.state == ST.REWARD or global.state == ST.UPGRADE) and item != -1 and 
 		{
 			if(global.state == ST.REWARD)
 			{
-				global.state = ST.NORMAL;
-				global.st_prev = ST.NORMAL;
+				global.state = ST.WAITING;
+				global.st_prev = ST.WAITING;
 			
 				audio_play_sound(snd_confirm_1,1,0);
-			
+				map_unlock_next();
+				obj_map.view_x = obj_map_ui_player.x - 700;
+				/*
 				call_later(30,time_source_units_frames,function(){
 					//goto_next_floor()
 					instance_create_layer(0,0,"move_ef",obj_ef_map_reveal);
-				});
+				});*/
 			
 				var incy = instance_create_layer(-500,-500,"Items",item.obj);
 		

@@ -11,7 +11,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "items",
-    "path": "folders/Objects/game/ui/items/items.yy",
+    "path": "folders/Objects/game/items/items.yy",
   },
   "parentObjectId": {
     "name": "obj_item",

@@ -2,7 +2,6 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
 function map_unlock_next(){
 	global.can_goto_next_event = 1;
-	global.map_show = 1;
 	with(obj_map.icon_now)
 	{
 		for(var i = 0; i < array_length(next_icon); i++)

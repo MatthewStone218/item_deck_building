@@ -24,3 +24,4 @@ up_required,"""강화포인트 요구량 : ""","""Required UP :""","""必須UP�
 up_invalid,"""[#ff0000] 강화 불가[/color]""","""[#FF0000] Not upgradable[/color]""","""[#ff0000] 強化不可[/color]""","""[#FF0000] 未加固[/color]"""
 need_more_up,"""강화 포인트가 부족합니다!""","""You need more UP!""","""強化ポイントが足りません！""","""强化点不够！"""
 cancel,"""취소""","""cancel""","""キャンセル""","""取消"""
+next,"""다음""","""Next""","""次へ""","""下一步"""
