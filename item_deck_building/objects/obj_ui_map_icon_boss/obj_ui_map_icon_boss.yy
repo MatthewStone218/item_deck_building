@@ -15,7 +15,7 @@
     "name": "obj_ui_map_icon",
     "path": "objects/obj_ui_map_icon/obj_ui_map_icon.yy",
   },
-  "persistent": false,
+  "persistent": true,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
   "physicsFriction": 0.2,

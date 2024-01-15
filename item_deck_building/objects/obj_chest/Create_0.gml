@@ -7,6 +7,8 @@ typist = scribble_typist();
 typist.in(1, 60);
 typist.ease(SCRIBBLE_EASE.ELASTIC, 0, -2, 1, 1, 0, 0.1);
 
+yspd = 0;
+
 var ran = random(100);
 
 if(ran < 30)

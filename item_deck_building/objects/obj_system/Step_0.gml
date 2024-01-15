@@ -12,7 +12,13 @@ if(global.state == ST.COMBET and (room == rm_game or room == rm_game_2) and glob
 	
 	if(count_combet_end <= 0)
 	{
-		if(global.floor_level == 2){set_reward_first();}
+		if(choose(0,0,0,1))
+		{
+			global.state = ST.EVENT_TREASURE_CHEST;
+			global.st_prev = ST.EVENT_TREASURE_CHEST;
+		
+			instance_create_layer(1120,-100,"enemy",obj_chest);
+		}
 		else
 		{
 			global.st_prev = ST.NORMAL;
