@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "spr_jumsun",
   "bbox_bottom": 19,
-  "bbox_left": 48,
-  "bbox_right": 79,
+  "bbox_left": 109,
+  "bbox_right": 140,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -35,8 +35,8 @@
     ],
     "highlightColour": 1728023040,
     "highlightStyle": 0,
-    "left": 39,
-    "right": 39,
+    "left": 97,
+    "right": 97,
     "tileMode": [
       0,
       0,
@@ -93,5 +93,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 128,
+  "width": 250,
 }
