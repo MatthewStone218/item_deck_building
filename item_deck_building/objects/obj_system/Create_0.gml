@@ -140,6 +140,11 @@ global.item_effects =
 	heal:[],
 	heal_post:[],
 	
+	throw_hp_sum:[],
+	throw_hp_mult:[],
+	throw_hp_sum_post:[],
+	throw_hp_mult_post:[],
+	
 	jump_sum:[],
 	jump_mult:[],
 	jump_sum_post:[],

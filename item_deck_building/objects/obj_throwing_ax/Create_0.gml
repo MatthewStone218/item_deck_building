@@ -4,9 +4,9 @@ depth -= 1;
 image_xscale = 4;
 image_yscale = 4;
 
+colls = {};
 
-
-
+hp = player_throw_get_hp();
 
 
 

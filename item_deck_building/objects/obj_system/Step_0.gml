@@ -17,7 +17,7 @@ if(global.state == ST.COMBET and (room == rm_game or room == rm_game_2) and glob
 			global.state = ST.EVENT_TREASURE_CHEST;
 			global.st_prev = ST.EVENT_TREASURE_CHEST;
 		
-			instance_create_layer(1120,-100,"enemy",obj_chest);
+			instance_create_layer(1120,-100,"player",obj_chest);
 		}
 		else
 		{

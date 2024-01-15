@@ -407,6 +407,7 @@
     {"id":{"name":"_32__Iconset_Starter_Pack_279","path":"sprites/_32__Iconset_Starter_Pack_279/_32__Iconset_Starter_Pack_279.yy",},},
     {"id":{"name":"__scribble_class_element","path":"scripts/__scribble_class_element/__scribble_class_element.yy",},},
     {"id":{"name":"event_array_pick","path":"scripts/event_array_pick/event_array_pick.yy",},},
+    {"id":{"name":"player_throw_get_hp","path":"scripts/player_throw_get_hp/player_throw_get_hp.yy",},},
     {"id":{"name":"spr_item_wizzard_hat","path":"sprites/spr_item_wizzard_hat/spr_item_wizzard_hat.yy",},},
     {"id":{"name":"shd_white","path":"shaders/shd_white/shd_white.yy",},},
     {"id":{"name":"__scribble_gen_9_write_vbuffs","path":"scripts/__scribble_gen_9_write_vbuffs/__scribble_gen_9_write_vbuffs.yy",},},

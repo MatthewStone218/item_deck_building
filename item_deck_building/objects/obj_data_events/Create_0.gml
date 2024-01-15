@@ -697,6 +697,6 @@ event_event_treasure_chest =
 		global.st_prev = ST.EVENT_TREASURE_CHEST;
 		});
 		
-		instance_create_layer(1120,640,"enemy",obj_chest);
+		instance_create_layer(1120,640,"player",obj_chest);
 	}
 }
