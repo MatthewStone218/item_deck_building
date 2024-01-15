@@ -12,7 +12,7 @@ if((global.state == ST.REWARD or global.state == ST.UPGRADE) and item != -1 and 
 			if(data.item_type != "normal" and data.item_type == other.item.item_type and !(global.state == ST.UPGRADE and obj_inv_upgrade.obj == id)){check_type = 1;dup_obj = id;break;}
 		}
 		
-		if(check_type == 1)
+		if(global.state == ST.REWARD and check_type == 1)
 		{
 			with(obj_popup)
 			{
