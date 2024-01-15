@@ -1,18 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_map_maker",
+  "name": "obj_ui_map_icon_boss",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "system",
-    "path": "folders/Objects/system.yy",
+    "name": "map",
+    "path": "folders/Objects/game/map.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_ui_map_icon",
+    "path": "objects/obj_ui_map_icon/obj_ui_map_icon.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -28,7 +30,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_ui_map_icon_boss",
+    "path": "sprites/spr_ui_map_icon_boss/spr_ui_map_icon_boss.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

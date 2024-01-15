@@ -66,6 +66,8 @@ count_combet_end = 120;
 global.map_show = 0;
 global.can_goto_next_event = 0;
 
+global.map_created = 0;
+
 global.boss_fight = false;
 
 global.exp_max_arr =
@@ -227,7 +229,11 @@ enum EV_TYPE
 	RANDOM,
 	ITEM,
 	BONFIRE,
-	BOSS_1
+	BOSS_1,
+	BOSS_2,
+	BOSS_3,
+	BOSS_4,
+	BOSS_5
 }
 
 enum LG
