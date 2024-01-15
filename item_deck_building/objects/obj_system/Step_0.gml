@@ -7,7 +7,7 @@ if(global.state == ST.COMBET and (room == rm_game or room == rm_game_2) and glob
 	
 	if(instance_exists(obj_enemy))
 	{
-		count_combet_end = 60;
+		count_combet_end = 30;
 	}
 	
 	if(count_combet_end <= 0)
