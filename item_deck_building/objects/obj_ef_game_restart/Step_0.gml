@@ -3,7 +3,7 @@
 
 if(step == 0)
 {
-	image_alpha += 0.04;
+	image_alpha += 0.08;
 	if(image_alpha > 1.2)
 	{
 		game_restart();
@@ -11,7 +11,7 @@ if(step == 0)
 }
 else
 {
-	image_alpha -= 0.04;
+	image_alpha -= 0.08;
 	if(image_alpha < 0)
 	{
 		instance_destroy();

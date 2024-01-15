@@ -5,7 +5,7 @@ function switch_map()
 {
 	if(global.state == ST.NORMAL and can_press >= 1 and global.map_show == 0)
 	{
-		call_later(1,time_source_units_frames,function(){
+		call_later(2,time_source_units_frames,function(){
 			global.map_show = 1;
 			obj_map.view_x = obj_map_ui_player.x - 700;
 			audio_play_sound(snd_confirm_1,1,0)

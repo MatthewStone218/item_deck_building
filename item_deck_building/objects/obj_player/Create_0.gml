@@ -8,8 +8,8 @@ coll_objs = {};
 
 act = [0,-1]
 
-xspd_max = 4;
-xspd_dump = 2;
+xspd_max = 8;
+xspd_dump = 4;
 xspd_knockback = 0;
 acc = 3;
 xspd = 0;
@@ -19,7 +19,7 @@ grv = 0.8;
 
 moving_x = 0;
 
-attack_delay = 60;
+attack_delay = 30;
 attack_delay_left = attack_delay;
 attacking = 0;
 
