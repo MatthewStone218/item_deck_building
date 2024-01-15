@@ -6,9 +6,9 @@ event_inherited();
 
 data = obj_data_items.item_mango_asp;
 
-item_func = function(asp)
+item_func = function(hp)
 {
-	return asp*1.3;
+	return hp + 5;
 }
 
-item_push_function(global.item_effects.asp_mult,item_func);
+item_push_function(global.item_effects.ranged_hp_sum,item_func);

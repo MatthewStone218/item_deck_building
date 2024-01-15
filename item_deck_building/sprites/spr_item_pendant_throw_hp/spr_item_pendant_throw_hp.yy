@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_item_mango_asp",
+  "name": "spr_item_pendant_throw_hp",
   "bbox_bottom": 28,
-  "bbox_left": 3,
-  "bbox_right": 27,
-  "bbox_top": 2,
+  "bbox_left": 2,
+  "bbox_right": 30,
+  "bbox_top": 3,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cd8d9c77-07a6-450a-b0d9-d02f181dc95f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a185079c-a9a4-4dfb-ad31-10c150587922",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 32,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5e9e7cca-5541-406e-811f-96e0127155a3","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3adc2539-d0ac-4ca2-ad52-ce919ff76f4c","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_item_mango_asp",
+    "name": "spr_item_pendant_throw_hp",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"cd8d9c77-07a6-450a-b0d9-d02f181dc95f","path":"sprites/spr_item_mango_asp/spr_item_mango_asp.yy",},},},"Disabled":false,"id":"ff6b8fa1-ad2d-4808-8f7f-6bdfe208a40f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a185079c-a9a4-4dfb-ad31-10c150587922","path":"sprites/spr_item_pendant_throw_hp/spr_item_pendant_throw_hp.yy",},},},"Disabled":false,"id":"1ca55602-6597-4018-a538-79d5873816ec","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

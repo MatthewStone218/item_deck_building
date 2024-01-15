@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "player_throw_get_hp",
+  "name": "player_get_ranged_hp",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

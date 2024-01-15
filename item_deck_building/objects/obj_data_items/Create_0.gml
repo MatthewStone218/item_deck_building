@@ -46,14 +46,14 @@ item_atk_boots =
 	item_type: "normal"
 }
 
-item_pendant_asp = 
+item_pendant_throw_hp = 
 {
-	spr: spr_item_pendant_asp,
-	name: text_load(global.csv_items,"pendant_asp_name"),
-	state: text_load(global.csv_items,"pendant_asp_state"),
-	obj: obj_item_pendant_asp,
+	spr: spr_item_pendant_throw_hp,
+	name: text_load(global.csv_items,"pendant_throw_hp_name"),
+	state: text_load(global.csv_items,"pendant_throw_hp_state"),
+	obj: obj_item_pendant_throw_hp,
 	up_point: 2,
-	upgrade: ["item_mango_asp"],
+	upgrade: ["item_mango_throw_hp"],
 	item_type: "normal"
 }
 
@@ -180,12 +180,12 @@ item_ring_asp =
 }
 
 
-item_mango_asp =
+item_mango_throw_hp =
 {
-	spr: spr_item_mango_asp,
-	name: text_load(global.csv_items,"mango_asp_name"),
-	state: text_load(global.csv_items,"mango_asp_state"),
-	obj: obj_item_mango_asp,
+	spr: spr_item_mango_throw_hp,
+	name: text_load(global.csv_items,"mango_throw_hp_name"),
+	state: text_load(global.csv_items,"mango_throw_hp_state"),
+	obj: obj_item_mango_throw_hp,
 	up_point: -1,
 	upgrade : -1,
 	item_type: "normal"

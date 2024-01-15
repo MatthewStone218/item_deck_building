@@ -70,11 +70,11 @@ function scr_live_set_auto(){
 	sprite_set_live(spr_item_jump_def,1); 
 	sprite_set_live(spr_item_jump_double,1); 
 	sprite_set_live(spr_item_magic_eye,1); 
-	sprite_set_live(spr_item_mango_asp,1); 
+	sprite_set_live(spr_item_mango_throw_hp,1); 
 	sprite_set_live(spr_item_meteor,1); 
 	sprite_set_live(spr_item_meteor_ingame,1); 
 	sprite_set_live(spr_item_old_boots,1); 
-	sprite_set_live(spr_item_pendant_asp,1); 
+	sprite_set_live(spr_item_pendant_throw_hp,1); 
 	sprite_set_live(spr_item_pendant_hp,1); 
 	sprite_set_live(spr_item_purple_portion_big,1); 
 	sprite_set_live(spr_item_purple_portion_mid,1); 

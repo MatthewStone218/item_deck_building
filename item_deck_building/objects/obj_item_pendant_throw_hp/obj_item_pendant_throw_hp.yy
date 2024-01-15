@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_item_mango_asp",
+  "name": "obj_item_pendant_throw_hp",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_item_mango_asp",
-    "path": "sprites/spr_item_mango_asp/spr_item_mango_asp.yy",
+    "name": "spr_item_pendant_throw_hp",
+    "path": "sprites/spr_item_pendant_throw_hp/spr_item_pendant_throw_hp.yy",
   },
   "spriteMaskId": null,
   "visible": true,

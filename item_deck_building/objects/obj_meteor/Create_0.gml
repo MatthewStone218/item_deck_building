@@ -6,7 +6,8 @@ image_yscale = 4;
 speed = 20;
 direction = -45;
 
-
+hp = player_get_ranged_hp();
+colls = {};
 
 
 

@@ -6,7 +6,7 @@ image_yscale = 4;
 
 colls = {};
 
-hp = player_throw_get_hp();
+hp = player_get_ranged_hp();
 
 
 
