@@ -15,7 +15,7 @@ if(place_meeting(x,y+1,obj_sol))
 			image_speed = 1;
 			audio_play_sound(snd_chest_open,1,0);
 		
-			call_later(60,time_source_units_frames,
+			call_later(30,time_source_units_frames,
 			function(){
 				alarm[0] = 2;
 			});
