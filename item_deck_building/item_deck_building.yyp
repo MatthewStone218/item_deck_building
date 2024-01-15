@@ -261,6 +261,7 @@
     {"id":{"name":"spr_enemy_mino_die","path":"sprites/spr_enemy_mino_die/spr_enemy_mino_die.yy",},},
     {"id":{"name":"item_array_pick","path":"scripts/item_array_pick/item_array_pick.yy",},},
     {"id":{"name":"obj_ef_levelup","path":"objects/obj_ef_levelup/obj_ef_levelup.yy",},},
+    {"id":{"name":"obj_jumsun","path":"objects/obj_jumsun/obj_jumsun.yy",},},
     {"id":{"name":"_32__Iconset_Starter_Pack_187","path":"sprites/_32__Iconset_Starter_Pack_187/_32__Iconset_Starter_Pack_187.yy",},},
     {"id":{"name":"spr_enemy_mino_attack","path":"sprites/spr_enemy_mino_attack/spr_enemy_mino_attack.yy",},},
     {"id":{"name":"obj_item_wizzard_hat","path":"objects/obj_item_wizzard_hat/obj_item_wizzard_hat.yy",},},

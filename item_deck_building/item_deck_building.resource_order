@@ -212,6 +212,7 @@
     {"name":"spr_enemy_mino_die","order":4,"path":"sprites/spr_enemy_mino_die/spr_enemy_mino_die.yy",},
     {"name":"item_array_pick","order":1,"path":"scripts/item_array_pick/item_array_pick.yy",},
     {"name":"obj_ef_levelup","order":8,"path":"objects/obj_ef_levelup/obj_ef_levelup.yy",},
+    {"name":"obj_jumsun","order":10,"path":"objects/obj_jumsun/obj_jumsun.yy",},
     {"name":"_32__Iconset_Starter_Pack_187","order":244,"path":"sprites/_32__Iconset_Starter_Pack_187/_32__Iconset_Starter_Pack_187.yy",},
     {"name":"spr_enemy_mino_attack","order":1,"path":"sprites/spr_enemy_mino_attack/spr_enemy_mino_attack.yy",},
     {"name":"_32__Iconset_Starter_Pack_08","order":90,"path":"sprites/_32__Iconset_Starter_Pack_08/_32__Iconset_Starter_Pack_08.yy",},

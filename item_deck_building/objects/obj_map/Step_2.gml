@@ -6,14 +6,14 @@ if(global.map_show == 0)
 {
 	layer_set_visible(layer_get_id("map_tile_1"),0);
 	layer_set_visible(layer_get_id("map_tile_2"),0);
-	layer_set_visible(layer_get_id("map_jumsun"),0);
+	layer_set_visible(layer_get_id("jumsun"),0);
 	layer_set_visible(layer_get_id("map_player"),0);
 }
 else
 {
 	layer_set_visible(layer_get_id("map_tile_1"),1);
 	layer_set_visible(layer_get_id("map_tile_2"),1);
-	layer_set_visible(layer_get_id("map_jumsun"),1);
+	layer_set_visible(layer_get_id("jumsun"),1);
 	layer_set_visible(layer_get_id("map_player"),1);
 }
 

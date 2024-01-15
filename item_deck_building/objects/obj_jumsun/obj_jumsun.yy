@@ -1,18 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_map_maker",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-  ],
+  "name": "obj_jumsun",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "system",
-    "path": "folders/Objects/system.yy",
+    "name": "map",
+    "path": "folders/Objects/game/map.yy",
   },
   "parentObjectId": null,
-  "persistent": false,
+  "persistent": true,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
   "physicsFriction": 0.2,
@@ -27,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_jumsun",
+    "path": "sprites/spr_jumsun/spr_jumsun.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

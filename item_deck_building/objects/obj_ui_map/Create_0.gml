@@ -3,7 +3,7 @@
 
 function switch_map()
 {
-	if(global.state == ST.NORMAL or global.state == ST.COMBET or global.state == ST.REWARD)
+	if(global.state != ST.DELETE and global.state != ST.MOVING_EVENT and global.state != ST.UPGRADE and global.state != ST.OPTION)
 	{
 		global.map_show = 1-global.map_show;
 	}
