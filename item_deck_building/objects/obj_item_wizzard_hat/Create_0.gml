@@ -7,7 +7,7 @@ data = obj_data_items.item_wizzard_hat;
 
 item_func = function(ap)
 {
-	return ap+50;
+	return ap+20;
 }
 
 item_push_function(global.item_effects.sp_sum,item_func)

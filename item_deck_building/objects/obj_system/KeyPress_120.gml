@@ -3,14 +3,14 @@
 
 if(global.debug)
 {
-	instance_create_depth(0,0,0,obj_item_mango_throw_hp);
-	instance_create_depth(0,0,0,obj_item_mango_throw_hp);
-	instance_create_depth(0,0,0,obj_item_mango_throw_hp);
-	instance_create_depth(0,0,0,obj_item_mango_throw_hp);
-	instance_create_depth(0,0,0,obj_item_mango_throw_hp);
-	instance_create_depth(0,0,0,obj_item_mango_throw_hp);
-	instance_create_depth(0,0,0,obj_item_mango_throw_hp);
-	instance_create_depth(0,0,0,obj_item_mango_throw_hp);
+	instance_create_depth(0,0,0,obj_item_mango_ranged_hp);
+	instance_create_depth(0,0,0,obj_item_mango_ranged_hp);
+	instance_create_depth(0,0,0,obj_item_mango_ranged_hp);
+	instance_create_depth(0,0,0,obj_item_mango_ranged_hp);
+	instance_create_depth(0,0,0,obj_item_mango_ranged_hp);
+	instance_create_depth(0,0,0,obj_item_mango_ranged_hp);
+	instance_create_depth(0,0,0,obj_item_mango_ranged_hp);
+	instance_create_depth(0,0,0,obj_item_mango_ranged_hp);
 	instance_create_depth(0,0,0,obj_item_meteor);
 	instance_create_depth(0,0,0,obj_item_wizzard_hat);
 	instance_create_depth(0,0,0,obj_item_wizzard_hat);

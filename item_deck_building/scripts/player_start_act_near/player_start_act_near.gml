@@ -14,6 +14,7 @@ function player_start_act_near(_enemy){
 		{
 			attacking = 1;
 			act = [1,ACT_TYPE.ACTING_NEAR];
+			xspd = 0;
 			sprite_index = spr_player_attack_1;
 			image_index = 0;
 			image_speed = min(player_get_asp(),5);

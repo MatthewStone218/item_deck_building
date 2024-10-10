@@ -35,10 +35,10 @@ while(global.exp >= global.exp_max)
 	audio_play_sound(snd_levelup,0,0);
 	global.exp -= global.exp_max;
 	global.level++;
-	global.upgrade_point++;
+	global.upgrade_point += 3;
 	global.exp_max = global.exp_max_arr[global.level];
 	
-	if(global.level mod 3 == 0){global.inv_count++;}
+	if(global.level mod 2 == 0){global.inv_count++;if(global.inv_count > 16){global.inv_count = 16}}
 	if(global.level == 3 or global.level == 6 or global.level == 9){global.refresh++;}
 	
 	instance_create_depth(0,0,0,obj_ef_levelup);

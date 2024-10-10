@@ -8,6 +8,28 @@ item_wizzard_hat =
 	name: text_load(global.csv_items,"wizzard_hat_name"),
 	state:text_load(global.csv_items,"wizzard_hat_state"),
 	obj: obj_item_wizzard_hat,
+	up_point: 1,
+	upgrade : ["item_wizzard_hat_2"],
+	item_type: "normal"
+}
+
+item_wizzard_hat_2 = 
+{
+	spr: spr_item_wizzard_hat,
+	name: text_load(global.csv_items,"wizzard_hat_2_name"),
+	state:text_load(global.csv_items,"wizzard_hat_2_state"),
+	obj: obj_item_wizzard_hat,
+	up_point: 3,
+	upgrade : ["item_wizzard_hat_3"],
+	item_type: "normal"
+}
+
+item_wizzard_hat_3 = 
+{
+	spr: spr_item_wizzard_hat,
+	name: text_load(global.csv_items,"wizzard_hat_3_name"),
+	state:text_load(global.csv_items,"wizzard_hat_3_state"),
+	obj: obj_item_wizzard_hat,
 	up_point: -1,
 	upgrade : -1,
 	item_type: "normal"
@@ -46,14 +68,14 @@ item_atk_boots =
 	item_type: "normal"
 }
 
-item_pendant_throw_hp = 
+item_pendant_ranged_hp = 
 {
-	spr: spr_item_pendant_throw_hp,
-	name: text_load(global.csv_items,"pendant_throw_hp_name"),
-	state: text_load(global.csv_items,"pendant_throw_hp_state"),
-	obj: obj_item_pendant_throw_hp,
+	spr: spr_item_pendant_ranged_hp,
+	name: text_load(global.csv_items,"pendant_ranged_hp_name"),
+	state: text_load(global.csv_items,"pendant_ranged_hp_state"),
+	obj: obj_item_pendant_ranged_hp,
 	up_point: 2,
-	upgrade: ["item_mango_throw_hp"],
+	upgrade: ["item_mango_ranged_hp"],
 	item_type: "normal"
 }
 
@@ -180,12 +202,12 @@ item_ring_asp =
 }
 
 
-item_mango_throw_hp =
+item_mango_ranged_hp =
 {
-	spr: spr_item_mango_throw_hp,
-	name: text_load(global.csv_items,"mango_throw_hp_name"),
-	state: text_load(global.csv_items,"mango_throw_hp_state"),
-	obj: obj_item_mango_throw_hp,
+	spr: spr_item_mango_ranged_hp,
+	name: text_load(global.csv_items,"mango_ranged_hp_name"),
+	state: text_load(global.csv_items,"mango_ranged_hp_state"),
+	obj: obj_item_mango_ranged_hp,
 	up_point: -1,
 	upgrade : -1,
 	item_type: "normal"

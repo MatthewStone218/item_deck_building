@@ -155,7 +155,7 @@ function event_array_create(ev_type){
 				count++;
 			
 				_event_array[count,0] = obj_data_events.event_event_bonfire.func;
-				_event_array[count,1] = 20*(ev_type == EV_TYPE.RANDOM);
+				_event_array[count,1] = 20*(ev_type == EV_TYPE.RANDOM)*(obj_player.hp != player_get_hp_max());
 				_event_array[count,2] = 0;
 				count++;
 			

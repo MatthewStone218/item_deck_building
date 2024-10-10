@@ -7,7 +7,7 @@ function item_array_create(chest_level = 1){
 	if!(reward_duplicated(obj_data_items.item_wizzard_hat))
 	{
 		_item_array[count,0] = obj_data_items.item_wizzard_hat;
-		_item_array[count,1] = 0;
+		_item_array[count,1] = ITEM_RATE_NORMAL;
 		_item_array[count,2] = 0;
 		count++;
 	}
@@ -20,10 +20,10 @@ function item_array_create(chest_level = 1){
 		count++;
 	}
 	
-	if!(reward_duplicated(obj_data_items.item_pendant_asp))
+	if!(reward_duplicated(obj_data_items.item_pendant_ranged_hp))
 	{
-		_item_array[count,0] = obj_data_items.item_pendant_asp;
-		_item_array[count,1] = 0;
+		_item_array[count,0] = obj_data_items.item_pendant_ranged_hp;
+		_item_array[count,1] = ITEM_RATE_UNIQUE;
 		_item_array[count,2] = 0;
 		count++;
 	}
@@ -52,6 +52,7 @@ function item_array_create(chest_level = 1){
 		count++;
 	}
 	
+	/*
 	if!(reward_duplicated(obj_data_items.item_hp_portion_big))
 	{
 		_item_array[count,0] = obj_data_items.item_hp_portion_big;
@@ -59,6 +60,7 @@ function item_array_create(chest_level = 1){
 		_item_array[count,2] = 0;
 		count++;
 	}
+	*/
 	
 	if!(reward_duplicated(obj_data_items.item_purple_portion_small))
 	{
@@ -76,6 +78,7 @@ function item_array_create(chest_level = 1){
 		count++;
 	}
 	
+	/*
 	if!(reward_duplicated(obj_data_items.item_purple_portion_big))
 	{
 		_item_array[count,0] = obj_data_items.item_purple_portion_big;
@@ -83,6 +86,7 @@ function item_array_create(chest_level = 1){
 		_item_array[count,2] = 0;
 		count++;
 	}
+	*/
 	
 	if!(reward_duplicated(obj_data_items.item_magic_eye))
 	{
@@ -100,6 +104,7 @@ function item_array_create(chest_level = 1){
 		count++;
 	}
 	
+	/*
 	if!(reward_duplicated(obj_data_items.item_cloak_jump_attack_start))
 	{
 		_item_array[count,0] = obj_data_items.item_cloak_jump_attack_start;
@@ -107,6 +112,7 @@ function item_array_create(chest_level = 1){
 		_item_array[count,2] = 0;
 		count++;
 	}
+	*/
 	
 	if!(reward_duplicated(obj_data_items.item_ring_asp))
 	{
@@ -116,14 +122,15 @@ function item_array_create(chest_level = 1){
 		count++;
 	}
 	
-	if!(reward_duplicated(obj_data_items.item_mango_asp))
+	/*
+	if!(reward_duplicated(obj_data_items.item_mango_ranged_hp))
 	{
-		_item_array[count,0] = obj_data_items.item_mango_asp;
+		_item_array[count,0] = obj_data_items.item_mango_ranged_hp;
 		_item_array[count,1] = ITEM_RATE_UNIQUE;
 		_item_array[count,2] = 0;
 		count++;
 	}
-	
+	*/
 	
 	if!(reward_duplicated(obj_data_items.item_gem_hp))
 	{
@@ -149,6 +156,7 @@ function item_array_create(chest_level = 1){
 		count++;
 	}
 	
+	/*
 	if!(reward_duplicated(obj_data_items.item_jewel_hp))
 	{
 		_item_array[count,0] = obj_data_items.item_jewel_hp;
@@ -156,6 +164,7 @@ function item_array_create(chest_level = 1){
 		_item_array[count,2] = 0;
 		count++;
 	}
+	*/
 	
 	if!(reward_duplicated(obj_data_items.item_earring_heal))
 	{
@@ -173,6 +182,7 @@ function item_array_create(chest_level = 1){
 		count++;
 	}
 	
+	/*
 	if!(reward_duplicated(obj_data_items.item_heart_heal))
 	{
 		_item_array[count,0] = obj_data_items.item_heart_heal;
@@ -180,6 +190,7 @@ function item_array_create(chest_level = 1){
 		_item_array[count,2] = 0;
 		count++;
 	}
+	*/
 	
 	if!(reward_duplicated(obj_data_items.item_broken_heart_1))
 	{
@@ -237,6 +248,7 @@ function item_array_create(chest_level = 1){
 		count++;
 	}
 	
+	/*
 	if!(reward_duplicated(obj_data_items.item_feather_far_start))
 	{
 		_item_array[count,0] = obj_data_items.item_feather_far_start;
@@ -244,6 +256,7 @@ function item_array_create(chest_level = 1){
 		_item_array[count,2] = 0;
 		count++;
 	}
+	*/
 	
 	if!(reward_duplicated(obj_data_items.item_feather_damaged))
 	{
@@ -301,6 +314,7 @@ function item_array_create(chest_level = 1){
 		count++;
 	}
 	
+	/*
 	if!(reward_duplicated(obj_data_items.item_shoes_land))
 	{
 		_item_array[count,0] = obj_data_items.item_shoes_land;
@@ -308,7 +322,9 @@ function item_array_create(chest_level = 1){
 		_item_array[count,2] = 0;
 		count++;
 	}
+	*/
 	
+	/*
 	if!(reward_duplicated(obj_data_items.item_jump_def))
 	{
 		_item_array[count,0] = obj_data_items.item_jump_def;
@@ -316,7 +332,9 @@ function item_array_create(chest_level = 1){
 		_item_array[count,2] = 0;
 		count++;
 	}
+	*/
 	
+	/*
 	if!(reward_duplicated(obj_data_items.item_jump_double))
 	{
 		_item_array[count,0] = obj_data_items.item_jump_double;
@@ -324,6 +342,7 @@ function item_array_create(chest_level = 1){
 		_item_array[count,2] = 0;
 		count++;
 	}
+	*/
 	
 	if!(reward_duplicated(obj_data_items.item_thorn_armor))
 	{
@@ -405,6 +424,7 @@ function item_array_create(chest_level = 1){
 		count++;
 	}
 	
+	/*
 	if!(reward_duplicated(obj_data_items.item_charge_shield))
 	{
 		_item_array[count,0] = obj_data_items.item_charge_shield;
@@ -412,7 +432,9 @@ function item_array_create(chest_level = 1){
 		_item_array[count,2] = 0;
 		count++;
 	}
+	*/
 	
+	/*
 	if!(reward_duplicated(obj_data_items.item_fools_boots))
 	{
 		_item_array[count,0] = obj_data_items.item_fools_boots;
@@ -420,6 +442,7 @@ function item_array_create(chest_level = 1){
 		_item_array[count,2] = 0;
 		count++;
 	}
+	*/
 	
 	if!(reward_duplicated(obj_data_items.item_blackhole))
 	{
